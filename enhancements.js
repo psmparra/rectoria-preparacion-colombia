@@ -23,13 +23,6 @@
     document.querySelectorAll('.symbol').forEach((el,i)=>el.replaceChildren(icon(['notebook-pen','sparkles','rotate-ccw'][i%3])));
     document.querySelectorAll('.hero button span').forEach(el=>el.replaceChildren(icon('arrow-up-right')));
     let s=null;try{s=JSON.parse(localStorage.getItem('rectoria.v1')||'null');}catch{}
-    const mode=document.getElementById('mode');
-    if(mode && !document.getElementById('competency-filter')){
-      const label=document.createElement('label');label.htmlFor='competency-filter';label.textContent='Competencia';
-      const select=document.createElement('select');select.id='competency-filter';select.innerHTML='<option value="">Todas las competencias</option>';
-      [...new Set(window.RECTORIA_BANK.questions.map(q=>q.competency))].forEach(name=>{const o=new Option(name,name);select.add(o);});
-      const parent=document.querySelector('#start-form .row');parent.insertBefore(label,parent.lastElementChild);parent.insertBefore(select,parent.lastElementChild);
-    }
     if(location.hash==='#historial' && s?.attempts.length && !document.getElementById('competency-evolution')){
       const section=document.createElement('section');section.id='competency-evolution';section.className='panel';section.style.marginTop='24px';
       section.innerHTML='<h2>Evolución por competencia</h2><p class="muted">Porcentaje de aciertos de cada competencia en cada sesión que la incluyó.</p>';

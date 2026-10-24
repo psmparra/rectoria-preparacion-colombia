@@ -28,8 +28,8 @@
   function start(mode, count) {
     if (!ready()) return toast('Primero incorpora el banco original validado.');
     if (state.session) { toast('Continúa o finaliza tu sesión guardada.'); location.hash = 'examen'; return; }
-    const competency = document.getElementById('competency-filter')?.value;
-    const pool = (mode === 'reinforce' ? questions().filter(q=>errors().includes(q.id)) : questions()).filter(q=>!competency || q.competency===competency);
+    // La prueba se construye con el banco completo y orden aleatorio, como el instrumento real.
+    const pool = mode === 'reinforce' ? questions().filter(q=>errors().includes(q.id)) : questions();
     if (!pool.length) return toast('No hay errores pendientes para reforzar.');
     const chosen = shuffle(pool).slice(0,count);
     // Agrupa por situación y conserva el orden dentro de cada grupo.
