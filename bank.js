@@ -1,0 +1,2360 @@
+window.RECTORIA_BANK = {
+  "version": 1,
+  "source": "Simulacro_Rector_2026_140_Preguntas.pdf; Solucionario_Rector_140.pdf",
+  "verified": true,
+  "verification": "Cotejo automatizado de los 140 enunciados, clave general y claves detalladas; no certifica vigencia normativa.",
+  "sources": [
+    {
+      "name": "Simulacro_Rector_2026_140_Preguntas.pdf",
+      "sha256": "2b726b1ffbab19f3f1e257e319a8fc054957c68820f4a62b9d09084cd423e70b"
+    },
+    {
+      "name": "Solucionario_Rector_140.pdf",
+      "sha256": "38cf6409c43529fd8223f9343e16eaeb6f2e3a6749addb2906d25fa2f03e4101"
+    }
+  ],
+  "situations": [
+    {
+      "id": "01",
+      "title": "Un PEI de papel y tres sedes desconectadas",
+      "text": "Una institución oficial con tres sedes registra alta repitencia en sexto, deserción rural y diferencias profundas entre los planes de aula. El PEI fue actualizado formalmente hace cuatro años, pero sus metas no aparecen en los planes de mejoramiento ni en las decisiones sobre recursos. Un grupo docente pide autonomía absoluta para definir contenidos; las familias reclaman resultados y el Consejo Directivo propone aprobar de inmediato un nuevo PEI escrito por una consultora. Existen registros de matrícula, desempeños por período, encuestas de estudiantes y actas del gobierno escolar. El rector dispone de un trimestre para iniciar una transformación sin suspender el servicio.",
+      "competency": "GESTIÓN DIRECTIVA"
+    },
+    {
+      "id": "02",
+      "title": "Consejo Directivo bajo presión",
+      "text": "En una institución de 1.800 estudiantes, representantes de familias piden retirar una asignatura optativa y dedicar esas horas a preparación para pruebas externas. El Consejo Académico emitió un concepto en contra porque las competencias de formación integral quedarían afectadas. En la sesión siguiente, algunos integrantes del Consejo Directivo condicionan su aprobación del presupuesto a que el rector ejecute su propuesta curricular de inmediato. El acta registra opiniones, pero no existe un estudio de carga académica ni una revisión formal del plan de estudios. El rector debe intervenir sin desconocer los espacios de participación.",
+      "competency": "GESTIÓN DIRECTIVA"
+    },
+    {
+      "id": "03",
+      "title": "Plan de mejoramiento sin aprendizaje",
+      "text": "Las pruebas internas muestran que el nivel de lectura de octavo cayó durante dos años. El plan de mejoramiento institucional prevé cinco talleres sobre lectura para docentes y una feria literaria, pero no contiene línea de base, metas, responsables ni seguimiento. Una fundación ofrece donar libros si se publican fotografías de beneficiarios. Los docentes señalan que los textos no coinciden con las necesidades de comprensión inferencial detectadas. El rector recibe la exigencia de reportar una mejora al cierre del año y debe decidir con recursos limitados.",
+      "competency": "GESTIÓN DIRECTIVA"
+    },
+    {
+      "id": "04",
+      "title": "Una decisión urgente y tres competencias distintas",
+      "text": "Una sede presenta fallas eléctricas recurrentes. Los padres piden suspender todas las clases y construir una nueva aula, mientras los docentes solicitan adecuaciones temporales y el Consejo Directivo propone trasladar recursos del rubro destinado a textos escolares. El rector dispone de un informe técnico preliminar que identifica riesgo localizado en dos salones, pero no certifica que toda la sede sea insegura. La Secretaría de Educación no ha emitido aún concepto técnico definitivo. La institución puede reorganizar espacios y horarios mientras se tramitan acciones de mantenimiento.",
+      "competency": "GESTIÓN DIRECTIVA"
+    },
+    {
+      "id": "05",
+      "title": "Ausentismo, clima laboral y funciones del rector",
+      "text": "Un grupo de familias informa que varias clases no se desarrollaron durante tres semanas. El coordinador aporta registros parciales de horarios y ausencias, mientras un docente afirma que sustituyó las horas mediante guías autónomas. El sindicato pide evitar señalamientos sin prueba y la Secretaría de Educación solicita un reporte de continuidad del servicio. Parte de los estudiantes no tuvo acceso a las guías digitales. El rector debe diferenciar seguimiento al servicio, gestión de personal y eventuales actuaciones disciplinarias.",
+      "competency": "GESTIÓN DIRECTIVA"
+    },
+    {
+      "id": "06",
+      "title": "Ajustes del PEI ante una nueva realidad territorial",
+      "text": "Una institución urbana recibe durante el año escolar estudiantes provenientes de zonas rurales y de familias en movilidad. El PEI enfatiza proyectos productivos urbanos y carece de estrategias claras de acogida, nivelación o participación familiar. Las docentes proponen flexibilizar metodologías y evaluar competencias iniciales; algunos directivos sugieren crear grupos separados permanentes para recién llegados. La entidad territorial advierte limitaciones de planta y oferta de apoyos. El rector debe responder de inmediato y proponer ajustes de mediano plazo.",
+      "competency": "GESTIÓN DIRECTIVA"
+    },
+    {
+      "id": "07",
+      "title": "Promoción anticipada bajo presión",
+      "text": "En el primer período académico, la familia de una estudiante de séptimo solicita promoción anticipada. La estudiante demuestra desempeño superior en las competencias del grado y tiene evidencias favorables en convivencia y autonomía. Dos docentes apoyan la solicitud, pero argumentan que toda promoción automática debe depender del promedio aritmético; otra docente propone esperar al último período para evitar vacíos. El SIEE contiene un procedimiento de valoración integral para estos casos. La familia acepta aportar evidencias y participar en el proceso.",
+      "competency": "GESTIÓN ACADÉMICA"
+    },
+    {
+      "id": "08",
+      "title": "El SIEE como garantía y no como obstáculo",
+      "text": "Un colegio exhibe elevada reprobación en matemáticas. Algunas familias denuncian que los criterios para recuperación cambiaron después de conocerse las notas, mientras docentes alegan que flexibilizarlos reduciría exigencia académica. El SIEE establece seguimiento permanente, estrategias de apoyo y mecanismos de reclamación, pero no se ha socializado durante el año. El rector tiene actas del Consejo Académico, resultados por competencia, muestras de evaluaciones y reclamaciones pendientes. Se requiere recuperar confianza sin desautorizar la evaluación profesional.",
+      "competency": "GESTIÓN ACADÉMICA"
+    },
+    {
+      "id": "09",
+      "title": "PIAR y derecho a la educación",
+      "text": "Una estudiante con discapacidad intelectual ingresa a grado quinto y sus docentes manifiestan que no tienen experiencia con ajustes curriculares. La familia aporta un informe clínico, pero el colegio dispone principalmente de observaciones pedagógicas. El Consejo Académico propone que asista a todas las actividades, aunque sea evaluada únicamente por presencia; otro equipo pide esperar un nuevo diagnóstico médico antes de construir apoyos. El aula cuenta con oportunidades de aprendizaje cooperativo, materiales manipulativos y apoyos pedagógicos posibles.",
+      "competency": "GESTIÓN ACADÉMICA"
+    },
+    {
+      "id": "10",
+      "title": "Lectura crítica de resultados externos",
+      "text": "En un establecimiento de educación media, el promedio de una evaluación externa subió tres puntos, pero el porcentaje de estudiantes que presenta la prueba cayó del 94 % al 76 %. Un coordinador celebra una mejora histórica; un equipo docente observa que varios estudiantes con dificultades de aprendizaje desertaron o no fueron inscritos en la cohorte medida. La institución posee indicadores de asistencia, permanencia, desempeños internos y distribución de resultados. El rector debe presentar un informe a Consejo Directivo sin manipular ni negar el avance observado.",
+      "competency": "GESTIÓN ACADÉMICA"
+    },
+    {
+      "id": "11",
+      "title": "Innovación sin criterio de evaluación",
+      "text": "Una empresa ofrece una plataforma de inteligencia artificial para personalizar tareas en secundaria durante un semestre. Promete elevar resultados en 30 %, pero no presenta estudios aplicables al contexto. Los estudiantes cuentan con acceso digital desigual, existen dudas sobre tratamiento de datos y el PEI enfatiza aprendizaje colaborativo. Varios docentes desean explorar su utilidad, mientras familias piden garantías. El rector dispone de indicadores de logro y una experiencia piloto previa con recursos digitales básicos.",
+      "competency": "GESTIÓN ACADÉMICA"
+    },
+    {
+      "id": "12",
+      "title": "Reorganización de horarios con enfoque académico",
+      "text": "Dos docentes de ciencias se retiran temporalmente y quedan 14 grupos sin la intensidad horaria originalmente prevista. El coordinador propone reducir horas de áreas artísticas por cuatro semanas; los representantes estudiantiles reclaman equilibrio formativo y la Secretaría de Educación revisa alternativas de provisión. El rector conoce la carga de cada docente, el plan de estudios vigente, las posibilidades de laboratorios y las metas de aprendizaje. No puede contratar personal por cuenta propia, pero puede reorganizar recursos institucionales dentro de sus competencias.",
+      "competency": "GESTIÓN ACADÉMICA"
+    },
+    {
+      "id": "13",
+      "title": "Recursos del FSE y urgencia pedagógica",
+      "text": "Una institución cuenta con recursos del Fondo de Servicios Educativos (FSE) para dotación de aula y mantenimiento. Una inundación daña veinte computadores y parte de los materiales de laboratorio. Un proveedor ofrece equipos con entrega inmediata a cambio de un anticipo, mientras el Consejo Directivo no ha aprobado ajustes al presupuesto vigente. Algunos docentes piden comprar sin demora para recuperar clases. El rector es ordenador del gasto, pero reconoce que las adquisiciones están sometidas a reglas presupuestales y contractuales y que el FSE no tiene personería jurídica propia.",
+      "competency": "GESTIÓN ADMINISTRATIVA"
+    },
+    {
+      "id": "14",
+      "title": "Una contratación aparentemente conveniente",
+      "text": "Una empresa propone mantenimiento de redes por un valor ligeramente inferior al presupuesto disponible. El representante es familiar de un integrante del Consejo Directivo que ha participado en discusiones previas sobre el proyecto. La oferta incluye soporte por doce meses, pero carece de especificaciones técnicas comparables con otras propuestas. El rector teme que un proceso más riguroso demore el servicio y que al pedir una declaración de posibles conflictos aumente la tensión institucional.",
+      "competency": "GESTIÓN ADMINISTRATIVA"
+    },
+    {
+      "id": "15",
+      "title": "Evaluación de desempeño y debido proceso",
+      "text": "Un rector identifica dificultades persistentes en planeación y evaluación de un docente. Durante el año se han realizado observaciones de aula y reuniones informales, pero no hay retroalimentaciones escritas suficientes ni compromisos de mejora documentados. Algunas familias exigen una calificación desfavorable inmediata. El docente solicita conocer las evidencias y los criterios utilizados. La institución dispone de un cronograma de evaluación del desempeño y protocolos del régimen aplicable.",
+      "competency": "GESTIÓN ADMINISTRATIVA"
+    },
+    {
+      "id": "16",
+      "title": "Dotación accesible y restricciones presupuestales",
+      "text": "Una sede tiene barreras físicas para un estudiante que utiliza silla de ruedas. Las rutas de acceso a la biblioteca son estrechas y dos salones quedan en el segundo nivel sin ascensor. Hay una pequeña partida de mantenimiento y una solicitud de obras mayores ante la entidad territorial. Algunos docentes proponen que el estudiante reciba todas las clases en un aula fija; la familia plantea alternativas que favorezcan su participación con el grupo. El rector debe equilibrar seguridad, gestión de recursos y derecho de acceso.",
+      "competency": "GESTIÓN ADMINISTRATIVA"
+    },
+    {
+      "id": "17",
+      "title": "Información de estudiantes y transparencia",
+      "text": "Un periodista solicita a la institución estadísticas sobre ausentismo, deserción y violencia escolar durante tres años. En una hoja de cálculo entregada por coordinación figuran nombres, diagnósticos de salud, teléfonos y descripciones detalladas de conflictos de estudiantes. La alcaldía ha pedido reportes agregados para formular programas preventivos. El Consejo Directivo propone publicar toda la base porque la escuela recibe recursos públicos. El rector debe conciliar rendición de cuentas, protección de menores y utilidad pública de la información.",
+      "competency": "GESTIÓN ADMINISTRATIVA"
+    },
+    {
+      "id": "18",
+      "title": "Acoso repetido con riesgo de represalias",
+      "text": "Una estudiante reporta cuatro semanas de hostigamiento sistemático por un grupo de compañeros y difusión de mensajes humillantes. No se ha comunicado violencia sexual ni una conducta penal identificada; existe afectación emocional y temor de represalias. El director de grupo propone un acuerdo restaurativo inmediato frente a todo el curso, mientras la madre solicita medidas de protección y confidencialidad. El colegio ha documentado los incidentes y cuenta con Comité Escolar de Convivencia y manual actualizado.",
+      "competency": "GESTIÓN COMUNITARIA"
+    },
+    {
+      "id": "19",
+      "title": "Indicio de violencia sexual en contexto escolar",
+      "text": "Una adolescente comunica a la orientadora que un adulto vinculado temporalmente a actividades del colegio le habría realizado contactos físicos de contenido sexual. Manifiesta miedo y pide que no se informe a nadie. La orientadora comunica al rector la información esencial para activar protección, sin realizar entrevistas repetidas. Un miembro del equipo directivo propone abrir primero una investigación interna para decidir si existe mérito suficiente antes de llamar a las autoridades. El rector desconoce si el adulto continúa en contacto con estudiantes.",
+      "competency": "GESTIÓN COMUNITARIA"
+    },
+    {
+      "id": "20",
+      "title": "Familias, participación y corresponsabilidad",
+      "text": "El colegio implementa un plan contra el ausentismo. Algunas familias solicitan encuentros fuera de la jornada laboral, docentes advierten que no pueden extender todas las jornadas, y un representante de padres propone publicar semanalmente nombres de estudiantes ausentes para incentivar el cumplimiento. El registro revela que el ausentismo se concentra en dos barrios donde hay dificultades de transporte y cuidado familiar. La asociación de padres ofrece apoyar una estrategia de comunicación comunitaria, mientras el Consejo Directivo exige resultados medibles.",
+      "competency": "GESTIÓN COMUNITARIA"
+    },
+    {
+      "id": "21",
+      "title": "Conflicto docente-familia con posible discriminación",
+      "text": "Una familia afirma que durante una actividad un docente ridiculizó el acento regional de un estudiante recién matriculado. El docente sostiene que intentaba corregir una lectura y niega intención discriminatoria. Compañeros aportan versiones parcialmente distintas, y el estudiante pide que no se convierta el asunto en una discusión pública. El rector dispone de registros de clase, un canal formal de quejas y el equipo de orientación. La comunidad reclama una respuesta rápida, respetuosa de los derechos del estudiante y de las garantías del docente.",
+      "competency": "GESTIÓN COMUNITARIA"
+    },
+    {
+      "id": "22",
+      "title": "Deserción y alianza interinstitucional",
+      "text": "En grado noveno aumenta el abandono escolar entre estudiantes que cuidan hermanos menores mientras sus cuidadores trabajan. Un diagnóstico participativo señala dificultades de transporte, horarios familiares y baja percepción de pertinencia de algunos contenidos. Una ONG ofrece talleres de orientación y la alcaldía podría apoyar rutas de acceso, pero ninguna entidad ha confirmado compromisos formales. El rector cuenta con equipo de orientación, Consejo Directivo y representantes estudiantiles para actuar.",
+      "competency": "GESTIÓN COMUNITARIA"
+    },
+    {
+      "id": "23",
+      "title": "Presión política sobre una decisión curricular",
+      "text": "Una autoridad local pide al rector incluir una campaña institucional con símbolos personales durante la ceremonia de grados. Argumenta que ha gestionado mejoras de infraestructura y su presencia facilita futuros apoyos. Docentes y familias desean agradecer la cooperación, pero varios estudiantes expresan incomodidad con una promoción que podría interpretarse como partidista. El acto tiene fines académicos y se financia con recursos institucionales. El rector debe preservar relaciones con el territorio sin comprometer la neutralidad y la finalidad educativa.",
+      "competency": "COMPETENCIAS BLANDAS"
+    },
+    {
+      "id": "24",
+      "title": "Dos coordinadores en desacuerdo",
+      "text": "En una institución grande, dos coordinadores discrepan sobre el seguimiento a planeaciones. Uno defiende observaciones frecuentes con listas uniformes; la otra propone acompañamiento colaborativo y reconocimiento de la diversidad de áreas. La discusión se volvió personal y docentes perciben instrucciones contradictorias. El rector conoce que ambos enfoques contienen elementos útiles, pero la institución carece de protocolo común de seguimiento pedagógico. Debe decidir sin reforzar bandos.",
+      "competency": "COMPETENCIAS BLANDAS"
+    },
+    {
+      "id": "25",
+      "title": "Error propio del rector en un reporte",
+      "text": "El rector detecta que el informe enviado a la entidad territorial duplicó accidentalmente las cifras de participación familiar y presentó como terminado un taller aún pendiente. El error no alteró recursos girados, pero pudo influir en una comparación de gestión entre instituciones. Un asesor sugiere esperar a que alguien lo advierta y otro propone publicar de inmediato un comunicado con explicaciones extensas sin verificar los registros. El rector conserva los soportes originales y puede corregir el reporte formal.",
+      "competency": "COMPETENCIAS BLANDAS"
+    },
+    {
+      "id": "26",
+      "title": "Decisión bajo información incompleta",
+      "text": "Un rumor en redes afirma que el comedor escolar entregó alimentos en mal estado. Se conoce un caso de malestar estomacal, sin confirmación de causa, y existen fotografías de un producto de fecha legible pero sin cadena de custodia. El operador de alimentación afirma que todos los controles están al día. Varias familias exigen cerrar el comedor y otras recuerdan que muchos estudiantes dependen del servicio. El rector tiene acceso a protocolos, registros de recepción y contacto con autoridades sanitarias.",
+      "competency": "COMPETENCIAS BLANDAS"
+    },
+    {
+      "id": "27",
+      "title": "Lectura crítica: el indicador que oculta ausencias",
+      "text": "El comité de calidad presentó este fragmento: «La matrícula de octavo aumentó de 300 a 330 estudiantes, mientras el número de estudiantes con más del 20 % de ausencias pasó de 30 a 36. El informe concluye que la estrategia de permanencia fue exitosa porque el 90 % del estudiantado no superó el umbral de inasistencia el primer año y el 89,09 % no lo superó el segundo. El texto añade que la política debe ampliarse sin nuevas mediciones, debido a que el número de estudiantes matriculados creció». En el archivo de seguimiento no aparecen datos de traslados, motivos de ausencia ni distribución por sede. El rector debe interpretar el argumento antes de decidir recursos.",
+      "competency": "LECTURA CRÍTICA"
+    },
+    {
+      "id": "28",
+      "title": "Lectura crítica: circular y alcance normativo",
+      "text": "Una circular hipotética de trabajo para el ejercicio plantea: «Los cambios ordinarios en la distribución de espacios deberán ser coordinados por rectoría y comunicados oportunamente a los equipos involucrados. Cuando existan riesgos inminentes para la integridad de personas, se podrán adoptar medidas de protección provisionales de inmediato y se documentará la razón que impidió completar el trámite ordinario. Toda medida deberá revisarse tan pronto desaparezca la urgencia». El texto es una pieza construida para el simulacro, no una norma colombiana vigente. Una coordinadora propone interpretarlo como autorización permanente para cualquier cambio de infraestructura si se invoca prevención.",
+      "competency": "LECTURA CRÍTICA"
+    },
+    {
+      "id": "29",
+      "title": "Lectura crítica: dos formas de explicar resultados",
+      "text": "Un documento de discusión institucional afirma: «En los cursos donde docentes realizaron tutorías voluntarias, la tasa de aprobación fue de 92 %. En los cursos sin tutorías fue de 78 %. Los primeros cursos tenían, desde el comienzo del período, mejores resultados de lectura y menor ausentismo. Por tanto, es correcto afirmar que las tutorías causaron por sí solas una mejora de catorce puntos porcentuales». La rectoría conserva datos iniciales de los cursos, aunque no existió asignación aleatoria de tutorías. La propuesta de mejora pretende extender el programa al siguiente año.",
+      "competency": "LECTURA CRÍTICA"
+    },
+    {
+      "id": "30",
+      "title": "Lectura crítica: derechos, límites y condiciones",
+      "text": "El consejo estudiantil redacta una propuesta: «Todo estudiante debe poder expresar inquietudes sobre la evaluación sin temor a represalias. Sin embargo, el reclamo tendrá que basarse en evidencias, respetar la dignidad de otros y dirigirse por los canales institucionales. La apertura a la crítica no exime de atender acuerdos de convivencia». Una directiva lee la propuesta como autorización para cuestionar públicamente la idoneidad profesional de cualquier docente sin aportar pruebas. Otra persona interpreta que solo puede reclamar quien haya obtenido una nota reprobatoria.",
+      "competency": "LECTURA CRÍTICA"
+    },
+    {
+      "id": "31",
+      "title": "Lectura crítica: de la observación a la generalización",
+      "text": "En un informe institucional se lee: «De 120 estudiantes de media, 30 participaron voluntariamente en un club de debate. Entre sus participantes, 25 reportaron mayor confianza para hablar en público. El informe concluye que el club mejora la confianza de la totalidad de los estudiantes y debe reemplazar obligatoriamente otras actividades de formación oral». El cuestionario fue contestado únicamente por participantes y no se aplicó una medición previa. Existe una propuesta de ofrecer experiencias distintas según necesidades e intereses.",
+      "competency": "LECTURA CRÍTICA"
+    },
+    {
+      "id": "32",
+      "title": "Razonamiento cuantitativo: ausentismo por sedes",
+      "text": "La institución tiene dos sedes. En la sede Norte estudian 240 alumnos y 30 presentan inasistencia superior al 20 % de las clases. En la sede Sur estudian 160 alumnos y 12 cumplen esa misma condición. El equipo rectoral desea reducir la tasa consolidada de alta inasistencia hasta un máximo del 9 % de la matrícula total, que se supone constante durante el período evaluado. Los 42 casos actuales están contados una sola vez cada uno y no existen duplicidades. Para este ejercicio, «tasa de alta inasistencia» equivale al número de estudiantes que superan el umbral dividido entre la matrícula correspondiente.",
+      "competency": "RAZONAMIENTO CUANTITATIVO"
+    },
+    {
+      "id": "33",
+      "title": "Razonamiento cuantitativo: progreso y cobertura",
+      "text": "Un programa de apoyo lector tuvo 200 estudiantes inscritos durante el primer año; 130 alcanzaron la competencia esperada. Al año siguiente participaron 180 estudiantes y 126 alcanzaron la meta. El informe afirma que el programa «empeoró porque hubo cuatro estudiantes exitosos menos». La meta de la rectoría para el siguiente ciclo, suponiendo nuevamente 180 estudiantes, será alcanzar por lo menos el 75 % de logro. Los criterios de evaluación fueron equivalentes entre años y no se dispone de información para atribuir causalidad al programa.",
+      "competency": "RAZONAMIENTO CUANTITATIVO"
+    },
+    {
+      "id": "34",
+      "title": "Razonamiento cuantitativo: presupuesto y contingencia",
+      "text": "Para un ejercicio de priorización se dispone de un presupuesto hipotético de 48 millones de pesos, sin compromisos anteriores. Las necesidades evaluadas suman: dotación didáctica por 18 millones, ajustes de accesibilidad por 12 millones y reparaciones por 14 millones. El comité técnico recomienda conservar una reserva operativa no comprometida equivalente por lo menos al 10 % del total, aunque esa reserva constituye únicamente una condición del ejercicio y no una obligación normativa. Cualquier asignación debe además cumplir el trámite presupuestal y contractual aplicable; en este caso se comparan únicamente montos.",
+      "competency": "RAZONAMIENTO CUANTITATIVO"
+    },
+    {
+      "id": "35",
+      "title": "Razonamiento cuantitativo: seguimiento de cohorte",
+      "text": "Una cohorte comenzó décimo con 250 estudiantes. Durante el año, 20 se trasladaron formalmente a otros establecimientos y se confirmó su continuidad educativa; 15 abandonaron sin traslado documentado y 215 permanecieron en el colegio hasta finalizar. Para evaluar abandono en la cohorte que estuvo bajo seguimiento institucional después de excluir traslados confirmados, el equipo adopta explícitamente un denominador de 230 estudiantes. La tasa de permanencia interna sobre la matrícula inicial sigue siendo un indicador distinto. Las categorías son mutuamente excluyentes.",
+      "competency": "RAZONAMIENTO CUANTITATIVO"
+    },
+    {
+      "id": "36",
+      "title": "Razonamiento cuantitativo: méritos y ponderaciones",
+      "text": "En un ejercicio de cálculo de puntaje final, una aspirante a rector obtiene 92,00 en Aptitudes y Competencias Básicas; 88,00 en psicotécnica; 56,00 en la escala interna de valoración de antecedentes; y 91,00 en entrevista. Las ponderaciones del concurso son, respectivamente, 55 %, 10 %, 25 % y 10 %. Las cuatro pruebas se miden en escala de 0 a 100 antes de ponderarse. En un segundo escenario hipotético se mantiene antecedentes en 56, psicotécnica en 90 y entrevista en 90, y se pregunta qué nota principal permite alcanzar un total de 85 puntos. Estos cálculos ilustran la ponderación; no predicen puestos en una lista de elegibles.",
+      "competency": "RAZONAMIENTO CUANTITATIVO"
+    },
+    {
+      "id": "37",
+      "title": "Una alerta ambiental y la continuidad educativa",
+      "text": "En un colegio de cuatro sedes, una quebrada cercana presenta creciente súbita en temporada de lluvias. Un reporte comunitario señala afectación potencial de la vía de acceso a una sede; no hay alerta oficial de inundación general. Cuarenta estudiantes utilizan transporte escolar y otros llegan a pie. El Consejo Directivo dispone de un plan de gestión del riesgo desactualizado y el coordinador propone esperar la visita de una autoridad antes de cambiar cualquier operación. Familias de la zona aportan observaciones recientes y existen rutas alternas parcialmente verificadas.",
+      "competency": "INTEGRACIÓN DIRECTIVA"
+    },
+    {
+      "id": "38",
+      "title": "Una decisión académica que genera conflicto jurídico",
+      "text": "Un estudiante con dificultades de regulación emocional recibe una calificación reprobatoria porque se retiró del salón tras un conflicto. El docente argumenta que la convivencia incide en la evaluación integral; la familia sostiene que nunca se aplicaron instrumentos académicos equivalentes ni los apoyos pactados. El SIEE diferencia desempeño académico y conductas de convivencia, aunque contempla valoración integral y apoyos. Los hechos del conflicto se investigan por ruta separada y el rector debe evitar que una situación afecte indebidamente el derecho a la evaluación.",
+      "competency": "INTEGRACIÓN DIRECTIVA"
+    },
+    {
+      "id": "39",
+      "title": "Datos institucionales e interpretación de una mejora",
+      "text": "La rectoría evalúa dos sedes con contextos distintos. En la sede A, 60 de 100 estudiantes superaron una competencia en la línea de base y 78 de 100 lo lograron luego de un plan. En la sede B, 30 de 50 alcanzaron inicialmente la competencia y 36 de 50 lo hicieron después. El equipo quiere reconocer avances, pero los docentes de B sostienen que su incremento absoluto de seis estudiantes no debe compararse con el de dieciocho de A sin considerar el tamaño. Los grupos se mantuvieron estables y los instrumentos son comparables, pero no existe grupo de control.",
+      "competency": "INTEGRACIÓN DIRECTIVA"
+    },
+    {
+      "id": "40",
+      "title": "Revisión integral de una decisión rectoral",
+      "text": "Una institución pretende extender su jornada mediante actividades de lectura y proyectos comunitarios. La propuesta responde a necesidades detectadas en sexto, pero aún no ha considerado disponibilidad de docentes, alimentación, transporte, planeación curricular ni consulta a órganos escolares. Una fundación ofrece apoyo por seis meses, sujeto a compromisos de ejecución inmediatos. El rector debe presentar una hoja de ruta que no prometa competencias que pertenecen a la entidad territorial ni confunda convenio con autorización automática de cambios en la prestación del servicio.",
+      "competency": "INTEGRACIÓN DIRECTIVA"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "situationId": "01",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Qué decisión inicial ofrece la mejor secuencia de direccionamiento institucional?",
+      "options": [
+        "Encargar a la consultora un documento base, socializarlo en una jornada docente y solicitar su aprobación tras incorporar observaciones.",
+        "Conducir un diagnóstico participativo sustentado en datos, acordar prioridades y metas medibles y tramitar los ajustes del PEI mediante los órganos competentes.",
+        "Autorizar a cada sede un PEI operativo autónomo y evaluar a final de año cuál de ellos produce mejores indicadores."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Vincula evidencia, participación, coherencia intersedes y gobierno escolar antes de formalizar cambios.",
+      "distractors": "Por qué no A: La asistencia técnica puede ayudar, pero no sustituye la construcción institucional ni resuelve por sí misma la falta de articulación. Por qué no C: Fragmentar el PEI debilita el proyecto común y posterga las obligaciones de dirección.",
+      "legalBasis": "Ley 115 de 1994, arts. 73, 142-145; Resolución MEN 003842 de 2022, funciones 1, 2, 5 y 11."
+    },
+    {
+      "id": 2,
+      "situationId": "01",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Cuál sería el indicador más útil para evaluar la intervención en sexto?",
+      "options": [
+        "Comparar solo el promedio global de notas de sexto entre dos períodos, sin discriminar sedes ni situaciones de permanencia.",
+        "Comparar por sede y cohorte la progresión del aprendizaje, la repitencia y la permanencia, con una línea de base y metas acordadas.",
+        "Medir al cierre del trimestre la satisfacción de los docentes con el nuevo plan institucional y complementar con actas de reunión."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Integra resultados académicos y trayectoria escolar con desagregación útil para corregir desigualdades.",
+      "distractors": "Por qué no A: El promedio agregado oculta brechas y excluye estudiantes que abandonan. Por qué no C: La percepción de implementación es un indicador de proceso, no sustituye resultados estudiantiles.",
+      "legalBasis": "Ley 115 de 1994, arts. 73, 142-145; Resolución MEN 003842 de 2022, funciones 1, 2, 5 y 11."
+    },
+    {
+      "id": 3,
+      "situationId": "01",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "Ante la objeción de autonomía absoluta de las áreas, el rector debería:",
+      "options": [
+        "Reconocer la autonomía pedagógica dentro de los referentes curriculares, del PEI y de los acuerdos institucionales de evaluación y seguimiento.",
+        "Permitir metodologías por docente mientras todos reporten las mismas calificaciones y mantengan la jornada establecida.",
+        "Imponer un único guion de clase por asignatura sin discusión curricular para garantizar uniformidad de las sedes."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La autonomía exige coherencia curricular y rendición pedagógica, pero no uniformidad mecánica.",
+      "distractors": "Por qué no B: Unificar reportes no garantiza currículo común, pertinencia ni calidad de decisiones. Por qué no C: La imposición uniforme desplaza el juicio profesional y el gobierno académico.",
+      "legalBasis": "Ley 115 de 1994, arts. 73, 142-145; Resolución MEN 003842 de 2022, funciones 1, 2, 5 y 11."
+    },
+    {
+      "id": 4,
+      "situationId": "01",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Qué papel debe tener el Consejo Académico en este proceso?",
+      "options": [
+        "Ratificar las decisiones del rector sobre recursos y aprobar por mayoría las inversiones asociadas al currículo.",
+        "Estudiar y proponer ajustes curriculares y del plan de estudios y articular su análisis con las decisiones institucionales correspondientes.",
+        "Sustituir al Consejo Directivo en la aprobación integral del PEI porque se trata principalmente de asuntos pedagógicos."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Su función técnica es central en currículo y plan de estudios sin absorber competencias de otros órganos.",
+      "distractors": "Por qué no A: La aprobación presupuestal y las decisiones del fondo corresponden a instancias diferenciadas. Por qué no C: Confunde la función académica con la del Consejo Directivo.",
+      "legalBasis": "Ley 115 de 1994, arts. 73, 142-145; Resolución MEN 003842 de 2022, funciones 1, 2, 5 y 11."
+    },
+    {
+      "id": 5,
+      "situationId": "02",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Cómo debería responder ante la condición presupuestal?",
+      "options": [
+        "Separar los asuntos presupuestales de la modificación curricular, solicitar sustento técnico al Consejo Académico y seguir el trámite institucional correspondiente.",
+        "Negarse a cualquier deliberación curricular del Consejo Directivo por tratarse de un asunto exclusivamente docente.",
+        "Aceptar el cambio por un período piloto, siempre que las familias suscriban un compromiso de apoyo académico."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Evita el intercambio impropio de competencias y permite una decisión motivada.",
+      "distractors": "Por qué no B: El gobierno escolar implica interacción entre órganos; excluir la deliberación es excesivo. Por qué no C: Un piloto no elimina la necesidad de tramitar un cambio curricular con fundamento.",
+      "legalBasis": "Ley 115 de 1994, arts. 142-145; Decreto 1075 de 2015, gobierno escolar."
+    },
+    {
+      "id": 6,
+      "situationId": "02",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "La decisión mejor fundamentada sobre las horas optativas exige:",
+      "options": [
+        "Priorizar la mejora inmediata del indicador de pruebas externas, dado que constituye el resultado público más visible.",
+        "Conservar las horas sin análisis porque toda modificación solicitada por familias comprometería la autonomía escolar.",
+        "Examinar coherencia con PEI, marco curricular, necesidades de aprendizaje y concepto académico, con participación y registro de la decisión."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Protege formación integral y trazabilidad de decisiones con evidencia.",
+      "distractors": "Por qué no A: Un indicador no define por sí solo la totalidad del currículo. Por qué no B: La permanencia por inercia tampoco constituye ejercicio responsable de autonomía.",
+      "legalBasis": "Ley 115 de 1994, arts. 142-145; Decreto 1075 de 2015, gobierno escolar."
+    },
+    {
+      "id": 7,
+      "situationId": "02",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Qué error de gobierno escolar sería más grave?",
+      "options": [
+        "Presentar como decisión unilateral del rector una modificación sustantiva que requiere el trámite y la intervención de órganos colegiados.",
+        "Publicar una síntesis de las razones pedagógicas de la decisión, preservando la documentación formal.",
+        "Pedir al Consejo Académico una propuesta con alternativas y evidencia que luego pueda debatirse."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La autoridad rectoral no elimina procedimientos ni competencias colegiadas.",
+      "distractors": "Por qué no B: La comunicación transparente de decisiones motivadas es apropiada. Por qué no C: Esta actuación fortalece el análisis técnico y no es un error.",
+      "legalBasis": "Ley 115 de 1994, arts. 142-145; Decreto 1075 de 2015, gobierno escolar."
+    },
+    {
+      "id": 8,
+      "situationId": "02",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "Si la disputa aumenta, la mejor estrategia de mediación sería:",
+      "options": [
+        "Delegar la resolución final a una encuesta abierta entre todas las familias, con independencia de la regulación escolar.",
+        "Solicitar una votación inmediata para reducir la confrontación, sin modificar el orden del día ni revisar soportes.",
+        "Establecer criterios compartidos de decisión, escuchar las posiciones y cerrar con acuerdos procedimentales y plazos verificables."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Diferencia la escucha democrática de la sustitución de competencias normadas.",
+      "distractors": "Por qué no A: La consulta aporta insumos, pero no reemplaza las competencias legalmente asignadas. Por qué no B: Votar sin información suficiente puede formalizar una decisión deficiente.",
+      "legalBasis": "Ley 115 de 1994, arts. 142-145; Decreto 1075 de 2015, gobierno escolar."
+    },
+    {
+      "id": 9,
+      "situationId": "03",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Qué ajuste al plan resulta prioritario?",
+      "options": [
+        "Concentrar las actividades en una semana institucional e incrementar la asistencia de los docentes a los talleres.",
+        "Establecer como meta adquirir un número fijo de libros por estudiante y dar por cumplido el plan cuando se entreguen.",
+        "Incorporar diagnóstico por habilidades, metas observables, secuencia de intervención, responsables y verificación periódica del progreso de estudiantes."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Convierte actividades en una estrategia de mejora evaluable, vinculada al problema detectado.",
+      "distractors": "Por qué no A: La participación en talleres no garantiza aprendizaje de los estudiantes. Por qué no B: Las compras son medios y no evidencian mejoramiento de comprensión.",
+      "legalBasis": "Ley 115 de 1994, art. 80; Decreto 1290 de 2009; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 10,
+      "situationId": "03",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "La propuesta de la fundación debería valorarse principalmente por:",
+      "options": [
+        "La cantidad de libros disponibles y la posibilidad de visibilizar a la institución mediante la campaña publicitaria.",
+        "Su pertinencia pedagógica, protección de datos de estudiantes y condiciones transparentes de aceptación y uso institucional.",
+        "La gratuidad de la entrega, que exime al colegio de revisar contenidos y tratamiento de imágenes."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Combina oportunidad del recurso con protección de derechos y necesidad educativa.",
+      "distractors": "Por qué no A: El volumen y la visibilidad pueden ser secundarios, pero no sustituyen pertinencia. Por qué no C: La gratuidad no elimina obligaciones de protección de datos ni revisión académica.",
+      "legalBasis": "Ley 115 de 1994, art. 80; Decreto 1290 de 2009; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 11,
+      "situationId": "03",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Qué evidencia permite juzgar mejor el progreso del proyecto?",
+      "options": [
+        "Utilizar exclusivamente el resultado institucional promedio de una prueba externa al año siguiente.",
+        "Contabilizar préstamo de libros y registrar opiniones positivas de estudiantes sobre actividades de lectura.",
+        "Comparar desempeños en tareas equivalentes de inferencia antes y después de la intervención, desagregados y complementados con seguimiento formativo."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Mide la habilidad intervenida con instrumentos comparables y seguimiento cercano.",
+      "distractors": "Por qué no A: Un agregado externo tardío dificulta atribución y ajustes oportunos. Por qué no B: El uso de recursos y la satisfacción no miden por sí solos la competencia lectora.",
+      "legalBasis": "Ley 115 de 1994, art. 80; Decreto 1290 de 2009; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 12,
+      "situationId": "03",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "Ante docentes que cuestionan la pertinencia de los textos, el rector debe:",
+      "options": [
+        "Conservar todos los textos donados y exigir que se utilicen por igualdad de oportunidades entre áreas.",
+        "Descartar la donación y sustituir la formación docente por trabajo autónomo de cada departamento.",
+        "Articular al equipo académico para seleccionar materiales con criterios curriculares y evidencia de las necesidades lectoras."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Integra diagnóstico, currículo y trabajo colaborativo para aprovechar los recursos pertinentes.",
+      "distractors": "Por qué no A: La uniformidad de uso no equivale a pertinencia pedagógica. Por qué no B: Desechar apoyo sin valoración técnica ni coordinación es una respuesta incompleta.",
+      "legalBasis": "Ley 115 de 1994, art. 80; Decreto 1290 de 2009; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 13,
+      "situationId": "04",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "La prioridad inmediata del rector es:",
+      "options": [
+        "Adoptar medidas preventivas proporcionales al riesgo identificado, proteger a estudiantes y solicitar valoración técnica y apoyo competentes.",
+        "Suspender toda la sede por tiempo indefinido hasta que exista presupuesto para obra mayor, sin alternativas pedagógicas.",
+        "Mantener todas las clases porque todavía no existe un informe técnico final que pruebe la magnitud del riesgo."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Combina precaución, proporcionalidad y continuidad posible del servicio.",
+      "distractors": "Por qué no B: Una suspensión total sin análisis puede afectar innecesariamente la educación. Por qué no C: La ausencia de informe definitivo no justifica ignorar un peligro conocido.",
+      "legalBasis": "Ley 115 de 1994, arts. 144-145; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 3, 5 y 12."
+    },
+    {
+      "id": 14,
+      "situationId": "04",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "Respecto de un traslado de recursos, corresponde:",
+      "options": [
+        "Ordenar el traslado inmediato por circular rectoral y ratificarlo ante el Consejo Directivo al finalizar el período.",
+        "Solicitar a la asociación de padres que ejecute directamente los fondos institucionales mientras se formaliza el cambio.",
+        "Verificar la disponibilidad y destinación permitida y tramitar el ajuste presupuestal mediante el Consejo Directivo según la regulación del fondo."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: El rector ordena gasto dentro de reglas presupuestales, sin sustituir las aprobaciones colegiadas requeridas.",
+      "distractors": "Por qué no A: La urgencia no autoriza ignorar la competencia presupuestal correspondiente. Por qué no B: Los fondos públicos no pueden administrarse informalmente por un tercero.",
+      "legalBasis": "Ley 115 de 1994, arts. 144-145; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 3, 5 y 12."
+    },
+    {
+      "id": 15,
+      "situationId": "04",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "Una decisión adecuada sobre continuidad educativa sería:",
+      "options": [
+        "Diseñar una reubicación temporal con seguimiento de condiciones de seguridad y aprendizajes mientras se resuelve la situación técnica.",
+        "Dejar la decisión de ingresar o no al salón afectado a la voluntad individual de cada familia.",
+        "Trasladar indefinidamente a toda la matrícula a trabajo en casa sin acompañamiento ni seguimiento."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Garantiza continuidad con medidas operativas y supervisión del riesgo.",
+      "distractors": "Por qué no B: La garantía de seguridad no se transfiere a decisiones individuales descoordinadas. Por qué no C: El trabajo en casa sin diseño educativo no asegura acceso ni permanencia.",
+      "legalBasis": "Ley 115 de 1994, arts. 144-145; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 3, 5 y 12."
+    },
+    {
+      "id": 16,
+      "situationId": "04",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Qué información debe comunicarse a la comunidad?",
+      "options": [
+        "El riesgo conocido, las medidas provisionales, las rutas de atención y los tiempos de actualización, evitando afirmaciones sin soporte.",
+        "Que las obras serán iniciadas en una fecha cierta antes de contar con avales o asignaciones oficiales.",
+        "Que la institución es completamente segura porque las áreas no afectadas operan normalmente."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La comunicación responsable diferencia hechos, medidas y aspectos aún inciertos.",
+      "distractors": "Por qué no B: Prometer plazos no confirmados afecta credibilidad y gestión. Por qué no C: Generaliza una conclusión que el informe no permite.",
+      "legalBasis": "Ley 115 de 1994, arts. 144-145; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 3, 5 y 12."
+    },
+    {
+      "id": 17,
+      "situationId": "05",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Cuál es la primera actuación institucionalmente más sólida?",
+      "options": [
+        "Solicitar al coordinador que declare el incumplimiento y remita directamente una sanción al docente.",
+        "Contrastar registros de jornada, planeación y evidencias de atención estudiantil, escuchar al docente y organizar medidas inmediatas de recuperación académica.",
+        "Dar por subsanadas las clases con base en la afirmación del docente y esperar los resultados del período."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Reúne evidencia, debido proceso y restablecimiento pedagógico de la continuidad.",
+      "distractors": "Por qué no A: Un informe de coordinación no sustituye el procedimiento ni la autoridad competente. Por qué no C: La declaración aislada es insuficiente ante evidencias de estudiantes sin atención.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 9, 14, 15, 17 y 18; Decreto Ley 1278 de 2002."
+    },
+    {
+      "id": 18,
+      "situationId": "05",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "En cuanto a presuntas irregularidades del personal, el rector debe:",
+      "options": [
+        "Publicar en la página institucional los nombres de los docentes señalados y las faltas presuntas.",
+        "Documentar objetivamente los hechos y remitir por los canales y autoridades competentes, sin anticipar sanciones.",
+        "Imponer una suspensión preventiva inmediata con base en las quejas, para evitar reincidencia."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Cumple deberes de dirección y reporte respetando garantías y reserva.",
+      "distractors": "Por qué no A: La divulgación puede afectar derechos y no mejora la investigación. Por qué no C: Una sanción sin competencia y procedimiento vulnera garantías.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 9, 14, 15, 17 y 18; Decreto Ley 1278 de 2002."
+    },
+    {
+      "id": 19,
+      "situationId": "05",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "Para evaluar recuperación de aprendizajes, el mejor enfoque es:",
+      "options": [
+        "Incrementar la nota final de las clases afectadas a fin de evitar repitencia asociada al incidente.",
+        "Identificar estudiantes y aprendizajes afectados, acordar apoyos diferenciados y comprobar evidencias de progreso.",
+        "Solicitar que todos los docentes aumenten una evaluación escrita para compensar las horas no trabajadas."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Prioriza el derecho efectivo al aprendizaje, no ajustes cosméticos de calificación.",
+      "distractors": "Por qué no A: Inflar calificaciones oculta el déficit pedagógico. Por qué no C: Más evaluación sin enseñanza puede agravar brechas.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 9, 14, 15, 17 y 18; Decreto Ley 1278 de 2002."
+    },
+    {
+      "id": 20,
+      "situationId": "05",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "La comunicación con las familias debe:",
+      "options": [
+        "Afirmar que no hubo interrupción porque se compartieron guías digitales a algunos cursos.",
+        "Suspender toda respuesta hasta que concluya un eventual proceso disciplinario.",
+        "Reconocer las interrupciones verificadas, explicar apoyos y canales de seguimiento, sin prejuzgar responsabilidades individuales."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Rinde cuentas y atiende la continuidad sin prejuzgamiento.",
+      "distractors": "Por qué no A: Confunde envío parcial de material con prestación plena del servicio. Por qué no B: La atención pedagógica y comunicación no dependen del cierre disciplinario.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 9, 14, 15, 17 y 18; Decreto Ley 1278 de 2002."
+    },
+    {
+      "id": 21,
+      "situationId": "06",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "La respuesta pedagógica más consistente es:",
+      "options": [
+        "Organizar acogida, valoración de aprendizajes y apoyos flexibles dentro del proyecto institucional, con revisión participativa de barreras.",
+        "Mantener las estrategias habituales hasta la siguiente actualización formal del PEI, para evitar cambios a mitad de año.",
+        "Crear grupos permanentes por procedencia, aun cuando estudiantes demuestren competencias similares a las de sus compañeros."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La respuesta combina acceso, valoración e integración sin segregación innecesaria.",
+      "distractors": "Por qué no B: El PEI orienta, pero no justifica retrasar apoyos urgentes. Por qué no C: La procedencia no es criterio suficiente para agrupar permanentemente.",
+      "legalBasis": "Ley 115 de 1994, arts. 73 y 77; Resolución MEN 003842 de 2022, funciones 1, 11 y 19."
+    },
+    {
+      "id": 22,
+      "situationId": "06",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Cómo incorporar la situación al PEI?",
+      "options": [
+        "Delegar la redacción completa a un aliado externo para aplicarla como circular rectoral.",
+        "A partir de diagnóstico territorial y aportes de comunidad, proponer ajustes curriculares, de convivencia y de acompañamiento para trámite institucional.",
+        "Agregar un anexo estadístico con número de nuevos estudiantes, sin revisar prácticas ni metas."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La actualización del PEI requiere apropiación y transformación de prácticas.",
+      "distractors": "Por qué no A: La autoría externa no sustituye deliberación y procedimientos internos. Por qué no C: Describir matrícula no equivale a responder pedagógicamente.",
+      "legalBasis": "Ley 115 de 1994, arts. 73 y 77; Resolución MEN 003842 de 2022, funciones 1, 11 y 19."
+    },
+    {
+      "id": 23,
+      "situationId": "06",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "¿Cuál sería un indicador relevante de inclusión y permanencia?",
+      "options": [
+        "Seguimiento por cohortes a asistencia, progreso académico y participación de los estudiantes recién incorporados.",
+        "Proporción de familias nuevas que asisten a un acto de bienvenida, sin explorar necesidades de apoyo.",
+        "Número total de estudiantes matriculados al cierre, sin distinguir ingresos, salidas ni trayectorias."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Cruza acceso, continuidad y aprendizaje en la población objetivo.",
+      "distractors": "Por qué no B: La asistencia al evento es un dato de proceso, insuficiente por sí solo. Por qué no C: La matrícula neta oculta movilidad y deserción.",
+      "legalBasis": "Ley 115 de 1994, arts. 73 y 77; Resolución MEN 003842 de 2022, funciones 1, 11 y 19."
+    },
+    {
+      "id": 24,
+      "situationId": "06",
+      "competency": "GESTIÓN DIRECTIVA",
+      "text": "Frente a la limitación de personal, corresponde:",
+      "options": [
+        "Condicionar nuevas matrículas a la ampliación de planta que solicite el establecimiento.",
+        "Pedir a las familias cubrir de manera particular las necesidades de apoyo escolar que surjan.",
+        "Priorizar apoyos posibles, documentar barreras y gestionar ante la entidad territorial los recursos y acompañamientos necesarios."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Distingue obligaciones institucionales y competencias territoriales sin restringir el acceso.",
+      "distractors": "Por qué no A: La insuficiencia de planta no autoriza excluir estudiantes. Por qué no B: Transferir obligaciones institucionales a familias agrava desigualdades.",
+      "legalBasis": "Ley 115 de 1994, arts. 73 y 77; Resolución MEN 003842 de 2022, funciones 1, 11 y 19."
+    },
+    {
+      "id": 25,
+      "situationId": "07",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Cuál procedimiento corresponde?",
+      "options": [
+        "Promover a la estudiante por resolución rectoral tras verificar el promedio superior, sin intervención de órganos escolares.",
+        "Aplicar criterios del SIEE, obtener valoración del Consejo Académico y, con consentimiento familiar, elevar recomendación al Consejo Directivo en el primer período.",
+        "Esperar al último período para definir promoción anticipada porque así se completaría la evidencia de todas las áreas."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Respeta momento temporal, evaluación integral y secuencia de órganos prevista en la norma.",
+      "distractors": "Por qué no A: La decisión no se agota en promedio ni corresponde unilateralmente al rector. Por qué no C: La promoción anticipada regulada se valora durante el primer período.",
+      "legalBasis": "Decreto 1290 de 2009, art. 7; Decreto 1075 de 2015, SIEE."
+    },
+    {
+      "id": 26,
+      "situationId": "07",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "La evidencia académica más pertinente sería:",
+      "options": [
+        "Un conjunto de desempeños cognitivos, personales y sociales frente a competencias del grado, conforme al SIEE.",
+        "El promedio de pruebas externas de la estudiante y la calificación numérica más reciente de matemáticas.",
+        "La opinión mayoritaria del curso y el compromiso de la familia de asumir tutorías particulares."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La norma exige desempeño superior y valoración amplia, no un dato aislado.",
+      "distractors": "Por qué no B: Una muestra parcial no representa integralmente las competencias requeridas. Por qué no C: La opinión de pares y la capacidad de financiar apoyos no sustituyen criterios académicos.",
+      "legalBasis": "Decreto 1290 de 2009, art. 7; Decreto 1075 de 2015, SIEE."
+    },
+    {
+      "id": 27,
+      "situationId": "07",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "Si el Consejo Académico recomienda y el Consejo Directivo decide positivamente, el rector debe:",
+      "options": [
+        "Volver a someter el caso a votación general del profesorado para ratificar el tránsito.",
+        "Comunicar verbalmente la decisión y aplazar todo registro hasta que se confirme buen rendimiento en el nuevo grado.",
+        "Asegurar registro del acta y actualización del registro escolar y planificar acompañamiento de transición."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La decisión positiva debe quedar documentada y acompañarse pedagógicamente.",
+      "distractors": "Por qué no A: La votación general no forma parte del procedimiento decisorio previsto. Por qué no B: La informalidad del registro desconoce la trazabilidad exigida.",
+      "legalBasis": "Decreto 1290 de 2009, art. 7; Decreto 1075 de 2015, SIEE."
+    },
+    {
+      "id": 28,
+      "situationId": "07",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Qué razonamiento es más sólido frente a la objeción de posibles vacíos?",
+      "options": [
+        "Considerar los riesgos de adaptación dentro de la valoración integral y prever apoyos, sin convertirlos en una prohibición genérica.",
+        "Conceder promoción únicamente si la estudiante acepta exámenes de todas las asignaturas cada mes.",
+        "Concluir que toda promoción anticipada genera vacíos y, por prudencia, negar aun con evidencia superior."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La prudencia exige valoración y apoyo individual, no vetos automáticos.",
+      "distractors": "Por qué no B: La condición adicional puede no estar prevista ni guardar proporcionalidad con el caso. Por qué no C: Generaliza un riesgo sin contrastar las evidencias específicas.",
+      "legalBasis": "Decreto 1290 de 2009, art. 7; Decreto 1075 de 2015, SIEE."
+    },
+    {
+      "id": 29,
+      "situationId": "08",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Cuál medida atiende mejor el problema inmediato?",
+      "options": [
+        "Anular todas las evaluaciones de matemáticas de forma general, sin analizar procedimientos ni evidencias.",
+        "Autorizar que cada docente aplique sus propios criterios de recuperación, siempre que los informe al cierre del año.",
+        "Verificar aplicación del SIEE vigente, tramitar reclamaciones y asegurar apoyos y comunicación clara de criterios previamente establecidos."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Garantiza reglas conocidas, debido procedimiento pedagógico y apoyos.",
+      "distractors": "Por qué no A: La anulación general desconoce casos válidos y carece de análisis proporcional. Por qué no B: Criterios retrospectivos o fragmentados vulneran coherencia institucional.",
+      "legalBasis": "Decreto 1290 de 2009, arts. 3, 4, 6, 8 y 11; Decreto 1075 de 2015."
+    },
+    {
+      "id": 30,
+      "situationId": "08",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "Para modificar el SIEE en adelante, lo más correcto es:",
+      "options": [
+        "Adelantar revisión participativa y los trámites de aprobación y divulgación establecidos, sin aplicar retroactivamente reglas perjudiciales.",
+        "Esperar exclusivamente a que la Secretaría de Educación dicte el porcentaje mínimo de aprobación por asignatura.",
+        "Permitir que el rector cambie por circular los porcentajes de calificación aplicables al período terminado."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La autonomía institucional opera mediante procedimientos y publicidad de criterios.",
+      "distractors": "Por qué no B: La entidad territorial no reemplaza toda decisión institucional del SIEE. Por qué no C: Modificar reglas después de evaluar afecta seguridad y debido proceso.",
+      "legalBasis": "Decreto 1290 de 2009, arts. 3, 4, 6, 8 y 11; Decreto 1075 de 2015."
+    },
+    {
+      "id": 31,
+      "situationId": "08",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Qué indicador detectaría mejor si las estrategias de apoyo funcionan?",
+      "options": [
+        "Porcentaje de estudiantes que supera dificultades específicas verificadas mediante tareas comparables y seguimiento de progreso.",
+        "Cantidad de reuniones con familias y de guías enviadas durante el período.",
+        "Porcentaje de estudiantes promovidos, sin analizar cambios en aprendizajes o apoyos efectivamente prestados."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Comprueba recuperación de competencias, no solo resultado administrativo.",
+      "distractors": "Por qué no B: Las actividades son medios y no resultados pedagógicos suficientes. Por qué no C: La promoción puede aumentar sin aprendizaje sustantivo.",
+      "legalBasis": "Decreto 1290 de 2009, arts. 3, 4, 6, 8 y 11; Decreto 1075 de 2015."
+    },
+    {
+      "id": 32,
+      "situationId": "08",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "Frente a una reclamación documentada, el rector debe:",
+      "options": [
+        "Negar la petición porque la evaluación pertenece a la autonomía absoluta de cada docente.",
+        "Remitir toda reclamación a la Secretaría sin intervención institucional, incluso cuando el SIEE prevé instancias internas.",
+        "Garantizar respuesta según el procedimiento institucional, revisar evidencias y explicar la decisión motivadamente."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La autonomía evaluativa está regulada por el SIEE y admite revisión institucional.",
+      "distractors": "Por qué no A: La autonomía no excluye reclamación ni criterios institucionales. Por qué no B: La remisión automática evade responsabilidades propias del establecimiento.",
+      "legalBasis": "Decreto 1290 de 2009, arts. 3, 4, 6, 8 y 11; Decreto 1075 de 2015."
+    },
+    {
+      "id": 33,
+      "situationId": "09",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Qué decisión responde mejor a la normativa de inclusión?",
+      "options": [
+        "Mantener todas las actividades sin adaptación y asignar aprobación por asistencia para evitar discriminación.",
+        "Realizar valoración pedagógica, diseñar e implementar ajustes razonables y PIAR articulado al aula, con participación familiar y seguimiento.",
+        "Aceptar la matrícula, pero esperar el diagnóstico clínico actualizado para iniciar cualquier ajuste del currículo y la evaluación."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Los apoyos surgen de barreras y valoración pedagógica, sin reemplazar el aprendizaje por presencia.",
+      "distractors": "Por qué no A: La asistencia sin metas ni evaluación de progreso es inclusión solo nominal. Por qué no C: Condicionar apoyos a un certificado retarda el derecho a aprender.",
+      "legalBasis": "Decreto 1421 de 2017, arts. incorporados al Decreto 1075 de 2015 sobre DUA, PIAR y no discriminación."
+    },
+    {
+      "id": 34,
+      "situationId": "09",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Cómo se relacionan DUA y PIAR?",
+      "options": [
+        "El DUA orienta transformaciones accesibles para todo el grupo y el PIAR complementa con apoyos individuales requeridos.",
+        "El PIAR sustituye todas las prácticas de aula y permite retirar a la estudiante del currículo institucional.",
+        "El DUA elimina la necesidad de valorar y documentar ajustes individuales en estudiantes que los requieran."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Ambos enfoques se complementan: acceso general y apoyos particulares.",
+      "distractors": "Por qué no B: El PIAR no equivale a un currículo aislado ni excluyente. Por qué no C: Un diseño universal puede coexistir con barreras particulares no resueltas.",
+      "legalBasis": "Decreto 1421 de 2017, arts. incorporados al Decreto 1075 de 2015 sobre DUA, PIAR y no discriminación."
+    },
+    {
+      "id": 35,
+      "situationId": "09",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "La promoción de la estudiante debe decidirse:",
+      "options": [
+        "Con el mismo examen sin ajustes de todo el grupo porque modificar la evaluación sería una ventaja indebida.",
+        "Con el SIEE y la valoración de avances, teniendo en cuenta ajustes curriculares, trayectoria y apoyos previstos.",
+        "Automáticamente por el hecho de contar con un PIAR diligenciado al inicio del año escolar."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Se requieren criterios de evaluación pertinentes, no igualdad entendida como uniformidad.",
+      "distractors": "Por qué no A: Exigir idéntico formato desconoce ajustes razonables. Por qué no C: El documento PIAR no sustituye la evidencia de aprendizaje.",
+      "legalBasis": "Decreto 1421 de 2017, arts. incorporados al Decreto 1075 de 2015 sobre DUA, PIAR y no discriminación."
+    },
+    {
+      "id": 36,
+      "situationId": "09",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Qué debe hacer el rector ante necesidades de recursos superiores a la capacidad escolar?",
+      "options": [
+        "Negar continuidad hasta recibir docente de apoyo de dedicación exclusiva.",
+        "Recomendar traslado inmediato a una institución segregada por considerar insuficiente la dotación.",
+        "Incorporar ajustes al PMI, desplegar apoyos disponibles y gestionar articulación con la entidad territorial."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La rectoría gestiona barreras y recursos sin suspender derechos.",
+      "distractors": "Por qué no A: La falta de un recurso particular no habilita negar educación. Por qué no B: La segregación automática contradice el enfoque inclusivo.",
+      "legalBasis": "Decreto 1421 de 2017, arts. incorporados al Decreto 1075 de 2015 sobre DUA, PIAR y no discriminación."
+    },
+    {
+      "id": 37,
+      "situationId": "10",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Cuál es la interpretación más rigurosa?",
+      "options": [
+        "Desestimar todo resultado externo porque las variaciones de cobertura impiden cualquier interpretación.",
+        "Reportar la mejora observada con reserva por cambios de cobertura, analizar distribución y trayectorias antes de atribuir éxito a una estrategia.",
+        "Concluir que el plan de calidad elevó el aprendizaje de toda la cohorte porque el promedio aumentó tres puntos."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La variación de cobertura puede sesgar comparación y requiere triangulación.",
+      "distractors": "Por qué no A: Los datos aún son útiles si se interpretan con sus limitaciones. Por qué no C: El promedio no permite inferir impacto en quienes dejaron de participar.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 115 de 1994, art. 80; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 38,
+      "situationId": "10",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "Para mejorar la comparabilidad entre cohortes, conviene:",
+      "options": [
+        "Desagregar por condiciones relevantes y contrastar cobertura, dispersión, permanencia y desempeños internos.",
+        "Comparar únicamente a quienes obtuvieron resultados superiores, excluyendo los desempeños bajos.",
+        "Ajustar manualmente el puntaje de la cohorte más pequeña hasta igualar el número de estudiantes."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Explicita composición y evita sesgos de selección.",
+      "distractors": "Por qué no B: Excluir puntajes bajos distorsiona el desempeño institucional. Por qué no C: Cambiar resultados sin base técnica falsea el análisis.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 115 de 1994, art. 80; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 39,
+      "situationId": "10",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Qué decisión de mejoramiento sería prioritaria?",
+      "options": [
+        "Intensificar la preparación de los mejores estudiantes para sostener el promedio institucional.",
+        "Reducir la presentación de estudiantes con riesgo de bajo resultado para conservar el indicador agregado.",
+        "Indagar causas de la reducción de participantes y diseñar apoyos de permanencia y aprendizaje con evaluación de resultados."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Mejora calidad con equidad, cobertura y aprendizaje.",
+      "distractors": "Por qué no A: Concentrarse en quienes ya destacan puede ampliar brechas. Por qué no B: Excluir estudiantes para mejorar cifras vulnera el propósito educativo.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 115 de 1994, art. 80; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 40,
+      "situationId": "10",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "Un informe confiable a la comunidad debe incluir:",
+      "options": [
+        "Resultados, cobertura, límites de comparabilidad y compromisos verificables de mejora.",
+        "Una conclusión de fracaso general porque algunos estudiantes no presentaron la prueba.",
+        "Una gráfica del promedio ascendente y un mensaje de éxito sin información de participación."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Balancea información favorable y advertencias, con responsabilidad institucional.",
+      "distractors": "Por qué no B: Una sola limitación no justifica negar cualquier resultado positivo. Por qué no C: Omitir cobertura induce una lectura excesivamente optimista.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 115 de 1994, art. 80; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 41,
+      "situationId": "11",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "La decisión inicial más sólida es:",
+      "options": [
+        "Prohibir cualquier herramienta digital hasta demostrar que supera a la enseñanza tradicional en todas las áreas.",
+        "Definir un piloto acotado con objetivos pedagógicos, alternativas de acceso, protección de datos, consentimiento aplicable y evaluación comparativa.",
+        "Adoptar la plataforma para todos los cursos con base en la promesa comercial y evaluar satisfacción al finalizar."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Gestiona innovación como hipótesis pedagógica sometida a evidencias y derechos.",
+      "distractors": "Por qué no A: La prohibición absoluta desconoce la posibilidad de pilotajes responsables. Por qué no C: Una promesa comercial no prueba impacto ni cubre riesgos.",
+      "legalBasis": "Resolución MEN 003842 de 2022, competencias de pedagogía, didáctica e innovación; Decreto 1290 de 2009."
+    },
+    {
+      "id": 42,
+      "situationId": "11",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Qué criterio permitiría evaluar valor educativo real?",
+      "options": [
+        "Número de licencias activas y aceptación de la empresa entre directivos.",
+        "Cantidad de ingresos diarios y tiempo promedio de conexión como único indicador.",
+        "Cambios en aprendizajes relevantes, equidad de participación, carga docente y evidencia de uso frente a metas definidas."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Combina efectividad, equidad y viabilidad de implementación.",
+      "distractors": "Por qué no A: Las licencias son insumos administrativos, no resultados educativos. Por qué no B: Uso intensivo no necesariamente produce aprendizaje.",
+      "legalBasis": "Resolución MEN 003842 de 2022, competencias de pedagogía, didáctica e innovación; Decreto 1290 de 2009."
+    },
+    {
+      "id": 43,
+      "situationId": "11",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Cómo resolver la brecha de conectividad en el piloto?",
+      "options": [
+        "Ofrecer vías equivalentes de participación y monitorear si el acceso modifica los resultados obtenidos.",
+        "Permitir que quienes carecen de acceso pierdan actividades para incentivar la adquisición de dispositivos.",
+        "Aplicar la plataforma solamente a estudiantes conectados y extrapolar resultados a toda la matrícula."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: El diseño de evaluación debe impedir exclusiones y sesgo por acceso.",
+      "distractors": "Por qué no B: Penalizar por recursos económicos vulnera equidad. Por qué no C: Una muestra privilegiada limita generalización.",
+      "legalBasis": "Resolución MEN 003842 de 2022, competencias de pedagogía, didáctica e innovación; Decreto 1290 de 2009."
+    },
+    {
+      "id": 44,
+      "situationId": "11",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "La relación de la innovación con el PEI debe:",
+      "options": [
+        "Subordinar el PEI a las especificaciones del proveedor mientras dure la licencia.",
+        "Ser explicitada en los propósitos de aprendizaje y revisada colegiadamente antes de institucionalizarla.",
+        "Considerarse innecesaria porque la tecnología es solo un soporte operativo sin efecto curricular."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Toda transformación metodológica relevante requiere coherencia institucional.",
+      "distractors": "Por qué no A: Un proveedor no define fines educativos institucionales. Por qué no C: La herramienta puede afectar evaluación, didáctica y participación.",
+      "legalBasis": "Resolución MEN 003842 de 2022, competencias de pedagogía, didáctica e innovación; Decreto 1290 de 2009."
+    },
+    {
+      "id": 45,
+      "situationId": "12",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Cuál debería ser la prioridad académica y administrativa?",
+      "options": [
+        "Suprimir permanentemente las horas artísticas por decisión de coordinación y luego formalizar el cambio curricular.",
+        "Gestionar provisión ante la autoridad competente y una reorganización transitoria motivada que proteja el plan de estudios y la continuidad.",
+        "Trasladar los grupos a actividades libres sin planeación hasta que se produzca el nombramiento."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Combina medidas institucionales temporales y gestión de planta ante quien corresponde.",
+      "distractors": "Por qué no A: El carácter urgente no autoriza modificar de hecho el plan de estudios permanente. Por qué no C: La espera pasiva produce pérdida evitable de aprendizaje.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 8 y 9; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 46,
+      "situationId": "12",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Cómo valorar la propuesta de reducir arte?",
+      "options": [
+        "Aceptarla porque ciencias obtiene mejores ponderaciones en las pruebas externas y por ello debe prevalecer siempre.",
+        "Rechazarla sin revisar las cargas disponibles porque cualquier cambio de horario equivale a reformar el PEI.",
+        "Analizar alternativas con el equipo académico y riesgos formativos antes de aplicar medidas proporcionales y temporales."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La priorización necesita justificación y protección de formación integral.",
+      "distractors": "Por qué no A: Los resultados externos no anulan otras áreas obligatorias. Por qué no B: La reorganización provisional no es necesariamente una reforma curricular.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 8 y 9; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 47,
+      "situationId": "12",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "¿Qué seguimiento al plan transitorio resulta útil?",
+      "options": [
+        "Comparar solo la puntualidad de ingreso al establecimiento durante las cuatro semanas.",
+        "Medir únicamente la cantidad de docentes que aceptó el nuevo horario.",
+        "Registrar horas efectivas, competencias atendidas, estudiantes afectados y medidas de recuperación por área."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Relaciona continuidad efectiva con cobertura curricular y apoyos.",
+      "distractors": "Por qué no A: La puntualidad es relevante pero no mide aprendizajes ni horas cubiertas. Por qué no B: La aceptación docente no prueba atención educativa.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 8 y 9; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 48,
+      "situationId": "12",
+      "competency": "GESTIÓN ACADÉMICA",
+      "text": "Si la entidad territorial tarda en proveer vacantes, el rector debe:",
+      "options": [
+        "Escalar la necesidad con evidencia de afectación y actualizar medidas institucionales dentro de su competencia.",
+        "Mantener inalterado el plan transitorio aun si aumenta la pérdida de clases, para evitar cambios administrativos.",
+        "Nombrar provisionalmente docentes externos con recursos del Fondo de Servicios Educativos sin trámite legal."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Sostiene gestión responsable y límites competenciales.",
+      "distractors": "Por qué no B: Las medidas deben revisarse según su eficacia y el riesgo. Por qué no C: El fondo no puede utilizarse para sustituir nombramientos de planta ordinaria.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 8 y 9; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 49,
+      "situationId": "13",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Qué actuación concilia urgencia y legalidad?",
+      "options": [
+        "Abrir una colecta obligatoria entre familias y comprar directamente por fuera del FSE para evitar procedimientos.",
+        "Pagar un anticipo al proveedor con recursos existentes y tramitar después la adición presupuestal porque la urgencia es pedagógica.",
+        "Asegurar continuidad provisional y adelantar las decisiones presupuestales y contractuales exigibles, con trazabilidad y aprobación del órgano competente cuando proceda."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La urgencia exige celeridad dentro de la legalidad, no ejecución sin soporte.",
+      "distractors": "Por qué no A: Una contribución obligatoria externa sustituye irregularmente deberes y puede afectar derechos. Por qué no B: La necesidad no habilita comprometer apropiaciones sin el procedimiento pertinente.",
+      "legalBasis": "Decreto 4791 de 2008, arts. 3-5 y normas sobre FSE incorporadas en Decreto 1075 de 2015; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 50,
+      "situationId": "13",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "En la gestión del presupuesto del FSE corresponde distinguir:",
+      "options": [
+        "El rector ordena el gasto dentro de sus atribuciones y el Consejo Directivo ejerce funciones de aprobación y seguimiento presupuestal.",
+        "El rector aprueba unilateralmente el presupuesto anual y el Consejo Directivo solo recibe un informe sin facultad de ajuste.",
+        "El Consejo Académico autoriza las compras y el coordinador efectúa los pagos por representar el componente pedagógico."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Identifica la distribución normativa de responsabilidades sin confundir ejecución y aprobación.",
+      "distractors": "Por qué no B: Desconoce la competencia presupuestal del Consejo Directivo. Por qué no C: Los órganos académicos no sustituyen los procedimientos financieros del FSE.",
+      "legalBasis": "Decreto 4791 de 2008, arts. 3-5 y normas sobre FSE incorporadas en Decreto 1075 de 2015; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 51,
+      "situationId": "13",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "Una condición de transparencia particularmente importante es:",
+      "options": [
+        "Confiar en la reputación del proveedor y conservar un comprobante de pago como soporte integral.",
+        "Documentar necesidad, estudios y decisiones pertinentes, ejecución y rendición de cuentas de los recursos públicos.",
+        "Publicar únicamente una fotografía de los equipos adquiridos y la cantidad de beneficiarios."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La trazabilidad cubre el ciclo del recurso y facilita control.",
+      "distractors": "Por qué no A: La reputación comercial no sustituye soportes técnicos y administrativos. Por qué no C: La evidencia de entrega no equivale a cuenta contractual y presupuestal.",
+      "legalBasis": "Decreto 4791 de 2008, arts. 3-5 y normas sobre FSE incorporadas en Decreto 1075 de 2015; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 52,
+      "situationId": "13",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "Sobre las clases de laboratorio afectadas, el rector debe:",
+      "options": [
+        "Suspender indefinidamente toda actividad de ciencias hasta completar la compra de equipos nuevos.",
+        "Acordar alternativas pedagógicas seguras y verificar recuperación de experiencias de aprendizaje mientras se repara la infraestructura.",
+        "Asignar la calificación máxima al curso para compensar la suspensión accidental del laboratorio."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Protege seguridad y aprendizaje mediante soluciones temporales verificables.",
+      "distractors": "Por qué no A: La suspensión completa puede ser innecesaria si existen alternativas pertinentes. Por qué no C: La nota no reemplaza el desarrollo de competencias prácticas.",
+      "legalBasis": "Decreto 4791 de 2008, arts. 3-5 y normas sobre FSE incorporadas en Decreto 1075 de 2015; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 53,
+      "situationId": "14",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "La conducta más apropiada del rector es:",
+      "options": [
+        "Aceptar la oferta por economía porque el valor cabe en el presupuesto y el parentesco no prueba un sobreprecio.",
+        "Solicitar al integrante cuestionado que escoja dos proveedores alternativos y adjudicar al de menor valor sin soportes técnicos.",
+        "Documentar la necesidad, verificar conflictos de interés e impedimentos aplicables y adelantar selección y contratación conforme al régimen pertinente."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La decisión exige gestión preventiva de conflictos y trazabilidad técnica.",
+      "distractors": "Por qué no A: El precio por sí solo no controla riesgos de integridad y pertinencia. Por qué no B: Delegar selección a un posible interesado no corrige el problema ni asegura comparación.",
+      "legalBasis": "Decreto 4791 de 2008; Ley 715 de 2001, arts. 11-14; principios de transparencia y planeación contractual."
+    },
+    {
+      "id": 54,
+      "situationId": "14",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Qué criterio debe prevalecer en la comparación de ofertas?",
+      "options": [
+        "La rapidez de entrega, dado que cualquier solución temprana genera ahorro académico.",
+        "Cumplimiento de especificaciones, costo total, calidad y reglas de contratación aplicables, documentados antes de decidir.",
+        "La recomendación informal de miembros del Consejo Directivo, que conocen las necesidades del colegio."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Una selección pertinente requiere criterios objetivos y definidos.",
+      "distractors": "Por qué no A: La rapidez importa, pero no reemplaza calidad y legalidad. Por qué no C: La opinión informal no sustituye criterios técnicos ni procedimiento.",
+      "legalBasis": "Decreto 4791 de 2008; Ley 715 de 2001, arts. 11-14; principios de transparencia y planeación contractual."
+    },
+    {
+      "id": 55,
+      "situationId": "14",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "Frente al posible conflicto de interés, lo prudente es:",
+      "options": [
+        "Activar los mecanismos de declaración y tratamiento previstos, evitando participación indebida en decisiones comprometidas.",
+        "Mantener reserva absoluta incluso frente a las instancias responsables para proteger la imagen institucional.",
+        "Cancelar automáticamente toda contratación posible con empresas del mismo sector, aun sin relación comprobada."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Gestionar el riesgo con mecanismos establecidos y proporcionalidad.",
+      "distractors": "Por qué no B: Ocultar un conflicto impide el control institucional. Por qué no C: Una prohibición sectorial total carece de correspondencia con el problema concreto.",
+      "legalBasis": "Decreto 4791 de 2008; Ley 715 de 2001, arts. 11-14; principios de transparencia y planeación contractual."
+    },
+    {
+      "id": 56,
+      "situationId": "14",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Cómo rendir cuentas de la decisión?",
+      "options": [
+        "Explicar criterios, procedimiento, costo y resultados de supervisión, con protección de la información que legalmente corresponda reservar.",
+        "Publicar datos personales de todos los oferentes y evaluadores como garantía ilimitada de transparencia.",
+        "Informar únicamente el nombre de la empresa y el costo final, sin soporte de comparación."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La publicidad debe ser suficiente y respetar límites de protección de datos.",
+      "distractors": "Por qué no B: Transparencia no implica divulgar indiscriminadamente información personal. Por qué no C: Dos datos aislados no permiten comprender la justificación.",
+      "legalBasis": "Decreto 4791 de 2008; Ley 715 de 2001, arts. 11-14; principios de transparencia y planeación contractual."
+    },
+    {
+      "id": 57,
+      "situationId": "15",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Cuál enfoque de evaluación es más defensible?",
+      "options": [
+        "Calificar favorablemente para evitar controversias y dejar que el siguiente rector resuelva los problemas.",
+        "Asignar una valoración baja por presión de familias y documentar después el conjunto de incidentes.",
+        "Aplicar el procedimiento y criterios vigentes, sustentar la valoración en evidencias y garantizar retroalimentación y oportunidades de mejora conforme al régimen."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La evaluación debe ser objetiva, documentada y respetuosa de garantías.",
+      "distractors": "Por qué no A: Evitar la evaluación incumple la responsabilidad de mejoramiento institucional. Por qué no B: La presión externa no sustituye instrumentos y evidencias.",
+      "legalBasis": "Decreto Ley 1278 de 2002; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 14 y 15."
+    },
+    {
+      "id": 58,
+      "situationId": "15",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Qué función cumplen las observaciones de clase?",
+      "options": [
+        "Aportar evidencias situadas para analizar práctica pedagógica y formular retroalimentación específica, no emitir juicios automáticos por una visita.",
+        "Demostrar por sí solas la incapacidad profesional permanente del docente ante cualquier dificultad observada.",
+        "Sustituir por completo las demás fuentes de información y la aplicación de criterios establecidos."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Una observación aporta datos contextualizados y requiere contraste.",
+      "distractors": "Por qué no B: Una sesión aislada no justifica conclusiones generales. Por qué no C: La triangulación y el procedimiento no se agotan en una visita.",
+      "legalBasis": "Decreto Ley 1278 de 2002; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 14 y 15."
+    },
+    {
+      "id": 59,
+      "situationId": "15",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "Si el docente controvierte la valoración, corresponde:",
+      "options": [
+        "Responder que toda calificación rectoral es discrecional y, por ello, no admite observaciones.",
+        "Informar los canales y términos del régimen aplicable y garantizar acceso a las evidencias que procedan.",
+        "Reabrir indefinidamente la valoración sin aplicar plazos ni procedimientos para preservar el clima laboral."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: El ejercicio de la autoridad evaluadora está sujeto a reglas y recursos.",
+      "distractors": "Por qué no A: La discrecionalidad no elimina garantías de contradicción. Por qué no C: La ausencia de plazos debilita seguridad jurídica e imparcialidad.",
+      "legalBasis": "Decreto Ley 1278 de 2002; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 14 y 15."
+    },
+    {
+      "id": 60,
+      "situationId": "15",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Qué medida acompaña mejor una evaluación orientada a mejorar?",
+      "options": [
+        "Diseñar compromisos concretos de planeación y evaluación, con apoyo y verificación según indicadores observables.",
+        "Exigir al docente asistir a toda oferta formativa externa, sin identificar necesidades ni resultados esperados.",
+        "Reemplazar la retroalimentación por una circular general sobre excelencia dirigida a toda la planta."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Vincula hallazgos individuales con apoyos y metas verificables.",
+      "distractors": "Por qué no B: La asistencia inespecífica puede no resolver problemas detectados. Por qué no C: Los mensajes generales no reemplazan intervención focalizada.",
+      "legalBasis": "Decreto Ley 1278 de 2002; Decreto 1075 de 2015; Resolución MEN 003842 de 2022, funciones 14 y 15."
+    },
+    {
+      "id": 61,
+      "situationId": "16",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Cuál respuesta corresponde a una rectoría inclusiva?",
+      "options": [
+        "Adoptar ajustes inmediatos factibles para acceso y participación, acordar soluciones pedagógicas y gestionar obras y apoyos con la autoridad competente.",
+        "Concentrar al estudiante indefinidamente en un aula aislada para evitar cualquier desplazamiento.",
+        "Informar que no habrá ajustes hasta recibir la obra mayor aprobada por la entidad territorial."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: No subordina el derecho a participar a la culminación de infraestructura.",
+      "distractors": "Por qué no B: El aislamiento permanente genera nuevas barreras de participación. Por qué no C: Posponer todos los ajustes desconoce alternativas disponibles.",
+      "legalBasis": "Decreto 1421 de 2017; Decreto 4791 de 2008; Ley 1098 de 2006."
+    },
+    {
+      "id": 62,
+      "situationId": "16",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "En la priorización de recursos es preferible:",
+      "options": [
+        "Comprar primero equipos no solicitados porque el presupuesto original preveía dotación, aunque persistan barreras críticas.",
+        "Valorar el riesgo, la eliminación de barreras y el beneficio educativo de cada alternativa, respetando destinación y autorización del gasto.",
+        "Asignar el recurso íntegro a la obra más visible para exhibir una mejora institucional."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Un criterio funcional y legal supera la apariencia o inercia presupuestal.",
+      "distractors": "Por qué no A: Una compra inconexa puede no resolver la barrera existente. Por qué no C: La visibilidad no es criterio suficiente de prioridad.",
+      "legalBasis": "Decreto 1421 de 2017; Decreto 4791 de 2008; Ley 1098 de 2006."
+    },
+    {
+      "id": 63,
+      "situationId": "16",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "La participación de la familia debe:",
+      "options": [
+        "Definir de forma exclusiva las inversiones y eximir al rector de la gestión posterior.",
+        "Reducirse a recibir una comunicación de la decisión final porque la accesibilidad es solo materia técnica.",
+        "Informar la valoración de barreras y apoyos, respetando las competencias institucionales y los acuerdos documentados."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La corresponsabilidad incluye escucha sin transferencia impropia de atribuciones.",
+      "distractors": "Por qué no A: La familia no asume competencias presupuestales del establecimiento. Por qué no B: La participación es relevante en la pertinencia y seguimiento de los ajustes.",
+      "legalBasis": "Decreto 1421 de 2017; Decreto 4791 de 2008; Ley 1098 de 2006."
+    },
+    {
+      "id": 64,
+      "situationId": "16",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Cuál es la mejor evidencia de mejora?",
+      "options": [
+        "Comprobar acceso seguro a espacios, participación efectiva y aprendizajes, junto con ejecución física de ajustes.",
+        "Registrar únicamente fotografías del nuevo acceso y las facturas de materiales.",
+        "Contabilizar la asistencia del estudiante sin observar participación ni posibilidades de movilidad."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Mide eliminación real de barreras y trayectoria educativa.",
+      "distractors": "Por qué no B: La obra entregada no demuestra por sí sola accesibilidad funcional. Por qué no C: Presencia física no equivale a participación significativa.",
+      "legalBasis": "Decreto 1421 de 2017; Decreto 4791 de 2008; Ley 1098 de 2006."
+    },
+    {
+      "id": 65,
+      "situationId": "17",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Qué respuesta es más adecuada a la solicitud?",
+      "options": [
+        "Entregar información estadística pertinente y, cuando corresponda, anonimizada o agregada, evitando revelar datos personales sensibles de menores.",
+        "Negar toda información, incluso indicadores agregados, porque involucra población estudiantil.",
+        "Publicar la base íntegra por ser información producida por una institución pública."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La transparencia coexiste con la protección reforzada de datos de menores.",
+      "distractors": "Por qué no B: El deber de reserva no prohíbe estadísticas adecuadamente tratadas. Por qué no C: La condición pública de la entidad no convierte todo dato personal en abierto.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006; Decreto 1965 de 2013, art. 35."
+    },
+    {
+      "id": 66,
+      "situationId": "17",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Cuál riesgo es mayor al divulgar descripciones individuales?",
+      "options": [
+        "La posibilidad de que la Secretaría solicite indicadores adicionales después de la publicación.",
+        "La pérdida de precisión estadística que se produciría al publicar los casos de manera agregada.",
+        "La reidentificación y revictimización de estudiantes aun cuando se eliminen sus nombres pero permanezcan detalles suficientes."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Los identificadores indirectos pueden revelar identidades y hechos sensibles.",
+      "distractors": "Por qué no A: La solicitud de nuevos indicadores no es el riesgo principal. Por qué no B: La agregación puede preservar utilidad sin exponer intimidad.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006; Decreto 1965 de 2013, art. 35."
+    },
+    {
+      "id": 67,
+      "situationId": "17",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "Para fortalecer la calidad del reporte, conviene:",
+      "options": [
+        "Eliminar del reporte todos los casos con información incompleta y no informar esa exclusión.",
+        "Sumar todas las fichas sin verificar si un mismo estudiante figura varias veces en un período.",
+        "Definir indicadores consistentes, verificar duplicidades y criterios de clasificación, y registrar limitaciones antes de difundir cifras."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La calidad de datos requiere reglas de conteo transparentes.",
+      "distractors": "Por qué no A: Las exclusiones silenciosas producen sesgos. Por qué no B: La suma de registros puede sobrestimar estudiantes o eventos.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006; Decreto 1965 de 2013, art. 35."
+    },
+    {
+      "id": 68,
+      "situationId": "17",
+      "competency": "GESTIÓN ADMINISTRATIVA",
+      "text": "¿Qué decisión institucional es más preventiva a futuro?",
+      "options": [
+        "Concentrar todos los archivos en una carpeta digital compartida con toda la planta docente.",
+        "Prohibir cualquier registro de convivencia para evitar riesgos de filtración.",
+        "Adoptar protocolos de acceso, minimización, custodia y reporte de datos para fines legítimos y responsables definidos."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La protección de datos depende de gobernanza, no de difusión irrestricta o ausencia de registros.",
+      "distractors": "Por qué no A: El acceso generalizado incrementa exposición innecesaria. Por qué no B: Registrar y seguir casos es una obligación institucional bajo protección adecuada.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006; Decreto 1965 de 2013, art. 35."
+    },
+    {
+      "id": 69,
+      "situationId": "18",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "La respuesta inicial más adecuada del rector es:",
+      "options": [
+        "Convocar una conciliación pública entre estudiante afectada y presuntos agresores antes de tomar medidas de protección.",
+        "Garantizar protección, documentar y clasificar la situación, activar el protocolo aplicable y articular atención y seguimiento con reserva.",
+        "Aplicar expulsión inmediata a todo el grupo señalado para demostrar una política de tolerancia cero."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La ruta exige clasificación, proporcionalidad, protección y seguimiento.",
+      "distractors": "Por qué no A: La exposición pública puede revictimizar y no sustituye medidas iniciales. Por qué no C: Una expulsión colectiva sin debido proceso es desproporcionada.",
+      "legalBasis": "Ley 1620 de 2013, arts. 29-31; Decreto 1965 de 2013, arts. 35 y 40-44; Ley 1098 de 2006."
+    },
+    {
+      "id": 70,
+      "situationId": "18",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "La característica que distingue un conflicto aislado de presunto acoso escolar es:",
+      "options": [
+        "La conducta repetida y sistemática de intimidación, junto con sus condiciones de poder y afectación, evaluadas con evidencias.",
+        "La publicación de cualquier mensaje desagradable, que por sí misma obliga a calificarlo como delito.",
+        "La existencia de una queja de un adulto, incluso si los hechos son un desacuerdo único sin hostigamiento."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La tipificación requiere analizar naturaleza, repetición y contexto de las conductas.",
+      "distractors": "Por qué no B: No toda conducta digital ofensiva configura delito ni se clasifica igual. Por qué no C: Una queja no determina automáticamente la categoría del caso.",
+      "legalBasis": "Ley 1620 de 2013, arts. 29-31; Decreto 1965 de 2013, arts. 35 y 40-44; Ley 1098 de 2006."
+    },
+    {
+      "id": 71,
+      "situationId": "18",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "Respecto del acuerdo restaurativo propuesto, corresponde:",
+      "options": [
+        "Descartarlo para todos los casos de convivencia, incluso cuando procedan medidas pedagógicas restaurativas.",
+        "Valorar su pertinencia solo después de garantizar seguridad, voluntariedad, no revictimización y condiciones del protocolo.",
+        "Realizarlo frente a todo el curso porque la publicidad inhibe que los hechos se repitan."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La reparación puede ser útil, pero no debe forzar exposición ni desplazar protección.",
+      "distractors": "Por qué no A: Una prohibición absoluta desconoce alternativas formativas cuando son apropiadas. Por qué no C: La publicidad lesiona reserva y puede intensificar asimetrías.",
+      "legalBasis": "Ley 1620 de 2013, arts. 29-31; Decreto 1965 de 2013, arts. 35 y 40-44; Ley 1098 de 2006."
+    },
+    {
+      "id": 72,
+      "situationId": "18",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Cuál seguimiento aporta evidencia de eficacia?",
+      "options": [
+        "Verificar cese del hostigamiento, bienestar de la estudiante, cumplimiento de compromisos y ausencia de represalias.",
+        "Medir únicamente el número de sanciones aplicadas a los señalados.",
+        "Contabilizar las firmas de un acta y declarar terminado el caso a la semana siguiente."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: El seguimiento examina protección real, no solo actos administrativos.",
+      "distractors": "Por qué no B: Las sanciones no aseguran recuperación ni ausencia de nuevas agresiones. Por qué no C: Una firma no prueba que el riesgo haya desaparecido.",
+      "legalBasis": "Ley 1620 de 2013, arts. 29-31; Decreto 1965 de 2013, arts. 35 y 40-44; Ley 1098 de 2006."
+    },
+    {
+      "id": 73,
+      "situationId": "19",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "La actuación prioritaria debe ser:",
+      "options": [
+        "Entrevistar repetidamente a la adolescente y confrontarla con el señalado antes de reportar, para precisar contradicciones.",
+        "Proteger a la estudiante, activar de inmediato la ruta y las autoridades competentes según la gravedad, evitar revictimización y preservar información.",
+        "Esperar a que la familia presente una denuncia escrita y entonces activar el protocolo institucional."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La institución no sustituye la investigación penal y debe actuar ante el riesgo.",
+      "distractors": "Por qué no A: La confrontación y repetición innecesaria pueden revictimizar y exceden competencias. Por qué no C: La protección no puede condicionarse a una denuncia familiar formal.",
+      "legalBasis": "Ley 1620 de 2013; Decreto 1965 de 2013, situaciones tipo III y protocolos; Ley 1098 de 2006, arts. 43-44."
+    },
+    {
+      "id": 74,
+      "situationId": "19",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Cuál es el alcance correcto del deber de reserva?",
+      "options": [
+        "Informar en asamblea a toda la comunidad para prevenir rumores y promover denuncias.",
+        "Limitar el conocimiento a quienes requieren intervenir para proteger y reportar, sin ocultar el caso a las autoridades competentes.",
+        "Mantener secreto absoluto porque la estudiante pidió que nadie conozca los hechos."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La confidencialidad protege intimidad, pero no impide reportes obligatorios.",
+      "distractors": "Por qué no A: La difusión general expone a la estudiante y compromete garantías. Por qué no C: El secreto absoluto puede dejar a la víctima sin protección.",
+      "legalBasis": "Ley 1620 de 2013; Decreto 1965 de 2013, situaciones tipo III y protocolos; Ley 1098 de 2006, arts. 43-44."
+    },
+    {
+      "id": 75,
+      "situationId": "19",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "Sobre el adulto señalado, el rector debe:",
+      "options": [
+        "Mantener todas sus actividades intactas hasta que exista sentencia judicial, aunque persista riesgo prevenible.",
+        "Declararlo culpable públicamente y expedir una sanción definitiva al margen del régimen que lo vincule.",
+        "Activar medidas de prevención de contacto dentro de sus competencias y coordinar con la entidad y autoridades pertinentes sin prejuzgar."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Combina prevención y garantías, con atribuciones institucionales limitadas.",
+      "distractors": "Por qué no A: La protección requiere respuesta proporcional antes de una sentencia. Por qué no B: La culpabilidad y sanción exigen procedimientos y competencias.",
+      "legalBasis": "Ley 1620 de 2013; Decreto 1965 de 2013, situaciones tipo III y protocolos; Ley 1098 de 2006, arts. 43-44."
+    },
+    {
+      "id": 76,
+      "situationId": "19",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Qué pregunta ayuda a escoger la ruta frente al caso?",
+      "options": [
+        "Si el evento afectó la imagen institucional en redes sociales durante la semana.",
+        "Si la mayoría del curso considera creíble a la adolescente después de conocer su identidad.",
+        "Si los hechos narrados podrían corresponder a una conducta presuntamente delictiva y requieren atención externa inmediata."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La posible naturaleza penal determina medidas y remisiones del protocolo.",
+      "distractors": "Por qué no A: La reputación institucional no reemplaza protección de derechos. Por qué no B: La credibilidad no se decide por votación de pares.",
+      "legalBasis": "Ley 1620 de 2013; Decreto 1965 de 2013, situaciones tipo III y protocolos; Ley 1098 de 2006, arts. 43-44."
+    },
+    {
+      "id": 77,
+      "situationId": "20",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "La estrategia más pertinente es:",
+      "options": [
+        "Publicar las listas nominales porque la presión social probablemente eleve la asistencia.",
+        "Programar reuniones obligatorias en un único horario y atribuir la inasistencia a desinterés parental.",
+        "Diseñar acciones focalizadas con diagnóstico de causas, coordinación territorial, canales flexibles con familias y protección de información estudiantil."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Responde a determinantes concretos y fomenta corresponsabilidad sin estigma.",
+      "distractors": "Por qué no A: La exposición de datos puede vulnerar derechos y agravar barreras. Por qué no B: Una medida uniforme desconoce restricciones sociales y laborales.",
+      "legalBasis": "Ley 115 de 1994, gobierno escolar; Decreto 1075 de 2015; Ley 1620 de 2013."
+    },
+    {
+      "id": 78,
+      "situationId": "20",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Qué participación de padres es más coherente con el gobierno escolar?",
+      "options": [
+        "Conceder a la asociación de padres autoridad para modificar unilateralmente las jornadas escolares.",
+        "Recoger propuestas mediante sus representantes y espacios previstos, documentando acuerdos y responsabilidades compatibles con las normas.",
+        "Excluir a familias de la planeación porque el rector conserva la dirección institucional."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La participación no sustituye la autoridad reglada, pero mejora decisiones.",
+      "distractors": "Por qué no A: Una organización familiar no puede redefinir competencias por sí sola. Por qué no C: La conducción directiva requiere interlocución comunitaria.",
+      "legalBasis": "Ley 115 de 1994, gobierno escolar; Decreto 1075 de 2015; Ley 1620 de 2013."
+    },
+    {
+      "id": 79,
+      "situationId": "20",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Cómo medir éxito del plan sin sesgo?",
+      "options": [
+        "Medir solo el número de mensajes enviados por la asociación de padres.",
+        "Comparar tasas de asistencia y permanencia por grupos y períodos, distinguiendo cambios de matrícula y causas de ausencia.",
+        "Publicar la tasa general final sin contrastar la población de partida ni diferencias territoriales."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Requiere indicadores de resultado con desagregación y consistencia de denominadores.",
+      "distractors": "Por qué no A: La actividad comunicativa no demuestra asistencia efectiva. Por qué no C: La tasa agregada puede ocultar variaciones por matrícula o barreras.",
+      "legalBasis": "Ley 115 de 1994, gobierno escolar; Decreto 1075 de 2015; Ley 1620 de 2013."
+    },
+    {
+      "id": 80,
+      "situationId": "20",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "Ante las limitaciones de horario de docentes y familias, conviene:",
+      "options": [
+        "Concertar mecanismos variados y viables de comunicación, sin imponer cargas ilegítimas ni excluir a quienes trabajan.",
+        "Suspender la participación familiar hasta que puedan asistir al horario único establecido.",
+        "Exigir disponibilidad presencial semanal de todas las familias bajo amenaza de afectar notas."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La flexibilidad es compatible con organización del servicio y corresponsabilidad.",
+      "distractors": "Por qué no B: El horario único puede bloquear participación relevante. Por qué no C: Las calificaciones no deben utilizarse como sanción a familias.",
+      "legalBasis": "Ley 115 de 1994, gobierno escolar; Decreto 1075 de 2015; Ley 1620 de 2013."
+    },
+    {
+      "id": 81,
+      "situationId": "21",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Cuál intervención inicial es más apropiada?",
+      "options": [
+        "Archivar el caso si el docente afirma que carecía de intención de ofender, sin escuchar al estudiante.",
+        "Proteger al estudiante, escuchar versiones con reserva, documentar hechos y activar las medidas pedagógicas o rutas pertinentes según su valoración.",
+        "Publicar la denuncia con nombres y solicitar que la comunidad decida si el docente actuó con discriminación."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Atiende impacto, garantías y valoración objetiva de la conducta.",
+      "distractors": "Por qué no A: La ausencia alegada de intención no elimina la necesidad de examinar efectos. Por qué no C: La votación pública carece de procedimiento y expone a las partes.",
+      "legalBasis": "Ley 1098 de 2006, arts. 43-44; Ley 1620 de 2013; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 82,
+      "situationId": "21",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Qué decisión pedagógica puede prevenir nuevas situaciones?",
+      "options": [
+        "Separar por procedencia a los estudiantes durante ejercicios de lectura.",
+        "Promover prácticas de evaluación y retroalimentación respetuosas de la diversidad lingüística, con seguimiento de aula.",
+        "Prohibir toda corrección oral para evitar que estudiantes se sientan expuestos."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La protección de la dignidad es compatible con retroalimentación formativa.",
+      "distractors": "Por qué no A: La segregación por procedencia refuerza estereotipos. Por qué no C: Eliminar toda corrección perjudica el aprendizaje.",
+      "legalBasis": "Ley 1098 de 2006, arts. 43-44; Ley 1620 de 2013; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 83,
+      "situationId": "21",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "Si hay evidencias de una conducta que requiere trámite adicional, el rector debe:",
+      "options": [
+        "Emitir una sanción de destitución por comunicado rectoral sin aplicar régimen ni procedimiento.",
+        "Condicionar el estudio del caso a que el estudiante acepte disculpas públicas.",
+        "Usar los canales institucionales y autoridades competentes, diferenciando apoyo pedagógico de eventuales responsabilidades."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La gestión directiva no confunde reparación, investigación y sanción.",
+      "distractors": "Por qué no A: La sanción exige competencia y debido proceso. Por qué no B: La aceptación de disculpas no puede condicionar deberes de atención.",
+      "legalBasis": "Ley 1098 de 2006, arts. 43-44; Ley 1620 de 2013; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 84,
+      "situationId": "22",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "¿Qué estrategia integra mejor la respuesta institucional?",
+      "options": [
+        "Focalizar riesgo con datos, acompañamiento escolar y acuerdos formales con actores territoriales, evaluando permanencia y aprendizaje.",
+        "Encargar a la ONG toda la responsabilidad de buscar estudiantes mientras la institución mantiene intactas sus prácticas.",
+        "Solicitar a cada familia que garantice asistencia sin revisar factores escolares o territoriales."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La prevención de deserción requiere corresponsabilidad y medidas escolares propias.",
+      "distractors": "Por qué no B: La ONG es apoyo, no reemplazo de funciones institucionales. Por qué no C: La obligación familiar no agota las barreras estructurales observadas.",
+      "legalBasis": "Resolución MEN 003842 de 2022, gestión comunitaria; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 85,
+      "situationId": "22",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "La pertinencia curricular podría fortalecerse mediante:",
+      "options": [
+        "Concentrar a estudiantes en riesgo exclusivamente en actividades recreativas ajenas a su trayectoria académica.",
+        "Reemplazar las áreas con menor asistencia por talleres libres sin objetivos curriculares.",
+        "Proyectos de aprendizaje contextualizados y participación estudiantil, con conservación de competencias y propósitos del plan de estudios."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La flexibilidad contextual preserva derecho a aprendizajes de calidad.",
+      "distractors": "Por qué no A: Las actividades de bienestar necesitan articulación educativa. Por qué no B: La sustitución improvisada reduce el contenido formativo.",
+      "legalBasis": "Resolución MEN 003842 de 2022, gestión comunitaria; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 86,
+      "situationId": "22",
+      "competency": "GESTIÓN COMUNITARIA",
+      "text": "Un acuerdo efectivo con aliados debería definir:",
+      "options": [
+        "Responsables, recursos, alcance, protección de estudiantes e indicadores de seguimiento antes de anunciar resultados.",
+        "Una fotografía del lanzamiento y una intención genérica de cooperar, sin metas ni obligaciones identificables.",
+        "La transferencia completa de datos personales de estudiantes a todas las entidades invitadas."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La cooperación seria requiere trazabilidad y manejo legítimo de información.",
+      "distractors": "Por qué no B: La publicidad del compromiso no equivale a ejecución. Por qué no C: Compartir datos debe obedecer finalidades y autorizaciones pertinentes.",
+      "legalBasis": "Resolución MEN 003842 de 2022, gestión comunitaria; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 87,
+      "situationId": "23",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Cuál respuesta muestra mejor criterio directivo?",
+      "options": [
+        "Permitir toda exhibición solicitada porque podría facilitar apoyos materiales futuros para el colegio.",
+        "Excluir de por vida a todas las autoridades locales de actividades institucionales.",
+        "Agradecer la cooperación institucional y delimitar una participación compatible con neutralidad, finalidad educativa y reglas aplicables."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Protege la función educativa sin romper vínculos legítimos.",
+      "distractors": "Por qué no A: Un beneficio eventual no justifica uso indebido del escenario escolar. Por qué no B: La exclusión absoluta impide relaciones interinstitucionales válidas.",
+      "legalBasis": "Resolución MEN 003842 de 2022, liderazgo, ética y comunicación; Ley 115 de 1994."
+    },
+    {
+      "id": 88,
+      "situationId": "23",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "En una conversación difícil, conviene:",
+      "options": [
+        "Exponer criterios institucionales y ofrecer alternativas objetivas, registrando los acuerdos y sin personalizar el desacuerdo.",
+        "Aceptar verbalmente la campaña y después incumplir para evitar confrontación inicial.",
+        "Acusar públicamente a la autoridad de tener intenciones indebidas sin escuchar su propuesta."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La comunicación ética combina límites, claridad y trato respetuoso.",
+      "distractors": "Por qué no B: Prometer algo que no se cumplirá reduce confianza institucional. Por qué no C: La imputación de intenciones sin evidencia escala el conflicto.",
+      "legalBasis": "Resolución MEN 003842 de 2022, liderazgo, ética y comunicación; Ley 115 de 1994."
+    },
+    {
+      "id": 89,
+      "situationId": "23",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Qué principio orienta mejor la decisión ante promesas de apoyo?",
+      "options": [
+        "La reciprocidad obliga a ceder espacios formativos a quien facilite recursos.",
+        "La finalidad pública de la educación y la imparcialidad prevalecen sobre ventajas materiales contingentes.",
+        "La conveniencia política debe decidirse por encuesta informal entre docentes."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Los apoyos no alteran el marco de responsabilidades y neutralidad.",
+      "distractors": "Por qué no A: La contraprestación personal por recursos compromete integridad. Por qué no C: Una encuesta no sustituye deberes institucionales.",
+      "legalBasis": "Resolución MEN 003842 de 2022, liderazgo, ética y comunicación; Ley 115 de 1994."
+    },
+    {
+      "id": 90,
+      "situationId": "24",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Qué intervención representa liderazgo más sólido?",
+      "options": [
+        "Permitir que cada coordinador dicte instrucciones distintas a sus áreas sin articulación institucional.",
+        "Dar la razón al coordinador con mayor antigüedad para cerrar con rapidez la controversia.",
+        "Establecer criterios comunes orientados al aprendizaje, escuchar evidencias, asignar responsabilidades y pilotar un protocolo de acompañamiento."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Transforma conflicto personal en decisión técnica compartida.",
+      "distractors": "Por qué no A: La autonomía descoordinada perpetúa contradicciones. Por qué no B: La antigüedad no determina pertinencia de una propuesta.",
+      "legalBasis": "Resolución MEN 003842 de 2022, liderazgo, trabajo en equipo, negociación y mediación."
+    },
+    {
+      "id": 91,
+      "situationId": "24",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Cómo resolver la tensión entre estandarización y flexibilidad?",
+      "options": [
+        "Definir mínimos comunes de calidad y espacios de adaptación por área, con seguimiento y revisión de efectos.",
+        "Renunciar a todo estándar porque la diversidad de prácticas impide comparar avances.",
+        "Aplicar una plantilla idéntica de clase, desempeño y evaluación a todas las asignaturas."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Combina consistencia institucional y juicio pedagógico contextual.",
+      "distractors": "Por qué no B: Sin acuerdos mínimos se dificulta el seguimiento. Por qué no C: La uniformidad rígida desconoce diferencias disciplinares.",
+      "legalBasis": "Resolución MEN 003842 de 2022, liderazgo, trabajo en equipo, negociación y mediación."
+    },
+    {
+      "id": 92,
+      "situationId": "24",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "La señal de una mediación efectiva será:",
+      "options": [
+        "Que disminuyan instrucciones contradictorias y aparezcan acuerdos observables y seguimiento a su aplicación.",
+        "Que todos manifiesten conformidad inmediata con el rector sin revisar prácticas posteriores.",
+        "Que uno de los coordinadores guarde silencio en las reuniones aunque mantenga instrucciones diferentes."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La eficacia se evidencia en conductas y resultados sostenidos.",
+      "distractors": "Por qué no B: La satisfacción declarada no prueba implementación. Por qué no C: La ausencia aparente de discusión puede encubrir el conflicto.",
+      "legalBasis": "Resolución MEN 003842 de 2022, liderazgo, trabajo en equipo, negociación y mediación."
+    },
+    {
+      "id": 93,
+      "situationId": "25",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Cuál es la respuesta institucional más adecuada?",
+      "options": [
+        "Esperar una petición de aclaración porque corregir voluntariamente puede afectar la imagen institucional.",
+        "Verificar el alcance, corregir formalmente la información ante quien corresponda y documentar acciones preventivas.",
+        "Divulgar cifras nuevas sin revisar bases para demostrar diligencia inmediata."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La integridad requiere precisión y corrección oportuna, no ocultamiento ni precipitación.",
+      "distractors": "Por qué no A: El temor reputacional no justifica dejar un error conocido. Por qué no C: Corregir sin validar puede producir nuevas inconsistencias.",
+      "legalBasis": "Resolución MEN 003842 de 2022, ética, compromiso institucional y orientación al logro."
+    },
+    {
+      "id": 94,
+      "situationId": "25",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Qué práctica reduce reincidencia?",
+      "options": [
+        "Crear verificación cruzada de fuentes y responsable de control antes de remitir indicadores institucionales.",
+        "Hacer que una sola persona prepare y apruebe todos los informes sin auditoría interna.",
+        "Disminuir el número de indicadores para evitar cualquier error, incluso si son necesarios."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Un control proporcionado mejora fiabilidad y responsabilidad.",
+      "distractors": "Por qué no B: Ausencia de segunda revisión concentra riesgo. Por qué no C: Eliminar información necesaria no equivale a control de calidad.",
+      "legalBasis": "Resolución MEN 003842 de 2022, ética, compromiso institucional y orientación al logro."
+    },
+    {
+      "id": 95,
+      "situationId": "25",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Cómo comunicar al equipo la rectificación?",
+      "options": [
+        "Guardar silencio interno porque la aclaración se envió exclusivamente a la Secretaría.",
+        "Señalar en reunión general a quien digitó el reporte como único responsable, antes del análisis.",
+        "Explicar el dato errado, la corrección y el nuevo control sin buscar culpables antes de conocer las causas."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Favorece aprendizaje organizacional y responsabilidad sin atribución precipitada.",
+      "distractors": "Por qué no A: El equipo necesita comprender controles y mejoras. Por qué no B: La culpabilización temprana desalienta reporte de errores.",
+      "legalBasis": "Resolución MEN 003842 de 2022, ética, compromiso institucional y orientación al logro."
+    },
+    {
+      "id": 96,
+      "situationId": "26",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Qué respuesta equilibra precaución y evidencia?",
+      "options": [
+        "Anunciar que existe intoxicación masiva comprobada antes de contar con valoración sanitaria.",
+        "Aplicar medidas preventivas proporcionadas, verificar trazabilidad y activar comunicación y autoridades pertinentes según el riesgo.",
+        "Continuar sin ninguna verificación porque el operador sostiene que sus controles son adecuados."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La incertidumbre exige gestión proporcional del riesgo y comprobación de hechos.",
+      "distractors": "Por qué no A: La afirmación categórica sin soporte genera desinformación. Por qué no C: La declaración del operador no reemplaza revisión independiente.",
+      "legalBasis": "Resolución MEN 003842 de 2022, planeación, liderazgo, ética e iniciativa."
+    },
+    {
+      "id": 97,
+      "situationId": "26",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Qué comunicación es más apropiada?",
+      "options": [
+        "Informar lo conocido, lo aún no establecido, las medidas de protección y la vía de actualización oficial.",
+        "Publicar las fotografías sin contexto y pedir a familias decidir individualmente la inocuidad de alimentos.",
+        "Negar cualquier comunicación hasta disponer de resultado definitivo de laboratorio."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La comunicación de riesgo distingue certeza e incertidumbre.",
+      "distractors": "Por qué no B: La difusión sin verificación puede incrementar rumores. Por qué no C: La reserva absoluta impide orientar a la comunidad durante la atención.",
+      "legalBasis": "Resolución MEN 003842 de 2022, planeación, liderazgo, ética e iniciativa."
+    },
+    {
+      "id": 98,
+      "situationId": "26",
+      "competency": "COMPETENCIAS BLANDAS",
+      "text": "¿Qué evidencia permitiría decidir mejor el siguiente paso?",
+      "options": [
+        "Cantidad de familias que tienen confianza en la reputación del operador.",
+        "Registros de lote, cadena de suministro, síntomas reportados y valoración competente en salud pública.",
+        "Número de reacciones a la publicación inicial en redes sociales."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Los datos pertinentes permiten evaluar causalidad y medidas sanitarias.",
+      "distractors": "Por qué no A: La reputación no sustituye evidencia técnica. Por qué no C: La viralidad no mide inocuidad.",
+      "legalBasis": "Resolución MEN 003842 de 2022, planeación, liderazgo, ética e iniciativa."
+    },
+    {
+      "id": 99,
+      "situationId": "27",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Qué afirmación es válida a partir del fragmento?",
+      "options": [
+        "El crecimiento de matrícula demuestra por sí mismo que ninguna familia abandonó la institución en el segundo año.",
+        "La estrategia redujo significativamente el ausentismo porque más estudiantes permanecieron fuera del grupo de riesgo en términos absolutos.",
+        "La matrícula creció, pero la proporción con inasistencia alta aumentó ligeramente, de modo que no se demuestra mejoría en ese indicador."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La comparación de proporciones impide confundir mayor tamaño de matrícula con mejora de asistencia.",
+      "distractors": "Por qué no A: La matrícula al cierre no informa por sí sola sobre traslados o deserción. Por qué no B: El aumento absoluto de estudiantes sin alta inasistencia no implica descenso porcentual del problema.",
+      "legalBasis": "Análisis de texto aportado en el caso; Resolución MEN 003842 de 2022, lectura crítica."
+    },
+    {
+      "id": 100,
+      "situationId": "27",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Cuál es el principal problema de la conclusión del informe?",
+      "options": [
+        "Atribuye éxito y recomienda expansión sin evidencias suficientes de eficacia ni control de cambios de composición.",
+        "Utiliza proporciones para comparar poblaciones de distinto tamaño, lo que siempre es matemáticamente incorrecto.",
+        "Presenta un valor porcentual aproximado en lugar de todos los decimales posibles."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: El defecto es inferencial: pasar de crecimiento de matrícula a efectividad no demostrada.",
+      "distractors": "Por qué no B: Las proporciones son apropiadas para comparar tamaños diferentes si se interpretan bien. Por qué no C: El redondeo razonable no determina la validez causal.",
+      "legalBasis": "Análisis de texto aportado en el caso; Resolución MEN 003842 de 2022, lectura crítica."
+    },
+    {
+      "id": 101,
+      "situationId": "27",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Cuál dato adicional fortalecería más la evaluación?",
+      "options": [
+        "Trayectorias individuales de asistencia y permanencia por sede, con causas de ausencia y exposición a la estrategia.",
+        "Número de afiches impresos para la campaña de asistencia durante el segundo año.",
+        "Una encuesta breve que pregunte solo si las familias conocen el nombre de la estrategia."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La información longitudinal y contextual permite evaluar cambios sustantivos.",
+      "distractors": "Por qué no B: Los afiches son insumos de comunicación, no evidencia de asistencia. Por qué no C: El conocimiento de la campaña es insuficiente para medir efectos.",
+      "legalBasis": "Análisis de texto aportado en el caso; Resolución MEN 003842 de 2022, lectura crítica."
+    },
+    {
+      "id": 102,
+      "situationId": "28",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Cuál lectura recoge mejor el alcance de la excepción?",
+      "options": [
+        "Autoriza medidas provisionales cuando existe riesgo inminente, con documentación y revisión posterior.",
+        "Permite omitir los procedimientos ordinarios de manera estable si el responsable menciona prevención.",
+        "Exige completar todos los trámites ordinarios antes de actuar incluso ante riesgo inmediato."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La excepción está condicionada por urgencia, temporalidad y control posterior.",
+      "distractors": "Por qué no B: La referencia genérica a prevención no equivale a riesgo inminente. Por qué no C: El texto prevé expresamente actuación inmediata ante urgencias.",
+      "legalBasis": "Comprensión inferencial de disposición hipotética; distinción entre alcance y excepción."
+    },
+    {
+      "id": 103,
+      "situationId": "28",
+      "competency": "LECTURA CRÍTICA",
+      "text": "El argumento de la coordinadora incurre principalmente en:",
+      "options": [
+        "Distinguir actuación ordinaria de extraordinaria a partir del contexto de riesgo.",
+        "Extender una excepción específica a una regla general sin atender sus condiciones.",
+        "Interpretar la palabra «podrán» como una obligación universal en vez de una autorización condicionada."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Generaliza indebidamente desde un supuesto excepcional.",
+      "distractors": "Por qué no A: Reconocer la distinción contextual sería una lectura correcta. Por qué no C: El error principal no es confundir facultad con deber sino ignorar límites.",
+      "legalBasis": "Comprensión inferencial de disposición hipotética; distinción entre alcance y excepción."
+    },
+    {
+      "id": 104,
+      "situationId": "28",
+      "competency": "LECTURA CRÍTICA",
+      "text": "Si la situación ya no es urgente, una decisión coherente sería:",
+      "options": [
+        "Anular retroactivamente toda medida de protección tomada durante la urgencia.",
+        "Revisar la medida provisional y tramitar lo que corresponda para mantener, adaptar o terminar sus efectos.",
+        "Mantener indefinidamente las condiciones provisionales porque fueron razonables al inicio."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La temporalidad obliga a revisar sin desconocer que la respuesta inicial pudo estar justificada.",
+      "distractors": "Por qué no A: Actuar por urgencia no implica nulidad automática posterior. Por qué no C: La justificación inicial no basta para sostener indefinidamente una excepción.",
+      "legalBasis": "Comprensión inferencial de disposición hipotética; distinción entre alcance y excepción."
+    },
+    {
+      "id": 105,
+      "situationId": "29",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Cuál crítica al argumento está mejor sustentada?",
+      "options": [
+        "La diferencia entre 92 % y 78 % es de catorce puntos porcentuales y por eso el argumento causal es correcto.",
+        "Las tutorías no pudieron tener ningún efecto porque los grupos no se formaron aleatoriamente.",
+        "La diferencia observada no identifica por sí sola el efecto causal porque los grupos diferían antes de las tutorías."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Diferencia descriptiva y causalidad requieren controles de composición inicial.",
+      "distractors": "Por qué no A: El cálculo de diferencia es correcto; la inferencia causal no queda sustentada. Por qué no B: La ausencia de aleatorización dificulta inferencia, pero no prueba efecto nulo.",
+      "legalBasis": "Lectura crítica e inferencia causal; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 106,
+      "situationId": "29",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Qué evidencia ayudaría más a estimar el efecto del programa?",
+      "options": [
+        "Comparaciones de progreso desde línea de base entre grupos similares, con control de asistencia y desempeño inicial.",
+        "Una encuesta que pregunte únicamente si los docentes consideran agradable el programa.",
+        "El número de horas totales de tutoría, sin datos de aprendizaje previo o posterior."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Controlar diferencias iniciales mejora la interpretación de cambios atribuibles.",
+      "distractors": "Por qué no B: La aceptación docente aporta contexto, no identificación del efecto. Por qué no C: Horas invertidas no equivalen al impacto causal.",
+      "legalBasis": "Lectura crítica e inferencia causal; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 107,
+      "situationId": "29",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Cuál conclusión resulta admisible con los datos actuales?",
+      "options": [
+        "Se observa una asociación positiva entre tutorías y aprobación, pero el efecto atribuible permanece incierto.",
+        "La asociación carece de todo valor informativo porque no permite causalidad definitiva.",
+        "El programa garantiza elevar catorce puntos porcentuales la aprobación en cualquier sede."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Reconoce un patrón útil sin exagerar su fuerza causal.",
+      "distractors": "Por qué no B: Una asociación bien descrita puede orientar futuras evaluaciones. Por qué no C: Generalizar un efecto fijo desconoce confusores y contexto.",
+      "legalBasis": "Lectura crítica e inferencia causal; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 108,
+      "situationId": "30",
+      "competency": "LECTURA CRÍTICA",
+      "text": "La interpretación más fiel es:",
+      "options": [
+        "El derecho a reclamar depende de que el estudiante repruebe la asignatura cuestionada.",
+        "El derecho a expresar inconformidades está reconocido, pero se ejerce mediante evidencias, respeto y procedimientos.",
+        "Cualquier señalamiento público se justifica por la libertad de expresión, incluso sin evidencia ni trato respetuoso."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La tesis combina reconocimiento de un derecho y condiciones para su ejercicio.",
+      "distractors": "Por qué no A: No condiciona el reclamo a una nota específica. Por qué no C: El texto explicita límites de respeto y soporte.",
+      "legalBasis": "Comprensión argumentativa de texto hipotético; derechos educativos."
+    },
+    {
+      "id": 109,
+      "situationId": "30",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Qué presuposición rechaza explícitamente el texto?",
+      "options": [
+        "Que abrir canales de crítica supone eliminar deberes de respeto y convivencia.",
+        "Que los estudiantes pueden contar con canales institucionales de reclamación.",
+        "Que los reclamos pueden apoyarse en evidencias relacionadas con decisiones evaluativas."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La propuesta rechaza la idea de libertad desvinculada de responsabilidad.",
+      "distractors": "Por qué no B: Esa tesis forma parte del contenido afirmado. Por qué no C: El recurso a evidencia es una exigencia expresa del texto.",
+      "legalBasis": "Comprensión argumentativa de texto hipotético; derechos educativos."
+    },
+    {
+      "id": 110,
+      "situationId": "30",
+      "competency": "LECTURA CRÍTICA",
+      "text": "Una reformulación fiel para una circular sería:",
+      "options": [
+        "Solo serán recibidas inconformidades si el Consejo Directivo considera previamente que el docente actuó mal.",
+        "Cualquier declaración contra docentes deberá circular públicamente para asegurar que no sea censurada.",
+        "Se recibirán inconformidades sustentadas y respetuosas por las vías previstas, con garantía de atención sin represalias."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Mantiene sujeto, derecho, condiciones y garantía de no represalia.",
+      "distractors": "Por qué no A: Añade una condición no presente y convierte el trámite en barrera. Por qué no B: Omite evidencia y respeto, además de exponer personas.",
+      "legalBasis": "Comprensión argumentativa de texto hipotético; derechos educativos."
+    },
+    {
+      "id": 111,
+      "situationId": "31",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Cuál inferencia es defendible?",
+      "options": [
+        "El club produce necesariamente el mismo resultado en 120 estudiantes porque 25 respuestas positivas constituyen evidencia suficiente.",
+        "El club no aporta ningún beneficio a nadie, dado que faltó una medición previa.",
+        "Entre quienes respondieron dentro del club se registra una percepción favorable, pero no puede generalizarse a toda la cohorte ni atribuir causalidad."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Distingue percepción de beneficiarios, representatividad e impacto causal.",
+      "distractors": "Por qué no A: Una muestra voluntaria sin comparación no permite inferencia poblacional. Por qué no B: Las limitaciones no anulan el valor descriptivo de las respuestas.",
+      "legalBasis": "Razonamiento inferencial, evidencia y lectura de informes educativos."
+    },
+    {
+      "id": 112,
+      "situationId": "31",
+      "competency": "LECTURA CRÍTICA",
+      "text": "La debilidad metodológica más importante para la generalización es:",
+      "options": [
+        "Que las respuestas se recogieron al finalizar una actividad de carácter oral.",
+        "La autoselección y ausencia de datos de quienes no participaron, que impiden extrapolar resultados.",
+        "Que 25 es una cifra impar, lo cual dificulta interpretar porcentajes."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La selección de participantes introduce sesgos de motivación y desempeño.",
+      "distractors": "Por qué no A: El momento de recolección importa, pero no es la principal razón de falta de representatividad. Por qué no C: La paridad del número no tiene relevancia inferencial.",
+      "legalBasis": "Razonamiento inferencial, evidencia y lectura de informes educativos."
+    },
+    {
+      "id": 113,
+      "situationId": "31",
+      "competency": "LECTURA CRÍTICA",
+      "text": "¿Qué recomendación sigue mejor del texto?",
+      "options": [
+        "Convertir de inmediato el club en única estrategia porque el 83 % de participantes lo valora favorablemente.",
+        "Eliminar el club por carecer de evidencia experimental concluyente en esa cohorte.",
+        "Evaluar el club con mediciones y comparadores apropiados y ofrecer alternativas antes de decidir obligatoriedad institucional."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Transforma evidencia preliminar en aprendizaje institucional sin exagerar.",
+      "distractors": "Por qué no A: La aceptación entre participantes no justifica exclusividad. Por qué no B: La incertidumbre invita a evaluar, no necesariamente a cancelar.",
+      "legalBasis": "Razonamiento inferencial, evidencia y lectura de informes educativos."
+    },
+    {
+      "id": 114,
+      "situationId": "32",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Qué comparación entre sedes es correcta?",
+      "options": [
+        "Norte registra 12,50 % y Sur 7,50 %; la diferencia es de 5,00 puntos porcentuales.",
+        "Norte registra 12,50 % y Sur 7,50 %; por ello la primera supera a la segunda en 5,00 %.",
+        "Norte registra 7,50 % y Sur 12,50 %; la diferencia es de 5,00 puntos porcentuales."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: 30/240 = 0,125 y 12/160 = 0,075; la resta es de 5 puntos porcentuales.",
+      "distractors": "Por qué no B: Confunde diferencia en puntos porcentuales con variación relativa, que no es del 5 %. Por qué no C: Invierte numeradores o sedes y, por tanto, altera las tasas.",
+      "legalBasis": "Cálculo de tasas y comparación de denominadores; diagnóstico de permanencia."
+    },
+    {
+      "id": 115,
+      "situationId": "32",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Cuántos casos como mínimo deben dejar de superar el umbral para cumplir la meta del 9 %?",
+      "options": [
+        "Seis estudiantes, porque el máximo aceptable es 36 de 400 y actualmente son 42.",
+        "Nueve estudiantes, porque la meta del 9 % implica que deben retirarse nueve del grupo de riesgo.",
+        "Cuatro estudiantes, porque reducir de 10,50 % a 9 % equivale a disminuir cuatro casos."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: 0,09 x 400 = 36 y 42 - 36 = 6, manteniendo matrícula constante.",
+      "distractors": "Por qué no B: Interpreta la tasa meta como número absoluto de estudiantes a reducir. Por qué no C: Cuatro casos dejarían 38/400 = 9,5 %, por encima de la meta.",
+      "legalBasis": "Cálculo de tasas y comparación de denominadores; diagnóstico de permanencia."
+    },
+    {
+      "id": 116,
+      "situationId": "32",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Cuál sería la tasa consolidada actual?",
+      "options": [
+        "12,50 %, porque la sede con mayor matrícula determina la tasa de toda la institución.",
+        "10,50 %, calculada como 42 de 400 estudiantes.",
+        "10,00 %, obtenida al promediar sin ponderar las tasas de las dos sedes."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: 42/400 = 0,105; una tasa total requiere denominador conjunto.",
+      "distractors": "Por qué no A: La tasa de la sede más grande no representa a la población completa. Por qué no C: El promedio simple 10 % ignora tamaños diferentes de sedes.",
+      "legalBasis": "Cálculo de tasas y comparación de denominadores; diagnóstico de permanencia."
+    },
+    {
+      "id": 117,
+      "situationId": "33",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Qué cambio se observa en la tasa de logro?",
+      "options": [
+        "Aumentó cinco por ciento en términos relativos exactos, porque la diferencia entre porcentajes es cinco.",
+        "Aumentó de 65 % a 70 %, es decir, cinco puntos porcentuales, aunque disminuyó el número absoluto de logros.",
+        "Disminuyó de 70 % a 65 %, porque el número total de estudiantes con logro pasó de 130 a 126."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: 130/200 = 65 % y 126/180 = 70 %; la comparación correcta usa ambos denominadores.",
+      "distractors": "Por qué no A: Cinco puntos porcentuales representan un incremento relativo de aproximadamente 7,69 % respecto de 65 %. Por qué no C: Comparar conteos sin población produce una conclusión errada sobre proporciones.",
+      "legalBasis": "Tasas de logro, variaciones absolutas y metas por cohorte."
+    },
+    {
+      "id": 118,
+      "situationId": "33",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Cuántos estudiantes adicionales deben alcanzar la competencia respecto del segundo año para llegar a la meta, con 180 inscritos?",
+      "options": [
+        "Catorce estudiantes, para recuperar primero la cantidad absoluta del primer año.",
+        "Cinco estudiantes, porque la distancia entre tasas es de cinco puntos porcentuales.",
+        "Nueve estudiantes, para llegar a 135 de 180."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: 0,75 x 180 = 135 y 135 - 126 = 9.",
+      "distractors": "Por qué no A: El número absoluto del primer año no define la meta sobre nueva matrícula. Por qué no B: Cinco puntos porcentuales de 180 representan nueve estudiantes, no cinco.",
+      "legalBasis": "Tasas de logro, variaciones absolutas y metas por cohorte."
+    },
+    {
+      "id": 119,
+      "situationId": "33",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Qué afirmación es más rigurosa para un informe?",
+      "options": [
+        "El programa generó por sí solo una mejora de cinco puntos porcentuales porque ambos años aplicaron igual criterio.",
+        "El programa perdió efectividad porque cuatro estudiantes menos alcanzaron el logro esperado.",
+        "La proporción de logro aumentó, pero con los datos disponibles no se identifica si el programa produjo ese cambio."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Distingue variación descriptiva y atribución causal, incluso con medidas comparables.",
+      "distractors": "Por qué no A: La equivalencia del criterio no controla otras diferencias entre cohortes. Por qué no B: Una reducción absoluta con menor matrícula no demuestra menor tasa de logro.",
+      "legalBasis": "Tasas de logro, variaciones absolutas y metas por cohorte."
+    },
+    {
+      "id": 120,
+      "situationId": "34",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Cuánto quedaría sin comprometer al financiar las tres propuestas completas?",
+      "options": [
+        "Seis millones de pesos, porque el conjunto de solicitudes representa 42 millones.",
+        "Cuatro millones de pesos, equivalentes a 8,33 % del presupuesto total.",
+        "Cuatro millones de pesos, equivalentes exactamente al 10 % del presupuesto."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: 48 - (18 + 12 + 14) = 4; 4/48 equivale aproximadamente a 8,33 %.",
+      "distractors": "Por qué no A: La suma real de las solicitudes es 44, no 42 millones. Por qué no C: El monto es correcto, pero el porcentaje confunde base de cálculo.",
+      "legalBasis": "Operaciones presupuestales simuladas; Decreto 4791 de 2008 como marco de competencias, no autorización específica de gasto."
+    },
+    {
+      "id": 121,
+      "situationId": "34",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "Para cumplir la reserva mínima, ¿cuánto debe disminuirse como mínimo el conjunto de asignaciones propuestas?",
+      "options": [
+        "Cuatro millones ochocientos mil pesos, porque debe retirarse la totalidad de la reserva adicional del proyecto.",
+        "Ochocientos mil pesos, porque la reserva requerida es 4,8 millones y solo quedan 4 millones.",
+        "Un millón ochocientos mil pesos, porque el 10 % se calcula sobre las solicitudes de 18 millones."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: 0,10 x 48 = 4,8; faltan 0,8 millones de reserva.",
+      "distractors": "Por qué no A: Confunde reserva total requerida con ajuste adicional necesario. Por qué no C: Calcula el porcentaje sobre un rubro y no sobre el total indicado.",
+      "legalBasis": "Operaciones presupuestales simuladas; Decreto 4791 de 2008 como marco de competencias, no autorización específica de gasto."
+    },
+    {
+      "id": 122,
+      "situationId": "34",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Qué paquete financiero satisface la reserva, antes de considerar autorizaciones legales?",
+      "options": [
+        "Financiar 18 de dotación, 12 de accesibilidad y 14 de reparación, y registrar 4 millones como reserva suficiente.",
+        "Financiar 16 millones de dotación, 12 de accesibilidad y 14 de reparación, y dejar 6 millones disponibles.",
+        "Financiar 18 de dotación, 12 de accesibilidad y 15 de reparación, y conservar 4,8 millones de reserva."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: 16 + 12 + 14 = 42 y 48 - 42 = 6, superior a 4,8.",
+      "distractors": "Por qué no A: Con 44 comprometidos quedan solo 4, menos de la reserva. Por qué no C: 18 + 12 + 15 = 45, por lo que solo quedan 3 millones.",
+      "legalBasis": "Operaciones presupuestales simuladas; Decreto 4791 de 2008 como marco de competencias, no autorización específica de gasto."
+    },
+    {
+      "id": 123,
+      "situationId": "35",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Cuál es la tasa de abandono según el denominador de seguimiento definido?",
+      "options": [
+        "6,00 %, porque 15 abandonos se calculan sobre los 250 iniciales.",
+        "14,00 %, porque los 20 traslados y 15 abandonos constituyen por igual deserción.",
+        "6,52 %, obtenida de 15 abandonos sobre 230 estudiantes."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: 15/230 x 100 es aproximadamente 6,52 % según definición explícita.",
+      "distractors": "Por qué no A: Es una tasa con matrícula inicial, válida para otro indicador, no el solicitado. Por qué no B: Los traslados con continuidad no deben clasificarse automáticamente como abandono.",
+      "legalBasis": "Seguimiento a trayectorias, proporciones y movilidad estudiantil."
+    },
+    {
+      "id": 124,
+      "situationId": "35",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Cuál es la permanencia interna respecto de la matrícula inicial?",
+      "options": [
+        "93,48 %, porque 215 de 230 permanecieron entre quienes no se trasladaron.",
+        "94,00 %, dado que solo 15 estudiantes abandonaron sin matrícula confirmada.",
+        "86,00 %, pues 215 de los 250 iniciales permanecieron en ese colegio."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: 215/250 = 86 %; usa el denominador de matrícula inicial indicado.",
+      "distractors": "Por qué no A: 93,48 % usa el denominador de cohorte sin traslados, no la matrícula inicial. Por qué no B: Confunde permanencia institucional con complemento de abandono sobre 250.",
+      "legalBasis": "Seguimiento a trayectorias, proporciones y movilidad estudiantil."
+    },
+    {
+      "id": 125,
+      "situationId": "35",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Qué lectura evita confundir movilidad y abandono?",
+      "options": [
+        "Agrupar traslados y abandono bajo un único indicador de fracaso escolar.",
+        "Reportar por separado permanencia interna, traslados confirmados y abandono, con sus denominadores.",
+        "Excluir a todos los estudiantes móviles de cualquier indicador institucional sin registrarlos."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Los fenómenos son distintos y requieren trazabilidad de trayectorias.",
+      "distractors": "Por qué no A: Un traslado confirmado no implica desvinculación del sistema. Por qué no C: Omitir movilidad invisibiliza trayectorias y altera la rendición de cuentas.",
+      "legalBasis": "Seguimiento a trayectorias, proporciones y movilidad estudiantil."
+    },
+    {
+      "id": 126,
+      "situationId": "36",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "¿Cuál es el total ponderado del primer escenario?",
+      "options": [
+        "81,10 puntos, porque los 56 puntos de antecedentes equivalen a 12,60 en el total.",
+        "82,50 puntos, producto de sumar 50,60; 8,80; 14,00 y 9,10.",
+        "85,00 puntos, al sumar directamente los resultados sin aplicar los cuatro pesos."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: 92x0,55 + 88x0,10 + 56x0,25 + 91x0,10 = 82,50.",
+      "distractors": "Por qué no A: 56x0,25 equivale a 14,00, no a 12,60. Por qué no C: La suma simple carece de sentido sin ponderación y no produce 85.",
+      "legalBasis": "Tabla de ponderaciones para rector suministrada por el usuario: 55 %, 10 %, 25 %, 10 %."
+    },
+    {
+      "id": 127,
+      "situationId": "36",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "En el segundo escenario, ¿qué puntaje mínimo principal permite alcanzar o superar 85,00?",
+      "options": [
+        "95,00 puntos, porque la contribución principal de 52,25 basta para llegar a 85.",
+        "96,00 puntos, porque 52,80 de la prueba principal completan exactamente los 85 puntos.",
+        "96,37 puntos si se expresa con dos decimales, porque 0,55x + 32 = 85."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Con psicotécnica 9, antecedentes 14 y entrevista 9 se aportan 32; x=53/0,55=96,3636..., por lo que 96,37 supera 85.",
+      "distractors": "Por qué no A: Con 95 la suma sería 84,25. Por qué no B: Con 96 la suma sería 84,80.",
+      "legalBasis": "Tabla de ponderaciones para rector suministrada por el usuario: 55 %, 10 %, 25 %, 10 %."
+    },
+    {
+      "id": 128,
+      "situationId": "36",
+      "competency": "RAZONAMIENTO CUANTITATIVO",
+      "text": "Si solo pudiese elevar cinco puntos una de las dos pruebas, ¿cuál mejora impactaría más la nota final?",
+      "options": [
+        "Ambas mejoras aportarían exactamente 0,50 puntos porque son cinco preguntas o puntos adicionales.",
+        "Cinco puntos adicionales en psicotécnica: elevarían el total en 2,75 puntos por su naturaleza clasificatoria.",
+        "Cinco puntos adicionales en Aptitudes y Competencias Básicas: elevarían el total en 2,75 puntos."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: El efecto depende de pesos: 5x0,55=2,75 frente a 5x0,10=0,50.",
+      "distractors": "Por qué no A: El peso de la principal no es 10 % sino 55 %. Por qué no B: Cinco puntos en psicotécnica aportan 0,50 al total.",
+      "legalBasis": "Tabla de ponderaciones para rector suministrada por el usuario: 55 %, 10 %, 25 %, 10 %."
+    },
+    {
+      "id": 129,
+      "situationId": "37",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Cuál es la actuación inicial más adecuada?",
+      "options": [
+        "Mantener rutas sin modificaciones hasta que una autoridad confirme por escrito un daño ya producido.",
+        "Verificar condiciones con instancias competentes, activar medidas preventivas proporcionales y coordinar comunicaciones y continuidad segura del servicio.",
+        "Cerrar indefinidamente todas las sedes y declarar que existe emergencia general sin elementos suficientes."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: Gestiona riesgo con precaución, evidencia y proporcionalidad territorial.",
+      "distractors": "Por qué no A: Esperar daño consumado expone innecesariamente a estudiantes. Por qué no C: La afectación potencial localizada no prueba riesgo igual en toda la institución.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 6, 7, 18 y 23; Ley 1098 de 2006; enfoque de gestión de riesgos."
+    },
+    {
+      "id": 130,
+      "situationId": "37",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Qué actualización institucional debe priorizarse una vez controlada la urgencia?",
+      "options": [
+        "Sustituir la planificación escolar por avisos informales de grupos de mensajería.",
+        "Archivar el incidente porque la creciente disminuyó y no se produjeron víctimas.",
+        "Revisar plan de riesgo con rutas, responsables, alertas y simulacros diferenciados por sede y comunidad."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La prevención sistémica requiere planes revisados y operables.",
+      "distractors": "Por qué no A: Los mensajes pueden apoyar, pero no sustituyen protocolos formales. Por qué no B: La ausencia de daño no elimina la vulnerabilidad identificada.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 6, 7, 18 y 23; Ley 1098 de 2006; enfoque de gestión de riesgos."
+    },
+    {
+      "id": 131,
+      "situationId": "37",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Qué debe orientar el plan de recuperación de clases si se suspendió una jornada?",
+      "options": [
+        "Declarar la jornada recuperada en los registros porque la suspensión obedeció a fuerza mayor.",
+        "Priorizar aprendizajes y estudiantes afectados con alternativas seguras, registro y seguimiento de recuperación.",
+        "Asignar el mismo trabajo autónomo extenso a todos los cursos sin verificar acceso ni necesidades."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La continuidad se evalúa por atención y aprendizaje reales.",
+      "distractors": "Por qué no A: La justificación de una suspensión no equivale a recuperar aprendizajes. Por qué no C: Una carga uniforme puede no ser viable para estudiantes afectados.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones 6, 7, 18 y 23; Ley 1098 de 2006; enfoque de gestión de riesgos."
+    },
+    {
+      "id": 132,
+      "situationId": "38",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Qué criterio debería orientar la revisión de la nota?",
+      "options": [
+        "Otorgar aprobación automática para compensar el conflicto, sin valorar los aprendizajes del período.",
+        "Conservar la reprobación como sanción pedagógica por salir del salón, sin revisar evidencias de competencias.",
+        "Verificar evidencias del aprendizaje según SIEE, ajustes y apoyos aplicables, separando las decisiones de convivencia que tengan su propio trámite."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: La evaluación de competencias requiere criterios pedagógicos, no castigos encubiertos.",
+      "distractors": "Por qué no A: Corregir un procedimiento no obliga a atribuir aprendizaje no demostrado. Por qué no B: La salida del aula no sustituye la valoración académica prevista.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 1620 de 2013; Ley 1098 de 2006; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 133,
+      "situationId": "38",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "La actuación del rector frente a docente y familia sería:",
+      "options": [
+        "Declarar que toda revisión viola la autonomía docente y rechazar sin estudiar el reclamo.",
+        "Garantizar trámite de reclamación y escucha de las partes, solicitar soportes y decidir o encauzar según competencias del SIEE.",
+        "Ordenar una nota específica por teléfono al docente para cerrar el conflicto de inmediato."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: La dirección vela por reglas institucionales y garantías de revisión.",
+      "distractors": "Por qué no A: La autonomía docente se ejerce dentro del SIEE y admite reclamaciones. Por qué no C: Una orden verbal sin procedimiento deslegitima evaluación.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 1620 de 2013; Ley 1098 de 2006; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 134,
+      "situationId": "38",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Qué mejora institucional prevendría casos semejantes?",
+      "options": [
+        "Precisar protocolos de articulación entre convivencia, apoyos y evaluación, con formación y revisión de prácticas.",
+        "Dejar a cada área total libertad para definir sanciones académicas sin reglas comunes.",
+        "Incorporar al SIEE la pérdida automática de una asignatura ante cualquier falta de convivencia."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La coordinación entre sistemas protege coherencia y derechos.",
+      "distractors": "Por qué no B: La ausencia de criterios unificados reproduce arbitrariedad. Por qué no C: La sanción automática confunde conducta y evidencia de aprendizaje.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 1620 de 2013; Ley 1098 de 2006; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 135,
+      "situationId": "39",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Qué conclusión comparativa sobre las tasas es correcta?",
+      "options": [
+        "La sede A mejoró 18 % y la B 6 %, porque esos son los aumentos absolutos de estudiantes con logro.",
+        "La sede A mejoró 18 puntos porcentuales y la sede B 12, aunque ambas partieron de 60 %.",
+        "Ambas sedes mejoraron 18 puntos porcentuales, pues el porcentaje inicial era idéntico."
+      ],
+      "correct": 1,
+      "explanation": "Por qué es la mejor: A pasó de 60 a 78 % y B de 60 a 72 %, diferencias de 18 y 12 pp.",
+      "distractors": "Por qué no A: Confunde número de personas con incremento porcentual. Por qué no C: Tener igual punto inicial no implica igual tasa posterior.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 115 de 1994, art. 80; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 136,
+      "situationId": "39",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Qué afirmación institucional es más prudente?",
+      "options": [
+        "Se observan avances en ambas sedes, sin poder atribuirlos exclusivamente al plan ante ausencia de comparación causal.",
+        "No existe ninguna evidencia útil de progreso porque no se incorporó grupo de control.",
+        "El plan explica por completo la mejora porque los instrumentos se mantuvieron constantes."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: Los cambios descriptivos son evaluables aun sin prueba causal concluyente.",
+      "distractors": "Por qué no B: La carencia de grupo de control limita causalidad, no toda descripción. Por qué no C: Instrumentos equivalentes no eliminan otros factores temporales.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 115 de 1994, art. 80; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 137,
+      "situationId": "39",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "Si el rector debe priorizar apoyos adicionales, conviene:",
+      "options": [
+        "Asignar automáticamente todo el recurso a la sede A por mostrar mayor incremento absoluto.",
+        "Asignar todo a B por tener menos estudiantes, sin revisar desempeño final ni barreras.",
+        "Complementar las tasas con análisis de estudiantes aún sin logro, barreras y necesidades de cada sede."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Una asignación responsable considera necesidades pendientes y contexto.",
+      "distractors": "Por qué no A: La mejora pasada no determina por sí sola prioridad futura. Por qué no B: El tamaño menor de población no equivale a mayor necesidad.",
+      "legalBasis": "Decreto 1290 de 2009; Ley 115 de 1994, art. 80; Resolución MEN 003842 de 2022."
+    },
+    {
+      "id": 138,
+      "situationId": "40",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Cuál secuencia de gestión es más sólida?",
+      "options": [
+        "Cancelar la propuesta porque toda modificación de jornada escolar excede por definición cualquier iniciativa institucional.",
+        "Firmar primero el convenio y exigir a la planta docente ampliar horarios mientras la Secretaría revisa posteriormente la viabilidad.",
+        "Precisar necesidad y alcance, estudiar viabilidad pedagógica y operativa, deliberar con instancias competentes y gestionar autorizaciones externas cuando correspondan."
+      ],
+      "correct": 2,
+      "explanation": "Por qué es la mejor: Integra planeación y delimitación de competencias antes de comprometer la operación.",
+      "distractors": "Por qué no A: La institución puede formular propuestas, aunque requieran autorizaciones. Por qué no B: Un convenio no habilita extender obligaciones laborales o prestación sin trámite.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones del rector; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 139,
+      "situationId": "40",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "¿Qué condición evita que la fundación determine indebidamente el proyecto?",
+      "options": [
+        "Definir propósitos, indicadores, protección de estudiantes y responsabilidades institucionales antes de aceptar condiciones del aliado.",
+        "Delegar a la fundación la fijación del currículo y la evaluación porque aporta recursos propios.",
+        "Permitir que el aliado seleccione estudiantes únicamente por su capacidad de pagar transporte adicional."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La cooperación debe responder al PEI y al derecho a la educación.",
+      "distractors": "Por qué no B: La financiación no desplaza responsabilidades curriculares institucionales. Por qué no C: Un filtro económico puede excluir injustificadamente a estudiantes.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones del rector; Ley 115 de 1994; Decreto 1075 de 2015."
+    },
+    {
+      "id": 140,
+      "situationId": "40",
+      "competency": "INTEGRACIÓN DIRECTIVA",
+      "text": "Para decidir continuidad del programa tras el piloto, la mejor evidencia sería:",
+      "options": [
+        "Aprendizajes, permanencia, participación, sostenibilidad operativa y cumplimiento de condiciones institucionales.",
+        "Número de fotografías de actividades, asistencia a inauguración y menciones del proyecto en prensa.",
+        "La declaración del financiador de que se ejecutó la totalidad de su aporte económico."
+      ],
+      "correct": 0,
+      "explanation": "Por qué es la mejor: La continuidad debe fundarse en impacto educativo y viabilidad integral.",
+      "distractors": "Por qué no B: La visibilidad no equivale a resultados de aprendizaje. Por qué no C: La ejecución financiera es necesaria para control, pero no demuestra eficacia pedagógica.",
+      "legalBasis": "Resolución MEN 003842 de 2022, funciones del rector; Ley 115 de 1994; Decreto 1075 de 2015."
+    }
+  ]
+};
