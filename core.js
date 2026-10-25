@@ -3,7 +3,7 @@
   function validateBank(bank) {
     const errors = [];
     if (!bank || !Array.isArray(bank.questions) || !Array.isArray(bank.situations)) return ['Estructura inválida: se requieren questions y situations.'];
-    if (bank.questions.length !== 140) errors.push(`Se requieren exactamente 140 ítems; recibidos: ${bank.questions.length}.`);
+    if (!bank.questions.length) errors.push('El banco está vacío.');
     const ids = new Set(), texts = new Set(), situationIds = new Set();
     bank.situations.forEach(s => {
       if (!s || typeof s.id !== 'string' || !s.id || typeof s.text !== 'string' || !s.text.trim() || situationIds.has(s.id)) errors.push('Situación inválida o duplicada.');
@@ -12,10 +12,11 @@
     bank.questions.forEach((q, i) => {
       if (!q || typeof q !== 'object') { errors.push(`Ítem ${i + 1} inválido.`); return; }
       const label = `Pregunta ${q.id ?? i + 1}`;
-      if (!Number.isInteger(q.id) || q.id < 1 || q.id > 140 || ids.has(q.id)) errors.push(`${label}: número inválido o duplicado.`);
+      if (!Number.isInteger(q.id) || q.id < 1 || ids.has(q.id)) errors.push(`${label}: número inválido o duplicado.`);
       ids.add(q.id);
-      if (typeof q.text !== 'string' || !q.text.trim() || texts.has(q.text)) errors.push(`${label}: enunciado vacío o duplicado.`);
-      texts.add(q.text);
+      const signature=JSON.stringify([q.situationId,q.text,q.options]);
+      if (typeof q.text !== 'string' || !q.text.trim() || texts.has(signature)) errors.push(`${label}: enunciado vacío o duplicado.`);
+      texts.add(signature);
       if (!Array.isArray(q.options) || q.options.length !== 3 || q.options.some(o => typeof o !== 'string' || !o.trim()) || new Set(q.options).size !== 3) errors.push(`${label}: deben existir tres alternativas distintas.`);
       if (![0, 1, 2].includes(q.correct)) errors.push(`${label}: clave única inválida (0, 1 o 2).`);
       if (typeof q.explanation !== 'string' || !q.explanation.trim()) errors.push(`${label}: falta retroalimentación original.`);

@@ -1,5 +1,15 @@
 # Informe de controles e incidencias
 
+## Ampliación a cuatro simulacros
+
+Banco actual: **560 preguntas y 160 situaciones**. Se incorporaron los cuadernillos y solucionarios 2, 3 y 4. Se cotejaron automáticamente sus 420 enunciados con los correspondientes solucionarios y sus 420 claves detalladas con las tablas generales. Cada ítem conserva sus tres alternativas, explicaciones por opción y referencia de estudio. No se detectaron duplicados integrales (situación, enunciado y alternativas); los enunciados genéricos repetidos en casos distintos se conservan.
+
+Los nuevos documentos no asignan una competencia a cada ítem. Se identifican como «Gestión integral (sin clasificación en el documento)» en el análisis; no se infiere ni inventa una distribución. La selección de preguntas mezcla todo el banco sin agrupación por competencia.
+
+Prueba de integración superada: cuatro exámenes consecutivos de 140 sin repetir ninguno de los 560 ítems, migración del progreso original, perfiles Mao/Nata independientes, confirmación antes de comenzar otro ciclo, exportación/restauración y comprobación de ancho móvil/escritorio. El refuerzo de errores permite repeticiones deliberadas. El ciclo reserva las preguntas al iniciar cada sesión; las pendientes también se consideran utilizadas. El historial se conserva al reiniciar el ciclo.
+
+Los controles de 140 preguntas descritos abajo corresponden a la primera edición. La vigencia normativa sigue pendiente de verificación externa.
+
 ## Controles superados
 
 - Extracción de los dos PDF con Poppler; integridad documentada mediante SHA-256 en `bank.json`.

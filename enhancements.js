@@ -22,7 +22,7 @@
   function enhance(){
     document.querySelectorAll('.symbol').forEach((el,i)=>el.replaceChildren(icon(['notebook-pen','sparkles','rotate-ccw'][i%3])));
     document.querySelectorAll('.hero button span').forEach(el=>el.replaceChildren(icon('arrow-up-right')));
-    let s=null;try{s=JSON.parse(localStorage.getItem('rectoria.v1')||'null');}catch{}
+    const s=window.RECTORIA_ACTIVE_STATE;
     if(location.hash==='#historial' && s?.attempts.length && !document.getElementById('competency-evolution')){
       const section=document.createElement('section');section.id='competency-evolution';section.className='panel';section.style.marginTop='24px';
       section.innerHTML='<h2>Evolución por competencia</h2><p class="muted">Porcentaje de aciertos de cada competencia en cada sesión que la incluyó.</p>';

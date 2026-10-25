@@ -1,7 +1,9 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {validateBank,score,shuffle}=require('../core');
-const bank=require('../bank.json');
+// Regresión de la calificación del simulacro inicial de 140 ítems.
+const full=require('../bank.json');
+const bank={...full,questions:full.questions.slice(0,140),situations:full.situations.filter(s=>!s.id.startsWith('S'))};
 test('Banco íntegro: 140 ítems, 40 casos, tres alternativas y clave única',()=>{
   assert.deepEqual(validateBank(bank),[]);
   assert.equal(bank.situations.length,40);

@@ -1,5 +1,11 @@
 # Rectoría · preparación para el concurso
 
+Actualización: banco de **560 preguntas** de cuatro simulacros originales. Cada perfil (Mao y Nata) tiene un ciclo independiente sin repeticiones en examen y estudio. La pantalla de práctica informa cuántas preguntas nuevas quedan. Al agotar el banco, se solicita confirmación para otro ciclo y se conserva el historial. El refuerzo puede repetir errores. Los primeros 140 identificadores se conservan para mantener compatibles los intentos anteriores.
+
+La selección aleatoria no separa ni ordena por competencia. Los tres nuevos PDF carecen de clasificación por ítem: en resultados se indica esa ausencia expresamente. Los originales completos se incluyen en `sources`.
+
+Validación de esta actualización: `node tests/expanded.cjs`, con el servidor local en el puerto 8017 y Playwright/Chromium disponibles.
+
 ## Abrir y estudiar
 
 Descomprime `Rectoria-offline.zip` en una carpeta y abre **index.html** en Chrome, Edge, Firefox o Safari. Conserva juntos todos los archivos y la carpeta `assets`. No requiere instalación, cuenta ni conexión a Internet. En teléfonos, algunos gestores de archivos restringen la ejecución de HTML local: en ese caso, usa un navegador que permita abrir archivos o sirve la carpeta desde un equipo de tu red.
