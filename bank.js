@@ -1,8 +1,8 @@
 window.RECTORIA_BANK = {
-  "version": 2,
-  "source": "Simulacros 1, 2, 3 y 4 · cuadernillos y solucionarios originales",
+  "version": 3,
+  "source": "Simulacros 1–7 · cuadernillos y solucionarios originales; 5–7 en revisión",
   "verified": true,
-  "verification": "560 claves y enunciados cotejados con sus documentos; sin duplicados integrales. Vigencia normativa no verificada.",
+  "verification": "980 ítems cotejados con los solucionarios. Ediciones 5–7 en borrador; sin certificación de vigencia normativa.",
   "sources": [
     {
       "name": "Simulacro_Rector_2026_140_Preguntas.pdf",
@@ -35,6 +35,30 @@ window.RECTORIA_BANK = {
     {
       "name": "Simulacro_Rector_4_Solucionario_140.pdf",
       "sha256": "05b696c8996e330c859b2290a7efb5c7a72041f29bf45641e217408a2d8fd4e8"
+    },
+    {
+      "name": "Simulacro_Rector_5_140_Preguntas_REVISION.pdf",
+      "sha256": "8f4fd3683378e1971a0bb421403971b113e58bb05f14ea35dd1ac7d8ece7ac64"
+    },
+    {
+      "name": "Simulacro_Rector_5_Solucionario_140_REVISION.pdf",
+      "sha256": "0a69f8207c8f562b4bbf493f6c5f0e983846d78936d5cc53c9860f3fc254b5d3"
+    },
+    {
+      "name": "Simulacro_Rector_6_140_Preguntas_REVISION.pdf",
+      "sha256": "065a4cbd7171542957f6cc8d9d622fb4fa31e394279933f9ab94620eafb919e7"
+    },
+    {
+      "name": "Simulacro_Rector_6_Solucionario_140_REVISION.pdf",
+      "sha256": "b69c7263a88a3cd9917ff00a059ad170e59c2ec830751350e8b7ff70b4a65cf8"
+    },
+    {
+      "name": "Simulacro_Rector_7_140_Preguntas_REVISION.pdf",
+      "sha256": "a89c68d04617745610c171595b0b4af6eae1adc711f1e65b73655548b2d59380"
+    },
+    {
+      "name": "Simulacro_Rector_7_Solucionario_140_REVISION.pdf",
+      "sha256": "9d33587b9dc0dc0f6757068cd7542b966f2b8eb1c67b7e9e7bfed410684f28c1"
     }
   ],
   "situations": [
@@ -997,6 +1021,816 @@ window.RECTORIA_BANK = {
       "title": "Contraseña compartida",
       "text": "Varios funcionarios utilizan la misma cuenta administrativa para modificar matrículas y las auditorías no identifican autores. La cuenta compartida se usa desde varios computadores y se han modificado datos importantes sin identificación de responsables. Un incidente reciente exige reconstruir quién efectuó los cambios y con qué autorización. Los datos disponibles provienen de sistemas con permisos y propósitos diferentes. Una revisión inicial advierte que mejorar la rapidez del proceso podría incrementar riesgos de acceso, registro o interpretación de información sensible.",
       "competency": "Gestión integral (sin clasificación en el documento)"
+    },
+    {
+      "id": "S5-01",
+      "title": "Estudiante testigo pide anonimato",
+      "text": "Una adolescente informa reiteradas amenazas a un compañero y solicita evitar exposición de su identidad. Un coordinador propone confrontación conjunta para comprobar contradicciones.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-02",
+      "title": "Cambios retrospectivos de rúbrica",
+      "text": "Tras una exposición oral, un profesor cambia el peso de los criterios porque la mayoría del curso obtuvo resultados altos. Se anuncia que la nueva rúbrica regirá para las calificaciones ya registradas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-03",
+      "title": "Regla general y excepción de seguridad",
+      "text": "Un protocolo hipotético permite el préstamo de espacios después de clase, salvo cuando un informe técnico vigente constate riesgo estructural específico. Existe un informe sobre el auditorio, no sobre las aulas. La administración niega todos los préstamos invocando la excepción.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-04",
+      "title": "Certificaciones extraescolares sin equivalencia",
+      "text": "Una entidad ofrece acreditar prácticas extracurriculares como calificaciones de educación física. No presenta correspondencia curricular ni criterios de desempeño comparables.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-05",
+      "title": "Escala de valoración ponderada",
+      "text": "El producto final pesa 50 %, el proceso 30 % y la autoevaluación 20 %. Una estudiante obtuvo 3,2; 4,0 y 4,5 en escala de 0 a 5, respectivamente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-06",
+      "title": "Oferta de patrocinio condicionada",
+      "text": "Una empresa ofrece adecuar una biblioteca si se permite colocar publicidad dirigida a estudiantes en sus cuentas institucionales y recabar correos personales. El aporte mejoraría la dotación.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-07",
+      "title": "Accesibilidad en evaluación por laboratorio",
+      "text": "Una estudiante con limitaciones de movilidad participa de química con ayudas. El laboratorio se ubica en un segundo piso sin elevador; el docente ofrece una prueba teórica idéntica para reemplazar todas las prácticas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-08",
+      "title": "Matrícula y asistencia ponderadas",
+      "text": "En las sedes Norte y Sur hay 320 y 180 estudiantes. Durante un día asistieron 272 y 135, respectivamente. El consejo considera una meta institucional del 83 % y exige distinguir porcentajes por sede del global.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-09",
+      "title": "Logística de raciones por día",
+      "text": "Una sede tiene 145 estudiantes y recibe 130 raciones por jornada durante 12 días. El operador propone compensar con 180 raciones diarias en los 3 días finales; se asume consumo máximo de una ración por alumno y día.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-10",
+      "title": "Consejo académico convertido en sancionador",
+      "text": "Frente a plagio académico, algunos miembros del consejo académico quieren imponer la suspensión de un estudiante para unificar criterios; el manual atribuye actuaciones de convivencia a otra ruta.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-11",
+      "title": "Argumento por testimonios seleccionados",
+      "text": "Un informe argumenta que una reforma de convivencia es ampliamente aceptada porque cita a seis representantes de grupos favorables. Se conocen objeciones de otros estamentos y el documento no informa cómo fueron seleccionadas las voces incluidas. La reforma podría ser positiva, pero el alcance del respaldo es discutido.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-12",
+      "title": "Costo promedio engañoso",
+      "text": "Un proyecto presta tutorías a 60 estudiantes. Los costos fijos son $3.600.000 y los variables $40.000 por estudiante atendido; se evalúa extender la cobertura a 90 sin cambiar el costo fijo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-13",
+      "title": "Directorio comercial de acudientes",
+      "text": "Una asociación externa solicita copia de teléfonos de acudientes para ofrecer servicios de educación privada. Alega que el contacto favorecerá orientación vocacional y promete borrar la lista luego.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-14",
+      "title": "Especificación hecha para una marca",
+      "text": "La propuesta de adquisición describe una tecnología con una característica exclusiva de un fabricante, sin justificar por qué sería indispensable para el aprendizaje. Dos ofertas equivalentes no cumplen esa marca.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-15",
+      "title": "Ejecución de dos apropiaciones",
+      "text": "Un proyecto dispone de $24 millones para dotación y $16 millones para formación. Se ejecuta 75 % de dotación y 50 % de formación; los rubros se reportan por separado.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-16",
+      "title": "Comparación de tasas con bases diferentes",
+      "text": "En un año hubo 18 retiros definitivos entre 300 estudiantes; al siguiente hubo 20 entre 400. Se debate si el aumento absoluto de retiros significa necesariamente mayor tasa.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-17",
+      "title": "Desagregación y efecto de composición",
+      "text": "La tasa de aprobación global sube, pero ingresaron más estudiantes de grados de alto rendimiento; en cada grado la aprobación se redujo. El rector recibe el informe como señal inequívoca de progreso.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-18",
+      "title": "Resultados bajo cambio de definición",
+      "text": "Un comité señala que la «deserción» bajó de 12 % a 7 % tras una nueva estrategia. El primer dato incluía traslados certificados y el segundo los excluyó. No hay series recalculadas bajo un criterio único. Se presenta una reducción de cinco puntos como efecto probado.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-19",
+      "title": "Horas optativas desplazadas",
+      "text": "Una institución modifica la intensidad de áreas optativas para ampliar laboratorios y entrega el cambio como orden rectoral. Algunos grados perderían experiencias formativas contempladas en el plan de estudios aprobado.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-20",
+      "title": "Atribución causal por selección",
+      "text": "El rector lee un informe: quienes voluntariamente asistieron a tutorías obtuvieron puntajes superiores. El documento no analiza el rendimiento previo ni la motivación de quienes eligieron participar.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-21",
+      "title": "Prioridad según umbrales cruzados",
+      "text": "Un acuerdo hipotético fija que una intervención prioritaria requiere simultáneamente alto riesgo de abandono y ausencia de apoyo alternativo. La sede A tiene riesgo alto y una alianza vigente; la sede B tiene riesgo medio sin alianza; la sede C tiene riesgo alto sin alianza. Un informe recomienda intervenir las tres sin distinguir criterios.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-22",
+      "title": "Favoritismo en elección de proveedor",
+      "text": "Una persona integrante del comité de apoyo contractual tiene participación económica en una de las empresas invitadas. El contrato se considera urgente y la oferta podría ser competitiva.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-23",
+      "title": "Seguimiento de cohortes con traslados",
+      "text": "Una cohorte inicia sexto con 250 estudiantes. En el año se registran 20 traslados certificados, 12 abandonos y 8 nuevos ingresos, sin otros movimientos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-24",
+      "title": "Comisión sin modificación de funciones",
+      "text": "El rector ordena a un docente liderar de modo permanente labores de inventario y vigilancia fuera del aula por escasez de auxiliares. La asignación reduce actividades académicas sin formalizar novedades.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-25",
+      "title": "Cierre temporal de puente comunitario",
+      "text": "Una inspección municipal restringe el paso por un puente utilizado para llegar a la sede. El municipio prepara una alternativa, pero varias familias piden que el rector autorice el tránsito por cuenta propia.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-26",
+      "title": "Prueba de sensibilidad de una alerta",
+      "text": "Un instrumento identifica riesgo de rezago. Entre 80 casos que posteriormente presentaron rezago, alertó 60; entre 120 sin rezago, alertó 30.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-27",
+      "title": "Rendimientos bancarios discutidos",
+      "text": "El fondo de servicios educativos recibe intereses financieros. Un proveedor solicita aplicarlos de inmediato a un contrato agotado y el equipo contable señala que no figuran en la apropiación vigente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-28",
+      "title": "Circular con una excepción silenciada",
+      "text": "Una circular interna afirma que «todo permiso debe negarse durante los cierres de período». Su segundo apartado permite tramitar situaciones justificadas bajo procedimiento. Una reunión cita solo la primera frase.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-29",
+      "title": "Cadena de autorizaciones condicionadas",
+      "text": "Una propuesta interna sostiene que la dotación puede contratarse si existe apropiación y si el procedimiento de contratación aplicable se completa. Consta apropiación, pero está pendiente verificar un requisito del procedimiento. El equipo presupuestal propone suscribir de una vez y subsanar después.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-30",
+      "title": "Indicador idéntico para responsabilidades diferentes",
+      "text": "El plan de evaluación de funciones asigna el mismo indicador de cobertura de aula a una coordinadora y a un docente orientador. Ambos señalan que no refleja su labor.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-31",
+      "title": "Uso de cubierta como aula provisional",
+      "text": "Por alta ocupación, una coordinación propone clases en la terraza sin evaluación de carga ni acceso seguro. La obra civil está pendiente de concepto técnico.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-32",
+      "title": "Meta combinada por nivel",
+      "text": "En grado séptimo 80 de 100 estudiantes alcanzaron un estándar; en octavo, 90 de 150. El PMI busca elevar la proporción conjunta al 75 %, manteniendo ambos tamaños.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-33",
+      "title": "Cabildo abierto sin decisión vinculante",
+      "text": "En un foro ciudadano se pide que los asistentes aprueben un cambio en los criterios de admisión. Algunos participantes afirman que la mayoría de manos levantadas reemplaza al consejo directivo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-34",
+      "title": "Muestreo y tasa de no respuesta",
+      "text": "Se invita a 900 acudientes a responder encuesta. Responden 270, de quienes 189 apoyan una medida. El informe mezcla tasa de respuesta con porcentaje de respaldo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-35",
+      "title": "Rectificación institucional insuficiente",
+      "text": "Un comunicado rectoral atribuye una falla de transporte a una docente; documentos posteriores muestran que ella había informado oportunamente el daño. El comunicado circuló ampliamente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-36",
+      "title": "Queja anónima con evidencias independientes",
+      "text": "La rectoría recibe una queja sin firma sobre hostigamiento sistemático entre pares. El mensaje incorpora fechas y capturas verificables; una directriz informal ordena ignorar todo anónimo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-37",
+      "title": "Restricción horaria por cuidado familiar",
+      "text": "Una docente solicita un ajuste temporal de horario por una situación familiar acreditada. La coordinación alega que cualquier cambio causa trato desigual, aunque existen alternativas operativas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-38",
+      "title": "Experimento pedagógico sin resguardo",
+      "text": "Un docente propone reemplazar durante todo un trimestre las clases de lectura por contenidos breves en una red social. No aporta criterios de seguimiento ni alternativas para quienes carecen de acceso.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-39",
+      "title": "Curso obligatorio ajeno al PMI",
+      "text": "Un patrocinador ofrece formación virtual sobre una herramienta comercial a cambio de que todas las horas institucionales se destinen a ella. El diagnóstico del colegio identifica dificultades prioritarias en evaluación formativa.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-40",
+      "title": "Delegación de votos ausente",
+      "text": "En una sesión extraordinaria del consejo directivo, el representante de padres anuncia que enviará a un tercero con carta de autorización. La decisión afecta un convenio de uso de espacios y la secretaría exige evidencia de la votación.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-41",
+      "title": "Consejo estudiantil sin capacidad de consulta",
+      "text": "Se pretende actualizar el reglamento de uso de biblioteca. El equipo responsable omite consultar estudiantes y afirma que no necesitan participar porque la materia es logística.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-42",
+      "title": "Meta de bilingüismo sin línea intermedia",
+      "text": "El PMI fija aumentar el dominio comunicativo, pero su único indicador es aprobar una evaluación anual. Los docentes proponen mediciones diagnósticas, rúbricas orales y seguimiento por cohortes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-43",
+      "title": "Mediación frente a posible extorsión",
+      "text": "Tres estudiantes denuncian que otro les exige transferencias por teléfono bajo amenazas. Una familia solicita mediación inmediata y prohibición de reportes externos para proteger la imagen del colegio.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-44",
+      "title": "Respuesta que no aborda lo pedido",
+      "text": "Una petición solicita copia de criterios de asignación de cupos y razones de una negativa. La oficina entrega una circular general sin explicar la decisión individual y considera cerrado el trámite.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S5-45",
+      "title": "Custodia de reactivos vencidos",
+      "text": "Un laboratorio conserva reactivos de química sin etiquetas legibles. La administración propone usarlos en demostraciones de bajo costo antes de contratar disposición especializada.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-01",
+      "title": "Representante que perdió condición",
+      "text": "Un integrante del consejo directivo fue elegido como representante de acudientes, pero dejó de tener hijos matriculados. Continúa asistiendo y podría definir por un voto un ajuste de criterios de admisión.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-02",
+      "title": "Prórroga ejecutada sin acto formal",
+      "text": "Un contratista sigue prestando aseo luego del vencimiento porque el servicio es indispensable. El personal considera que basta la instrucción verbal del rector y propone ajustar el contrato al cierre del mes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-03",
+      "title": "Uso efectivo de biblioteca",
+      "text": "La biblioteca abre 20 jornadas y dispone de 45 puestos por jornada. Se registran 720 usos de puesto, pero el 15 % corresponde a sesiones canceladas que se contabilizaron como usadas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-04",
+      "title": "Comparación de cohortes con composición",
+      "text": "El informe compara aprobación del 92 % de una cohorte pequeña con 88 % de una cohorte posterior mucho mayor. Concluye que la enseñanza empeoró; no hay información sobre punto de partida ni sobre selección de estudiantes. Ambas cohortes cursaron el mismo grado en años distintos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-05",
+      "title": "Acta de aprobación sin versión adjunta",
+      "text": "El consejo directivo aprueba «la versión discutida» del manual, pero circularon tres borradores y ninguno se identifica en acta. Dos meses después se discute qué texto está vigente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-06",
+      "title": "Conflicto entre evidencia y percepción",
+      "text": "Un rector valora negativamente el trabajo de una docente por reclamos verbales aislados, pese a observar mejoras documentadas y registros de acompañamiento. Se omitió contrastar evidencias de las funciones evaluadas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-07",
+      "title": "Desempeño promedio y dispersión",
+      "text": "Dos grupos de estudiantes tienen promedio 70 sobre 100. El grupo A registra notas alrededor de 70; el grupo B combina notas cercanas a 30 y a 100. El comité concluye que las necesidades de acompañamiento son idénticas porque las medias coinciden.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-08",
+      "title": "Decisión por mayoría con restricción de derechos",
+      "text": "Una consulta informal recoge respaldo de 75 % para publicar listados nominales de estudiantes con bajo desempeño. Se defiende la medida como democrática. El propio texto de consulta reconoce que la divulgación puede identificar menores vulnerables.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-09",
+      "title": "Dos modelos de impresión pedagógica",
+      "text": "Alternativa A: arriendo mensual de impresora por $420.000 más $80 por hoja. Alternativa B: compra anual prorrateada por $360.000 mensuales y costo variable de $110 por hoja. Se proyectan 3.000 hojas al mes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-10",
+      "title": "Plan condicionado a evidencia futura",
+      "text": "Un protocolo interno indica que, si una estrategia piloto muestra mejoras en dos mediciones comparables y no amplía brechas, podrá escalarse. Solo existe una medición positiva y se desconoce el efecto por subgrupos. Se solicita extensión inmediata.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-11",
+      "title": "Indicador expresado en porcentaje condicional",
+      "text": "Un informe señala que «el 80 % de los estudiantes con apoyo aprobó», pero solo 30 de 120 estudiantes recibieron apoyo. La directiva lo comunica como aprobación del 80 % de toda la institución.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-12",
+      "title": "Alternativa no considerada en falsa disyuntiva",
+      "text": "Un equipo afirma que ante bajo aprendizaje solo existen dos salidas: aumentar tareas domiciliarias o disminuir el nivel curricular. Se dispone de evaluación diagnóstica, tiempo de acompañamiento y posibilidades de diferenciación pedagógica, pero no se discuten.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-13",
+      "title": "Cadena causal incompleta en PMI",
+      "text": "Un plan propone comprar tabletas para elevar pensamiento matemático. Incluye presupuesto, pero no prevé formación docente, acceso regular ni una estrategia de evaluación de aprendizajes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-14",
+      "title": "Autorización familiar para divulgar incidente",
+      "text": "Tras un incidente de violencia entre menores, dos acudientes firman permiso para publicar imágenes del suceso con el fin de sensibilizar a la comunidad. Otros menores aparecen identificables.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-15",
+      "title": "Auditoría de inventario por movimientos",
+      "text": "Un establecimiento registra 480 computadores al inicio; compra 35, da de baja 18 mediante acta y traslada 27 a otra institución. Un inventario físico encuentra 465 equipos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-16",
+      "title": "Instrucción de retirar licencia de un tercero",
+      "text": "Una empresa aliada solicita al rector que ordene a una docente cancelar una licencia concedida formalmente por autoridad competente para participar en una feria. Alega incumplimiento de convenio.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-17",
+      "title": "Secuencia vertical sin prerrequisitos",
+      "text": "Noveno inicia funciones cuadráticas mientras evaluaciones diagnósticas muestran fallas extensas en proporcionalidad y operaciones. Algunos docentes proponen repetir todo el currículo de séptimo sin analizar necesidades específicas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-18",
+      "title": "Porcentajes encadenados de permanencia",
+      "text": "Una cohorte de 400 conserva 90 % al finalizar el primer año. De quienes permanecen, 80 % continúa al cerrar el segundo. No hay ingresos adicionales.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-19",
+      "title": "Ajuste de carga de formación",
+      "text": "Se programa una formación de 24 horas para 18 docentes. Solo 15 culminan las 24 horas y tres completan 8 cada uno. Se confunden docentes inscritos con horas certificables.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-20",
+      "title": "Plataforma solicita contraseñas docentes",
+      "text": "Un proveedor de software de gestión académica exige usuario y contraseña personal de cada docente para migrar datos. Ofrece hacerlo sin costo antes de iniciar clases.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-21",
+      "title": "Tasa de eventos por exposición",
+      "text": "Sede A reporta 18 incidentes en 9.000 jornadas-estudiante y sede B, 12 en 3.000 jornadas-estudiante. Un informe comparó solo los 18 frente a los 12 incidentes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-22",
+      "title": "Reunión virtual con participación desigual",
+      "text": "Se convoca la única deliberación sobre reorganización de sedes a las 9 p. m. por plataforma que gran parte de familias rurales no utiliza. Se afirma que el enlace abierto garantiza participación.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-23",
+      "title": "Recreos diseñados sin apoyos sensoriales",
+      "text": "Una estudiante autista evita el recreo por sobrecarga de ruido y necesita un espacio de regulación. Se propone que permanezca siempre apartada, sin participación en actividades elegidas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-24",
+      "title": "Evaluación por una base de datos corregida",
+      "text": "En un reporte preliminar hay 72 aprobados entre 90 matriculados. La auditoría descubre que 6 registros duplicados estaban contados como aprobados y matriculados; las personas restantes son únicas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-25",
+      "title": "Cobertura por prioridad en intervención",
+      "text": "Un plan atiende 45 casos de alto riesgo y 75 de riesgo moderado. El diagnóstico identifica 60 casos de alto riesgo y 150 moderados. El consejo quiere decidir si la cobertura absoluta refleja bien prioridades.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-26",
+      "title": "Solicitud mezclada de información y juicio",
+      "text": "Una familia solicita historia escolar de su hija y, en el mismo escrito, datos de otro estudiante involucrado en un conflicto. La secretaría plantea negar la petición completa.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-27",
+      "title": "Difusión transfronteriza de hostigamiento",
+      "text": "Un estudiante publica mensajes de hostigamiento desde fuera de la institución; compañeros los reproducen durante la jornada. La coordinación sostiene que el origen externo excluye toda intervención institucional.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-28",
+      "title": "Consumo eléctrico y reducción neta",
+      "text": "El consumo mensual fue de 2.400 kWh antes de sustituir luces y de 2.040 kWh después. En el segundo mes hubo además 120 kWh de consumo adicional por un laboratorio que antes no operaba; se supone que es el único cambio ajeno.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-29",
+      "title": "Flujo de solicitudes y tiempos de respuesta",
+      "text": "Una mesa de atención recibe 45 solicitudes semanales. Resuelve 38 cada semana sin alterar su capacidad; al inicio tiene 12 pendientes. La situación se mantiene cuatro semanas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-30",
+      "title": "Doble conteo en indicadores de apoyo",
+      "text": "El informe de orientación registra 150 «estudiantes atendidos», pero varios recibieron intervenciones repetidas y el sistema guarda 150 sesiones. Se exige reportar cobertura y carga de trabajo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-31",
+      "title": "Informe académico que exige decisión presupuestal",
+      "text": "El consejo académico recomienda un programa de laboratorios que implica adquisición de dotación. Algunos miembros interpretan la recomendación como autorización automática para comprometer el fondo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-32",
+      "title": "Conclusión sin contrafactual",
+      "text": "Un comité sostiene que «la campaña redujo los conflictos», porque los reportes pasaron de 40 a 25. En el mismo período cambió el formulario y algunos eventos ya no se clasifican como incidentes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-33",
+      "title": "Educación de estudiantes en hospital prolongado",
+      "text": "Una estudiante hospitalizada varias semanas conserva matrícula y desea continuar aprendiendo. La dirección propone exigir asistencia física para evitar crear precedentes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-34",
+      "title": "Actividades extracurriculares por pago",
+      "text": "Una circular condiciona el acceso a un concurso de ciencias institucional a una cuota «voluntaria» que en la práctica se cobra como requisito. Estudiantes de familias de menores ingresos quedan fuera.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-35",
+      "title": "Medida escolar que vulnera presunción",
+      "text": "Se publica la imagen de un adolescente en cartelera con el título «autor de fraude» antes de escuchar su versión. La coordinación defiende el aviso por su efecto disuasivo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-36",
+      "title": "Mensaje institucional en crisis aún incierta",
+      "text": "Circula un audio que anuncia un cierre indefinido de la institución por presunta amenaza. Autoridades verifican y todavía no han establecido hechos ni medidas definitivas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-37",
+      "title": "Reserva de caja confundida con disponibilidad",
+      "text": "El Fondo tiene saldo bancario suficiente, pero el presupuesto solo conserva una apropiación menor para mantenimiento. La urgencia consiste en reparar cerramientos y el consejo directivo no se ha pronunciado sobre traslado.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-38",
+      "title": "Arbolado y orden de tala informal",
+      "text": "Una rama de gran tamaño cayó cerca de la cancha. Un vecino ofrece talar varios árboles sin concepto técnico ni coordinación con autoridad correspondiente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-39",
+      "title": "Retroalimentación convertida en ranking",
+      "text": "El rector publica una clasificación de docentes según promedio de calificaciones del alumnado, sin ajustar composición ni considerar otras evidencias. La tabla se presenta como evaluación de calidad pedagógica.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-40",
+      "title": "Uso institucional de datos de elecciones",
+      "text": "Un grupo directivo pretende divulgar preferencias de votación estudiantil desagregadas por curso para evaluar lealtad a propuestas de convivencia. La encuesta prometía confidencialidad.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-41",
+      "title": "Respuesta anónima a oferente privilegiado",
+      "text": "Durante una adquisición, un oferente pregunta en privado cómo interpretar un requisito decisivo. El apoyo contractual propone responderle sin difundir la aclaración para evitar retrasos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-42",
+      "title": "Ausencia en prueba con evidencia de emergencia",
+      "text": "Un estudiante perdió una prueba final tras una urgencia médica acreditada. La docente sostiene que la fecha es inmodificable por tradición, mientras el SIEE prevé procedimientos de reclamación.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-43",
+      "title": "Visita a instalación con riesgo biológico",
+      "text": "Se invita a un grupo de primaria a recorrer un centro de procesamiento sanitario. La entidad ofrece transporte y dice que la visita será breve, pero no presenta evaluación de exposición ni condiciones de acceso.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-44",
+      "title": "Crédito de universidad por servicio social",
+      "text": "Una universidad propone que estudiantes de secundaria reciban equivalencias en asignaturas si participan en un voluntariado de fines de semana. El colegio no ha definido criterios curriculares.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S6-45",
+      "title": "Carga académica y comisión temporal",
+      "text": "Una docente tiene asignación completa y recibe orden de liderar tres proyectos extracurriculares durante la misma franja horaria. La coordinación no contempla reemplazos ni criterios de redistribución.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-01",
+      "title": "Escenario de costo hundido",
+      "text": "Se han destinado recursos a un piloto con bajo impacto y elevados costos futuros. El equipo insiste en prolongarlo únicamente porque ya se gastó una suma importante, aunque una alternativa nueva promete mayor beneficio neto.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-02",
+      "title": "Pérdida en inventario con recuperaciones",
+      "text": "Un inventario de 2.000 libros descubre 120 faltantes. Se recuperan 45 con soportes y se encuentran 15 registros de préstamo no descargados que explicaban faltantes aparentes; los demás continúan sin localizar.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-03",
+      "title": "Costo marginal frente a capacidad instalada",
+      "text": "Un programa dispone de 80 cupos financiados por costo fijo de $8 millones. Cada estudiante adicional dentro de esos cupos requiere $20.000. Actualmente participan 50 y se planea subir a 70.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-04",
+      "title": "Evidencia posterior tratada como logro previo",
+      "text": "Un informe atribuye a la gestión del rector mejoras de infraestructura culminadas antes de su nombramiento. El documento utiliza las obras para demostrar eficacia de decisiones actuales.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-05",
+      "title": "Simulación de incendio sin rutas alternas",
+      "text": "Se proyecta un ensayo de evacuación que solo utiliza la salida principal. Obras temporales bloquean otra ruta y el plan de contingencia no identifica recorridos para personas con movilidad reducida.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-06",
+      "title": "Planificación de capacidad de turnos",
+      "text": "Tres orientadores atienden como máximo 7, 9 y 8 casos de seguimiento por semana. Cada estudiante debe recibir una sesión semanal. Se identificaron 95 casos y se planean cuatro semanas de atención, sin nuevas entradas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-07",
+      "title": "Servicio integral con rubros de financiación distintos",
+      "text": "Un proveedor ofrece un paquete que combina conectividad, vigilancia y capacitación, financiable parcialmente con rubros distintos. Se sugiere pagarlo como un solo concepto para acelerar trámite.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-08",
+      "title": "Privación de clase como medida administrativa",
+      "text": "Para controlar retrasos reiterados, se ordena que estudiantes que lleguen después del timbre permanezcan fuera del plantel hasta el siguiente bloque, sin acompañamiento ni valoración individual.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-09",
+      "title": "Serie temporal interrumpida",
+      "text": "Un establecimiento reporta una caída de incidentes al comenzar un programa. Dos meses antes ya existía tendencia descendente y simultáneamente cambió el personal que registraba reportes. El informe atribuye todo el descenso al programa nuevo.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-10",
+      "title": "Práctica laboral que desplaza plan de estudios",
+      "text": "Una empresa propone que estudiantes de media realicen turnos extensos en horario escolar a cambio de certificación. Las horas sustituyen asignaturas obligatorias sin articulación formal.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-11",
+      "title": "Estándares usados como lista de tareas",
+      "text": "El equipo pedagógico convierte estándares en una lista idéntica de actividades por grado, sin considerar saberes previos ni diversidad de contextos. Quienes terminan tareas reciben nota alta pese a errores conceptuales.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-12",
+      "title": "Reglas incompatibles en un mismo acto",
+      "text": "Un documento hipotético afirma que cualquier reprogramación de clase requiere aprobación escrita, pero agrega que las urgencias de riesgo se atienden primero y se documentan después. Ante una evacuación efectiva, un funcionario exige esperar autorización escrita antes de salir.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-13",
+      "title": "Muestra de satisfacción autoseleccionada",
+      "text": "Una encuesta web registra 95 % de satisfacción, pero fue contestada por 80 de 1.500 familias con conectividad propia. Se anuncia que «la comunidad apoya» las nuevas medidas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-14",
+      "title": "Afirmación universal con un contraejemplo",
+      "text": "Un comité sostiene que «ningún estudiante que trabaja pierde clases». El registro muestra dos estudiantes con empleo de temporada y ausencias escolares. La coordinación responde que son pocos y que la afirmación general sigue siendo verdadera.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-15",
+      "title": "Examen con accesos desiguales a fuente",
+      "text": "Un colegio aplica evaluación en plataforma con conexión estable en sede central y fallas recurrentes en una sede rural. Para mantener escala común, el área propone comparar notas directas sin ajustes ni validación.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-16",
+      "title": "Regalo simbólico con expectativa explícita",
+      "text": "Una familia entrega un obsequio de valor moderado al rector y solicita que se altere el orden de matrícula para favorecer a un allegado. Afirma que el presente no constituye pago.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-17",
+      "title": "Selección de evidencia según resultado",
+      "text": "En un informe se descartan pruebas diagnósticas con resultados desfavorables por considerarlas «atípicas», sin criterio técnico previo. Solo se conservan mediciones que muestran mejora y se concluye éxito contundente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-18",
+      "title": "Veeduría confunde acceso con ejecución",
+      "text": "Una veeduría ciudadana solicita revisar el presupuesto y luego exige ordenar compras del Fondo con base en su propia lista. Rectoría considera entregar control operativo para evitar cuestionamientos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-19",
+      "title": "Confusión entre odds y probabilidad",
+      "text": "En una evaluación, 30 estudiantes superaron una meta y 70 no la superaron, en un total de 100. Un informe describe «30 a 70» como si fuera porcentaje de éxito.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-20",
+      "title": "Brecha absoluta y cambio relativo",
+      "text": "La brecha de asistencia entre grupos fue de 12 puntos porcentuales y un año después de 9. Un documento afirma que la brecha «se redujo 25 puntos» y otro dice «se redujo 25 %».",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-21",
+      "title": "Consejo directivo con filtración deliberada",
+      "text": "Se divulga un borrador de acta que contiene nombres de menores en un asunto sensible. Un miembro del consejo lo compartió para denunciar falta de transparencia.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-22",
+      "title": "Inteligencia artificial y perfiles de riesgo",
+      "text": "Un proveedor propone subir expedientes completos de orientación a una herramienta generativa para clasificar estudiantes como «potencialmente problemáticos». No explica tratamiento, errores ni finalidad.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-23",
+      "title": "Paradoja de agregación por programas",
+      "text": "En la sede A, el programa intensivo aprobó 18 de 20 y el general 40 de 80. En la sede B, el intensivo aprobó 72 de 90 y el general 6 de 10. Se comparan programas sin reconocer la distribución por sede.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-24",
+      "title": "Tasas de incidencia de nueva alerta",
+      "text": "En un mes se identifican 24 casos nuevos de una situación de riesgo entre 1.200 estudiantes que estaban libres de ella al inicio; al siguiente mes son 18 entre 900 estudiantes inicialmente libres. Se comparan incidencias.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-25",
+      "title": "Material accesible solo después de la prueba",
+      "text": "Una estudiante con baja visión solicita material ampliado antes de una evaluación. La institución ofrece transcribirlo después de aplicar el examen a todos, para evitar diferenciar condiciones.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-26",
+      "title": "Riesgo relativo y diferencia absoluta",
+      "text": "En un programa, 12 de 200 estudiantes presentaron un evento; en el grupo comparador, 18 de 150. Los grupos no fueron asignados aleatoriamente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-27",
+      "title": "Doble jornada en aula arrendada sin licencia",
+      "text": "Para absorber matrícula, se propone utilizar en jornada nocturna un local comercial con iluminación y salidas limitadas. El arrendador ofrece entrega inmediata y rebaja.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-28",
+      "title": "Rotación de docentes para castigar disenso",
+      "text": "Tras críticas técnicas al PMI, una coordinación propone asignar los grupos más conflictivos a quienes cuestionaron la propuesta para «fortalecer compromiso». No existen criterios académicos documentados.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-29",
+      "title": "Alerta con prevalencia reducida",
+      "text": "De 1.000 estudiantes, 50 tienen una necesidad de seguimiento. La herramienta detecta 40 de esos 50 y alerta por error a 95 de los otros 950. Se prohíbe inferir diagnóstico desde la alerta sola.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-30",
+      "title": "Argumento circular en autoevaluación",
+      "text": "La autoevaluación sostiene que «el liderazgo fue eficaz porque se cumplieron los planes», y define planes cumplidos como «aquellos asociados a liderazgo eficaz». No presenta resultados ni criterios externos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-31",
+      "title": "Plan de choque con exclusión de estudiantes",
+      "text": "La rectoría propone preparar pruebas externas excluyendo del programa a estudiantes con más rezago para elevar promedios del grupo intervenido. Se anuncian resultados como cobertura general.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-32",
+      "title": "Prioridad por índice compuesto",
+      "text": "Se califican tres sedes con índices de urgencia sanitaria (peso 60 %) y déficit pedagógico (40 %) en escala de 0 a 100. A tiene 90 y 40; B, 70 y 80; C, 60 y 90.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-33",
+      "title": "Efecto de taller confundido con entusiasmo",
+      "text": "Tras capacitación breve, el 98 % manifiesta satisfacción. Los estudiantes no muestran cambio en las tareas objetivo y el rector presenta el taller como impacto probado.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-34",
+      "title": "Consejo convocado sin información esencial",
+      "text": "Se cita con horas de antelación al consejo directivo para decidir el presupuesto anual; los anexos se entregan al iniciar y hay rubros sin explicación. Algunos proponen aprobar por confianza y revisar después.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-35",
+      "title": "Entrevista grupal de presuntas víctimas",
+      "text": "Tras reportes independientes de posibles vulneraciones, se propone reunir a estudiantes afectados en un salón y pedir que narren hechos ante docentes para agilizar levantamiento de información.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-36",
+      "title": "Criterios de cupo cambiados después de conocer",
+      "text": "solicitantes Se publican criterios de asignación de cupos y luego, al conocer las listas, se introduce una nueva prioridad que beneficia a una familia influyente. La modificación se pretende aplicar retroactivamente.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-37",
+      "title": "Protocolo que deja sin acceso a apoyos",
+      "text": "Durante una contingencia eléctrica se ordena evacuar por escaleras, aunque hay estudiantes con movilidad limitada y dispositivos de apoyo sin baterías. El plan escrito no prevé responsables específicos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-38",
+      "title": "Notificación a correo desactualizado",
+      "text": "Una familia actualizó correo en secretaría, pero la decisión que afecta matrícula se notificó al anterior. Un funcionario propone contar plazo de respuesta desde el mensaje no recibido.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-39",
+      "title": "Informe negativo redactado por tercero",
+      "text": "Una coordinación remite a secretaría un informe sobre incumplimientos atribuidos a un servidor, pero el rector no ha contrastado registros ni permitido aclarar inconsistencias. Se le pide firmarlo como verificado.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-40",
+      "title": "Consentimiento parental usado para negar ruta",
+      "text": "Acudientes piden que no se active ninguna ruta ante indicios de posible vulneración grave a un estudiante. La institución teme perder confianza con la familia y considera firmar compromiso de silencio.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-41",
+      "title": "Equivalencia falaz entre gasto y calidad",
+      "text": "Un informe sostiene que el colegio con mayor gasto por estudiante «necesariamente enseña mejor». No examina necesidades especiales, precios territoriales ni resultados pedagógicos.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-42",
+      "title": "Garantía de calidad omitida en recepción",
+      "text": "Se recibe equipo audiovisual, pero el acta de entrega no registra pruebas de funcionamiento ni garantía aplicable. La factura se presenta para pago y el proveedor exige cierre inmediato.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-43",
+      "title": "Decisión condicionada a la abstención del presidente",
+      "text": "Un consejo directivo discute un proyecto promovido por una asociación familiar que preside un allegado del rector. El rector dirige la sesión y varios miembros solicitan examen de posibles impedimentos antes de votar.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-44",
+      "title": "Meta de equidad tratada como promedio",
+      "text": "Una institución reporta mejora de asistencia de 89 a 92 %, pero la brecha entre dos sedes rurales y la urbana se amplió de 6 a 12 puntos. El PMI menciona explícitamente reducir brechas.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
+    },
+    {
+      "id": "S7-45",
+      "title": "Denuncia que compromete al equipo investigador",
+      "text": "Se presenta queja contra funcionarios que habrían alterado evidencias de un proceso institucional. El mismo grupo cuestionado propone investigar y certificar autenticidad de soportes.",
+      "competency": "Entrenamiento avanzado (clasificación interna del material)"
     }
   ],
   "questions": [
@@ -10239,6 +11073,7566 @@ window.RECTORIA_BANK = {
       "explanation": "Este marco se relaciona de modo más directo con la finalidad legítima, la calidad de datos y los controles de acceso. La referencia debe interpretarse junto con las demás disposiciones aplicables.",
       "distractors": "A. Regula un componente educativo distinto, sin delimitar directamente la decisión principal de este supuesto.\n\nB. Puede ser relevante para otros asuntos de la institución, pero no es el punto de partida específico aquí.",
       "legalBasis": "Ley 1581 de 2012, protección de datos; Resolución MEN 003842 de 2022"
+    },
+    {
+      "id": 561,
+      "originalId": 1,
+      "sourceExam": 5,
+      "situationId": "S5-01",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Estudiante testigo pide anonimato», ¿Qué propuesta resolvería el problema sin transformar una excepción en regla?",
+      "options": [
+        "Proteger a la informante y valorar el reporte sin confrontaciones que incrementen el riesgo",
+        "Valorar condiciones locales y citar a todos los involucrados en público para revelar posibles inconsistencias de los relatos",
+        "Valorar condiciones locales y exigir denuncia escrita firmada ante el grupo antes de examinar los hechos"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque proteger a la informante y valorar el reporte sin confrontaciones que incrementen el riesgo. La primera alternativa rival propone valorar condiciones locales y citar a todos los involucrados en público para revelar posibles inconsistencias de los relatos, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y exigir denuncia escrita firmada ante el grupo antes de examinar los hechos, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1098 de 2006, artículo 44; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 562,
+      "originalId": 2,
+      "sourceExam": 5,
+      "situationId": "S5-01",
+      "competency": "Valoración probatoria",
+      "text": "En la controversia descrita en «Estudiante testigo pide anonimato», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Registro restringido, análisis de riesgo y lista de versiones leídas en presencia de todos los estudiantes",
+        "Registro restringido, análisis de riesgo y actuaciones de protección pertinentes",
+        "Registro restringido, número de compañeros que respaldan públicamente la denuncia y actuaciones de protección pertinentes"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: registro restringido, análisis de riesgo y actuaciones de protección pertinentes. La evidencia «registro restringido, análisis de riesgo y lista de versiones leídas en presencia de todos los estudiantes» aporta un dato lateral, mientras «registro restringido, número de compañeros que respaldan públicamente la denuncia y actuaciones de protección pertinentes» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1098 de 2006, artículo 44; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 563,
+      "originalId": 3,
+      "sourceExam": 5,
+      "situationId": "S5-01",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Estudiante testigo pide anonimato», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Porcentaje de denuncias firmadas con identificación visible, con una revisión posterior de consistencia",
+        "Cantidad de confrontaciones realizadas, considerando diferencias iniciales de contexto, comparado con las metas aprobadas para el período",
+        "Intervenciones de protección oportunas sin exposición indebida de testigos, con trazabilidad de las actuaciones respectivas"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: intervenciones de protección oportunas sin exposición indebida de testigos, con trazabilidad de las actuaciones respectivas. Medir «cantidad de confrontaciones realizadas, considerando diferencias iniciales de contexto, comparado con las metas aprobadas para el período» o «porcentaje de denuncias firmadas con identificación visible, con una revisión posterior de consistencia» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1098 de 2006, artículo 44; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 564,
+      "originalId": 4,
+      "sourceExam": 5,
+      "situationId": "S5-02",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Cambios retrospectivos de rúbrica», ante las restricciones descritas, ¿qué actuación resulta más defendible para la rectoría?",
+      "options": [
+        "Valorar condiciones locales y permitir que cada estudiante escoja la versión de rúbrica que más le convenga",
+        "Restablecer criterios previamente comunicados y tramitar cualquier cambio futuro por el procedimiento del SIEE",
+        "Valorar condiciones locales y aplicar retroactivamente la rúbrica porque mejora la discriminación entre desempeños"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque restablecer criterios previamente comunicados y tramitar cualquier cambio futuro por el procedimiento del SIEE. La primera alternativa rival propone valorar condiciones locales y aplicar retroactivamente la rúbrica porque mejora la discriminación entre desempeños, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y permitir que cada estudiante escoja la versión de rúbrica que más le convenga, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1290 de 2009, artículos 4 y 8",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 565,
+      "originalId": 5,
+      "sourceExam": 5,
+      "situationId": "S5-02",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Cambios retrospectivos de rúbrica», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Criterios divulgados, productos evaluados, actas y reclamaciones por alteración",
+        "Criterios divulgados, productos evaluados, actas y distribución final de notas después del nuevo cálculo",
+        "Criterios divulgados, preferencia mayoritaria del curso por una versión de la rúbrica y reclamaciones por alteración"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: criterios divulgados, productos evaluados, actas y reclamaciones por alteración. La evidencia «criterios divulgados, productos evaluados, actas y distribución final de notas después del nuevo cálculo» aporta un dato lateral, mientras «criterios divulgados, preferencia mayoritaria del curso por una versión de la rúbrica y reclamaciones por alteración» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1290 de 2009, artículos 4 y 8",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 566,
+      "originalId": 6,
+      "sourceExam": 5,
+      "situationId": "S5-02",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Cambios retrospectivos de rúbrica», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Variabilidad estadística de notas entre estudiantes, tras excluir registros duplicados y atípicos justificados",
+        "Evaluaciones realizadas bajo reglas conocidas y congruentes con el SIEE, mediante contrastes entre cortes de gestión, tras excluir registros duplicados y atípicos justificados",
+        "Cantidad de criterios agregados al cierre del período, con trazabilidad de las actuaciones respectivas"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: evaluaciones realizadas bajo reglas conocidas y congruentes con el SIEE, mediante contrastes entre cortes de gestión, tras excluir registros duplicados y atípicos justificados. Medir «variabilidad estadística de notas entre estudiantes, tras excluir registros duplicados y atípicos justificados» o «cantidad de criterios agregados al cierre del período, con trazabilidad de las actuaciones respectivas» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1290 de 2009, artículos 4 y 8",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 567,
+      "originalId": 7,
+      "sourceExam": 5,
+      "situationId": "S5-03",
+      "competency": "Lectura crítica - inference",
+      "text": "Sobre «Regla general y excepción de seguridad», ¿Qué conclusión se desprende de las condiciones expresadas, sin exceder la evidencia?",
+      "options": [
+        "La excepción técnica obliga a suspender todas las actividades de cualquier sede",
+        "La excepción acreditada para el auditorio no justifica negar automáticamente otras aulas",
+        "Toda solicitud debe aprobarse porque el protocolo contempla préstamos en general"
+      ],
+      "correct": 1,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la excepción acreditada para el auditorio no justifica negar automáticamente otras aulas. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 568,
+      "originalId": 8,
+      "sourceExam": 5,
+      "situationId": "S5-03",
+      "competency": "Lectura crítica - test",
+      "text": "Si se examina «Regla general y excepción de seguridad», ¿Qué prueba permitiría someter a examen la afirmación central?",
+      "options": [
+        "Vigencia y alcance espacial de los informes de riesgo disponibles",
+        "Valor comercial promedio de un préstamo particular",
+        "Número histórico de organizaciones que solicitó auditorio"
+      ],
+      "correct": 0,
+      "explanation": "La verificación relevante es vigencia y alcance espacial de los informes de riesgo disponibles. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 569,
+      "originalId": 9,
+      "sourceExam": 5,
+      "situationId": "S5-03",
+      "competency": "Lectura crítica - critique",
+      "text": "En relación con «Regla general y excepción de seguridad», ¿Qué crítica ataca con mayor precisión la justificación expuesta?",
+      "options": [
+        "Extender una excepción delimitada a todos los espacios es generalización indebida",
+        "El razonamiento falla porque todas las solicitudes de préstamo son iguales",
+        "El error consiste en reconocer que pueden existir restricciones técnicas"
+      ],
+      "correct": 0,
+      "explanation": "La objeción precisa es extender una excepción delimitada a todos los espacios es generalización indebida. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 570,
+      "originalId": 10,
+      "sourceExam": 5,
+      "situationId": "S5-03",
+      "competency": "Lectura crítica - assumption",
+      "text": "Para la situación «Regla general y excepción de seguridad», ¿Qué condición de interpretación es relevante según el texto?",
+      "options": [
+        "Que cualquier riesgo en un edificio vuelve inseguros todos los edificios",
+        "Que la excepción se interpreta conforme al espacio y riesgo acreditados",
+        "Que los informes técnicos carecen de efecto por ser anteriores a la solicitud"
+      ],
+      "correct": 1,
+      "explanation": "La condición necesaria es que la excepción se interpreta conforme al espacio y riesgo acreditados. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 571,
+      "originalId": 11,
+      "sourceExam": 5,
+      "situationId": "S5-04",
+      "competency": "Control y resultados",
+      "text": "En el supuesto de «Certificaciones extraescolares sin equivalencia», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Porcentaje de estudiantes que asistió a actividades externas, en comparación con el período inmediatamente anterior, considerando diferencias iniciales de contexto",
+        "Cantidad de certificados homologados sin diferencias, tras excluir registros duplicados y atípicos justificados, según períodos escolares comparables",
+        "Reconocimientos sustentados en aprendizajes equivalentes y reglas públicas, con revisión de sedes y responsables, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: reconocimientos sustentados en aprendizajes equivalentes y reglas públicas, con revisión de sedes y responsables, considerando diferencias iniciales de contexto. Medir «cantidad de certificados homologados sin diferencias, tras excluir registros duplicados y atípicos justificados, según períodos escolares comparables» o «porcentaje de estudiantes que asistió a actividades externas, en comparación con el período inmediatamente anterior, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1290 de 2009, sistema institucional de evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 572,
+      "originalId": 12,
+      "sourceExam": 5,
+      "situationId": "S5-04",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Certificaciones extraescolares sin equivalencia», ¿Qué curso de acción debe priorizarse ante la tensión planteada?",
+      "options": [
+        "Definir evidencias de equivalencia curricular antes de reconocer valoraciones académicas",
+        "Analizar las implicaciones y asignar nota máxima a todos los certificados como incentivo a la participación",
+        "Analizar las implicaciones y aceptar certificados solo de la entidad con convenio más antiguo"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque definir evidencias de equivalencia curricular antes de reconocer valoraciones académicas. La primera alternativa rival propone analizar las implicaciones y asignar nota máxima a todos los certificados como incentivo a la participación, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y aceptar certificados solo de la entidad con convenio más antiguo, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1290 de 2009, sistema institucional de evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 573,
+      "originalId": 13,
+      "sourceExam": 5,
+      "situationId": "S5-04",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Certificaciones extraescolares sin equivalencia», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Competencias evaluadas, evidencias de desempeño y horas declaradas en certificados sin productos de aprendizaje",
+        "Competencias evaluadas, evidencias de desempeño y criterios del SIEE",
+        "Competencias evaluadas, antigüedad de los convenios con las entidades oferentes y criterios del SIEE"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: competencias evaluadas, evidencias de desempeño y criterios del SIEE. La evidencia «competencias evaluadas, evidencias de desempeño y horas declaradas en certificados sin productos de aprendizaje» aporta un dato lateral, mientras «competencias evaluadas, antigüedad de los convenios con las entidades oferentes y criterios del SIEE» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1290 de 2009, sistema institucional de evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 574,
+      "originalId": 14,
+      "sourceExam": 5,
+      "situationId": "S5-05",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es su valoración ponderada sin redondeos intermedios?",
+      "options": [
+        "3,65",
+        "3,80",
+        "3,70"
+      ],
+      "correct": 2,
+      "explanation": "0,50×3,2 + 0,30×4,0 + 0,20×4,5 = 1,6 + 1,2 + 0,9 = 3,7.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 575,
+      "originalId": 15,
+      "sourceExam": 5,
+      "situationId": "S5-05",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si la autoevaluación fuera 3,5, manteniendo los otros componentes, ¿cuánto sería?",
+      "options": [
+        "3,40",
+        "3,50",
+        "3,60"
+      ],
+      "correct": 1,
+      "explanation": "1,6 + 1,2 + 0,20×3,5 = 3,5.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 576,
+      "originalId": 16,
+      "sourceExam": 5,
+      "situationId": "S5-05",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿En cuánto sube la nota final si el producto aumenta 0,4 puntos?",
+      "options": [
+        "0,12 puntos",
+        "0,40 puntos",
+        "0,20 puntos"
+      ],
+      "correct": 2,
+      "explanation": "Solo el componente de 50 % cambia: 0,50 × 0,4 = 0,2.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 577,
+      "originalId": 17,
+      "sourceExam": 5,
+      "situationId": "S5-06",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Oferta de patrocinio condicionada», ¿Cuál de las fuentes ofrecidas permitiría discriminar mejor entre las versiones?",
+      "options": [
+        "Contrato propuesto, listado de publicaciones publicitarias usadas por otros colegios y salvaguardas",
+        "Contrato propuesto, finalidad del tratamiento, destinatarios, consentimiento y monto estimado de la donación y antigüedad de la empresa",
+        "Contrato propuesto, finalidad del tratamiento, destinatarios, consentimiento y salvaguardas"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: contrato propuesto, finalidad del tratamiento, destinatarios, consentimiento y salvaguardas. La evidencia «contrato propuesto, finalidad del tratamiento, destinatarios, consentimiento y monto estimado de la donación y antigüedad de la empresa» aporta un dato lateral, mientras «contrato propuesto, listado de publicaciones publicitarias usadas por otros colegios y salvaguardas» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 578,
+      "originalId": 18,
+      "sourceExam": 5,
+      "situationId": "S5-06",
+      "competency": "Control y resultados",
+      "text": "Sobre «Oferta de patrocinio condicionada», ¿Qué registro de desempeño permitiría evaluar una respuesta efectiva?",
+      "options": [
+        "Cobertura comercial obtenida por la marca patrocinadora, con trazabilidad de las actuaciones respectivas",
+        "Cantidad de estudiantes registrados en la campaña, con contrastes por curso, jornada y sede, según revisión de muestras y de reportes de campo",
+        "Acuerdos ejecutados sin explotación indebida de datos de estudiantes, con desagregación por grupos relevantes"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: acuerdos ejecutados sin explotación indebida de datos de estudiantes, con desagregación por grupos relevantes. Medir «cantidad de estudiantes registrados en la campaña, con contrastes por curso, jornada y sede, según revisión de muestras y de reportes de campo» o «cobertura comercial obtenida por la marca patrocinadora, con trazabilidad de las actuaciones respectivas» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 579,
+      "originalId": 19,
+      "sourceExam": 5,
+      "situationId": "S5-06",
+      "competency": "Actuación rectoral",
+      "text": "Para la situación «Oferta de patrocinio condicionada», si debe decidir antes de la siguiente sesión de seguimiento, ¿cuál alternativa tiene mejor sustento?",
+      "options": [
+        "Contrastar posiciones y aceptar el intercambio porque los correos ya son utilizados para actividades escolares",
+        "Separar el apoyo material de condiciones incompatibles con protección de datos e interés educativo",
+        "Examinar antecedentes y autorizar la publicidad mientras el consejo estudiantil no presente objeciones formales"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque separar el apoyo material de condiciones incompatibles con protección de datos e interés educativo. La primera alternativa rival propone contrastar posiciones y aceptar el intercambio porque los correos ya son utilizados para actividades escolares, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y autorizar la publicidad mientras el consejo estudiantil no presente objeciones formales, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 580,
+      "originalId": 20,
+      "sourceExam": 5,
+      "situationId": "S5-07",
+      "competency": "Valoración probatoria",
+      "text": "A propósito del caso «Accesibilidad en evaluación por laboratorio», para auditar el procedimiento, ¿qué registro es directamente pertinente?",
+      "options": [
+        "Valoración pedagógica, condiciones de accesibilidad y evidencias de desempeño práctico",
+        "Valoración pedagógica, condiciones de accesibilidad y promedio histórico de notas en la asignatura",
+        "Valoración pedagógica, concepto general sobre costos de una futura remodelación y evidencias de desempeño práctico"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: valoración pedagógica, condiciones de accesibilidad y evidencias de desempeño práctico. La evidencia «valoración pedagógica, condiciones de accesibilidad y promedio histórico de notas en la asignatura» aporta un dato lateral, mientras «valoración pedagógica, concepto general sobre costos de una futura remodelación y evidencias de desempeño práctico» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1421 de 2017, educación inclusiva",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 581,
+      "originalId": 21,
+      "sourceExam": 5,
+      "situationId": "S5-07",
+      "competency": "Control y resultados",
+      "text": "Sobre «Accesibilidad en evaluación por laboratorio», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Porcentaje de evaluaciones realizadas solo por escrito, según revisión de muestras y de reportes de campo",
+        "Participación efectiva en actividades prácticas con apoyos pertinentes, con una revisión posterior de consistencia",
+        "Cantidad de reuniones familiares sobre infraestructura, según revisión de muestras y de reportes de campo, con trazabilidad de las actuaciones respectivas"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: participación efectiva en actividades prácticas con apoyos pertinentes, con una revisión posterior de consistencia. Medir «porcentaje de evaluaciones realizadas solo por escrito, según revisión de muestras y de reportes de campo» o «cantidad de reuniones familiares sobre infraestructura, según revisión de muestras y de reportes de campo, con trazabilidad de las actuaciones respectivas» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1421 de 2017, educación inclusiva",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 582,
+      "originalId": 22,
+      "sourceExam": 5,
+      "situationId": "S5-07",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Accesibilidad en evaluación por laboratorio», ¿Qué recomendación al equipo directivo resultaría técnicamente preferible?",
+      "options": [
+        "Analizar las implicaciones y recomendar traslado a otra institución porque el edificio presenta barreras",
+        "Establecer seguimiento y aceptar la prueba escrita como sustitución definitiva sin examinar competencias prácticas",
+        "Reorganizar la experiencia práctica con ajustes accesibles y resultados de aprendizaje equivalentes"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque reorganizar la experiencia práctica con ajustes accesibles y resultados de aprendizaje equivalentes. La primera alternativa rival propone establecer seguimiento y aceptar la prueba escrita como sustitución definitiva sin examinar competencias prácticas, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y recomendar traslado a otra institución porque el edificio presenta barreras, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1421 de 2017, educación inclusiva",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 583,
+      "originalId": 23,
+      "sourceExam": 5,
+      "situationId": "S5-08",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la asistencia global del día, respecto de la matrícula total?",
+      "options": [
+        "82,5 %",
+        "80,7 %",
+        "81,4 %"
+      ],
+      "correct": 2,
+      "explanation": "(272 + 135) / (320 + 180) = 407 / 500 = 81,4 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 584,
+      "originalId": 24,
+      "sourceExam": 5,
+      "situationId": "S5-08",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿En cuántos puntos porcentuales queda la institución por debajo de la meta del 83 %?",
+      "options": [
+        "2,6 puntos",
+        "1,6 puntos",
+        "1,9 puntos"
+      ],
+      "correct": 1,
+      "explanation": "83 - 81,4 = 1,6 puntos porcentuales.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 585,
+      "originalId": 25,
+      "sourceExam": 5,
+      "situationId": "S5-08",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si la matrícula no cambia, ¿cuántos asistentes adicionales se necesitan para alcanzar al menos 83 %?",
+      "options": [
+        "10 estudiantes",
+        "8 estudiantes",
+        "6 estudiantes"
+      ],
+      "correct": 1,
+      "explanation": "0,83 × 500 = 415; faltan 415 - 407 = 8.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 586,
+      "originalId": 26,
+      "sourceExam": 5,
+      "situationId": "S5-09",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál fue el déficit máximo diario antes del ajuste?",
+      "options": [
+        "12 raciones",
+        "15 raciones",
+        "20 raciones"
+      ],
+      "correct": 1,
+      "explanation": "145 - 130 = 15 raciones al día.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 587,
+      "originalId": 27,
+      "sourceExam": 5,
+      "situationId": "S5-09",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántas raciones faltaron durante los primeros 12 días?",
+      "options": [
+        "180 raciones",
+        "150 raciones",
+        "195 raciones"
+      ],
+      "correct": 0,
+      "explanation": "15 × 12 = 180.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 588,
+      "originalId": 28,
+      "sourceExam": 5,
+      "situationId": "S5-09",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Con el máximo de una por estudiante, ¿cuántas de las 180 raciones ofrecidas pueden consumirse en una jornada posterior?",
+      "options": [
+        "180 raciones",
+        "160 raciones",
+        "145 raciones"
+      ],
+      "correct": 2,
+      "explanation": "El máximo diario consumible sigue siendo 145: el sobrante no corrige retroactivamente déficits.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 589,
+      "originalId": 29,
+      "sourceExam": 5,
+      "situationId": "S5-10",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Consejo académico convertido en sancionador», ¿Qué determinación debería sostener el rector en un acta motivada?",
+      "options": [
+        "Consultar la información disponible y exigir al docente una suspensión inmediata y dejar el soporte pedagógico para después",
+        "Separar análisis pedagógico de evaluación de aprendizajes y actuaciones disciplinarias con competencia",
+        "Revisar soportes y delegar al consejo académico la sanción para garantizar coherencia en todas las áreas"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque separar análisis pedagógico de evaluación de aprendizajes y actuaciones disciplinarias con competencia. La primera alternativa rival propone revisar soportes y delegar al consejo académico la sanción para garantizar coherencia en todas las áreas, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y exigir al docente una suspensión inmediata y dejar el soporte pedagógico para después, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 590,
+      "originalId": 30,
+      "sourceExam": 5,
+      "situationId": "S5-10",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Consejo académico convertido en sancionador», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Decisiones académicas y de convivencia adoptadas por instancias competentes, con revisión de sedes y responsables",
+        "Cantidad de suspensiones recomendadas por docentes, con revisión de sedes y responsables, con una revisión posterior de consistencia",
+        "Promedio de calificación en actividades cuestionadas, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones académicas y de convivencia adoptadas por instancias competentes, con revisión de sedes y responsables. Medir «cantidad de suspensiones recomendadas por docentes, con revisión de sedes y responsables, con una revisión posterior de consistencia» o «promedio de calificación en actividades cuestionadas, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 591,
+      "originalId": 31,
+      "sourceExam": 5,
+      "situationId": "S5-10",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Consejo académico convertido en sancionador», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Registros de evaluación, número de áreas que reportan prácticas similares y actuaciones del manual de convivencia",
+        "Registros de evaluación, reglas del SIEE y votación del consejo sobre la gravedad moral del plagio",
+        "Registros de evaluación, reglas del SIEE y actuaciones del manual de convivencia"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: registros de evaluación, reglas del SIEE y actuaciones del manual de convivencia. La evidencia «registros de evaluación, reglas del SIEE y votación del consejo sobre la gravedad moral del plagio» aporta un dato lateral, mientras «registros de evaluación, número de áreas que reportan prácticas similares y actuaciones del manual de convivencia» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 592,
+      "originalId": 32,
+      "sourceExam": 5,
+      "situationId": "S5-11",
+      "competency": "Lectura crítica - inference",
+      "text": "En el supuesto de «Argumento por testimonios seleccionados», si el comité debiera corregir una conclusión, ¿cuál enunciado sería defendible?",
+      "options": [
+        "Los testimonios no permiten atribuir respaldo general a toda la comunidad",
+        "El respaldo es necesariamente universal porque hablan representantes de grupos",
+        "La reforma debe ser eliminada porque existen algunas opiniones críticas"
+      ],
+      "correct": 0,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: los testimonios no permiten atribuir respaldo general a toda la comunidad. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 593,
+      "originalId": 33,
+      "sourceExam": 5,
+      "situationId": "S5-11",
+      "competency": "Lectura crítica - test",
+      "text": "Sobre «Argumento por testimonios seleccionados», ¿Qué prueba permitiría someter a examen la afirmación central?",
+      "options": [
+        "Número de veces que los seis representantes reiteraron su respaldo",
+        "Muestra y procedimiento de selección de participantes, con objeciones documentadas",
+        "Extensión total de las actas en que se transcribieron elogios"
+      ],
+      "correct": 1,
+      "explanation": "La verificación relevante es muestra y procedimiento de selección de participantes, con objeciones documentadas. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 594,
+      "originalId": 34,
+      "sourceExam": 5,
+      "situationId": "S5-11",
+      "competency": "Lectura crítica - critique",
+      "text": "En el supuesto de «Argumento por testimonios seleccionados», ¿Cuál objeción resulta más fuerte sin introducir hechos no mencionados?",
+      "options": [
+        "El error lógico radica en entrevistar a más de cinco personas",
+        "Inferir consenso general desde testimonios favorables seleccionados incurre en sesgo",
+        "El problema es exclusivamente de puntuación de los testimonios escritos"
+      ],
+      "correct": 1,
+      "explanation": "La objeción precisa es inferir consenso general desde testimonios favorables seleccionados incurre en sesgo. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 595,
+      "originalId": 35,
+      "sourceExam": 5,
+      "situationId": "S5-11",
+      "competency": "Lectura crítica - assumption",
+      "text": "Sobre «Argumento por testimonios seleccionados», ¿Cuál supuesto es decisivo al trasladar la regla a los hechos?",
+      "options": [
+        "Que todos los críticos conozcan personalmente al rector",
+        "Que las voces seleccionadas representen razonablemente a la población inferida",
+        "Que la reforma tenga un costo presupuestal superior al año anterior"
+      ],
+      "correct": 1,
+      "explanation": "La condición necesaria es que las voces seleccionadas representen razonablemente a la población inferida. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 596,
+      "originalId": 36,
+      "sourceExam": 5,
+      "situationId": "S5-12",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál fue el costo medio por estudiante para 60 atendidos?",
+      "options": [
+        "$96.000",
+        "$104.000",
+        "$100.000"
+      ],
+      "correct": 2,
+      "explanation": "(3.600.000 + 60 × 40.000) / 60 = 100.000.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 597,
+      "originalId": 37,
+      "sourceExam": 5,
+      "situationId": "S5-12",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuánto costaría atender 90 bajo los supuestos expresos?",
+      "options": [
+        "$7.200.000",
+        "$9.000.000",
+        "$6.800.000"
+      ],
+      "correct": 0,
+      "explanation": "3.600.000 + 90 × 40.000 = 7.200.000.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 598,
+      "originalId": 38,
+      "sourceExam": 5,
+      "situationId": "S5-12",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿En cuánto cambia el costo medio al pasar de 60 a 90 participantes?",
+      "options": [
+        "Disminuye $20.000",
+        "Aumenta $20.000",
+        "Disminuye $10.000"
+      ],
+      "correct": 0,
+      "explanation": "Nuevo promedio 7.200.000/90 = 80.000; antes 100.000.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 599,
+      "originalId": 39,
+      "sourceExam": 5,
+      "situationId": "S5-13",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Directorio comercial de acudientes», ¿Qué determinación debería sostener el rector en un acta motivada?",
+      "options": [
+        "Valorar condiciones locales y compartir únicamente teléfonos de quienes participen en undécimo por pertinencia temática",
+        "Consultar la información disponible y remitir datos sin nombres y confiar en que el receptor no los cruce con fuentes públicas",
+        "No entregar la base para un fin ajeno y revisar cualquier comunicación legítima sin transferencia indebida"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque no entregar la base para un fin ajeno y revisar cualquier comunicación legítima sin transferencia indebida. La primera alternativa rival propone valorar condiciones locales y compartir únicamente teléfonos de quienes participen en undécimo por pertinencia temática, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y remitir datos sin nombres y confiar en que el receptor no los cruce con fuentes públicas, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1581 de 2012, protección de datos personales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 600,
+      "originalId": 40,
+      "sourceExam": 5,
+      "situationId": "S5-13",
+      "competency": "Control y resultados",
+      "text": "En relación con «Directorio comercial de acudientes», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Cantidad de contactos usados para campañas, según períodos escolares comparables, con desagregación por grupos relevantes",
+        "Ausencia de transferencias ajenas a la finalidad autorizada, mediante contrastes entre cortes de gestión, con trazabilidad de las actuaciones respectivas",
+        "Porcentaje de familias que responde a mensajes promocionales, según series temporales y registros de seguimiento"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: ausencia de transferencias ajenas a la finalidad autorizada, mediante contrastes entre cortes de gestión, con trazabilidad de las actuaciones respectivas. Medir «cantidad de contactos usados para campañas, según períodos escolares comparables, con desagregación por grupos relevantes» o «porcentaje de familias que responde a mensajes promocionales, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1581 de 2012, protección de datos personales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 601,
+      "originalId": 41,
+      "sourceExam": 5,
+      "situationId": "S5-13",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Directorio comercial de acudientes», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Finalidad original de recolección, autorizaciones y oferta comercial y protocolo unilateral de borrado",
+        "Finalidad original de recolección, carta de la asociación con compromiso de confidencialidad y legitimidad de cualquier tratamiento",
+        "Finalidad original de recolección, autorizaciones y legitimidad de cualquier tratamiento"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: finalidad original de recolección, autorizaciones y legitimidad de cualquier tratamiento. La evidencia «finalidad original de recolección, autorizaciones y oferta comercial y protocolo unilateral de borrado» aporta un dato lateral, mientras «finalidad original de recolección, carta de la asociación con compromiso de confidencialidad y legitimidad de cualquier tratamiento» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1581 de 2012, protección de datos personales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 602,
+      "originalId": 42,
+      "sourceExam": 5,
+      "situationId": "S5-14",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Especificación hecha para una marca», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Cantidad de referencias de una marca adquiridas, según series temporales y registros de seguimiento, con contrastes por curso, jornada y sede",
+        "Velocidad con que se adjudica el contrato, según revisión de muestras y de reportes de campo, mediante contrastes entre cortes de gestión",
+        "Selección con requisitos proporcionales a la necesidad educativa, mediante contrastes entre cortes de gestión"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: selección con requisitos proporcionales a la necesidad educativa, mediante contrastes entre cortes de gestión. Medir «cantidad de referencias de una marca adquiridas, según series temporales y registros de seguimiento, con contrastes por curso, jornada y sede» o «velocidad con que se adjudica el contrato, según revisión de muestras y de reportes de campo, mediante contrastes entre cortes de gestión» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Principios de selección objetiva y gestión del FSE",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 603,
+      "originalId": 43,
+      "sourceExam": 5,
+      "situationId": "S5-14",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Especificación hecha para una marca», ¿Qué información distingue mejor un trámite válido de una solución aparente?",
+      "options": [
+        "Estudio de necesidad, condiciones técnicas funcionales y comparabilidad de ofertas",
+        "Estudio de necesidad, condiciones técnicas funcionales y catálogo comercial del fabricante favorecido",
+        "Estudio de necesidad, reconocimiento público de la marca en otros centros y comparabilidad de ofertas"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: estudio de necesidad, condiciones técnicas funcionales y comparabilidad de ofertas. La evidencia «estudio de necesidad, condiciones técnicas funcionales y catálogo comercial del fabricante favorecido» aporta un dato lateral, mientras «estudio de necesidad, reconocimiento público de la marca en otros centros y comparabilidad de ofertas» no acredita el hecho decisivo.",
+      "legalBasis": "Principios de selección objetiva y gestión del FSE",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 604,
+      "originalId": 44,
+      "sourceExam": 5,
+      "situationId": "S5-14",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Especificación hecha para una marca», ¿Cuál opción articula de manera más apropiada la función rectoral con el problema?",
+      "options": [
+        "Revisar justificación funcional de especificaciones y permitir competencia en condiciones objetivas",
+        "Consultar la información disponible y conservar la marca porque el fabricante ofrece capacitación adicional sin costo",
+        "Analizar las implicaciones y descartar las alternativas por carecer del requisito aunque cumplan funcionalmente la necesidad"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque revisar justificación funcional de especificaciones y permitir competencia en condiciones objetivas. La primera alternativa rival propone consultar la información disponible y conservar la marca porque el fabricante ofrece capacitación adicional sin costo, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y descartar las alternativas por carecer del requisito aunque cumplan funcionalmente la necesidad, pero no sustituye la actuación competente.",
+      "legalBasis": "Principios de selección objetiva y gestión del FSE",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 605,
+      "originalId": 45,
+      "sourceExam": 5,
+      "situationId": "S5-15",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuánto se ejecutó en total?",
+      "options": [
+        "$30 millones",
+        "$28 millones",
+        "$26 millones"
+      ],
+      "correct": 2,
+      "explanation": "0,75 × 24 + 0,50 × 16 = 18 + 8 = 26 millones.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 606,
+      "originalId": 46,
+      "sourceExam": 5,
+      "situationId": "S5-15",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué porcentaje representa la ejecución total del proyecto?",
+      "options": [
+        "70 %",
+        "62,5 %",
+        "65 %"
+      ],
+      "correct": 2,
+      "explanation": "26 / (24 + 16) = 26/40 = 65 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 607,
+      "originalId": 47,
+      "sourceExam": 5,
+      "situationId": "S5-15",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántos millones restan por ejecutar en dotación?",
+      "options": [
+        "$6 millones",
+        "$8 millones",
+        "$4 millones"
+      ],
+      "correct": 0,
+      "explanation": "24 - 0,75 × 24 = 6 millones.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 608,
+      "originalId": 48,
+      "sourceExam": 5,
+      "situationId": "S5-16",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál fue la tasa de retiro del segundo año?",
+      "options": [
+        "5 %",
+        "4,5 %",
+        "6,67 %"
+      ],
+      "correct": 0,
+      "explanation": "20 / 400 × 100 = 5 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 609,
+      "originalId": 49,
+      "sourceExam": 5,
+      "situationId": "S5-16",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿En cuántos puntos porcentuales cambió la tasa frente al primer año?",
+      "options": [
+        "Disminuyó 0,5 puntos",
+        "Aumentó 2 puntos",
+        "Disminuyó 1 punto"
+      ],
+      "correct": 2,
+      "explanation": "El primer año fue 18/300 = 6 %; el segundo 5 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 610,
+      "originalId": 50,
+      "sourceExam": 5,
+      "situationId": "S5-16",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si la segunda cohorte hubiera tenido la tasa del primer año, ¿cuántos retiros habría registrado?",
+      "options": [
+        "22 retiros",
+        "24 retiros",
+        "26 retiros"
+      ],
+      "correct": 1,
+      "explanation": "6 % de 400 = 24; no confundir tasas con cantidades absolutas.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 611,
+      "originalId": 51,
+      "sourceExam": 5,
+      "situationId": "S5-17",
+      "competency": "Valoración probatoria",
+      "text": "A propósito del caso «Desagregación y efecto de composición», ¿Qué información distingue mejor un trámite válido de una solución aparente?",
+      "options": [
+        "Resultados por grado, opinión docente sobre la dificultad de los cursos y cambios en composición de matrícula",
+        "Resultados por grado, tamaños de grupo y cambios en composición de matrícula",
+        "Resultados por grado, tamaños de grupo y porcentaje global de aprobación sin desagregación"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: resultados por grado, tamaños de grupo y cambios en composición de matrícula. La evidencia «resultados por grado, tamaños de grupo y porcentaje global de aprobación sin desagregación» aporta un dato lateral, mientras «resultados por grado, opinión docente sobre la dificultad de los cursos y cambios en composición de matrícula» no acredita el hecho decisivo.",
+      "legalBasis": "Criterios de análisis de datos educativos e inferencia",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 612,
+      "originalId": 52,
+      "sourceExam": 5,
+      "situationId": "S5-17",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Desagregación y efecto de composición», ¿Qué recomendación al equipo directivo resultaría técnicamente preferible?",
+      "options": [
+        "Desagregar por grado y ponderar la composición antes de inferir mejora pedagógica",
+        "Valorar condiciones locales y presentar el aumento agregado como evidencia suficiente de eficacia del PMI",
+        "Analizar las implicaciones y revisar únicamente la sede con mayor matrícula porque domina el promedio general"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque desagregar por grado y ponderar la composición antes de inferir mejora pedagógica. La primera alternativa rival propone valorar condiciones locales y presentar el aumento agregado como evidencia suficiente de eficacia del PMI, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y revisar únicamente la sede con mayor matrícula porque domina el promedio general, pero no sustituye la actuación competente.",
+      "legalBasis": "Criterios de análisis de datos educativos e inferencia",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 613,
+      "originalId": 53,
+      "sourceExam": 5,
+      "situationId": "S5-17",
+      "competency": "Control y resultados",
+      "text": "Sobre «Desagregación y efecto de composición», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Mejora dentro de grupos comparables y no únicamente en el agregado, en relación con la decisión adoptada, con revisión de sedes y responsables",
+        "Disminución del peso de cursos con menor rendimiento, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados",
+        "Aumento bruto del total de aprobados, mediante contrastes entre cortes de gestión, según series temporales y registros de seguimiento"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: mejora dentro de grupos comparables y no únicamente en el agregado, en relación con la decisión adoptada, con revisión de sedes y responsables. Medir «aumento bruto del total de aprobados, mediante contrastes entre cortes de gestión, según series temporales y registros de seguimiento» o «disminución del peso de cursos con menor rendimiento, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Criterios de análisis de datos educativos e inferencia",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 614,
+      "originalId": 54,
+      "sourceExam": 5,
+      "situationId": "S5-18",
+      "competency": "Lectura crítica - inference",
+      "text": "En relación con «Resultados bajo cambio de definición», si el comité debiera corregir una conclusión, ¿cuál enunciado sería defendible?",
+      "options": [
+        "La deserción aumentó necesariamente porque se excluyeron traslados",
+        "La estrategia demostró reducir la deserción exactamente cinco puntos",
+        "La diferencia reportada no identifica el cambio real ni el efecto de la estrategia"
+      ],
+      "correct": 2,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la diferencia reportada no identifica el cambio real ni el efecto de la estrategia. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 615,
+      "originalId": 55,
+      "sourceExam": 5,
+      "situationId": "S5-18",
+      "competency": "Lectura crítica - assumption",
+      "text": "A propósito del caso «Resultados bajo cambio de definición», ¿Cuál supuesto es decisivo al trasladar la regla a los hechos?",
+      "options": [
+        "Que ambos grupos tengan el mismo número de docentes por sede",
+        "Que no se hayan formulado quejas formales sobre la estrategia",
+        "Que las definiciones de abandono sean comparables en ambos períodos"
+      ],
+      "correct": 2,
+      "explanation": "La condición necesaria es que las definiciones de abandono sean comparables en ambos períodos. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 616,
+      "originalId": 56,
+      "sourceExam": 5,
+      "situationId": "S5-18",
+      "competency": "Lectura crítica - critique",
+      "text": "Respecto de «Resultados bajo cambio de definición», ¿Cuál es el defecto argumentativo central que debe advertirse?",
+      "options": [
+        "Atribuir causalidad sobre medidas con definiciones distintas es insostenible",
+        "La conclusión es inválida solo porque los porcentajes son menores a veinte",
+        "La conclusión falla únicamente porque faltó encuesta de satisfacción"
+      ],
+      "correct": 0,
+      "explanation": "La objeción precisa es atribuir causalidad sobre medidas con definiciones distintas es insostenible. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 617,
+      "originalId": 57,
+      "sourceExam": 5,
+      "situationId": "S5-18",
+      "competency": "Lectura crítica - test",
+      "text": "Para analizar «Resultados bajo cambio de definición», si se prepara una réplica técnica, ¿qué datos sería prioritario recuperar?",
+      "options": [
+        "Contrastar solamente el número absoluto de estudiantes trasladados",
+        "Comparar opiniones de docentes antes y después de la estrategia",
+        "Recalcular ambos períodos con definiciones homogéneas y examinar otras variaciones"
+      ],
+      "correct": 2,
+      "explanation": "La verificación relevante es recalcular ambos períodos con definiciones homogéneas y examinar otras variaciones. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 618,
+      "originalId": 58,
+      "sourceExam": 5,
+      "situationId": "S5-19",
+      "competency": "Valoración probatoria",
+      "text": "Para la situación «Horas optativas desplazadas», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Plan de estudios vigente, propuesta horaria, efectos curriculares y actas competentes",
+        "Plan de estudios vigente, disponibilidad del laboratorio sin análisis del plan de estudios y actas competentes",
+        "Plan de estudios vigente, propuesta horaria, efectos curriculares y preferencias de los docentes por franja horaria"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: plan de estudios vigente, propuesta horaria, efectos curriculares y actas competentes. La evidencia «plan de estudios vigente, propuesta horaria, efectos curriculares y preferencias de los docentes por franja horaria» aporta un dato lateral, mientras «plan de estudios vigente, disponibilidad del laboratorio sin análisis del plan de estudios y actas competentes» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994, artículos 76-79; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 619,
+      "originalId": 59,
+      "sourceExam": 5,
+      "situationId": "S5-19",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Horas optativas desplazadas», ¿Qué registro de desempeño permitiría evaluar una respuesta efectiva?",
+      "options": [
+        "Cambios curriculares formalizados y coherentes con los aprendizajes previstos, tras excluir registros duplicados y atípicos justificados",
+        "Horas liberadas por concentración de actividades, con contrastes por curso, jornada y sede, con perspectiva de continuidad del servicio",
+        "Número de docentes que aceptaron voluntariamente el cambio, en relación con la decisión adoptada, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: cambios curriculares formalizados y coherentes con los aprendizajes previstos, tras excluir registros duplicados y atípicos justificados. Medir «horas liberadas por concentración de actividades, con contrastes por curso, jornada y sede, con perspectiva de continuidad del servicio» o «número de docentes que aceptaron voluntariamente el cambio, en relación con la decisión adoptada, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994, artículos 76-79; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 620,
+      "originalId": 60,
+      "sourceExam": 5,
+      "situationId": "S5-19",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Horas optativas desplazadas», ¿Qué decisión inicial evita el principal error de competencia o procedimiento?",
+      "options": [
+        "Someter la propuesta a deliberación académica y al trámite institucional competente antes de aplicarla",
+        "Establecer seguimiento y consultar a cada docente y aplicar la opción que reúna mayor respaldo informal",
+        "Documentar el trámite y ajustar directamente horarios y registrar la decisión como medida de eficiencia operativa"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque someter la propuesta a deliberación académica y al trámite institucional competente antes de aplicarla. La primera alternativa rival propone documentar el trámite y ajustar directamente horarios y registrar la decisión como medida de eficiencia operativa, lo cual omite un requisito del contexto. La otra propone establecer seguimiento y consultar a cada docente y aplicar la opción que reúna mayor respaldo informal, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994, artículos 76-79; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 621,
+      "originalId": 61,
+      "sourceExam": 5,
+      "situationId": "S5-20",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Atribución causal por selección», frente a los argumentos contrapuestos, ¿qué decisión puede justificarse con mayor solidez?",
+      "options": [
+        "Documentar el trámite y afirmar causalidad porque existe asociación entre asistencia y mejores puntajes",
+        "Considerar posible sesgo de selección antes de atribuir la diferencia a las tutorías",
+        "Analizar las implicaciones y descartar cualquier utilidad de las tutorías porque el estudio no asignó estudiantes al azar"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque considerar posible sesgo de selección antes de atribuir la diferencia a las tutorías. La primera alternativa rival propone documentar el trámite y afirmar causalidad porque existe asociación entre asistencia y mejores puntajes, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y descartar cualquier utilidad de las tutorías porque el estudio no asignó estudiantes al azar, pero no sustituye la actuación competente.",
+      "legalBasis": "Lectura crítica, inferencia causal aplicada",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 622,
+      "originalId": 62,
+      "sourceExam": 5,
+      "situationId": "S5-20",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Atribución causal por selección», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Desempeño previo, participación y puntuaciones finales únicamente entre asistentes",
+        "Desempeño previo, opiniones de tutores sobre motivación de participantes y variables de selección comparables",
+        "Desempeño previo, participación y variables de selección comparables"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: desempeño previo, participación y variables de selección comparables. La evidencia «desempeño previo, participación y puntuaciones finales únicamente entre asistentes» aporta un dato lateral, mientras «desempeño previo, opiniones de tutores sobre motivación de participantes y variables de selección comparables» no acredita el hecho decisivo.",
+      "legalBasis": "Lectura crítica, inferencia causal aplicada",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 623,
+      "originalId": 63,
+      "sourceExam": 5,
+      "situationId": "S5-20",
+      "competency": "Control y resultados",
+      "text": "En relación con «Atribución causal por selección», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Brecha bruta final entre asistentes y no asistentes, con control de cambios y documentos de respaldo, según períodos escolares comparables",
+        "Cantidad de estudiantes que eligió voluntariamente asistir, según series temporales y registros de seguimiento",
+        "Diferencia ajustada entre grupos comparables e incertidumbre reconocida, en relación con la decisión adoptada"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: diferencia ajustada entre grupos comparables e incertidumbre reconocida, en relación con la decisión adoptada. Medir «brecha bruta final entre asistentes y no asistentes, con control de cambios y documentos de respaldo, según períodos escolares comparables» o «cantidad de estudiantes que eligió voluntariamente asistir, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Lectura crítica, inferencia causal aplicada",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 624,
+      "originalId": 64,
+      "sourceExam": 5,
+      "situationId": "S5-21",
+      "competency": "Lectura crítica - assumption",
+      "text": "En el supuesto de «Prioridad según umbrales cruzados», ¿Qué condición debe mantenerse para que la conclusión sea válida?",
+      "options": [
+        "Que las tres sedes necesitan el mismo presupuesto anual",
+        "Que ambos requisitos se aplican con idéntico significado en las tres sedes",
+        "Que toda alianza elimina automáticamente cualquier posibilidad de abandono"
+      ],
+      "correct": 1,
+      "explanation": "La condición necesaria es que ambos requisitos se aplican con idéntico significado en las tres sedes. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 625,
+      "originalId": 65,
+      "sourceExam": 5,
+      "situationId": "S5-21",
+      "competency": "Lectura crítica - inference",
+      "text": "Para la situación «Prioridad según umbrales cruzados», ¿Qué conclusión se desprende de las condiciones expresadas, sin exceder la evidencia?",
+      "options": [
+        "Solo C cumple los dos requisitos declarados para prioridad",
+        "B y C cumplen por carecer ambas de apoyo comparable",
+        "A y C cumplen porque ambas presentan riesgo alto"
+      ],
+      "correct": 0,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: solo C cumple los dos requisitos declarados para prioridad. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 626,
+      "originalId": 66,
+      "sourceExam": 5,
+      "situationId": "S5-21",
+      "competency": "Lectura crítica - critique",
+      "text": "Sobre «Prioridad según umbrales cruzados», ¿Cuál objeción resulta más fuerte sin introducir hechos no mencionados?",
+      "options": [
+        "El problema consiste exclusivamente en el tamaño de matrícula reportado",
+        "Concluir prioridad a partir de un criterio aislado contradice la regla conjunta",
+        "La mayor debilidad radica en no incluir opiniones del rector en la tabla"
+      ],
+      "correct": 1,
+      "explanation": "La objeción precisa es concluir prioridad a partir de un criterio aislado contradice la regla conjunta. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 627,
+      "originalId": 67,
+      "sourceExam": 5,
+      "situationId": "S5-21",
+      "competency": "Lectura crítica - test",
+      "text": "Para analizar «Prioridad según umbrales cruzados», ¿Cuál contraste empírico responde a la insuficiencia destacada?",
+      "options": [
+        "Número total de alianzas anunciadas para el municipio",
+        "Tamaño de matrícula de cada sede sin indicadores de riesgo",
+        "Riesgo de abandono y disponibilidad verificable de apoyos por sede"
+      ],
+      "correct": 2,
+      "explanation": "La verificación relevante es riesgo de abandono y disponibilidad verificable de apoyos por sede. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 628,
+      "originalId": 68,
+      "sourceExam": 5,
+      "situationId": "S5-22",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Favoritismo en elección de proveedor», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Declaración de intereses, roles en evaluación y comparativo de precios de las dos ofertas recibidas",
+        "Declaración de intereses, roles en evaluación y medidas de separación documentadas",
+        "Declaración de intereses, constancia verbal de que no habrá beneficio personal y medidas de separación documentadas"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: declaración de intereses, roles en evaluación y medidas de separación documentadas. La evidencia «declaración de intereses, roles en evaluación y comparativo de precios de las dos ofertas recibidas» aporta un dato lateral, mientras «declaración de intereses, constancia verbal de que no habrá beneficio personal y medidas de separación documentadas» no acredita el hecho decisivo.",
+      "legalBasis": "Principios de imparcialidad y contratación pública aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 629,
+      "originalId": 69,
+      "sourceExam": 5,
+      "situationId": "S5-22",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Favoritismo en elección de proveedor», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Decisiones sin intervención de personas afectadas por conflicto de interés, según períodos escolares comparables",
+        "Participación del integrante en reuniones sin constancia de voto, con revisión de sedes y responsables",
+        "Número de ofertas tramitadas antes del plazo previsto, con revisión de sedes y responsables, en relación con la decisión adoptada"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones sin intervención de personas afectadas por conflicto de interés, según períodos escolares comparables. Medir «número de ofertas tramitadas antes del plazo previsto, con revisión de sedes y responsables, en relación con la decisión adoptada» o «participación del integrante en reuniones sin constancia de voto, con revisión de sedes y responsables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Principios de imparcialidad y contratación pública aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 630,
+      "originalId": 70,
+      "sourceExam": 5,
+      "situationId": "S5-22",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Favoritismo en elección de proveedor», ¿Qué propuesta resolvería el problema sin transformar una excepción en regla?",
+      "options": [
+        "Examinar antecedentes y permitir su análisis técnico si se abstiene de firmar el acta final",
+        "Gestionar declaración y tratamiento del conflicto antes de su intervención decisoria",
+        "Analizar las implicaciones y continuar la contratación y dejar registro del vínculo solo si la oferta resulta ganadora"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque gestionar declaración y tratamiento del conflicto antes de su intervención decisoria. La primera alternativa rival propone examinar antecedentes y permitir su análisis técnico si se abstiene de firmar el acta final, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y continuar la contratación y dejar registro del vínculo solo si la oferta resulta ganadora, pero no sustituye la actuación competente.",
+      "legalBasis": "Principios de imparcialidad y contratación pública aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 631,
+      "originalId": 71,
+      "sourceExam": 5,
+      "situationId": "S5-23",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Con cuántos estudiantes cierra la cohorte administrativa de ese grado?",
+      "options": [
+        "230",
+        "226",
+        "218"
+      ],
+      "correct": 1,
+      "explanation": "250 - 20 - 12 + 8 = 226.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 632,
+      "originalId": 72,
+      "sourceExam": 5,
+      "situationId": "S5-23",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué proporción de los estudiantes iniciales corresponde a abandonos reportados?",
+      "options": [
+        "4,8 %",
+        "8 %",
+        "5,3 %"
+      ],
+      "correct": 0,
+      "explanation": "12 / 250 = 4,8 %, con denominador inicial expresado en el enunciado.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 633,
+      "originalId": 73,
+      "sourceExam": 5,
+      "situationId": "S5-23",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué porcentaje de salidas registradas correspondió a traslados certificados?",
+      "options": [
+        "66,7 %",
+        "60 %",
+        "62,5 %"
+      ],
+      "correct": 2,
+      "explanation": "20 / (20 + 12) = 20/32 = 62,5 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 634,
+      "originalId": 74,
+      "sourceExam": 5,
+      "situationId": "S5-24",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Comisión sin modificación de funciones», frente a los argumentos contrapuestos, ¿qué decisión puede justificarse con mayor solidez?",
+      "options": [
+        "Analizar las implicaciones y mantener la asignación porque todas las actividades sirven al interés general de la escuela",
+        "Revisar soportes y compensar informalmente la carga con permiso de salida anticipada dos veces por semana",
+        "Distinguir apoyos compatibles con el cargo de funciones ajenas y gestionar la necesidad de planta ante la autoridad territorial"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque distinguir apoyos compatibles con el cargo de funciones ajenas y gestionar la necesidad de planta ante la autoridad territorial. La primera alternativa rival propone analizar las implicaciones y mantener la asignación porque todas las actividades sirven al interés general de la escuela, lo cual omite un requisito del contexto. La otra propone revisar soportes y compensar informalmente la carga con permiso de salida anticipada dos veces por semana, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 635,
+      "originalId": 75,
+      "sourceExam": 5,
+      "situationId": "S5-24",
+      "competency": "Valoración probatoria",
+      "text": "En la controversia descrita en «Comisión sin modificación de funciones», para auditar el procedimiento, ¿qué registro es directamente pertinente?",
+      "options": [
+        "Actos de asignación, perfiles funcionales, horarios y reporte de necesidad administrativa",
+        "Actos de asignación, perfiles funcionales, horarios y declaraciones favorables de quienes reciben materiales inventariados",
+        "Actos de asignación, registros de entrada del docente a la bodega y reporte de necesidad administrativa"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: actos de asignación, perfiles funcionales, horarios y reporte de necesidad administrativa. La evidencia «actos de asignación, perfiles funcionales, horarios y declaraciones favorables de quienes reciben materiales inventariados» aporta un dato lateral, mientras «actos de asignación, registros de entrada del docente a la bodega y reporte de necesidad administrativa» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 636,
+      "originalId": 76,
+      "sourceExam": 5,
+      "situationId": "S5-24",
+      "competency": "Control y resultados",
+      "text": "En relación con «Comisión sin modificación de funciones», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Horas administrativas aportadas por docentes sin distinguir función, tras excluir registros duplicados y atípicos justificados",
+        "Continuidad del servicio y distribución de funciones conforme al perfil, con trazabilidad de las actuaciones respectivas",
+        "Número de tareas nuevas asignadas para resolver la escasez, según períodos escolares comparables, según series temporales y registros de seguimiento"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: continuidad del servicio y distribución de funciones conforme al perfil, con trazabilidad de las actuaciones respectivas. Medir «número de tareas nuevas asignadas para resolver la escasez, según períodos escolares comparables, según series temporales y registros de seguimiento» o «horas administrativas aportadas por docentes sin distinguir función, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 637,
+      "originalId": 77,
+      "sourceExam": 5,
+      "situationId": "S5-25",
+      "competency": "Control y resultados",
+      "text": "En relación con «Cierre temporal de puente comunitario», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Días de aprendizaje protegidos sin exponer a rutas restringidas, considerando diferencias iniciales de contexto",
+        "Asistencia lograda mediante cruces voluntarios, en relación con la decisión adoptada, mediante contrastes entre cortes de gestión",
+        "Número de estudiantes que recibió excusa de ausencia, según series temporales y registros de seguimiento"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: días de aprendizaje protegidos sin exponer a rutas restringidas, considerando diferencias iniciales de contexto. Medir «asistencia lograda mediante cruces voluntarios, en relación con la decisión adoptada, mediante contrastes entre cortes de gestión» o «número de estudiantes que recibió excusa de ausencia, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1098 de 2006, protección integral; gestión del riesgo aplicable",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 638,
+      "originalId": 78,
+      "sourceExam": 5,
+      "situationId": "S5-25",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Cierre temporal de puente comunitario», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Comunicación oficial de restricción, rutas alternativas y cartas familiares aceptando asumir el riesgo del tránsito",
+        "Comunicación oficial de restricción, rutas alternativas y trazabilidad de atención",
+        "Comunicación oficial de restricción, conteo de estudiantes que acostumbraban usar el puente y trazabilidad de atención"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: comunicación oficial de restricción, rutas alternativas y trazabilidad de atención. La evidencia «comunicación oficial de restricción, rutas alternativas y cartas familiares aceptando asumir el riesgo del tránsito» aporta un dato lateral, mientras «comunicación oficial de restricción, conteo de estudiantes que acostumbraban usar el puente y trazabilidad de atención» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1098 de 2006, protección integral; gestión del riesgo aplicable",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 639,
+      "originalId": 79,
+      "sourceExam": 5,
+      "situationId": "S5-25",
+      "competency": "Actuación rectoral",
+      "text": "Para la situación «Cierre temporal de puente comunitario», ¿Qué recomendación al equipo directivo resultaría técnicamente preferible?",
+      "options": [
+        "Coordinar continuidad pedagógica segura y exigir información oficial de movilidad a autoridades competentes",
+        "Examinar antecedentes y disponer que estudiantes mayores acompañen a menores como medida transitoria suficiente",
+        "Establecer seguimiento y permitir paso voluntario firmado por acudientes para evitar faltas acumuladas"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque coordinar continuidad pedagógica segura y exigir información oficial de movilidad a autoridades competentes. La primera alternativa rival propone establecer seguimiento y permitir paso voluntario firmado por acudientes para evitar faltas acumuladas, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y disponer que estudiantes mayores acompañen a menores como medida transitoria suficiente, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1098 de 2006, protección integral; gestión del riesgo aplicable",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 640,
+      "originalId": 80,
+      "sourceExam": 5,
+      "situationId": "S5-26",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la sensibilidad observada del instrumento?",
+      "options": [
+        "80 %",
+        "75 %",
+        "66,7 %"
+      ],
+      "correct": 1,
+      "explanation": "Casos detectados entre realmente afectados: 60 / 80 = 75 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 641,
+      "originalId": 81,
+      "sourceExam": 5,
+      "situationId": "S5-26",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la especificidad observada?",
+      "options": [
+        "80 %",
+        "75 %",
+        "70 %"
+      ],
+      "correct": 1,
+      "explanation": "No afectados correctamente no alertados: (120 - 30)/120 = 90/120 = 75 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 642,
+      "originalId": 82,
+      "sourceExam": 5,
+      "situationId": "S5-26",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Entre los alertados, ¿qué proporción terminó presentando rezago?",
+      "options": [
+        "66,7 %",
+        "60 %",
+        "75 %"
+      ],
+      "correct": 0,
+      "explanation": "60 / (60+30)=60/90=66,7 %; es valor predictivo positivo.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 643,
+      "originalId": 83,
+      "sourceExam": 5,
+      "situationId": "S5-27",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Rendimientos bancarios discutidos», ¿Cuál alternativa reduce el riesgo de actuar con una inferencia o potestad indebida? Considere como marco Decreto 1075 de 2015, artículos 2.3.1.6.3.3 a 2.3.1.6.3.6.",
+      "options": [
+        "Revisar soportes y compensar la obligación contra el ingreso bancario sin reflejarlo en el presupuesto",
+        "Examinar antecedentes y ordenar el pago por tratarse de rendimientos originados en cuentas de la institución",
+        "Determinar su incorporación presupuestal conforme a las reglas del fondo antes de comprometer el recurso"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque determinar su incorporación presupuestal conforme a las reglas del fondo antes de comprometer el recurso. La primera alternativa rival propone examinar antecedentes y ordenar el pago por tratarse de rendimientos originados en cuentas de la institución, lo cual omite un requisito del contexto. La otra propone revisar soportes y compensar la obligación contra el ingreso bancario sin reflejarlo en el presupuesto, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, artículos 2.3.1.6.3.3 a 2.3.1.6.3.6",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 644,
+      "originalId": 84,
+      "sourceExam": 5,
+      "situationId": "S5-27",
+      "competency": "Control y resultados",
+      "text": "Respecto de «Rendimientos bancarios discutidos», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Reducción del saldo de tesorería sin clasificar gastos, con revisión de sedes y responsables, considerando diferencias iniciales de contexto",
+        "Porcentaje de intereses usados durante el primer mes, con desagregación por grupos relevantes, en comparación con el período inmediatamente anterior",
+        "Compromisos ejecutados dentro de apropiaciones y disponibilidad autorizadas, con revisión de sedes y responsables"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: compromisos ejecutados dentro de apropiaciones y disponibilidad autorizadas, con revisión de sedes y responsables. Medir «porcentaje de intereses usados durante el primer mes, con desagregación por grupos relevantes, en comparación con el período inmediatamente anterior» o «reducción del saldo de tesorería sin clasificar gastos, con revisión de sedes y responsables, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, artículos 2.3.1.6.3.3 a 2.3.1.6.3.6",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 645,
+      "originalId": 85,
+      "sourceExam": 5,
+      "situationId": "S5-27",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Rendimientos bancarios discutidos», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Extractos, conciliación, disponibilidad y cotización actualizada del proveedor que reclama pago",
+        "Extractos, comparación del rendimiento con el saldo del contrato y acto presupuestal pertinente",
+        "Extractos, conciliación, disponibilidad y acto presupuestal pertinente"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: extractos, conciliación, disponibilidad y acto presupuestal pertinente. La evidencia «extractos, conciliación, disponibilidad y cotización actualizada del proveedor que reclama pago» aporta un dato lateral, mientras «extractos, comparación del rendimiento con el saldo del contrato y acto presupuestal pertinente» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, artículos 2.3.1.6.3.3 a 2.3.1.6.3.6",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 646,
+      "originalId": 86,
+      "sourceExam": 5,
+      "situationId": "S5-28",
+      "competency": "Actuación rectoral",
+      "text": "Para la situación «Circular con una excepción silenciada», ¿Cuál intervención protege mejor la finalidad educativa sin exceder atribuciones?",
+      "options": [
+        "Interpretar la circular íntegramente y tramitar cada solicitud conforme al procedimiento y sus excepciones",
+        "Establecer seguimiento y solicitar que el consejo directivo autorice en bloque todas las excepciones sin estudiar casos",
+        "Examinar antecedentes y dar prevalencia a la frase inicial porque enuncia una regla general más fácil de aplicar"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque interpretar la circular íntegramente y tramitar cada solicitud conforme al procedimiento y sus excepciones. La primera alternativa rival propone examinar antecedentes y dar prevalencia a la frase inicial porque enuncia una regla general más fácil de aplicar, lo cual omite un requisito del contexto. La otra propone establecer seguimiento y solicitar que el consejo directivo autorice en bloque todas las excepciones sin estudiar casos, pero no sustituye la actuación competente.",
+      "legalBasis": "Principios de interpretación integral y motivación administrativa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 647,
+      "originalId": 87,
+      "sourceExam": 5,
+      "situationId": "S5-28",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Circular con una excepción silenciada», para auditar el procedimiento, ¿qué registro es directamente pertinente?",
+      "options": [
+        "Versión íntegra, fecha, competencia del emisor y requisitos de la excepción",
+        "Versión íntegra, número de permisos denegados durante períodos anteriores y requisitos de la excepción",
+        "Versión íntegra, fecha, competencia del emisor y extracto compartido por el grupo de mensajería"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: versión íntegra, fecha, competencia del emisor y requisitos de la excepción. La evidencia «versión íntegra, fecha, competencia del emisor y extracto compartido por el grupo de mensajería» aporta un dato lateral, mientras «versión íntegra, número de permisos denegados durante períodos anteriores y requisitos de la excepción» no acredita el hecho decisivo.",
+      "legalBasis": "Principios de interpretación integral y motivación administrativa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 648,
+      "originalId": 88,
+      "sourceExam": 5,
+      "situationId": "S5-28",
+      "competency": "Control y resultados",
+      "text": "Sobre «Circular con una excepción silenciada», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Porcentaje de denegaciones respecto del total de solicitudes, con desagregación por grupos relevantes, según series temporales y registros de seguimiento",
+        "Rapidez con que la secretaría entrega respuestas idénticas, con trazabilidad de las actuaciones respectivas, con contrastes por curso, jornada y sede",
+        "Decisiones congruentes con la regla y la excepción efectivamente aplicables, con desagregación por grupos relevantes"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones congruentes con la regla y la excepción efectivamente aplicables, con desagregación por grupos relevantes. Medir «porcentaje de denegaciones respecto del total de solicitudes, con desagregación por grupos relevantes, según series temporales y registros de seguimiento» o «rapidez con que la secretaría entrega respuestas idénticas, con trazabilidad de las actuaciones respectivas, con contrastes por curso, jornada y sede» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Principios de interpretación integral y motivación administrativa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 649,
+      "originalId": 89,
+      "sourceExam": 5,
+      "situationId": "S5-29",
+      "competency": "Lectura crítica - inference",
+      "text": "En el escenario de «Cadena de autorizaciones condicionadas», ¿Qué conclusión se desprende de las condiciones expresadas, sin exceder la evidencia?",
+      "options": [
+        "La falta de una verificación obliga a abandonar indefinidamente la necesidad",
+        "La apropiación por sí sola no satisface la condición conjunta para contratar",
+        "La apropiación es suficiente porque implica todas las autorizaciones posteriores"
+      ],
+      "correct": 1,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la apropiación por sí sola no satisface la condición conjunta para contratar. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 650,
+      "originalId": 90,
+      "sourceExam": 5,
+      "situationId": "S5-29",
+      "competency": "Lectura crítica - assumption",
+      "text": "Respecto de «Cadena de autorizaciones condicionadas», ¿Qué condición debe mantenerse para que la conclusión sea válida?",
+      "options": [
+        "Que ambas condiciones previstas se cumplan antes del compromiso correspondiente",
+        "Que la dotación sea de marca nacional aunque no figure como condición",
+        "Que el proveedor cuente con más de diez años de experiencia en el sector"
+      ],
+      "correct": 0,
+      "explanation": "La condición necesaria es que ambas condiciones previstas se cumplan antes del compromiso correspondiente. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 651,
+      "originalId": 91,
+      "sourceExam": 5,
+      "situationId": "S5-29",
+      "competency": "Lectura crítica - critique",
+      "text": "En el escenario de «Cadena de autorizaciones condicionadas», ¿Qué crítica ataca con mayor precisión la justificación expuesta?",
+      "options": [
+        "El problema lógico es que el establecimiento tenga varias sedes",
+        "La debilidad consiste en que el monto disponible podría ser demasiado alto",
+        "Convertir una condición necesaria en condición suficiente invalida el argumento"
+      ],
+      "correct": 2,
+      "explanation": "La objeción precisa es convertir una condición necesaria en condición suficiente invalida el argumento. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 652,
+      "originalId": 92,
+      "sourceExam": 5,
+      "situationId": "S5-29",
+      "competency": "Lectura crítica - test",
+      "text": "Si se examina «Cadena de autorizaciones condicionadas», si se prepara una réplica técnica, ¿qué datos sería prioritario recuperar?",
+      "options": [
+        "Estado de la actuación contractual pendiente y soporte de los requisitos exigidos",
+        "Monto no utilizado del presupuesto anual del establecimiento",
+        "Número de sedes que manifestaron interés por la dotación"
+      ],
+      "correct": 0,
+      "explanation": "La verificación relevante es estado de la actuación contractual pendiente y soporte de los requisitos exigidos. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 653,
+      "originalId": 93,
+      "sourceExam": 5,
+      "situationId": "S5-30",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Indicador idéntico para responsabilidades diferentes», ¿Qué opción respondería mejor a una objeción fundada sobre el trámite?",
+      "options": [
+        "Documentar el trámite y sustituir el indicador por una autoevaluación sin otras evidencias documentales",
+        "Contrastar posiciones y conservar el indicador único para facilitar comparaciones administrativas entre empleados",
+        "Ajustar criterios al perfil y a funciones verificables del cargo, manteniendo procedimiento competente"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque ajustar criterios al perfil y a funciones verificables del cargo, manteniendo procedimiento competente. La primera alternativa rival propone contrastar posiciones y conservar el indicador único para facilitar comparaciones administrativas entre empleados, lo cual omite un requisito del contexto. La otra propone documentar el trámite y sustituir el indicador por una autoevaluación sin otras evidencias documentales, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, competencias por cargo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 654,
+      "originalId": 94,
+      "sourceExam": 5,
+      "situationId": "S5-30",
+      "competency": "Control y resultados",
+      "text": "Sobre «Indicador idéntico para responsabilidades diferentes», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Juicios de desempeño basados en funciones reales y evidencias pertinentes, con control de cambios y documentos de respaldo",
+        "Cantidad de autoevaluaciones presentadas en plazo, en relación con la decisión adoptada, con trazabilidad de las actuaciones respectivas",
+        "Homogeneidad de puntajes entre todos los cargos, comparado con las metas aprobadas para el período, según períodos escolares comparables"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: juicios de desempeño basados en funciones reales y evidencias pertinentes, con control de cambios y documentos de respaldo. Medir «homogeneidad de puntajes entre todos los cargos, comparado con las metas aprobadas para el período, según períodos escolares comparables» o «cantidad de autoevaluaciones presentadas en plazo, en relación con la decisión adoptada, con trazabilidad de las actuaciones respectivas» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, competencias por cargo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 655,
+      "originalId": 95,
+      "sourceExam": 5,
+      "situationId": "S5-30",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Indicador idéntico para responsabilidades diferentes», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Manual de funciones, contribuciones individuales concertadas y porcentaje global de clases dictadas por la institución",
+        "Manual de funciones, número de formatos que diligencia cada persona y soportes pertinentes",
+        "Manual de funciones, contribuciones individuales concertadas y soportes pertinentes"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: manual de funciones, contribuciones individuales concertadas y soportes pertinentes. La evidencia «manual de funciones, contribuciones individuales concertadas y porcentaje global de clases dictadas por la institución» aporta un dato lateral, mientras «manual de funciones, número de formatos que diligencia cada persona y soportes pertinentes» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, competencias por cargo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 656,
+      "originalId": 96,
+      "sourceExam": 5,
+      "situationId": "S5-31",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Uso de cubierta como aula provisional», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Grupos atendidos en espacios con condiciones de seguridad acreditadas, con desagregación por grupos relevantes, en comparación con el período inmediatamente anterior",
+        "Porcentaje de ocupación de terraza por semana, con revisión de sedes y responsables, con perspectiva de continuidad del servicio",
+        "Horas de uso acumuladas sin reporte de incidentes, con control de cambios y documentos de respaldo, con perspectiva de continuidad del servicio"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: grupos atendidos en espacios con condiciones de seguridad acreditadas, con desagregación por grupos relevantes, en comparación con el período inmediatamente anterior. Medir «horas de uso acumuladas sin reporte de incidentes, con control de cambios y documentos de respaldo, con perspectiva de continuidad del servicio» o «porcentaje de ocupación de terraza por semana, con revisión de sedes y responsables, con perspectiva de continuidad del servicio» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Gestión del riesgo; deber institucional de protección",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 657,
+      "originalId": 97,
+      "sourceExam": 5,
+      "situationId": "S5-31",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Uso de cubierta como aula provisional», ¿Cuál opción articula de manera más apropiada la función rectoral con el problema?",
+      "options": [
+        "Consultar la información disponible y usar el área durante jornadas cortas para disminuir la exposición acumulada",
+        "No habilitar el espacio antes de verificar condiciones y tramitar alternativas seguras de capacidad",
+        "Consultar la información disponible y autorizar clases solo con estudiantes mayores que puedan evacuar más rápido"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque no habilitar el espacio antes de verificar condiciones y tramitar alternativas seguras de capacidad. La primera alternativa rival propone consultar la información disponible y usar el área durante jornadas cortas para disminuir la exposición acumulada, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y autorizar clases solo con estudiantes mayores que puedan evacuar más rápido, pero no sustituye la actuación competente.",
+      "legalBasis": "Gestión del riesgo; deber institucional de protección",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 658,
+      "originalId": 98,
+      "sourceExam": 5,
+      "situationId": "S5-31",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Uso de cubierta como aula provisional», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Inspección técnica del espacio, número de cursos que solicitan ampliación de aulas y rutas de evacuación",
+        "Inspección técnica del espacio, cargas permitidas y registro fotográfico de la terraza sin daños visibles",
+        "Inspección técnica del espacio, cargas permitidas y rutas de evacuación"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: inspección técnica del espacio, cargas permitidas y rutas de evacuación. La evidencia «inspección técnica del espacio, cargas permitidas y registro fotográfico de la terraza sin daños visibles» aporta un dato lateral, mientras «inspección técnica del espacio, número de cursos que solicitan ampliación de aulas y rutas de evacuación» no acredita el hecho decisivo.",
+      "legalBasis": "Gestión del riesgo; deber institucional de protección",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 659,
+      "originalId": 99,
+      "sourceExam": 5,
+      "situationId": "S5-32",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el logro conjunto actual?",
+      "options": [
+        "70 %",
+        "68 %",
+        "65 %"
+      ],
+      "correct": 1,
+      "explanation": "(80 + 90) / (100 + 150) = 170/250 = 68 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 660,
+      "originalId": 100,
+      "sourceExam": 5,
+      "situationId": "S5-32",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántos estudiantes adicionales, sin pérdidas en otros desempeños, deben alcanzar el estándar para llegar como mínimo al 75 %?",
+      "options": [
+        "20 estudiantes",
+        "18 estudiantes",
+        "17 estudiantes"
+      ],
+      "correct": 1,
+      "explanation": "Se requieren al menos 188 de 250 (75 % es 187,5); 188 - 170 = 18.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 661,
+      "originalId": 101,
+      "sourceExam": 5,
+      "situationId": "S5-32",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si mejoraran exactamente 15 estudiantes de octavo, ¿cuál sería el logro conjunto?",
+      "options": [
+        "74 %",
+        "75 %",
+        "73 %"
+      ],
+      "correct": 0,
+      "explanation": "(80 + 90 + 15) / 250 = 185/250 = 74 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 662,
+      "originalId": 102,
+      "sourceExam": 5,
+      "situationId": "S5-33",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Cabildo abierto sin decisión vinculante», ¿Cuál intervención protege mejor la finalidad educativa sin exceder atribuciones? Considere como marco Ley 115 de 1994, artículo 144; Decreto 1075 de 2015.",
+      "options": [
+        "Analizar las implicaciones y conferir al foro potestad decisoria porque expresa de forma directa la voluntad ciudadana",
+        "Recoger las propuestas y trasladarlas al órgano competente para decisión motivada",
+        "Contrastar posiciones y aplicar provisionalmente la propuesta votada mientras se convoca al consejo directivo"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque recoger las propuestas y trasladarlas al órgano competente para decisión motivada. La primera alternativa rival propone analizar las implicaciones y conferir al foro potestad decisoria porque expresa de forma directa la voluntad ciudadana, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y aplicar provisionalmente la propuesta votada mientras se convoca al consejo directivo, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994, artículo 144; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 663,
+      "originalId": 103,
+      "sourceExam": 5,
+      "situationId": "S5-33",
+      "competency": "Control y resultados",
+      "text": "En relación con «Cabildo abierto sin decisión vinculante», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Porcentaje de votos favorables durante el foro, con revisión de sedes y responsables, comparado con las metas aprobadas para el período",
+        "Número de intervenciones con aplausos del público, con perspectiva de continuidad del servicio, según series temporales y registros de seguimiento",
+        "Propuestas estudiadas y decisiones formalizadas por órgano competente, con trazabilidad de las actuaciones respectivas"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: propuestas estudiadas y decisiones formalizadas por órgano competente, con trazabilidad de las actuaciones respectivas. Medir «porcentaje de votos favorables durante el foro, con revisión de sedes y responsables, comparado con las metas aprobadas para el período» o «número de intervenciones con aplausos del público, con perspectiva de continuidad del servicio, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994, artículo 144; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 664,
+      "originalId": 104,
+      "sourceExam": 5,
+      "situationId": "S5-33",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Cabildo abierto sin decisión vinculante», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Acta del foro, número de asistentes sin identificar sectores de la comunidad y competencia del órgano decisor",
+        "Acta del foro, propuestas, criterios vigentes y competencia del órgano decisor",
+        "Acta del foro, propuestas, criterios vigentes y fotografías que demuestren cuántas personas levantaron la mano"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: acta del foro, propuestas, criterios vigentes y competencia del órgano decisor. La evidencia «acta del foro, propuestas, criterios vigentes y fotografías que demuestren cuántas personas levantaron la mano» aporta un dato lateral, mientras «acta del foro, número de asistentes sin identificar sectores de la comunidad y competencia del órgano decisor» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994, artículo 144; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 665,
+      "originalId": 105,
+      "sourceExam": 5,
+      "situationId": "S5-34",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál fue la tasa de respuesta sobre personas invitadas?",
+      "options": [
+        "35 %",
+        "25 %",
+        "30 %"
+      ],
+      "correct": 2,
+      "explanation": "270 / 900 = 30 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 666,
+      "originalId": 106,
+      "sourceExam": 5,
+      "situationId": "S5-34",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué porcentaje de los respondientes apoyó la medida?",
+      "options": [
+        "75 %",
+        "70 %",
+        "63 %"
+      ],
+      "correct": 1,
+      "explanation": "189 / 270 = 70 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 667,
+      "originalId": 107,
+      "sourceExam": 5,
+      "situationId": "S5-34",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué porcentaje de la población invitada representa el respaldo afirmativo constatado?",
+      "options": [
+        "18,9 %",
+        "23 %",
+        "21 %"
+      ],
+      "correct": 2,
+      "explanation": "189 / 900 × 100 = 21 %, sin inferir opinión de no respondientes.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 668,
+      "originalId": 108,
+      "sourceExam": 5,
+      "situationId": "S5-35",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Rectificación institucional insuficiente», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Velocidad de publicación de mensajes institucionales, con revisión de sedes y responsables, mediante contrastes entre cortes de gestión",
+        "Disminución de comentarios públicos sobre el incidente, con desagregación por grupos relevantes, según series temporales y registros de seguimiento",
+        "Rectificación accesible para quienes recibieron la imputación errónea, con trazabilidad de las actuaciones respectivas"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: rectificación accesible para quienes recibieron la imputación errónea, con trazabilidad de las actuaciones respectivas. Medir «disminución de comentarios públicos sobre el incidente, con desagregación por grupos relevantes, según series temporales y registros de seguimiento» o «velocidad de publicación de mensajes institucionales, con revisión de sedes y responsables, mediante contrastes entre cortes de gestión» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Principios de buena administración y protección de derechos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 669,
+      "originalId": 109,
+      "sourceExam": 5,
+      "situationId": "S5-35",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Rectificación institucional insuficiente», ¿Cuál alternativa reduce el riesgo de actuar con una inferencia o potestad indebida?",
+      "options": [
+        "Contrastar posiciones y enviar una aclaración solo a la docente porque ella es la persona aludida",
+        "Documentar el trámite y mantener el mensaje inicial y agregar una nota futura sin identificar el error",
+        "Rectificar por canales de alcance equivalente y gestionar revisión interna de la información"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque rectificar por canales de alcance equivalente y gestionar revisión interna de la información. La primera alternativa rival propone contrastar posiciones y enviar una aclaración solo a la docente porque ella es la persona aludida, lo cual omite un requisito del contexto. La otra propone documentar el trámite y mantener el mensaje inicial y agregar una nota futura sin identificar el error, pero no sustituye la actuación competente.",
+      "legalBasis": "Principios de buena administración y protección de derechos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 670,
+      "originalId": 110,
+      "sourceExam": 5,
+      "situationId": "S5-35",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Rectificación institucional insuficiente», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Versiones divulgadas, número de conversaciones privadas con la docente y alcance de las comunicaciones",
+        "Versiones divulgadas, reporte previo y alcance de las comunicaciones",
+        "Versiones divulgadas, reporte previo y cantidad de reacciones positivas al comunicado inicial"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: versiones divulgadas, reporte previo y alcance de las comunicaciones. La evidencia «versiones divulgadas, reporte previo y cantidad de reacciones positivas al comunicado inicial» aporta un dato lateral, mientras «versiones divulgadas, número de conversaciones privadas con la docente y alcance de las comunicaciones» no acredita el hecho decisivo.",
+      "legalBasis": "Principios de buena administración y protección de derechos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 671,
+      "originalId": 111,
+      "sourceExam": 5,
+      "situationId": "S5-36",
+      "competency": "Control y resultados",
+      "text": "Respecto de «Queja anónima con evidencias independientes», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Alertas evaluadas según su contenido y nivel de riesgo, según series temporales y registros de seguimiento, con revisión de sedes y responsables",
+        "Proporción de quejas con firma manuscrita, tras excluir registros duplicados y atípicos justificados, en relación con la decisión adoptada",
+        "Cantidad de citaciones generales realizadas, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: alertas evaluadas según su contenido y nivel de riesgo, según series temporales y registros de seguimiento, con revisión de sedes y responsables. Medir «proporción de quejas con firma manuscrita, tras excluir registros duplicados y atípicos justificados, en relación con la decisión adoptada» o «cantidad de citaciones generales realizadas, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1620 de 2013; protección integral del menor",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 672,
+      "originalId": 112,
+      "sourceExam": 5,
+      "situationId": "S5-36",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Queja anónima con evidencias independientes», frente a los argumentos contrapuestos, ¿qué decisión puede justificarse con mayor solidez?",
+      "options": [
+        "Valorar indicios y activar las actuaciones pertinentes sin exigir identidad pública del reportante",
+        "Contrastar posiciones y archivar el mensaje por ausencia de nombre y firma verificables; informar oportunamente a las instancias interesadas",
+        "Analizar las implicaciones y citar al curso entero y exigir identificación del denunciante para iniciar averiguaciones"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque valorar indicios y activar las actuaciones pertinentes sin exigir identidad pública del reportante. La primera alternativa rival propone contrastar posiciones y archivar el mensaje por ausencia de nombre y firma verificables; informar oportunamente a las instancias interesadas, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y citar al curso entero y exigir identificación del denunciante para iniciar averiguaciones, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1620 de 2013; protección integral del menor",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 673,
+      "originalId": 113,
+      "sourceExam": 5,
+      "situationId": "S5-36",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Queja anónima con evidencias independientes», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Correspondencia entre fechas, hechos, riesgos e indicios disponibles",
+        "Correspondencia entre fechas, hechos y número de estudiantes dispuestos a firmar la queja",
+        "Correspondencia entre fechas, popularidad del presunto agresor en redes de estudiantes y riesgos e indicios disponibles"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: correspondencia entre fechas, hechos, riesgos e indicios disponibles. La evidencia «correspondencia entre fechas, hechos y número de estudiantes dispuestos a firmar la queja» aporta un dato lateral, mientras «correspondencia entre fechas, popularidad del presunto agresor en redes de estudiantes y riesgos e indicios disponibles» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1620 de 2013; protección integral del menor",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 674,
+      "originalId": 114,
+      "sourceExam": 5,
+      "situationId": "S5-37",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Restricción horaria por cuidado familiar», ¿Cuál actuación separa correctamente la urgencia del procedimiento obligatorio?",
+      "options": [
+        "Valorar condiciones locales y negar de plano porque un horario común impide cualquier adaptación individual",
+        "Revisar soportes y conceder cualquier horario sin examinar cobertura de clases ni competencia para resolver",
+        "Analizar la solicitud motivadamente dentro de las reglas aplicables y asegurar continuidad del servicio"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque analizar la solicitud motivadamente dentro de las reglas aplicables y asegurar continuidad del servicio. La primera alternativa rival propone valorar condiciones locales y negar de plano porque un horario común impide cualquier adaptación individual, lo cual omite un requisito del contexto. La otra propone revisar soportes y conceder cualquier horario sin examinar cobertura de clases ni competencia para resolver, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; régimen aplicable de personal",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 675,
+      "originalId": 115,
+      "sourceExam": 5,
+      "situationId": "S5-37",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Restricción horaria por cuidado familiar», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Decisiones motivadas que armonizan derechos y continuidad pedagógica, en relación con la decisión adoptada, tras excluir registros duplicados y atípicos justificados",
+        "Reducción absoluta de cambios en los horarios, comparado con las metas aprobadas para el período, mediante contrastes entre cortes de gestión",
+        "Porcentaje de solicitudes denegadas en el semestre, con contrastes por curso, jornada y sede, con control de cambios y documentos de respaldo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones motivadas que armonizan derechos y continuidad pedagógica, en relación con la decisión adoptada, tras excluir registros duplicados y atípicos justificados. Medir «reducción absoluta de cambios en los horarios, comparado con las metas aprobadas para el período, mediante contrastes entre cortes de gestión» o «porcentaje de solicitudes denegadas en el semestre, con contrastes por curso, jornada y sede, con control de cambios y documentos de respaldo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; régimen aplicable de personal",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 676,
+      "originalId": 116,
+      "sourceExam": 5,
+      "situationId": "S5-37",
+      "competency": "Valoración probatoria",
+      "text": "En la controversia descrita en «Restricción horaria por cuidado familiar», ¿Cuál de las fuentes ofrecidas permitiría discriminar mejor entre las versiones?",
+      "options": [
+        "Solicitud, soporte pertinente, opciones de cobertura y número histórico de permisos concedidos a otros docentes",
+        "Solicitud, preferencia personal de las compañeras por el turno solicitado y reglas de competencia",
+        "Solicitud y soporte pertinente, opciones de cobertura y reglas de competencia"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: solicitud y soporte pertinente, opciones de cobertura y reglas de competencia. La evidencia «solicitud, soporte pertinente, opciones de cobertura y número histórico de permisos concedidos a otros docentes» aporta un dato lateral, mientras «solicitud, preferencia personal de las compañeras por el turno solicitado y reglas de competencia» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; régimen aplicable de personal",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 677,
+      "originalId": 117,
+      "sourceExam": 5,
+      "situationId": "S5-38",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Experimento pedagógico sin resguardo», ante las restricciones descritas, ¿qué actuación resulta más defendible para la rectoría?",
+      "options": [
+        "Autorizar una prueba limitada con salvaguardas de acceso y medición de aprendizajes",
+        "Valorar condiciones locales y extender la innovación de inmediato para aprovechar la motivación del alumnado",
+        "Documentar el trámite y prohibir cualquier ensayo hasta que exista evidencia externa concluyente del mismo método"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque autorizar una prueba limitada con salvaguardas de acceso y medición de aprendizajes. La primera alternativa rival propone valorar condiciones locales y extender la innovación de inmediato para aprovechar la motivación del alumnado, lo cual omite un requisito del contexto. La otra propone documentar el trámite y prohibir cualquier ensayo hasta que exista evidencia externa concluyente del mismo método, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, innovación y direccionamiento académico",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 678,
+      "originalId": 118,
+      "sourceExam": 5,
+      "situationId": "S5-38",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Experimento pedagógico sin resguardo», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Volumen de publicaciones producidas por curso, mediante contrastes entre cortes de gestión, considerando diferencias iniciales de contexto",
+        "Número de seguidores que obtiene la institución, en comparación con el período inmediatamente anterior, mediante contrastes entre cortes de gestión",
+        "Progreso lector medido con instrumentos comparables y acceso equitativo, en comparación con el período inmediatamente anterior"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: progreso lector medido con instrumentos comparables y acceso equitativo, en comparación con el período inmediatamente anterior. Medir «volumen de publicaciones producidas por curso, mediante contrastes entre cortes de gestión, considerando diferencias iniciales de contexto» o «número de seguidores que obtiene la institución, en comparación con el período inmediatamente anterior, mediante contrastes entre cortes de gestión» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, innovación y direccionamiento académico",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 679,
+      "originalId": 119,
+      "sourceExam": 5,
+      "situationId": "S5-38",
+      "competency": "Valoración probatoria",
+      "text": "Para la situación «Experimento pedagógico sin resguardo», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Línea de base, testimonios iniciales de estudiantes motivados y alternativas de acceso",
+        "Línea de base, criterios de seguimiento y número de visualizaciones de la cuenta de contenidos",
+        "Línea de base, criterios de seguimiento y alternativas de acceso"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: línea de base, criterios de seguimiento y alternativas de acceso. La evidencia «línea de base, criterios de seguimiento y número de visualizaciones de la cuenta de contenidos» aporta un dato lateral, mientras «línea de base, testimonios iniciales de estudiantes motivados y alternativas de acceso» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, innovación y direccionamiento académico",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 680,
+      "originalId": 120,
+      "sourceExam": 5,
+      "situationId": "S5-39",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Curso obligatorio ajeno al PMI», ¿Qué evidencia haría más sólida una revisión independiente de lo ocurrido?",
+      "options": [
+        "PMI, resultados de evaluación docente y valor comercial de las licencias gratuitas",
+        "PMI, resultados de evaluación docente y pertinencia curricular de la oferta",
+        "PMI, cantidad de certificados prometidos por el proveedor y pertinencia curricular de la oferta"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: pMI, resultados de evaluación docente y pertinencia curricular de la oferta. La evidencia «pMI, resultados de evaluación docente y valor comercial de las licencias gratuitas» aporta un dato lateral, mientras «pMI, cantidad de certificados prometidos por el proveedor y pertinencia curricular de la oferta» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, Consejo Directivo; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 681,
+      "originalId": 121,
+      "sourceExam": 5,
+      "situationId": "S5-39",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Curso obligatorio ajeno al PMI», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Número total de horas certificadas, tras excluir registros duplicados y atípicos justificados, según períodos escolares comparables",
+        "Transferencia de aprendizajes de la formación a prácticas prioritarias, según series temporales y registros de seguimiento",
+        "Porcentaje de docentes que descargó la herramienta, en comparación con el período inmediatamente anterior, según series temporales y registros de seguimiento"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: transferencia de aprendizajes de la formación a prácticas prioritarias, según series temporales y registros de seguimiento. Medir «número total de horas certificadas, tras excluir registros duplicados y atípicos justificados, según períodos escolares comparables» o «porcentaje de docentes que descargó la herramienta, en comparación con el período inmediatamente anterior, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, Consejo Directivo; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 682,
+      "originalId": 122,
+      "sourceExam": 5,
+      "situationId": "S5-39",
+      "competency": "Actuación rectoral",
+      "text": "Para la situación «Curso obligatorio ajeno al PMI», ¿Qué decisión inicial evita el principal error de competencia o procedimiento?",
+      "options": [
+        "Documentar el trámite y imponer la formación y dejar a cada docente el ajuste individual de sus necesidades",
+        "Valorar pertinencia de la oferta frente al diagnóstico y plan de formación aprobado",
+        "Analizar las implicaciones y aceptar la oferta completa porque no requiere erogación del fondo educativo"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque valorar pertinencia de la oferta frente al diagnóstico y plan de formación aprobado. La primera alternativa rival propone analizar las implicaciones y aceptar la oferta completa porque no requiere erogación del fondo educativo, lo cual omite un requisito del contexto. La otra propone documentar el trámite y imponer la formación y dejar a cada docente el ajuste individual de sus necesidades, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, Consejo Directivo; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 683,
+      "originalId": 123,
+      "sourceExam": 5,
+      "situationId": "S5-40",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Delegación de votos ausente», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Acta con asistencia, número de asistentes sin distinguir su derecho a voto y quórum",
+        "Acta con asistencia, calidad de integrante, deliberación, sentido de votos y cantidad de cartas de representación allegadas al despacho",
+        "Acta con asistencia, calidad de integrante, deliberación, sentido de votos y quórum"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: acta con asistencia, calidad de integrante, deliberación, sentido de votos y quórum. La evidencia «acta con asistencia, calidad de integrante, deliberación, sentido de votos y cantidad de cartas de representación allegadas al despacho» aporta un dato lateral, mientras «acta con asistencia, número de asistentes sin distinguir su derecho a voto y quórum» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 684,
+      "originalId": 124,
+      "sourceExam": 5,
+      "situationId": "S5-40",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Delegación de votos ausente», ante las restricciones descritas, ¿qué actuación resulta más defendible para la rectoría?",
+      "options": [
+        "Verificar las reglas de integración y suplencias y decidir únicamente con miembros habilitados y quórum válido",
+        "Contrastar posiciones y aceptar el poder privado del representante y registrar al delegado como votante provisional",
+        "Analizar las implicaciones y permitir la votación del delegado condicionada a ratificación posterior del representante"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque verificar las reglas de integración y suplencias y decidir únicamente con miembros habilitados y quórum válido. La primera alternativa rival propone contrastar posiciones y aceptar el poder privado del representante y registrar al delegado como votante provisional, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y permitir la votación del delegado condicionada a ratificación posterior del representante, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 685,
+      "originalId": 125,
+      "sourceExam": 5,
+      "situationId": "S5-40",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Delegación de votos ausente», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Porcentaje de intervenciones realizadas por los invitados, en comparación con el período inmediatamente anterior",
+        "Decisiones válidas adoptadas con participación y quórum acreditados, según períodos escolares comparables, con control de cambios y documentos de respaldo",
+        "Sesiones que lograron tratar todos los puntos del orden del día, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones válidas adoptadas con participación y quórum acreditados, según períodos escolares comparables, con control de cambios y documentos de respaldo. Medir «sesiones que lograron tratar todos los puntos del orden del día, tras excluir registros duplicados y atípicos justificados» o «porcentaje de intervenciones realizadas por los invitados, en comparación con el período inmediatamente anterior» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 686,
+      "originalId": 126,
+      "sourceExam": 5,
+      "situationId": "S5-41",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Consejo estudiantil sin capacidad de consulta», frente a los argumentos contrapuestos, ¿qué decisión puede justificarse con mayor solidez?",
+      "options": [
+        "Consultar la información disponible y hacer una encuesta solo al personal de biblioteca porque administra los préstamos",
+        "Analizar las implicaciones y aplicar el reglamento de inmediato y permitir comentarios seis meses después",
+        "Abrir participación estudiantil pertinente y tramitar aprobación conforme a funciones institucionales"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque abrir participación estudiantil pertinente y tramitar aprobación conforme a funciones institucionales. La primera alternativa rival propone analizar las implicaciones y aplicar el reglamento de inmediato y permitir comentarios seis meses después, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y hacer una encuesta solo al personal de biblioteca porque administra los préstamos, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994, participación y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 687,
+      "originalId": 127,
+      "sourceExam": 5,
+      "situationId": "S5-41",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Consejo estudiantil sin capacidad de consulta», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Propuestas de usuarios, criterios de acceso y tiempos de préstamo registrados por auxiliar administrativo",
+        "Propuestas de usuarios, criterios de acceso y actas de las instancias involucradas",
+        "Propuestas de usuarios, cantidad de sanciones aplicadas por retraso en devoluciones y actas de las instancias involucradas"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: propuestas de usuarios, criterios de acceso y actas de las instancias involucradas. La evidencia «propuestas de usuarios, criterios de acceso y tiempos de préstamo registrados por auxiliar administrativo» aporta un dato lateral, mientras «propuestas de usuarios, cantidad de sanciones aplicadas por retraso en devoluciones y actas de las instancias involucradas» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994, participación y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 688,
+      "originalId": 128,
+      "sourceExam": 5,
+      "situationId": "S5-41",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Consejo estudiantil sin capacidad de consulta», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Porcentaje de quejas cerradas sin discusión colectiva, considerando diferencias iniciales de contexto, mediante contrastes entre cortes de gestión",
+        "Reglas revisadas con participación y aplicación consistente, con revisión de sedes y responsables, tras excluir registros duplicados y atípicos justificados",
+        "Número total de multas cobradas por mora, con perspectiva de continuidad del servicio, con revisión de sedes y responsables"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: reglas revisadas con participación y aplicación consistente, con revisión de sedes y responsables, tras excluir registros duplicados y atípicos justificados. Medir «número total de multas cobradas por mora, con perspectiva de continuidad del servicio, con revisión de sedes y responsables» o «porcentaje de quejas cerradas sin discusión colectiva, considerando diferencias iniciales de contexto, mediante contrastes entre cortes de gestión» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994, participación y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 689,
+      "originalId": 129,
+      "sourceExam": 5,
+      "situationId": "S5-42",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Meta de bilingüismo sin línea intermedia», ante las restricciones descritas, ¿qué actuación resulta más defendible para la rectoría?",
+      "options": [
+        "Definir hitos de progreso y evidencias comparables para ajustar enseñanza antes del corte final",
+        "Consultar la información disponible y elevar la meta anual para incentivar a los docentes, sin modificar las mediciones",
+        "Revisar soportes y esperar el resultado anual para evitar sobrecarga evaluativa y decidir mejoras después"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque definir hitos de progreso y evidencias comparables para ajustar enseñanza antes del corte final. La primera alternativa rival propone revisar soportes y esperar el resultado anual para evitar sobrecarga evaluativa y decidir mejoras después, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y elevar la meta anual para incentivar a los docentes, sin modificar las mediciones, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, direccionamiento académico",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 690,
+      "originalId": 130,
+      "sourceExam": 5,
+      "situationId": "S5-42",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Meta de bilingüismo sin línea intermedia», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Cantidad de pruebas institucionales aplicadas, con control de cambios y documentos de respaldo, mediante contrastes entre cortes de gestión",
+        "Variación del desempeño comunicativo con mediciones consistentes, con trazabilidad de las actuaciones respectivas",
+        "Asistencia total a eventos culturales en inglés, con trazabilidad de las actuaciones respectivas, con una revisión posterior de consistencia"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: variación del desempeño comunicativo con mediciones consistentes, con trazabilidad de las actuaciones respectivas. Medir «cantidad de pruebas institucionales aplicadas, con control de cambios y documentos de respaldo, mediante contrastes entre cortes de gestión» o «asistencia total a eventos culturales en inglés, con trazabilidad de las actuaciones respectivas, con una revisión posterior de consistencia» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, direccionamiento académico",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 691,
+      "originalId": 131,
+      "sourceExam": 5,
+      "situationId": "S5-42",
+      "competency": "Valoración probatoria",
+      "text": "Para la situación «Meta de bilingüismo sin línea intermedia», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Rúbricas consistentes, número de actividades extracurriculares anunciadas y período",
+        "Rúbricas consistentes, muestras comparables, registros por cohorte y opiniones sobre motivación al inicio del año",
+        "Rúbricas consistentes, muestras comparables y registros por cohorte y período"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: rúbricas consistentes, muestras comparables y registros por cohorte y período. La evidencia «rúbricas consistentes, muestras comparables, registros por cohorte y opiniones sobre motivación al inicio del año» aporta un dato lateral, mientras «rúbricas consistentes, número de actividades extracurriculares anunciadas y período» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, direccionamiento académico",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 692,
+      "originalId": 132,
+      "sourceExam": 5,
+      "situationId": "S5-43",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Mediación frente a posible extorsión», ¿Cuál actuación separa correctamente la urgencia del procedimiento obligatorio?",
+      "options": [
+        "Consultar la información disponible y abrir un encuentro restaurativo antes de registrar el reporte para comprobar voluntad de diálogo",
+        "Activar protección y ruta pertinente según los hechos, sin sustituir autoridades competentes por mediación",
+        "Examinar antecedentes y resolver el caso mediante compromiso firmado y advertencia de expulsión si continúa"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque activar protección y ruta pertinente según los hechos, sin sustituir autoridades competentes por mediación. La primera alternativa rival propone consultar la información disponible y abrir un encuentro restaurativo antes de registrar el reporte para comprobar voluntad de diálogo, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y resolver el caso mediante compromiso firmado y advertencia de expulsión si continúa, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1620 de 2013, artículo 18; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 693,
+      "originalId": 133,
+      "sourceExam": 5,
+      "situationId": "S5-43",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Mediación frente a posible extorsión», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Oportunidad de protección y remisión según clasificación del hecho, con trazabilidad de las actuaciones respectivas",
+        "Porcentaje de familias que aceptó reunirse, con perspectiva de continuidad del servicio, tras excluir registros duplicados y atípicos justificados",
+        "Cantidad de compromisos disciplinarios firmados, en comparación con el período inmediatamente anterior, según revisión de muestras y de reportes de campo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: oportunidad de protección y remisión según clasificación del hecho, con trazabilidad de las actuaciones respectivas. Medir «porcentaje de familias que aceptó reunirse, con perspectiva de continuidad del servicio, tras excluir registros duplicados y atípicos justificados» o «cantidad de compromisos disciplinarios firmados, en comparación con el período inmediatamente anterior, según revisión de muestras y de reportes de campo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1620 de 2013, artículo 18; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 694,
+      "originalId": 134,
+      "sourceExam": 5,
+      "situationId": "S5-43",
+      "competency": "Valoración probatoria",
+      "text": "A propósito del caso «Mediación frente a posible extorsión», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Relatos conservados con confidencialidad, encuesta anónima general sobre percepción de seguridad y registro de activación de ruta",
+        "Relatos conservados con confidencialidad, indicios disponibles y registro de activación de ruta",
+        "Relatos conservados con confidencialidad, indicios disponibles y acta de conciliación que exprese compromiso de las familias"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: relatos conservados con confidencialidad, indicios disponibles y registro de activación de ruta. La evidencia «relatos conservados con confidencialidad, indicios disponibles y acta de conciliación que exprese compromiso de las familias» aporta un dato lateral, mientras «relatos conservados con confidencialidad, encuesta anónima general sobre percepción de seguridad y registro de activación de ruta» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1620 de 2013, artículo 18; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 695,
+      "originalId": 135,
+      "sourceExam": 5,
+      "situationId": "S5-44",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Respuesta que no aborda lo pedido», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Petición íntegra, asistencia del solicitante a jornadas informativas y motivación comunicada",
+        "Petición íntegra, criterios aplicados al caso y motivación comunicada",
+        "Petición íntegra, criterios aplicados al caso y registro de recepción de la circular general"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: petición íntegra, criterios aplicados al caso y motivación comunicada. La evidencia «petición íntegra, criterios aplicados al caso y registro de recepción de la circular general» aporta un dato lateral, mientras «petición íntegra, asistencia del solicitante a jornadas informativas y motivación comunicada» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1755 de 2015, derecho de petición",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 696,
+      "originalId": 136,
+      "sourceExam": 5,
+      "situationId": "S5-44",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Respuesta que no aborda lo pedido», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Respuestas completas y oportunas a los aspectos planteados, con perspectiva de continuidad del servicio, considerando diferencias iniciales de contexto",
+        "Promedio de páginas enviadas a quienes reclaman, comparado con las metas aprobadas para el período, con trazabilidad de las actuaciones respectivas",
+        "Cantidad de circulares institucionales difundidas, comparado con las metas aprobadas para el período, con control de cambios y documentos de respaldo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: respuestas completas y oportunas a los aspectos planteados, con perspectiva de continuidad del servicio, considerando diferencias iniciales de contexto. Medir «cantidad de circulares institucionales difundidas, comparado con las metas aprobadas para el período, con control de cambios y documentos de respaldo» o «promedio de páginas enviadas a quienes reclaman, comparado con las metas aprobadas para el período, con trazabilidad de las actuaciones respectivas» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1755 de 2015, derecho de petición",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 697,
+      "originalId": 137,
+      "sourceExam": 5,
+      "situationId": "S5-44",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Respuesta que no aborda lo pedido», ¿Cuál opción ofrece la secuencia más defendible de actuación institucional?",
+      "options": [
+        "Documentar el trámite y publicar una tabla general de cupos como única respuesta al requerimiento individual",
+        "Valorar condiciones locales y enviar nuevamente la circular y remitir al solicitante a una reunión de información",
+        "Responder de fondo cada aspecto y motivar lo relacionado con la decisión particular"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque responder de fondo cada aspecto y motivar lo relacionado con la decisión particular. La primera alternativa rival propone valorar condiciones locales y enviar nuevamente la circular y remitir al solicitante a una reunión de información, lo cual omite un requisito del contexto. La otra propone documentar el trámite y publicar una tabla general de cupos como única respuesta al requerimiento individual, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1755 de 2015, derecho de petición",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 698,
+      "originalId": 138,
+      "sourceExam": 5,
+      "situationId": "S5-45",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Custodia de reactivos vencidos», ¿Cuál respuesta institucional resiste mejor una revisión de legalidad y pertinencia?",
+      "options": [
+        "Inmovilizar materiales dudosos y gestionar identificación y manejo seguro con apoyo técnico competente",
+        "Examinar antecedentes y donar los frascos a una institución con más capacidad científica sin revisión previa",
+        "Establecer seguimiento y utilizar cantidades mínimas con acompañamiento de un docente experimentado"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque inmovilizar materiales dudosos y gestionar identificación y manejo seguro con apoyo técnico competente. La primera alternativa rival propone establecer seguimiento y utilizar cantidades mínimas con acompañamiento de un docente experimentado, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y donar los frascos a una institución con más capacidad científica sin revisión previa, pero no sustituye la actuación competente.",
+      "legalBasis": "Responsabilidades de seguridad escolar y gestión del riesgo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 699,
+      "originalId": 139,
+      "sourceExam": 5,
+      "situationId": "S5-45",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Custodia de reactivos vencidos», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Inventario, fichas de seguridad disponibles, identificación y evaluación del riesgo",
+        "Inventario, costo de compra de reactivos nuevos frente a usados y evaluación del riesgo",
+        "Inventario, fichas de seguridad disponibles, identificación y cronograma de demostraciones científicas aplazadas"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: inventario, fichas de seguridad disponibles, identificación y evaluación del riesgo. La evidencia «inventario, fichas de seguridad disponibles, identificación y cronograma de demostraciones científicas aplazadas» aporta un dato lateral, mientras «inventario, costo de compra de reactivos nuevos frente a usados y evaluación del riesgo» no acredita el hecho decisivo.",
+      "legalBasis": "Responsabilidades de seguridad escolar y gestión del riesgo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 700,
+      "originalId": 140,
+      "sourceExam": 5,
+      "situationId": "S5-45",
+      "competency": "Control y resultados",
+      "text": "En el supuesto de «Custodia de reactivos vencidos», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Materiales inseguros segregados y gestionados mediante procedimiento idóneo, con revisión de sedes y responsables, en relación con la decisión adoptada",
+        "Número de experiencias recuperadas por reutilización, considerando diferencias iniciales de contexto, según períodos escolares comparables",
+        "Porcentaje de frascos vaciados durante las clases, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: materiales inseguros segregados y gestionados mediante procedimiento idóneo, con revisión de sedes y responsables, en relación con la decisión adoptada. Medir «número de experiencias recuperadas por reutilización, considerando diferencias iniciales de contexto, según períodos escolares comparables» o «porcentaje de frascos vaciados durante las clases, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Responsabilidades de seguridad escolar y gestión del riesgo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 701,
+      "originalId": 1,
+      "sourceExam": 6,
+      "situationId": "S6-01",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Representante que perdió condición», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Actas de elección, cantidad de iniciativas que apoyó en años anteriores y procedimiento institucional de provisión",
+        "Actas de elección, requisitos actuales y asistencia histórica del representante a las sesiones",
+        "Actas de elección, requisitos actuales y procedimiento institucional de provisión"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: actas de elección, requisitos actuales y procedimiento institucional de provisión. La evidencia «actas de elección, requisitos actuales y asistencia histórica del representante a las sesiones» aporta un dato lateral, mientras «actas de elección, cantidad de iniciativas que apoyó en años anteriores y procedimiento institucional de provisión» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 702,
+      "originalId": 2,
+      "sourceExam": 6,
+      "situationId": "S6-01",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Representante que perdió condición», ¿Qué registro de desempeño permitiría evaluar una respuesta efectiva?",
+      "options": [
+        "Decisiones tomadas con composición legítima del órgano, según revisión de muestras y de reportes de campo, con una revisión posterior de consistencia",
+        "Porcentaje de sesiones con participación del integrante cuestionado, considerando diferencias iniciales de contexto",
+        "Rapidez del nombramiento de un reemplazo, con revisión de sedes y responsables, con control de cambios y documentos de respaldo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones tomadas con composición legítima del órgano, según revisión de muestras y de reportes de campo, con una revisión posterior de consistencia. Medir «porcentaje de sesiones con participación del integrante cuestionado, considerando diferencias iniciales de contexto» o «rapidez del nombramiento de un reemplazo, con revisión de sedes y responsables, con control de cambios y documentos de respaldo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 703,
+      "originalId": 3,
+      "sourceExam": 6,
+      "situationId": "S6-01",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Representante que perdió condición», ¿Cuál actuación separa correctamente la urgencia del procedimiento obligatorio?",
+      "options": [
+        "Verificar la permanencia de los requisitos de representación y aplicar el mecanismo válido para cubrir la vacancia",
+        "Consultar la información disponible y retirar al integrante por decisión exclusiva de rectoría y designar otro representante a dedo",
+        "Contrastar posiciones y considerar suficiente su elección inicial hasta terminar el período, sin revisar su condición actual"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque verificar la permanencia de los requisitos de representación y aplicar el mecanismo válido para cubrir la vacancia. La primera alternativa rival propone contrastar posiciones y considerar suficiente su elección inicial hasta terminar el período, sin revisar su condición actual, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y retirar al integrante por decisión exclusiva de rectoría y designar otro representante a dedo, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 704,
+      "originalId": 4,
+      "sourceExam": 6,
+      "situationId": "S6-02",
+      "competency": "Control y resultados",
+      "text": "Respecto de «Prórroga ejecutada sin acto formal», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Días prestados después del vencimiento sin registro, según series temporales y registros de seguimiento, tras excluir registros duplicados y atípicos justificados",
+        "Porcentaje de aceptación del proveedor entre estudiantes, con revisión de sedes y responsables, con control de cambios y documentos de respaldo",
+        "Servicios contratados y pagados con soporte jurídico y temporal suficiente, con revisión de sedes y responsables"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: servicios contratados y pagados con soporte jurídico y temporal suficiente, con revisión de sedes y responsables. Medir «días prestados después del vencimiento sin registro, según series temporales y registros de seguimiento, tras excluir registros duplicados y atípicos justificados» o «porcentaje de aceptación del proveedor entre estudiantes, con revisión de sedes y responsables, con control de cambios y documentos de respaldo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Gestión de contratación del FSE y reglas aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 705,
+      "originalId": 5,
+      "sourceExam": 6,
+      "situationId": "S6-02",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Prórroga ejecutada sin acto formal», ante las restricciones descritas, ¿qué actuación resulta más defendible para la rectoría?",
+      "options": [
+        "Determinar cobertura contractual válida y tramitar oportunamente actuaciones conforme al régimen aplicable",
+        "Revisar soportes y reconocer la prestación posterior por simple ratificación verbal sin revisar soportes",
+        "Documentar el trámite y extender en acta retroactiva la vigencia para hacer coincidir fechas de ejecución"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque determinar cobertura contractual válida y tramitar oportunamente actuaciones conforme al régimen aplicable. La primera alternativa rival propone revisar soportes y reconocer la prestación posterior por simple ratificación verbal sin revisar soportes, lo cual omite un requisito del contexto. La otra propone documentar el trámite y extender en acta retroactiva la vigencia para hacer coincidir fechas de ejecución, pero no sustituye la actuación competente.",
+      "legalBasis": "Gestión de contratación del FSE y reglas aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 706,
+      "originalId": 6,
+      "sourceExam": 6,
+      "situationId": "S6-02",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Prórroga ejecutada sin acto formal», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Contrato, plazo, soportes de ejecución y concepto favorable de usuarios sobre limpieza",
+        "Contrato, plazo, soportes de ejecución y procedimiento de modificación o nueva contratación",
+        "Contrato, historial de cumplimiento del contratista durante vigencia original y procedimiento de modificación o nueva contratación"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: contrato, plazo, soportes de ejecución y procedimiento de modificación o nueva contratación. La evidencia «contrato, plazo, soportes de ejecución y concepto favorable de usuarios sobre limpieza» aporta un dato lateral, mientras «contrato, historial de cumplimiento del contratista durante vigencia original y procedimiento de modificación o nueva contratación» no acredita el hecho decisivo.",
+      "legalBasis": "Gestión de contratación del FSE y reglas aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 707,
+      "originalId": 7,
+      "sourceExam": 6,
+      "situationId": "S6-03",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántos usos efectivos hubo después de depurar las cancelaciones?",
+      "options": [
+        "600",
+        "620",
+        "612"
+      ],
+      "correct": 2,
+      "explanation": "720 × 0,85 = 612.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 708,
+      "originalId": 8,
+      "sourceExam": 6,
+      "situationId": "S6-03",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la capacidad total de puestos-jornada?",
+      "options": [
+        "810",
+        "720",
+        "900"
+      ],
+      "correct": 2,
+      "explanation": "20 × 45 = 900 puestos-jornada.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 709,
+      "originalId": 9,
+      "sourceExam": 6,
+      "situationId": "S6-03",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la ocupación efectiva respecto de capacidad?",
+      "options": [
+        "72 %",
+        "68 %",
+        "80 %"
+      ],
+      "correct": 1,
+      "explanation": "612 / 900 = 68 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 710,
+      "originalId": 10,
+      "sourceExam": 6,
+      "situationId": "S6-04",
+      "competency": "Lectura crítica - critique",
+      "text": "Si se examina «Comparación de cohortes con composición», ¿Cuál objeción resulta más fuerte sin introducir hechos no mencionados?",
+      "options": [
+        "La conclusión es falsa solo porque el segundo grupo es más numeroso",
+        "Atribuir a enseñanza una diferencia sin control de composición es inferencia débil",
+        "El error consiste en expresar resultados como porcentajes"
+      ],
+      "correct": 1,
+      "explanation": "La objeción precisa es atribuir a enseñanza una diferencia sin control de composición es inferencia débil. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 711,
+      "originalId": 11,
+      "sourceExam": 6,
+      "situationId": "S6-04",
+      "competency": "Lectura crítica - test",
+      "text": "Para analizar «Comparación de cohortes con composición», ¿Cuál contraste empírico responde a la insuficiencia destacada?",
+      "options": [
+        "Número de actos de promoción que firmó rectoría",
+        "Características iniciales, criterios de evaluación y comparabilidad de cohortes",
+        "Tamaño final de la segunda cohorte sin información de inicio"
+      ],
+      "correct": 1,
+      "explanation": "La verificación relevante es características iniciales, criterios de evaluación y comparabilidad de cohortes. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 712,
+      "originalId": 12,
+      "sourceExam": 6,
+      "situationId": "S6-04",
+      "competency": "Lectura crítica - assumption",
+      "text": "A propósito del caso «Comparación de cohortes con composición», ¿Cuál supuesto es decisivo al trasladar la regla a los hechos?",
+      "options": [
+        "Que una matrícula mayor reduzca necesariamente exigencia académica",
+        "Que toda cohorte de un mismo grado sea idéntica a la anterior",
+        "Que los indicadores sean comparables antes de interpretar diferencias como efecto"
+      ],
+      "correct": 2,
+      "explanation": "La condición necesaria es que los indicadores sean comparables antes de interpretar diferencias como efecto. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 713,
+      "originalId": 13,
+      "sourceExam": 6,
+      "situationId": "S6-04",
+      "competency": "Lectura crítica - inference",
+      "text": "Respecto de «Comparación de cohortes con composición», ¿Qué afirmación tiene respaldo lógico en el pasaje?",
+      "options": [
+        "Los cuatro puntos prueban deterioro docente con independencia de matrícula",
+        "La segunda cohorte fue mejor porque matriculó un número mayor de personas",
+        "La diferencia de aprobación no identifica por sí misma el efecto de enseñanza"
+      ],
+      "correct": 2,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la diferencia de aprobación no identifica por sí misma el efecto de enseñanza. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 714,
+      "originalId": 14,
+      "sourceExam": 6,
+      "situationId": "S6-05",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Acta de aprobación sin versión adjunta», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Cantidad de archivos almacenados en secretaría, con una revisión posterior de consistencia, en comparación con el período inmediatamente anterior",
+        "Porcentaje de asistentes que recuerda el debate, comparado con las metas aprobadas para el período, con control de cambios y documentos de respaldo",
+        "Texto vigente identificable y respaldado por decisión formal, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: texto vigente identificable y respaldado por decisión formal, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados. Medir «cantidad de archivos almacenados en secretaría, con una revisión posterior de consistencia, en comparación con el período inmediatamente anterior» o «porcentaje de asistentes que recuerda el debate, comparado con las metas aprobadas para el período, con control de cambios y documentos de respaldo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, funciones del Consejo Directivo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 715,
+      "originalId": 15,
+      "sourceExam": 6,
+      "situationId": "S6-05",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Acta de aprobación sin versión adjunta», ¿Qué determinación debería sostener el rector en un acta motivada?",
+      "options": [
+        "Analizar las implicaciones y aplicar el borrador defendido por la presidencia y dejar pendiente la constancia",
+        "Reconstruir y formalizar la versión efectivamente sometida a decisión por instancia competente",
+        "Establecer seguimiento y elegir el documento con fecha de modificación más reciente y publicarlo como vigente"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque reconstruir y formalizar la versión efectivamente sometida a decisión por instancia competente. La primera alternativa rival propone establecer seguimiento y elegir el documento con fecha de modificación más reciente y publicarlo como vigente, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y aplicar el borrador defendido por la presidencia y dejar pendiente la constancia, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, funciones del Consejo Directivo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 716,
+      "originalId": 16,
+      "sourceExam": 6,
+      "situationId": "S6-05",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Acta de aprobación sin versión adjunta», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Acta, anexos, versiones identificables y decisión del órgano que aprobó",
+        "Acta, número de correcciones propuestas por cada sector y decisión del órgano que aprobó",
+        "Acta, anexos, versiones identificables y fecha de creación del archivo digital más reciente"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: acta, anexos, versiones identificables y decisión del órgano que aprobó. La evidencia «acta, anexos, versiones identificables y fecha de creación del archivo digital más reciente» aporta un dato lateral, mientras «acta, número de correcciones propuestas por cada sector y decisión del órgano que aprobó» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, funciones del Consejo Directivo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 717,
+      "originalId": 17,
+      "sourceExam": 6,
+      "situationId": "S6-06",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Conflicto entre evidencia y percepción», ¿Qué evidencia haría más sólida una revisión independiente de lo ocurrido?",
+      "options": [
+        "Contribuciones pactadas, evidencias funcionales y número de llamadas de queja recibidas en rectoría",
+        "Contribuciones pactadas, evidencias funcionales y registro de retroalimentación",
+        "Contribuciones pactadas, votos de satisfacción recogidos en una sola reunión y registro de retroalimentación"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: contribuciones pactadas, evidencias funcionales y registro de retroalimentación. La evidencia «contribuciones pactadas, evidencias funcionales y número de llamadas de queja recibidas en rectoría» aporta un dato lateral, mientras «contribuciones pactadas, votos de satisfacción recogidos en una sola reunión y registro de retroalimentación» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022 y régimen de evaluación aplicable",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 718,
+      "originalId": 18,
+      "sourceExam": 6,
+      "situationId": "S6-06",
+      "competency": "Control y resultados",
+      "text": "En el escenario de «Conflicto entre evidencia y percepción», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Proporción de evaluaciones con puntaje idéntico, con contrastes por curso, jornada y sede, con una revisión posterior de consistencia",
+        "Evaluación fundada en desempeño documentado y criterios conocidos, con contrastes por curso, jornada y sede, tras excluir registros duplicados y atípicos justificados",
+        "Cantidad de comentarios informales que recibe el rector, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: evaluación fundada en desempeño documentado y criterios conocidos, con contrastes por curso, jornada y sede, tras excluir registros duplicados y atípicos justificados. Medir «proporción de evaluaciones con puntaje idéntico, con contrastes por curso, jornada y sede, con una revisión posterior de consistencia» o «cantidad de comentarios informales que recibe el rector, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022 y régimen de evaluación aplicable",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 719,
+      "originalId": 19,
+      "sourceExam": 6,
+      "situationId": "S6-06",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Conflicto entre evidencia y percepción», ¿Cuál opción ofrece la secuencia más defendible de actuación institucional?",
+      "options": [
+        "Contrastar posiciones y dar prevalencia automática a las quejas porque reflejan expectativas de familias",
+        "Consultar la información disponible y anular todo el proceso de evaluación por existir percepciones adversas no documentadas",
+        "Fundamentar valoración en evidencias pertinentes, comunicar criterios y respetar el procedimiento aplicable"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque fundamentar valoración en evidencias pertinentes, comunicar criterios y respetar el procedimiento aplicable. La primera alternativa rival propone contrastar posiciones y dar prevalencia automática a las quejas porque reflejan expectativas de familias, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y anular todo el proceso de evaluación por existir percepciones adversas no documentadas, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022 y régimen de evaluación aplicable",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 720,
+      "originalId": 20,
+      "sourceExam": 6,
+      "situationId": "S6-07",
+      "competency": "Lectura crítica - assumption",
+      "text": "Sobre «Desempeño promedio y dispersión», ¿Cuál supuesto es decisivo al trasladar la regla a los hechos?",
+      "options": [
+        "Que cualquier puntaje extremo invalida automáticamente todo el examen",
+        "Que cada grupo debe seguir el mismo plan de enseñanza sin diagnóstico",
+        "Que la media no sustituye información sobre variabilidad y dificultades concretas"
+      ],
+      "correct": 2,
+      "explanation": "La condición necesaria es que la media no sustituye información sobre variabilidad y dificultades concretas. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 721,
+      "originalId": 21,
+      "sourceExam": 6,
+      "situationId": "S6-07",
+      "competency": "Lectura crítica - inference",
+      "text": "En la controversia descrita en «Desempeño promedio y dispersión», ¿Qué conclusión se desprende de las condiciones expresadas, sin exceder la evidencia?",
+      "options": [
+        "Un promedio común puede ocultar distribuciones y necesidades de apoyo distintas",
+        "El grupo A requiere más intervención solo por presentar menor dispersión",
+        "Los dos grupos necesariamente tienen iguales necesidades porque coincide la media"
+      ],
+      "correct": 0,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: un promedio común puede ocultar distribuciones y necesidades de apoyo distintas. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 722,
+      "originalId": 22,
+      "sourceExam": 6,
+      "situationId": "S6-07",
+      "competency": "Lectura crítica - critique",
+      "text": "Si se examina «Desempeño promedio y dispersión», ¿Qué error de razonamiento se configura en el argumento?",
+      "options": [
+        "La conclusión falla porque se aplicó escala de cero a cien",
+        "Equiparar distribuciones a partir de sus medias ignora la heterogeneidad",
+        "El defecto consiste en calcular dos promedios y no uno solo"
+      ],
+      "correct": 1,
+      "explanation": "La objeción precisa es equiparar distribuciones a partir de sus medias ignora la heterogeneidad. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 723,
+      "originalId": 23,
+      "sourceExam": 6,
+      "situationId": "S6-07",
+      "competency": "Lectura crítica - test",
+      "text": "Respecto de «Desempeño promedio y dispersión», si se prepara una réplica técnica, ¿qué datos sería prioritario recuperar?",
+      "options": [
+        "Promedio de ambos grupos presentado en una barra idéntica",
+        "Distribución de puntajes y desempeños por competencia dentro de cada grupo",
+        "Cantidad de exámenes aplicados a lo largo del período"
+      ],
+      "correct": 1,
+      "explanation": "La verificación relevante es distribución de puntajes y desempeños por competencia dentro de cada grupo. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 724,
+      "originalId": 24,
+      "sourceExam": 6,
+      "situationId": "S6-08",
+      "competency": "Lectura crítica - critique",
+      "text": "Para la situación «Decisión por mayoría con restricción de derechos», ¿Cuál objeción resulta más fuerte sin introducir hechos no mencionados?",
+      "options": [
+        "El error consiste únicamente en no separar votos de docentes y estudiantes",
+        "La principal falla es que el porcentaje no llegó a cien",
+        "Confundir aprobación social con habilitación jurídica conduce a conclusión falsa"
+      ],
+      "correct": 2,
+      "explanation": "La objeción precisa es confundir aprobación social con habilitación jurídica conduce a conclusión falsa. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 725,
+      "originalId": 25,
+      "sourceExam": 6,
+      "situationId": "S6-08",
+      "competency": "Lectura crítica - inference",
+      "text": "Si se examina «Decisión por mayoría con restricción de derechos», ¿Qué afirmación tiene respaldo lógico en el pasaje?",
+      "options": [
+        "Solo un respaldo unánime obligaría a proteger los datos estudiantiles",
+        "La mayoría convierte cualquier publicación en legítima por votación",
+        "El respaldo mayoritario no elimina límites relativos a intimidad y protección"
+      ],
+      "correct": 2,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: el respaldo mayoritario no elimina límites relativos a intimidad y protección. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 726,
+      "originalId": 26,
+      "sourceExam": 6,
+      "situationId": "S6-08",
+      "competency": "Lectura crítica - assumption",
+      "text": "Si se examina «Decisión por mayoría con restricción de derechos», ¿Qué premisa implícita tendría que justificarse en la decisión?",
+      "options": [
+        "Que los derechos de menores dependen exclusivamente de consulta de acudientes",
+        "Que una decisión de mayoría modifica por sí sola toda ley de protección de datos",
+        "Que el mecanismo participativo opera dentro de garantías jurídicas superiores"
+      ],
+      "correct": 2,
+      "explanation": "La condición necesaria es que el mecanismo participativo opera dentro de garantías jurídicas superiores. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 727,
+      "originalId": 27,
+      "sourceExam": 6,
+      "situationId": "S6-08",
+      "competency": "Lectura crítica - test",
+      "text": "En relación con «Decisión por mayoría con restricción de derechos», ¿Qué prueba permitiría someter a examen la afirmación central?",
+      "options": [
+        "Identificabilidad, finalidad de divulgación y alternativas de información agregada",
+        "Número de cursos en que la consulta alcanzó mayoría absoluta",
+        "Porcentaje exacto de votos obtenidos por la iniciativa"
+      ],
+      "correct": 0,
+      "explanation": "La verificación relevante es identificabilidad, finalidad de divulgación y alternativas de información agregada. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 728,
+      "originalId": 28,
+      "sourceExam": 6,
+      "situationId": "S6-09",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el costo mensual de A en la proyección?",
+      "options": [
+        "$660.000",
+        "$690.000",
+        "$630.000"
+      ],
+      "correct": 0,
+      "explanation": "420.000 + 80×3.000 = 660.000.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 729,
+      "originalId": 29,
+      "sourceExam": 6,
+      "situationId": "S6-09",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el costo mensual de B para 3.000 hojas?",
+      "options": [
+        "$660.000",
+        "$690.000",
+        "$720.000"
+      ],
+      "correct": 1,
+      "explanation": "360.000 + 110×3.000 = 690.000.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 730,
+      "originalId": 30,
+      "sourceExam": 6,
+      "situationId": "S6-09",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Con cuántas hojas mensuales se igualan los costos, bajo estos supuestos?",
+      "options": [
+        "2.000 hojas",
+        "1.500 hojas",
+        "2.500 hojas"
+      ],
+      "correct": 0,
+      "explanation": "420.000+80x=360.000+110x; 60.000=30x; x=2.000.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 731,
+      "originalId": 31,
+      "sourceExam": 6,
+      "situationId": "S6-10",
+      "competency": "Lectura crítica - critique",
+      "text": "En relación con «Plan condicionado a evidencia futura», ¿Qué error de razonamiento se configura en el argumento?",
+      "options": [
+        "El razonamiento es inválido por citar dos indicadores en una misma frase",
+        "Inferir que existe cumplimiento desde evidencia parcial viola condición conjunta",
+        "La falla radica en que el proyecto fue inicialmente piloto"
+      ],
+      "correct": 1,
+      "explanation": "La objeción precisa es inferir que existe cumplimiento desde evidencia parcial viola condición conjunta. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 732,
+      "originalId": 32,
+      "sourceExam": 6,
+      "situationId": "S6-10",
+      "competency": "Lectura crítica - test",
+      "text": "En relación con «Plan condicionado a evidencia futura», ¿Qué prueba permitiría someter a examen la afirmación central?",
+      "options": [
+        "Porcentaje de docentes que calificó atractiva la herramienta",
+        "Número de solicitudes de otras sedes interesadas en recibir el piloto",
+        "Segunda medición comparable y análisis desagregado de brechas"
+      ],
+      "correct": 2,
+      "explanation": "La verificación relevante es segunda medición comparable y análisis desagregado de brechas. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 733,
+      "originalId": 33,
+      "sourceExam": 6,
+      "situationId": "S6-10",
+      "competency": "Lectura crítica - assumption",
+      "text": "En el supuesto de «Plan condicionado a evidencia futura», ¿Qué condición debe mantenerse para que la conclusión sea válida?",
+      "options": [
+        "Que un resultado positivo implique por sí mismo ausencia de brechas",
+        "Que las dos mediciones y la equidad sean requisitos conjuntos del protocolo",
+        "Que los apoyos de docentes sustituyan toda comparación de resultados"
+      ],
+      "correct": 1,
+      "explanation": "La condición necesaria es que las dos mediciones y la equidad sean requisitos conjuntos del protocolo. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 734,
+      "originalId": 34,
+      "sourceExam": 6,
+      "situationId": "S6-10",
+      "competency": "Lectura crítica - inference",
+      "text": "Si se examina «Plan condicionado a evidencia futura», ¿Cuál inferencia conserva las restricciones del texto?",
+      "options": [
+        "Una medición positiva equivale a dos por mostrar dirección favorable",
+        "Las condiciones acumulativas para escalar todavía no están acreditadas",
+        "La incertidumbre de subgrupos demuestra que la estrategia dañó a todos"
+      ],
+      "correct": 1,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: las condiciones acumulativas para escalar todavía no están acreditadas. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 735,
+      "originalId": 35,
+      "sourceExam": 6,
+      "situationId": "S6-11",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Indicador expresado en porcentaje condicional», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Frecuencia del 80 % en presentaciones de gestión, comparado con las metas aprobadas para el período, tras excluir registros duplicados y atípicos justificados",
+        "Porcentaje de diapositivas que incluye gráficos, en comparación con el período inmediatamente anterior, en relación con la decisión adoptada",
+        "Resultados comunicados con denominadores y poblaciones consistentes, según períodos escolares comparables"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: resultados comunicados con denominadores y poblaciones consistentes, según períodos escolares comparables. Medir «frecuencia del 80 % en presentaciones de gestión, comparado con las metas aprobadas para el período, tras excluir registros duplicados y atípicos justificados» o «porcentaje de diapositivas que incluye gráficos, en comparación con el período inmediatamente anterior, en relación con la decisión adoptada» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Lectura crítica de datos e información institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 736,
+      "originalId": 36,
+      "sourceExam": 6,
+      "situationId": "S6-11",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Indicador expresado en porcentaje condicional», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Tabla de población total, estudiantes apoyados y boletín que repite el 80 % sin contexto",
+        "Tabla de población total, estudiantes apoyados y aprobados por condición",
+        "Tabla de población total, testimonios positivos de quienes recibieron apoyo y aprobados por condición"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: tabla de población total, estudiantes apoyados y aprobados por condición. La evidencia «tabla de población total, estudiantes apoyados y boletín que repite el 80 % sin contexto» aporta un dato lateral, mientras «tabla de población total, testimonios positivos de quienes recibieron apoyo y aprobados por condición» no acredita el hecho decisivo.",
+      "legalBasis": "Lectura crítica de datos e información institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 737,
+      "originalId": 37,
+      "sourceExam": 6,
+      "situationId": "S6-11",
+      "competency": "Actuación rectoral",
+      "text": "Para la situación «Indicador expresado en porcentaje condicional», frente a los argumentos contrapuestos, ¿qué decisión puede justificarse con mayor solidez?",
+      "options": [
+        "Explicitar denominador y población de referencia antes de interpretar el indicador",
+        "Consultar la información disponible y sustituirlo por el porcentaje de familias satisfechas, evitando discusión estadística",
+        "Documentar el trámite y mantener el titular porque los apoyos pertenecen a la institución y el dato es correcto en origen"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque explicitar denominador y población de referencia antes de interpretar el indicador. La primera alternativa rival propone documentar el trámite y mantener el titular porque los apoyos pertenecen a la institución y el dato es correcto en origen, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y sustituirlo por el porcentaje de familias satisfechas, evitando discusión estadística, pero no sustituye la actuación competente.",
+      "legalBasis": "Lectura crítica de datos e información institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 738,
+      "originalId": 38,
+      "sourceExam": 6,
+      "situationId": "S6-12",
+      "competency": "Lectura crítica - critique",
+      "text": "En el escenario de «Alternativa no considerada en falsa disyuntiva», ¿Cuál objeción resulta más fuerte sin introducir hechos no mencionados?",
+      "options": [
+        "La debilidad consiste únicamente en que el equipo no celebró asamblea",
+        "El problema central es el orden en que se mencionaron las dos alternativas",
+        "Presentar solo dos extremos cuando hay más opciones configura falsa disyuntiva"
+      ],
+      "correct": 2,
+      "explanation": "La objeción precisa es presentar solo dos extremos cuando hay más opciones configura falsa disyuntiva. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 739,
+      "originalId": 39,
+      "sourceExam": 6,
+      "situationId": "S6-12",
+      "competency": "Lectura crítica - inference",
+      "text": "En relación con «Alternativa no considerada en falsa disyuntiva», ¿Cuál inferencia conserva las restricciones del texto?",
+      "options": [
+        "Las dos opciones agotan necesariamente las respuestas pedagógicas posibles",
+        "Toda estrategia intermedia es inválida si no aumenta tareas ni reduce contenidos",
+        "La formulación excluye apoyos y ajustes didácticos que constituyen alternativas reales"
+      ],
+      "correct": 2,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la formulación excluye apoyos y ajustes didácticos que constituyen alternativas reales. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 740,
+      "originalId": 40,
+      "sourceExam": 6,
+      "situationId": "S6-12",
+      "competency": "Lectura crítica - test",
+      "text": "Si se examina «Alternativa no considerada en falsa disyuntiva», ¿Qué información discriminaría mejor la interpretación propuesta?",
+      "options": [
+        "Cantidad de tareas asignadas durante el período anterior",
+        "Efectos de apoyos focalizados, diferenciación y diagnóstico por competencia",
+        "Opinión sobre cuál extremo sería más fácil de administrar"
+      ],
+      "correct": 1,
+      "explanation": "La verificación relevante es efectos de apoyos focalizados, diferenciación y diagnóstico por competencia. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 741,
+      "originalId": 41,
+      "sourceExam": 6,
+      "situationId": "S6-12",
+      "competency": "Lectura crítica - assumption",
+      "text": "Para analizar «Alternativa no considerada en falsa disyuntiva», ¿Qué condición debe mantenerse para que la conclusión sea válida?",
+      "options": [
+        "Que reducir contenidos siempre asegura dominio de competencias",
+        "Que incrementar tareas mejora en todos los casos el aprendizaje",
+        "Que el repertorio de acciones no se limita a los dos extremos expuestos"
+      ],
+      "correct": 2,
+      "explanation": "La condición necesaria es que el repertorio de acciones no se limita a los dos extremos expuestos. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 742,
+      "originalId": 42,
+      "sourceExam": 6,
+      "situationId": "S6-13",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Cadena causal incompleta en PMI», ¿Qué opción respondería mejor a una objeción fundada sobre el trámite?",
+      "options": [
+        "Reformular la teoría de cambio con mediadores pedagógicos y criterios de evaluación previos",
+        "Documentar el trámite y comprar las tabletas y evaluar éxito a partir de la tasa de distribución del equipo",
+        "Revisar soportes y posponer cualquier innovación digital hasta que mejoren todas las pruebas externas"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque reformular la teoría de cambio con mediadores pedagógicos y criterios de evaluación previos. La primera alternativa rival propone documentar el trámite y comprar las tabletas y evaluar éxito a partir de la tasa de distribución del equipo, lo cual omite un requisito del contexto. La otra propone revisar soportes y posponer cualquier innovación digital hasta que mejoren todas las pruebas externas, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, planeación y evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 743,
+      "originalId": 43,
+      "sourceExam": 6,
+      "situationId": "S6-13",
+      "competency": "Control y resultados",
+      "text": "En el supuesto de «Cadena causal incompleta en PMI», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Mejora en tareas matemáticas atribuible a uso pedagógico pertinente, con desagregación por grupos relevantes",
+        "Cobertura de entrega física de dispositivos, según series temporales y registros de seguimiento, con control de cambios y documentos de respaldo",
+        "Total invertido respecto del presupuesto aprobado, con trazabilidad de las actuaciones respectivas, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: mejora en tareas matemáticas atribuible a uso pedagógico pertinente, con desagregación por grupos relevantes. Medir «cobertura de entrega física de dispositivos, según series temporales y registros de seguimiento, con control de cambios y documentos de respaldo» o «total invertido respecto del presupuesto aprobado, con trazabilidad de las actuaciones respectivas, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, planeación y evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 744,
+      "originalId": 44,
+      "sourceExam": 6,
+      "situationId": "S6-13",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Cadena causal incompleta en PMI», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Diagnóstico pedagógico, porcentaje de estudiantes que recibió caja y cargador y resultados comparables",
+        "Diagnóstico pedagógico, condiciones de uso, didáctica y resultados comparables",
+        "Diagnóstico pedagógico, condiciones de uso, didáctica y número de dispositivos adjudicados por proveedor"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: diagnóstico pedagógico, condiciones de uso, didáctica y resultados comparables. La evidencia «diagnóstico pedagógico, condiciones de uso, didáctica y número de dispositivos adjudicados por proveedor» aporta un dato lateral, mientras «diagnóstico pedagógico, porcentaje de estudiantes que recibió caja y cargador y resultados comparables» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, planeación y evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 745,
+      "originalId": 45,
+      "sourceExam": 6,
+      "situationId": "S6-14",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Autorización familiar para divulgar incidente», ¿Cuál opción ofrece la secuencia más defendible de actuación institucional?",
+      "options": [
+        "Revisar soportes y publicar las imágenes porque las familias involucradas directamente dieron permiso escrito",
+        "Valorar derechos de todos los menores y evitar difusión lesiva aunque existan autorizaciones parciales",
+        "Revisar soportes y cubrir solo los nombres y conservar rostros visibles para que el mensaje tenga impacto"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque valorar derechos de todos los menores y evitar difusión lesiva aunque existan autorizaciones parciales. La primera alternativa rival propone revisar soportes y publicar las imágenes porque las familias involucradas directamente dieron permiso escrito, lo cual omite un requisito del contexto. La otra propone revisar soportes y cubrir solo los nombres y conservar rostros visibles para que el mensaje tenga impacto, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1581 de 2012",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 746,
+      "originalId": 46,
+      "sourceExam": 6,
+      "situationId": "S6-14",
+      "competency": "Valoración probatoria",
+      "text": "Para la situación «Autorización familiar para divulgar incidente», ¿Qué soporte aportaría mayor valor para fundamentar y revisar la decisión?",
+      "options": [
+        "Identidades presentes, finalidad informada, riesgos y medidas de anonimización eficaces",
+        "Identidades presentes, número de veces que la comunidad solicitó ver el registro y medidas de anonimización eficaces",
+        "Identidades presentes, finalidad informada, riesgos y cantidad de autorizaciones firmadas por dos acudientes"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: identidades presentes, finalidad informada, riesgos y medidas de anonimización eficaces. La evidencia «identidades presentes, finalidad informada, riesgos y cantidad de autorizaciones firmadas por dos acudientes» aporta un dato lateral, mientras «identidades presentes, número de veces que la comunidad solicitó ver el registro y medidas de anonimización eficaces» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1581 de 2012",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 747,
+      "originalId": 47,
+      "sourceExam": 6,
+      "situationId": "S6-14",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Autorización familiar para divulgar incidente», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Porcentaje de estudiantes que compartió el video original, con trazabilidad de las actuaciones respectivas, comparado con las metas aprobadas para el período",
+        "Alcance de publicaciones con imágenes completas, según revisión de muestras y de reportes de campo, mediante contrastes entre cortes de gestión",
+        "Comunicación preventiva sin exposición indebida de menores, en relación con la decisión adoptada, con una revisión posterior de consistencia"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: comunicación preventiva sin exposición indebida de menores, en relación con la decisión adoptada, con una revisión posterior de consistencia. Medir «alcance de publicaciones con imágenes completas, según revisión de muestras y de reportes de campo, mediante contrastes entre cortes de gestión» o «porcentaje de estudiantes que compartió el video original, con trazabilidad de las actuaciones respectivas, comparado con las metas aprobadas para el período» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1581 de 2012",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 748,
+      "originalId": 48,
+      "sourceExam": 6,
+      "situationId": "S6-15",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál debería ser el saldo documental según los movimientos?",
+      "options": [
+        "470 equipos",
+        "462 equipos",
+        "475 equipos"
+      ],
+      "correct": 0,
+      "explanation": "480 + 35 - 18 - 27 = 470.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 749,
+      "originalId": 49,
+      "sourceExam": 6,
+      "situationId": "S6-15",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué diferencia existe entre saldo documental y conteo físico?",
+      "options": [
+        "Faltan 15 equipos",
+        "Sobran 5 equipos",
+        "Faltan 5 equipos"
+      ],
+      "correct": 2,
+      "explanation": "470 - 465 = 5; el desfase requiere conciliación, no atribución automática.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 750,
+      "originalId": 50,
+      "sourceExam": 6,
+      "situationId": "S6-15",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la tasa de diferencia respecto del saldo documental, redondeada a dos decimales?",
+      "options": [
+        "1,06 %",
+        "1,08 %",
+        "1,04 %"
+      ],
+      "correct": 0,
+      "explanation": "5 / 470 × 100 = 1,0638 %, redondeado a 1,06 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 751,
+      "originalId": 51,
+      "sourceExam": 6,
+      "situationId": "S6-16",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Instrucción de retirar licencia de un tercero», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Acto de licencia, proyección de visitas que perdería la feria y plan de continuidad académica",
+        "Acto de licencia, autoridad que lo expidió y plan de continuidad académica",
+        "Acto de licencia, autoridad que lo expidió y carta del aliado expresando molestia con la ausencia"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: acto de licencia, autoridad que lo expidió y plan de continuidad académica. La evidencia «acto de licencia, autoridad que lo expidió y carta del aliado expresando molestia con la ausencia» aporta un dato lateral, mientras «acto de licencia, proyección de visitas que perdería la feria y plan de continuidad académica» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 715 de 2001, atribuciones rectorales y competencias territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 752,
+      "originalId": 52,
+      "sourceExam": 6,
+      "situationId": "S6-16",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Instrucción de retirar licencia de un tercero», el PMI incorpora seguimiento al caso. ¿Cuál medida informaría mejor una corrección?",
+      "options": [
+        "Actuaciones de personal respetuosas de competencia y continuidad, con contrastes por curso, jornada y sede, tras excluir registros duplicados y atípicos justificados",
+        "Horas de exhibición cubiertas por funcionarios sin habilitación, con desagregación por grupos relevantes, en relación con la decisión adoptada",
+        "Cantidad de peticiones empresariales aceptadas, con contrastes por curso, jornada y sede, según revisión de muestras y de reportes de campo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: actuaciones de personal respetuosas de competencia y continuidad, con contrastes por curso, jornada y sede, tras excluir registros duplicados y atípicos justificados. Medir «cantidad de peticiones empresariales aceptadas, con contrastes por curso, jornada y sede, según revisión de muestras y de reportes de campo» o «horas de exhibición cubiertas por funcionarios sin habilitación, con desagregación por grupos relevantes, en relación con la decisión adoptada» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 715 de 2001, atribuciones rectorales y competencias territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 753,
+      "originalId": 53,
+      "sourceExam": 6,
+      "situationId": "S6-16",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Instrucción de retirar licencia de un tercero», si debe decidir antes de la siguiente sesión de seguimiento, ¿cuál alternativa tiene mejor sustento?",
+      "options": [
+        "Contrastar posiciones y ordenar a la docente cancelar la licencia porque la alianza institucional tiene prioridad",
+        "Valorar condiciones locales y permitir que el contratista seleccione reemplazo docente sin intervención de la entidad territorial",
+        "Examinar competencia y continuidad del servicio sin revocar actos ajenos mediante orden informal"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque examinar competencia y continuidad del servicio sin revocar actos ajenos mediante orden informal. La primera alternativa rival propone contrastar posiciones y ordenar a la docente cancelar la licencia porque la alianza institucional tiene prioridad, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y permitir que el contratista seleccione reemplazo docente sin intervención de la entidad territorial, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 715 de 2001, atribuciones rectorales y competencias territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 754,
+      "originalId": 54,
+      "sourceExam": 6,
+      "situationId": "S6-17",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Secuencia vertical sin prerrequisitos», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Progreso en prerrequisitos y resolución de problemas propios del grado, tras excluir registros duplicados y atípicos justificados",
+        "Número de unidades curriculares eliminadas, en comparación con el período inmediatamente anterior, según períodos escolares comparables",
+        "Cantidad de ejercicios copiados en cuadernos, con perspectiva de continuidad del servicio, en comparación con el período inmediatamente anterior"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: progreso en prerrequisitos y resolución de problemas propios del grado, tras excluir registros duplicados y atípicos justificados. Medir «número de unidades curriculares eliminadas, en comparación con el período inmediatamente anterior, según períodos escolares comparables» o «cantidad de ejercicios copiados en cuadernos, con perspectiva de continuidad del servicio, en comparación con el período inmediatamente anterior» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, gestión académica y didáctica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 755,
+      "originalId": 55,
+      "sourceExam": 6,
+      "situationId": "S6-17",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Secuencia vertical sin prerrequisitos», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Desempeño por prerrequisito y muestras de tareas que revelan obstáculos",
+        "Opinión general sobre la dificultad de matemáticas y muestras de tareas que revelan obstáculos",
+        "Desempeño por prerrequisito y porcentaje de páginas del libro trabajadas"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: desempeño por prerrequisito y muestras de tareas que revelan obstáculos. La evidencia «desempeño por prerrequisito y porcentaje de páginas del libro trabajadas» aporta un dato lateral, mientras «opinión general sobre la dificultad de matemáticas y muestras de tareas que revelan obstáculos» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, gestión académica y didáctica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 756,
+      "originalId": 56,
+      "sourceExam": 6,
+      "situationId": "S6-17",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Secuencia vertical sin prerrequisitos», ¿Qué propuesta resolvería el problema sin transformar una excepción en regla?",
+      "options": [
+        "Diseñar una progresión de apoyos focalizados y comprobar prerrequisitos sin anular metas del grado",
+        "Contrastar posiciones y reemplazar por completo los contenidos de noveno por temas de séptimo para toda la cohorte",
+        "Establecer seguimiento y mantener la secuencia original sin ajustes para preservar cobertura del plan anual"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque diseñar una progresión de apoyos focalizados y comprobar prerrequisitos sin anular metas del grado. La primera alternativa rival propone establecer seguimiento y mantener la secuencia original sin ajustes para preservar cobertura del plan anual, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y reemplazar por completo los contenidos de noveno por temas de séptimo para toda la cohorte, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, gestión académica y didáctica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 757,
+      "originalId": 57,
+      "sourceExam": 6,
+      "situationId": "S6-18",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántos estudiantes permanecen tras el segundo año?",
+      "options": [
+        "320",
+        "288",
+        "280"
+      ],
+      "correct": 1,
+      "explanation": "400 × 0,90 × 0,80 = 288.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 758,
+      "originalId": 58,
+      "sourceExam": 6,
+      "situationId": "S6-18",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la permanencia acumulada respecto de la cohorte inicial?",
+      "options": [
+        "80 %",
+        "72 %",
+        "70 %"
+      ],
+      "correct": 1,
+      "explanation": "0,90 × 0,80 = 0,72 = 72 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 759,
+      "originalId": 59,
+      "sourceExam": 6,
+      "situationId": "S6-18",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántos dejaron de permanecer entre fin del primer y fin del segundo año?",
+      "options": [
+        "72",
+        "112",
+        "80"
+      ],
+      "correct": 0,
+      "explanation": "Al terminar primero quedan 360; al terminar segundo 288; diferencia 72.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 760,
+      "originalId": 60,
+      "sourceExam": 6,
+      "situationId": "S6-19",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántas horas-participante se completaron?",
+      "options": [
+        "432",
+        "360",
+        "384"
+      ],
+      "correct": 2,
+      "explanation": "15×24 + 3×8 = 384.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 761,
+      "originalId": 61,
+      "sourceExam": 6,
+      "situationId": "S6-19",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué porcentaje de las horas-participante previstas se realizó?",
+      "options": [
+        "90 %",
+        "83,33 %",
+        "88,89 %"
+      ],
+      "correct": 2,
+      "explanation": "384/(18×24)=384/432=88,89 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 762,
+      "originalId": 62,
+      "sourceExam": 6,
+      "situationId": "S6-19",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué porcentaje de docentes completó íntegramente la formación?",
+      "options": [
+        "80 %",
+        "88,89 %",
+        "83,33 %"
+      ],
+      "correct": 2,
+      "explanation": "15/18=83,33 %; es distinto del porcentaje de horas.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 763,
+      "originalId": 63,
+      "sourceExam": 6,
+      "situationId": "S6-20",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Plataforma solicita contraseñas docentes», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Número de claves recibidas en administración, mediante contrastes entre cortes de gestión, considerando diferencias iniciales de contexto",
+        "Transferencia íntegra y segura sin exposición de credenciales, según series temporales y registros de seguimiento",
+        "Tiempo ahorrado por permitir acceso directo, con perspectiva de continuidad del servicio, con revisión de sedes y responsables"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: transferencia íntegra y segura sin exposición de credenciales, según series temporales y registros de seguimiento. Medir «número de claves recibidas en administración, mediante contrastes entre cortes de gestión, considerando diferencias iniciales de contexto» o «tiempo ahorrado por permitir acceso directo, con perspectiva de continuidad del servicio, con revisión de sedes y responsables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Protección de datos y seguridad de información institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 764,
+      "originalId": 64,
+      "sourceExam": 6,
+      "situationId": "S6-20",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Plataforma solicita contraseñas docentes», ¿Qué soporte aportaría mayor valor para fundamentar y revisar la decisión?",
+      "options": [
+        "Alcance de acceso, mecanismos de autenticación y trazabilidad de la transferencia",
+        "Alcance de acceso, mecanismos de autenticación y manual comercial que promete manejo reservado",
+        "Alcance de acceso, cronograma de migración enviado por el proveedor y trazabilidad de la transferencia"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: alcance de acceso, mecanismos de autenticación y trazabilidad de la transferencia. La evidencia «alcance de acceso, mecanismos de autenticación y manual comercial que promete manejo reservado» aporta un dato lateral, mientras «alcance de acceso, cronograma de migración enviado por el proveedor y trazabilidad de la transferencia» no acredita el hecho decisivo.",
+      "legalBasis": "Protección de datos y seguridad de información institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 765,
+      "originalId": 65,
+      "sourceExam": 6,
+      "situationId": "S6-20",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Plataforma solicita contraseñas docentes», ¿Cuál opción ofrece la secuencia más defendible de actuación institucional?",
+      "options": [
+        "Valorar condiciones locales y compartir contraseñas temporalmente y pedir su cambio después de la migración",
+        "Exigir mecanismos autorizados de migración y acceso sin entregar credenciales personales",
+        "Examinar antecedentes y autorizar a una sola persona a reunir claves para controlar el procedimiento"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque exigir mecanismos autorizados de migración y acceso sin entregar credenciales personales. La primera alternativa rival propone valorar condiciones locales y compartir contraseñas temporalmente y pedir su cambio después de la migración, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y autorizar a una sola persona a reunir claves para controlar el procedimiento, pero no sustituye la actuación competente.",
+      "legalBasis": "Protección de datos y seguridad de información institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 766,
+      "originalId": 66,
+      "sourceExam": 6,
+      "situationId": "S6-21",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la tasa de A por 1.000 jornadas-estudiante?",
+      "options": [
+        "4",
+        "2",
+        "3"
+      ],
+      "correct": 1,
+      "explanation": "18/9.000×1.000=2.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 767,
+      "originalId": 67,
+      "sourceExam": 6,
+      "situationId": "S6-21",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la tasa de B por 1.000 jornadas-estudiante?",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "12/3.000×1.000=4.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 768,
+      "originalId": 68,
+      "sourceExam": 6,
+      "situationId": "S6-21",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué relación tienen las tasas de B y A?",
+      "options": [
+        "B duplica la tasa de A",
+        "B es 1,5 veces la de A",
+        "B tiene la mitad de la tasa de A"
+      ],
+      "correct": 0,
+      "explanation": "4/2=2 veces, pese a menor número absoluto de eventos.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 769,
+      "originalId": 69,
+      "sourceExam": 6,
+      "situationId": "S6-22",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Reunión virtual con participación desigual», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Participación efectiva de sectores afectados y respuestas a sus aportes, con control de cambios y documentos de respaldo",
+        "Cantidad de enlaces compartidos en redes, con una revisión posterior de consistencia, según series temporales y registros de seguimiento",
+        "Duración total de la sesión virtual, tras excluir registros duplicados y atípicos justificados, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: participación efectiva de sectores afectados y respuestas a sus aportes, con control de cambios y documentos de respaldo. Medir «cantidad de enlaces compartidos en redes, con una revisión posterior de consistencia, según series temporales y registros de seguimiento» o «duración total de la sesión virtual, tras excluir registros duplicados y atípicos justificados, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994, participación en PEI y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 770,
+      "originalId": 70,
+      "sourceExam": 6,
+      "situationId": "S6-22",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Reunión virtual con participación desigual», ¿Qué información distingue mejor un trámite válido de una solución aparente?",
+      "options": [
+        "Acceso por sede, horarios, barreras y aportes recibidos por canales diversos",
+        "Acceso por sede, horarios, barreras y número total de clics que registró la invitación digital",
+        "Acceso por sede, porcentaje de asistentes que aprobó la plataforma y aportes recibidos por canales diversos"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: acceso por sede, horarios, barreras y aportes recibidos por canales diversos. La evidencia «acceso por sede, horarios, barreras y número total de clics que registró la invitación digital» aporta un dato lateral, mientras «acceso por sede, porcentaje de asistentes que aprobó la plataforma y aportes recibidos por canales diversos» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994, participación en PEI y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 771,
+      "originalId": 71,
+      "sourceExam": 6,
+      "situationId": "S6-22",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Reunión virtual con participación desigual», ¿Cuál opción articula de manera más apropiada la función rectoral con el problema?",
+      "options": [
+        "Valorar condiciones locales y sustituir la deliberación por encuesta a quienes se conectaron durante la reunión",
+        "Valorar condiciones locales y considerar válidos los resultados porque la plataforma no exigía invitación individual",
+        "Diseñar mecanismos accesibles de deliberación y dejar evidencia de aportes de sectores afectados"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque diseñar mecanismos accesibles de deliberación y dejar evidencia de aportes de sectores afectados. La primera alternativa rival propone valorar condiciones locales y considerar válidos los resultados porque la plataforma no exigía invitación individual, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y sustituir la deliberación por encuesta a quienes se conectaron durante la reunión, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994, participación en PEI y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 772,
+      "originalId": 72,
+      "sourceExam": 6,
+      "situationId": "S6-23",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Recreos diseñados sin apoyos sensoriales», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Preferencias de la estudiante, barreras ambientales y seguimiento a su participación",
+        "Preferencias de la estudiante, cantidad de minutos que pasó fuera del patio cada día y seguimiento a su participación",
+        "Preferencias de la estudiante, barreras ambientales y conteo de incidentes de ruido entre estudiantes sin apoyos"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: preferencias de la estudiante, barreras ambientales y seguimiento a su participación. La evidencia «preferencias de la estudiante, barreras ambientales y conteo de incidentes de ruido entre estudiantes sin apoyos» aporta un dato lateral, mientras «preferencias de la estudiante, cantidad de minutos que pasó fuera del patio cada día y seguimiento a su participación» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1421 de 2017, educación inclusiva",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 773,
+      "originalId": 73,
+      "sourceExam": 6,
+      "situationId": "S6-23",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Recreos diseñados sin apoyos sensoriales», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Tiempo total de separación del grupo, con trazabilidad de las actuaciones respectivas, según períodos escolares comparables",
+        "Reducción de molestias informadas por adultos, considerando diferencias iniciales de contexto, con contrastes por curso, jornada y sede",
+        "Participación elegida y bienestar con ajustes pertinentes, según períodos escolares comparables, según revisión de muestras y de reportes de campo"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: participación elegida y bienestar con ajustes pertinentes, según períodos escolares comparables, según revisión de muestras y de reportes de campo. Medir «tiempo total de separación del grupo, con trazabilidad de las actuaciones respectivas, según períodos escolares comparables» o «reducción de molestias informadas por adultos, considerando diferencias iniciales de contexto, con contrastes por curso, jornada y sede» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1421 de 2017, educación inclusiva",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 774,
+      "originalId": 74,
+      "sourceExam": 6,
+      "situationId": "S6-23",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Recreos diseñados sin apoyos sensoriales», ¿Qué opción respondería mejor a una objeción fundada sobre el trámite?",
+      "options": [
+        "Diseñar ajustes voluntarios, espacios de regulación y alternativas de participación sin imponer segregación",
+        "Establecer seguimiento y mantenerla permanentemente en salón cerrado como medida uniforme de tranquilidad",
+        "Contrastar posiciones y reducir todos los recreos para el curso para evitar diferenciar apoyos individuales"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque diseñar ajustes voluntarios, espacios de regulación y alternativas de participación sin imponer segregación. La primera alternativa rival propone establecer seguimiento y mantenerla permanentemente en salón cerrado como medida uniforme de tranquilidad, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y reducir todos los recreos para el curso para evitar diferenciar apoyos individuales, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1421 de 2017, educación inclusiva",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 775,
+      "originalId": 75,
+      "sourceExam": 6,
+      "situationId": "S6-24",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la tasa corregida de aprobación?",
+      "options": [
+        "80,00 %",
+        "73,33 %",
+        "78,57 %"
+      ],
+      "correct": 2,
+      "explanation": "Al depurar registros: (72 - 6)/(90 - 6) = 66/84 = 78,57 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 776,
+      "originalId": 76,
+      "sourceExam": 6,
+      "situationId": "S6-24",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿En cuántos puntos porcentuales cambia frente al 80 % informado?",
+      "options": [
+        "Disminuye 6,67 puntos",
+        "Disminuye 1,43 puntos",
+        "Aumenta 1,43 puntos"
+      ],
+      "correct": 1,
+      "explanation": "80 % - 78,5714 % = 1,4286 puntos.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 777,
+      "originalId": 77,
+      "sourceExam": 6,
+      "situationId": "S6-24",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el tamaño válido de la población después de depurar?",
+      "options": [
+        "84 estudiantes",
+        "90 estudiantes",
+        "86 estudiantes"
+      ],
+      "correct": 0,
+      "explanation": "90 - 6 = 84 registros de estudiantes únicos.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 778,
+      "originalId": 78,
+      "sourceExam": 6,
+      "situationId": "S6-25",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué cobertura tiene el grupo de alto riesgo?",
+      "options": [
+        "80 %",
+        "60 %",
+        "75 %"
+      ],
+      "correct": 2,
+      "explanation": "45 / 60 = 75 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 779,
+      "originalId": 79,
+      "sourceExam": 6,
+      "situationId": "S6-25",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué cobertura tiene el grupo moderado?",
+      "options": [
+        "40 %",
+        "50 %",
+        "62,5 %"
+      ],
+      "correct": 1,
+      "explanation": "75 / 150 = 50 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 780,
+      "originalId": 80,
+      "sourceExam": 6,
+      "situationId": "S6-25",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la cobertura global de casos diagnosticados?",
+      "options": [
+        "60 %",
+        "57,14 %",
+        "54,55 %"
+      ],
+      "correct": 1,
+      "explanation": "(45+75)/(60+150)=120/210=57,14 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 781,
+      "originalId": 81,
+      "sourceExam": 6,
+      "situationId": "S6-26",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Solicitud mezclada de información y juicio», ¿Cuál de las fuentes ofrecidas permitiría discriminar mejor entre las versiones?",
+      "options": [
+        "Titularidad, representación, documentos solicitados y número de páginas del expediente conjunto",
+        "Titularidad, gravedad del conflicto descrita por la familia y datos personales de terceros",
+        "Titularidad, representación, documentos solicitados y datos personales de terceros"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: titularidad, representación, documentos solicitados y datos personales de terceros. La evidencia «titularidad, representación, documentos solicitados y número de páginas del expediente conjunto» aporta un dato lateral, mientras «titularidad, gravedad del conflicto descrita por la familia y datos personales de terceros» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1755 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 782,
+      "originalId": 82,
+      "sourceExam": 6,
+      "situationId": "S6-26",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Solicitud mezclada de información y juicio», ¿Qué recomendación al equipo directivo resultaría técnicamente preferible?",
+      "options": [
+        "Analizar las implicaciones y negar todo el escrito porque contiene una parte sometida a reserva",
+        "Documentar el trámite y entregar todo al acudiente porque existe interés legítimo en aclarar el incidente",
+        "Entregar la información propia procedente y proteger los datos de terceros mediante respuesta separada y motivada"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque entregar la información propia procedente y proteger los datos de terceros mediante respuesta separada y motivada. La primera alternativa rival propone analizar las implicaciones y negar todo el escrito porque contiene una parte sometida a reserva, lo cual omite un requisito del contexto. La otra propone documentar el trámite y entregar todo al acudiente porque existe interés legítimo en aclarar el incidente, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1755 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 783,
+      "originalId": 83,
+      "sourceExam": 6,
+      "situationId": "S6-26",
+      "competency": "Control y resultados",
+      "text": "En relación con «Solicitud mezclada de información y juicio», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Velocidad de fotocopiado del expediente, con perspectiva de continuidad del servicio, según períodos escolares comparables",
+        "Porcentaje de solicitudes negadas en bloque, según revisión de muestras y de reportes de campo, con perspectiva de continuidad del servicio",
+        "Respuesta segmentada que satisfaga acceso legítimo y reserve lo ajeno, con revisión de sedes y responsables"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: respuesta segmentada que satisfaga acceso legítimo y reserve lo ajeno, con revisión de sedes y responsables. Medir «porcentaje de solicitudes negadas en bloque, según revisión de muestras y de reportes de campo, con perspectiva de continuidad del servicio» o «velocidad de fotocopiado del expediente, con perspectiva de continuidad del servicio, según períodos escolares comparables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1755 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 784,
+      "originalId": 84,
+      "sourceExam": 6,
+      "situationId": "S6-27",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Difusión transfronteriza de hostigamiento», ¿Qué recomendación al equipo directivo resultaría técnicamente preferible?",
+      "options": [
+        "Consultar la información disponible y sancionar de inmediato a todo estudiante que haya abierto el mensaje, sin individualización",
+        "Atender los efectos sobre convivencia escolar y articular protección según los hechos y competencias",
+        "Establecer seguimiento y desestimar el caso mientras no se pruebe que el primer mensaje se redactó en el aula"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque atender los efectos sobre convivencia escolar y articular protección según los hechos y competencias. La primera alternativa rival propone establecer seguimiento y desestimar el caso mientras no se pruebe que el primer mensaje se redactó en el aula, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y sancionar de inmediato a todo estudiante que haya abierto el mensaje, sin individualización, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1620 de 2013, convivencia escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 785,
+      "originalId": 85,
+      "sourceExam": 6,
+      "situationId": "S6-27",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Difusión transfronteriza de hostigamiento», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Número de estudiantes castigados por uso de redes, con trazabilidad de las actuaciones respectivas, tras excluir registros duplicados y atípicos justificados",
+        "Protección frente al daño escolar y actuación proporcional según evidencias, comparado con las metas aprobadas para el período",
+        "Porcentaje de publicaciones retiradas por presión de grupo, según revisión de muestras y de reportes de campo"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: protección frente al daño escolar y actuación proporcional según evidencias, comparado con las metas aprobadas para el período. Medir «número de estudiantes castigados por uso de redes, con trazabilidad de las actuaciones respectivas, tras excluir registros duplicados y atípicos justificados» o «porcentaje de publicaciones retiradas por presión de grupo, según revisión de muestras y de reportes de campo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1620 de 2013, convivencia escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 786,
+      "originalId": 86,
+      "sourceExam": 6,
+      "situationId": "S6-27",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Difusión transfronteriza de hostigamiento», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Efectos escolares, cantidad de publicaciones compartidas sin análisis de contenido y trazabilidad de actuaciones",
+        "Efectos escolares, contenidos relevantes, riesgos y trazabilidad de actuaciones",
+        "Efectos escolares, contenidos relevantes, riesgos y lugar geográfico de conexión de cada usuario"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: efectos escolares, contenidos relevantes, riesgos y trazabilidad de actuaciones. La evidencia «efectos escolares, contenidos relevantes, riesgos y lugar geográfico de conexión de cada usuario» aporta un dato lateral, mientras «efectos escolares, cantidad de publicaciones compartidas sin análisis de contenido y trazabilidad de actuaciones» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1620 de 2013, convivencia escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 787,
+      "originalId": 87,
+      "sourceExam": 6,
+      "situationId": "S6-28",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál fue la reducción observada del consumo total?",
+      "options": [
+        "12,5 %",
+        "17,5 %",
+        "15 %"
+      ],
+      "correct": 2,
+      "explanation": "(2.400-2.040)/2.400=15 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 788,
+      "originalId": 88,
+      "sourceExam": 6,
+      "situationId": "S6-28",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál sería el consumo posterior sin el laboratorio adicional, bajo el supuesto indicado?",
+      "options": [
+        "2.160 kWh",
+        "1.920 kWh",
+        "2.000 kWh"
+      ],
+      "correct": 1,
+      "explanation": "2.040 - 120 = 1.920 kWh.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 789,
+      "originalId": 89,
+      "sourceExam": 6,
+      "situationId": "S6-28",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué reducción ajustada respecto de la base representa ese consumo?",
+      "options": [
+        "18 %",
+        "15 %",
+        "20 %"
+      ],
+      "correct": 2,
+      "explanation": "(2.400 - 1.920)/2.400 = 20 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 790,
+      "originalId": 90,
+      "sourceExam": 6,
+      "situationId": "S6-29",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántas solicitudes pendientes habrá al terminar la cuarta semana?",
+      "options": [
+        "28",
+        "40",
+        "52"
+      ],
+      "correct": 1,
+      "explanation": "12 + 4×(45 - 38) = 40.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 791,
+      "originalId": 91,
+      "sourceExam": 6,
+      "situationId": "S6-29",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué incremento semanal mínimo de capacidad evitaría acumular nuevos pendientes?",
+      "options": [
+        "7 solicitudes",
+        "12 solicitudes",
+        "8 solicitudes"
+      ],
+      "correct": 0,
+      "explanation": "La entrada supera la salida en 45 - 38 = 7.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 792,
+      "originalId": 92,
+      "sourceExam": 6,
+      "situationId": "S6-29",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si desde la quinta semana resuelve 50 y recibe 45, ¿cuántas semanas completas tardará al menos en reducir los 40 pendientes a 20?",
+      "options": [
+        "3 semanas",
+        "5 semanas",
+        "4 semanas"
+      ],
+      "correct": 2,
+      "explanation": "Con salida neta de 5 por semana, bajar 20 requiere 20/5 = 4.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 793,
+      "originalId": 93,
+      "sourceExam": 6,
+      "situationId": "S6-30",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Doble conteo en indicadores de apoyo», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Número bruto de anotaciones en el sistema, según series temporales y registros de seguimiento, tras excluir registros duplicados y atípicos justificados",
+        "Cobertura de personas y volumen de servicios medidos por separado, con una revisión posterior de consistencia",
+        "Porcentaje de casos que tuvo más de una sesión, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: cobertura de personas y volumen de servicios medidos por separado, con una revisión posterior de consistencia. Medir «número bruto de anotaciones en el sistema, según series temporales y registros de seguimiento, tras excluir registros duplicados y atípicos justificados» o «porcentaje de casos que tuvo más de una sesión, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Análisis de datos, medición institucional y protección de datos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 794,
+      "originalId": 94,
+      "sourceExam": 6,
+      "situationId": "S6-30",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Doble conteo en indicadores de apoyo», ¿Cuál de las fuentes ofrecidas permitiría discriminar mejor entre las versiones?",
+      "options": [
+        "Identificadores protegidos, suma mensual de atenciones acumuladas sin depuración y método de conteo de personas únicas",
+        "Identificadores protegidos, registro de sesiones y método de conteo de personas únicas",
+        "Identificadores protegidos, registro de sesiones y listado de fechas de talleres sin asistentes individualizados"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: identificadores protegidos, registro de sesiones y método de conteo de personas únicas. La evidencia «identificadores protegidos, registro de sesiones y listado de fechas de talleres sin asistentes individualizados» aporta un dato lateral, mientras «identificadores protegidos, suma mensual de atenciones acumuladas sin depuración y método de conteo de personas únicas» no acredita el hecho decisivo.",
+      "legalBasis": "Análisis de datos, medición institucional y protección de datos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 795,
+      "originalId": 95,
+      "sourceExam": 6,
+      "situationId": "S6-30",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Doble conteo en indicadores de apoyo», ¿Qué curso de acción debe priorizarse ante la tensión planteada?",
+      "options": [
+        "Separar personas únicas atendidas de número de atenciones y definir ambos denominadores",
+        "Establecer seguimiento y eliminar intervenciones repetidas para que los dos indicadores tengan el mismo valor",
+        "Valorar condiciones locales y reportar 150 personas porque cada sesión corresponde a un servicio efectivamente prestado"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque separar personas únicas atendidas de número de atenciones y definir ambos denominadores. La primera alternativa rival propone valorar condiciones locales y reportar 150 personas porque cada sesión corresponde a un servicio efectivamente prestado, lo cual omite un requisito del contexto. La otra propone establecer seguimiento y eliminar intervenciones repetidas para que los dos indicadores tengan el mismo valor, pero no sustituye la actuación competente.",
+      "legalBasis": "Análisis de datos, medición institucional y protección de datos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 796,
+      "originalId": 96,
+      "sourceExam": 6,
+      "situationId": "S6-31",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Informe académico que exige decisión presupuestal», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Número de equipos solicitados al fabricante, con trazabilidad de las actuaciones respectivas, con una revisión posterior de consistencia",
+        "Porcentaje de asistentes satisfechos con el proyecto, considerando diferencias iniciales de contexto, según series temporales y registros de seguimiento",
+        "Decisión pedagógica articulada a autorización financiera válida, con trazabilidad de las actuaciones respectivas, con perspectiva de continuidad del servicio"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisión pedagógica articulada a autorización financiera válida, con trazabilidad de las actuaciones respectivas, con perspectiva de continuidad del servicio. Medir «porcentaje de asistentes satisfechos con el proyecto, considerando diferencias iniciales de contexto, según series temporales y registros de seguimiento» o «número de equipos solicitados al fabricante, con trazabilidad de las actuaciones respectivas, con una revisión posterior de consistencia» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar y Fondo de Servicios Educativos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 797,
+      "originalId": 97,
+      "sourceExam": 6,
+      "situationId": "S6-31",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Informe académico que exige decisión presupuestal», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Concepto académico, disponibilidad, plan operativo y acuerdo presupuestal competente",
+        "Concepto académico, encuesta de entusiasmo estudiantil sobre laboratorio y acuerdo presupuestal competente",
+        "Concepto académico, disponibilidad, plan operativo y acta del consejo académico con voto unánime"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: concepto académico, disponibilidad, plan operativo y acuerdo presupuestal competente. La evidencia «concepto académico, disponibilidad, plan operativo y acta del consejo académico con voto unánime» aporta un dato lateral, mientras «concepto académico, encuesta de entusiasmo estudiantil sobre laboratorio y acuerdo presupuestal competente» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar y Fondo de Servicios Educativos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 798,
+      "originalId": 98,
+      "sourceExam": 6,
+      "situationId": "S6-31",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Informe académico que exige decisión presupuestal», ¿Cuál respuesta institucional resiste mejor una revisión de legalidad y pertinencia?",
+      "options": [
+        "Examinar antecedentes y ordenar compra inmediata porque el consejo académico representa experticia pedagógica",
+        "Distinguir recomendación pedagógica de aprobación y ejecución presupuestal por instancias competentes",
+        "Examinar antecedentes y somete la recomendación a votación estudiantil y usar esa mayoría como aval presupuestal"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque distinguir recomendación pedagógica de aprobación y ejecución presupuestal por instancias competentes. La primera alternativa rival propone examinar antecedentes y ordenar compra inmediata porque el consejo académico representa experticia pedagógica, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y somete la recomendación a votación estudiantil y usar esa mayoría como aval presupuestal, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, gobierno escolar y Fondo de Servicios Educativos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 799,
+      "originalId": 99,
+      "sourceExam": 6,
+      "situationId": "S6-32",
+      "competency": "Valoración probatoria",
+      "text": "A propósito del caso «Conclusión sin contrafactual», ¿Qué evidencia haría más sólida una revisión independiente de lo ocurrido?",
+      "options": [
+        "Definiciones de evento, cambios de formulario y número final de reportes sin categorías de origen",
+        "Definiciones de evento, cambios de formulario y registros comparables",
+        "Definiciones de evento, percepción anecdótica de un integrante del comité y registros comparables"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: definiciones de evento, cambios de formulario y registros comparables. La evidencia «definiciones de evento, cambios de formulario y número final de reportes sin categorías de origen» aporta un dato lateral, mientras «definiciones de evento, percepción anecdótica de un integrante del comité y registros comparables» no acredita el hecho decisivo.",
+      "legalBasis": "Lectura crítica, comparabilidad y causalidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 800,
+      "originalId": 100,
+      "sourceExam": 6,
+      "situationId": "S6-32",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Conclusión sin contrafactual», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Diferencia simple entre 40 y 25 reportes, con desagregación por grupos relevantes, en relación con la decisión adoptada",
+        "Cantidad de formularios reemplazados durante campaña, según revisión de muestras y de reportes de campo",
+        "Tendencia en incidentes comparables antes y después de cambios de registro, según series temporales y registros de seguimiento"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: tendencia en incidentes comparables antes y después de cambios de registro, según series temporales y registros de seguimiento. Medir «diferencia simple entre 40 y 25 reportes, con desagregación por grupos relevantes, en relación con la decisión adoptada» o «cantidad de formularios reemplazados durante campaña, según revisión de muestras y de reportes de campo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Lectura crítica, comparabilidad y causalidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 801,
+      "originalId": 101,
+      "sourceExam": 6,
+      "situationId": "S6-32",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Conclusión sin contrafactual», si debe decidir antes de la siguiente sesión de seguimiento, ¿cuál alternativa tiene mejor sustento?",
+      "options": [
+        "Revisar soportes y atribuir la reducción a la campaña porque la diferencia absoluta es favorable",
+        "Examinar comparabilidad del registro antes de inferir un efecto de la campaña",
+        "Examinar antecedentes y desestimar los datos por completo y asumir que los conflictos aumentaron sin medición"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque examinar comparabilidad del registro antes de inferir un efecto de la campaña. La primera alternativa rival propone revisar soportes y atribuir la reducción a la campaña porque la diferencia absoluta es favorable, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y desestimar los datos por completo y asumir que los conflictos aumentaron sin medición, pero no sustituye la actuación competente.",
+      "legalBasis": "Lectura crítica, comparabilidad y causalidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 802,
+      "originalId": 102,
+      "sourceExam": 6,
+      "situationId": "S6-33",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Educación de estudiantes en hospital prolongado», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Condiciones de atención, disponibilidad de pupitres libres en el salón de origen y acuerdos de acompañamiento",
+        "Condiciones de atención, trayectoria educativa y número de faltas acumuladas durante hospitalización",
+        "Condiciones de atención, trayectoria educativa y acuerdos de acompañamiento"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: condiciones de atención, trayectoria educativa y acuerdos de acompañamiento. La evidencia «condiciones de atención, trayectoria educativa y número de faltas acumuladas durante hospitalización» aporta un dato lateral, mientras «condiciones de atención, disponibilidad de pupitres libres en el salón de origen y acuerdos de acompañamiento» no acredita el hecho decisivo.",
+      "legalBasis": "Derecho a la educación, continuidad y flexibilidad pedagógica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 803,
+      "originalId": 103,
+      "sourceExam": 6,
+      "situationId": "S6-33",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Educación de estudiantes en hospital prolongado», ¿Qué opción respondería mejor a una objeción fundada sobre el trámite?",
+      "options": [
+        "Examinar antecedentes y exigir retorno presencial como única forma de acreditar actividades del período",
+        "Coordinar alternativas pedagógicas pertinentes con familia y autoridades del servicio de salud y educación",
+        "Examinar antecedentes y cerrar matrícula para que la familia solicite ingreso después del alta"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque coordinar alternativas pedagógicas pertinentes con familia y autoridades del servicio de salud y educación. La primera alternativa rival propone examinar antecedentes y exigir retorno presencial como única forma de acreditar actividades del período, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y cerrar matrícula para que la familia solicite ingreso después del alta, pero no sustituye la actuación competente.",
+      "legalBasis": "Derecho a la educación, continuidad y flexibilidad pedagógica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 804,
+      "originalId": 104,
+      "sourceExam": 6,
+      "situationId": "S6-33",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Educación de estudiantes en hospital prolongado», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Continuidad de aprendizajes compatible con situación de salud, en comparación con el período inmediatamente anterior, según series temporales y registros de seguimiento",
+        "Cantidad de guías impresas enviadas sin retorno, con control de cambios y documentos de respaldo, con una revisión posterior de consistencia",
+        "Reducción del reporte de inasistencia por retiro formal, con perspectiva de continuidad del servicio, según series temporales y registros de seguimiento"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: continuidad de aprendizajes compatible con situación de salud, en comparación con el período inmediatamente anterior, según series temporales y registros de seguimiento. Medir «reducción del reporte de inasistencia por retiro formal, con perspectiva de continuidad del servicio, según series temporales y registros de seguimiento» o «cantidad de guías impresas enviadas sin retorno, con control de cambios y documentos de respaldo, con una revisión posterior de consistencia» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Derecho a la educación, continuidad y flexibilidad pedagógica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 805,
+      "originalId": 105,
+      "sourceExam": 6,
+      "situationId": "S6-34",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Actividades extracurriculares por pago», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Circular, requisitos de acceso, presupuesto y cantidad recaudada durante las inscripciones",
+        "Circular, requisitos de acceso, presupuesto y alternativas de financiamiento",
+        "Circular, número de familias que prefirió pagar en efectivo y alternativas de financiamiento"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: circular, requisitos de acceso, presupuesto y alternativas de financiamiento. La evidencia «circular, requisitos de acceso, presupuesto y cantidad recaudada durante las inscripciones» aporta un dato lateral, mientras «circular, número de familias que prefirió pagar en efectivo y alternativas de financiamiento» no acredita el hecho decisivo.",
+      "legalBasis": "Gratuidad educativa oficial y deber de no discriminación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 806,
+      "originalId": 106,
+      "sourceExam": 6,
+      "situationId": "S6-34",
+      "competency": "Control y resultados",
+      "text": "Respecto de «Actividades extracurriculares por pago», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Costo promedio de materiales aportados por familia, considerando diferencias iniciales de contexto, tras excluir registros duplicados y atípicos justificados",
+        "Porcentaje de inscritos que canceló la cuota, con una revisión posterior de consistencia, con perspectiva de continuidad del servicio",
+        "Participación sin exclusión por pagos presentados como voluntarios, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: participación sin exclusión por pagos presentados como voluntarios, considerando diferencias iniciales de contexto. Medir «porcentaje de inscritos que canceló la cuota, con una revisión posterior de consistencia, con perspectiva de continuidad del servicio» o «costo promedio de materiales aportados por familia, considerando diferencias iniciales de contexto, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Gratuidad educativa oficial y deber de no discriminación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 807,
+      "originalId": 107,
+      "sourceExam": 6,
+      "situationId": "S6-34",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Actividades extracurriculares por pago», ¿Qué opción respondería mejor a una objeción fundada sobre el trámite?",
+      "options": [
+        "Revisar soportes y mantener el cobro y eximir solamente a quienes presenten certificado de pobreza",
+        "Analizar las implicaciones y sustituir la cuota por aportes obligatorios de materiales que equivalen al mismo costo",
+        "Eliminar barrera económica indebida y organizar participación conforme a reglas educativas"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque eliminar barrera económica indebida y organizar participación conforme a reglas educativas. La primera alternativa rival propone revisar soportes y mantener el cobro y eximir solamente a quienes presenten certificado de pobreza, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y sustituir la cuota por aportes obligatorios de materiales que equivalen al mismo costo, pero no sustituye la actuación competente.",
+      "legalBasis": "Gratuidad educativa oficial y deber de no discriminación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 808,
+      "originalId": 108,
+      "sourceExam": 6,
+      "situationId": "S6-35",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Medida escolar que vulnera presunción», para auditar el procedimiento, ¿qué registro es directamente pertinente?",
+      "options": [
+        "Contenido expuesto, estado de actuación y garantías del estudiante",
+        "Contenido expuesto, estado de actuación y número de estudiantes que miró la cartelera",
+        "Contenido expuesto, cantidad de faltas similares registradas el año anterior y garantías del estudiante"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: contenido expuesto, estado de actuación y garantías del estudiante. La evidencia «contenido expuesto, estado de actuación y número de estudiantes que miró la cartelera» aporta un dato lateral, mientras «contenido expuesto, cantidad de faltas similares registradas el año anterior y garantías del estudiante» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 809,
+      "originalId": 109,
+      "sourceExam": 6,
+      "situationId": "S6-35",
+      "competency": "Control y resultados",
+      "text": "En el supuesto de «Medida escolar que vulnera presunción», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Tiempo de permanencia de la foto en cartelera, considerando diferencias iniciales de contexto, en relación con la decisión adoptada",
+        "Actuaciones proporcionales sin sanción pública anticipada, según revisión de muestras y de reportes de campo",
+        "Porcentaje de observadores que cree el aviso, con contrastes por curso, jornada y sede, en comparación con el período inmediatamente anterior"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: actuaciones proporcionales sin sanción pública anticipada, según revisión de muestras y de reportes de campo. Medir «tiempo de permanencia de la foto en cartelera, considerando diferencias iniciales de contexto, en relación con la decisión adoptada» o «porcentaje de observadores que cree el aviso, con contrastes por curso, jornada y sede, en comparación con el período inmediatamente anterior» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 810,
+      "originalId": 110,
+      "sourceExam": 6,
+      "situationId": "S6-35",
+      "competency": "Actuación rectoral",
+      "text": "Respecto de «Medida escolar que vulnera presunción», ¿Qué recomendación al equipo directivo resultaría técnicamente preferible?",
+      "options": [
+        "Retirar la exposición y garantizar valoración de hechos, derechos y trámite conforme al manual",
+        "Consultar la información disponible y mantener el aviso hasta que una familia solicite por escrito su retiro",
+        "Analizar las implicaciones y cambiar el título por «sospechoso» y conservar la fotografía a la vista"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque retirar la exposición y garantizar valoración de hechos, derechos y trámite conforme al manual. La primera alternativa rival propone consultar la información disponible y mantener el aviso hasta que una familia solicite por escrito su retiro, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y cambiar el título por «sospechoso» y conservar la fotografía a la vista, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 811,
+      "originalId": 111,
+      "sourceExam": 6,
+      "situationId": "S6-36",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Mensaje institucional en crisis aún incierta», frente a los argumentos contrapuestos, ¿qué decisión puede justificarse con mayor solidez?",
+      "options": [
+        "Informar hechos confirmados, incertidumbre y canal de actualización sin reproducir rumores",
+        "Valorar condiciones locales y negar públicamente toda amenaza antes de la verificación para restablecer normalidad",
+        "Revisar soportes y suspender actividades por tiempo indefinido y difundir como cierta la versión del audio"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque informar hechos confirmados, incertidumbre y canal de actualización sin reproducir rumores. La primera alternativa rival propone valorar condiciones locales y negar públicamente toda amenaza antes de la verificación para restablecer normalidad, lo cual omite un requisito del contexto. La otra propone revisar soportes y suspender actividades por tiempo indefinido y difundir como cierta la versión del audio, pero no sustituye la actuación competente.",
+      "legalBasis": "Liderazgo comunicacional y deber de cuidado institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 812,
+      "originalId": 112,
+      "sourceExam": 6,
+      "situationId": "S6-36",
+      "competency": "Valoración probatoria",
+      "text": "Para la situación «Mensaje institucional en crisis aún incierta», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Informes de autoridades, medidas efectivas y horario de actualización institucional",
+        "Informes de autoridades, mensajes de opinión recogidos durante una hora y horario de actualización institucional",
+        "Informes de autoridades, medidas efectivas y cantidad de reenvíos del audio en grupos familiares"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: informes de autoridades, medidas efectivas y horario de actualización institucional. La evidencia «informes de autoridades, medidas efectivas y cantidad de reenvíos del audio en grupos familiares» aporta un dato lateral, mientras «informes de autoridades, mensajes de opinión recogidos durante una hora y horario de actualización institucional» no acredita el hecho decisivo.",
+      "legalBasis": "Liderazgo comunicacional y deber de cuidado institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 813,
+      "originalId": 113,
+      "sourceExam": 6,
+      "situationId": "S6-36",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Mensaje institucional en crisis aún incierta», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Rapidez del primer desmentido categórico, con revisión de sedes y responsables, con perspectiva de continuidad del servicio",
+        "Información consistente con hechos corroborados y medidas vigentes, considerando diferencias iniciales de contexto",
+        "Número de comunicados enviados sin nueva evidencia, según series temporales y registros de seguimiento, con desagregación por grupos relevantes"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: información consistente con hechos corroborados y medidas vigentes, considerando diferencias iniciales de contexto. Medir «rapidez del primer desmentido categórico, con revisión de sedes y responsables, con perspectiva de continuidad del servicio» o «número de comunicados enviados sin nueva evidencia, según series temporales y registros de seguimiento, con desagregación por grupos relevantes» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Liderazgo comunicacional y deber de cuidado institucional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 814,
+      "originalId": 114,
+      "sourceExam": 6,
+      "situationId": "S6-37",
+      "competency": "Control y resultados",
+      "text": "En relación con «Reserva de caja confundida con disponibilidad», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Número de órdenes pequeñas emitidas para la misma necesidad, con perspectiva de continuidad del servicio",
+        "Compromisos respaldados por apropiación y reglas del fondo, con desagregación por grupos relevantes, considerando diferencias iniciales de contexto",
+        "Porcentaje del saldo bancario desembolsado antes del corte, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: compromisos respaldados por apropiación y reglas del fondo, con desagregación por grupos relevantes, considerando diferencias iniciales de contexto. Medir «porcentaje del saldo bancario desembolsado antes del corte, tras excluir registros duplicados y atípicos justificados» o «número de órdenes pequeñas emitidas para la misma necesidad, con perspectiva de continuidad del servicio» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, artículos 2.3.1.6.3.4 a 2.3.1.6.3.6",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 815,
+      "originalId": 115,
+      "sourceExam": 6,
+      "situationId": "S6-37",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Reserva de caja confundida con disponibilidad», ¿Cuál actuación separa correctamente la urgencia del procedimiento obligatorio?",
+      "options": [
+        "Distinguir saldo de tesorería y apropiación autorizada, y tramitar ajuste antes de comprometer",
+        "Valorar condiciones locales y celebrar el contrato por el total del saldo bancario como garantía suficiente de pago",
+        "Establecer seguimiento y dividir la reparación en órdenes de compra para ajustarlas a la apropiación disponible"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque distinguir saldo de tesorería y apropiación autorizada, y tramitar ajuste antes de comprometer. La primera alternativa rival propone valorar condiciones locales y celebrar el contrato por el total del saldo bancario como garantía suficiente de pago, lo cual omite un requisito del contexto. La otra propone establecer seguimiento y dividir la reparación en órdenes de compra para ajustarlas a la apropiación disponible, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, artículos 2.3.1.6.3.4 a 2.3.1.6.3.6",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 816,
+      "originalId": 116,
+      "sourceExam": 6,
+      "situationId": "S6-37",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Reserva de caja confundida con disponibilidad», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Presupuesto vigente, disponibilidades, flujo de caja y acto de aprobación del ajuste",
+        "Presupuesto vigente, disponibilidades, flujo de caja y extracto del último mes con saldo acumulado",
+        "Presupuesto vigente, cotización del contratista con descuento por pronto pago y acto de aprobación del ajuste"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: presupuesto vigente, disponibilidades, flujo de caja y acto de aprobación del ajuste. La evidencia «presupuesto vigente, disponibilidades, flujo de caja y extracto del último mes con saldo acumulado» aporta un dato lateral, mientras «presupuesto vigente, cotización del contratista con descuento por pronto pago y acto de aprobación del ajuste» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, artículos 2.3.1.6.3.4 a 2.3.1.6.3.6",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 817,
+      "originalId": 117,
+      "sourceExam": 6,
+      "situationId": "S6-38",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Arbolado y orden de tala informal», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Riesgos mitigados con medidas proporcionadas y avales pertinentes, en relación con la decisión adoptada, con revisión de sedes y responsables",
+        "Número de árboles cortados en la semana siguiente, en relación con la decisión adoptada, según series temporales y registros de seguimiento",
+        "Cantidad de quejas vecinales por caída de hojas, con contrastes por curso, jornada y sede, según series temporales y registros de seguimiento"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: riesgos mitigados con medidas proporcionadas y avales pertinentes, en relación con la decisión adoptada, con revisión de sedes y responsables. Medir «número de árboles cortados en la semana siguiente, en relación con la decisión adoptada, según series temporales y registros de seguimiento» o «cantidad de quejas vecinales por caída de hojas, con contrastes por curso, jornada y sede, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Gestión del riesgo y competencias ambientales territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 818,
+      "originalId": 118,
+      "sourceExam": 6,
+      "situationId": "S6-38",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Arbolado y orden de tala informal», si debe decidir antes de la siguiente sesión de seguimiento, ¿cuál alternativa tiene mejor sustento?",
+      "options": [
+        "Revisar soportes y aceptar la tala inmediata de todo árbol cercano por precaución general",
+        "Delimitar el riesgo y gestionar evaluación y actuación competente antes de intervenciones no autorizadas",
+        "Documentar el trámite y esperar al siguiente incidente para contar con evidencia adicional del peligro"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque delimitar el riesgo y gestionar evaluación y actuación competente antes de intervenciones no autorizadas. La primera alternativa rival propone revisar soportes y aceptar la tala inmediata de todo árbol cercano por precaución general, lo cual omite un requisito del contexto. La otra propone documentar el trámite y esperar al siguiente incidente para contar con evidencia adicional del peligro, pero no sustituye la actuación competente.",
+      "legalBasis": "Gestión del riesgo y competencias ambientales territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 819,
+      "originalId": 119,
+      "sourceExam": 6,
+      "situationId": "S6-38",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Arbolado y orden de tala informal», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Inspección de riesgos, medidas temporales y historial de sombras proyectadas sobre la cancha",
+        "Inspección de riesgos, opiniones de estudiantes sobre estética del arbolado y orientaciones de autoridad competente",
+        "Inspección de riesgos, medidas temporales y orientaciones de autoridad competente"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: inspección de riesgos, medidas temporales y orientaciones de autoridad competente. La evidencia «inspección de riesgos, medidas temporales y historial de sombras proyectadas sobre la cancha» aporta un dato lateral, mientras «inspección de riesgos, opiniones de estudiantes sobre estética del arbolado y orientaciones de autoridad competente» no acredita el hecho decisivo.",
+      "legalBasis": "Gestión del riesgo y competencias ambientales territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 820,
+      "originalId": 120,
+      "sourceExam": 6,
+      "situationId": "S6-39",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Retroalimentación convertida en ranking», ¿Cuál respuesta institucional resiste mejor una revisión de legalidad y pertinencia?",
+      "options": [
+        "Establecer seguimiento y exigir que los docentes con menor promedio eleven notas para mejorar el ranking",
+        "Evitar inferencias individuales a partir de promedios crudos y construir retroalimentación profesional contextualizada",
+        "Consultar la información disponible y mantener la lista porque todo promedio de grupo refleja el desempeño del docente"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque evitar inferencias individuales a partir de promedios crudos y construir retroalimentación profesional contextualizada. La primera alternativa rival propone consultar la información disponible y mantener la lista porque todo promedio de grupo refleja el desempeño del docente, lo cual omite un requisito del contexto. La otra propone establecer seguimiento y exigir que los docentes con menor promedio eleven notas para mejorar el ranking, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, liderazgo y desarrollo de personal",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 821,
+      "originalId": 121,
+      "sourceExam": 6,
+      "situationId": "S6-39",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Retroalimentación convertida en ranking», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Aumento de notas después de divulgar el ranking, con contrastes por curso, jornada y sede, según períodos escolares comparables",
+        "Mejora de prácticas a partir de evidencias múltiples y confidenciales, en comparación con el período inmediatamente anterior",
+        "Posición de cada docente en la lista pública, con revisión de sedes y responsables, con perspectiva de continuidad del servicio"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: mejora de prácticas a partir de evidencias múltiples y confidenciales, en comparación con el período inmediatamente anterior. Medir «posición de cada docente en la lista pública, con revisión de sedes y responsables, con perspectiva de continuidad del servicio» o «aumento de notas después de divulgar el ranking, con contrastes por curso, jornada y sede, según períodos escolares comparables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, liderazgo y desarrollo de personal",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 822,
+      "originalId": 122,
+      "sourceExam": 6,
+      "situationId": "S6-39",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Retroalimentación convertida en ranking», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Resultados contextualizados, cantidad de quejas públicas de docentes clasificados y evidencia de práctica",
+        "Resultados contextualizados, observación pertinente y promedio bruto de cada grupo sin caracterización",
+        "Resultados contextualizados, observación pertinente y evidencia de práctica"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: resultados contextualizados, observación pertinente y evidencia de práctica. La evidencia «resultados contextualizados, observación pertinente y promedio bruto de cada grupo sin caracterización» aporta un dato lateral, mientras «resultados contextualizados, cantidad de quejas públicas de docentes clasificados y evidencia de práctica» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, liderazgo y desarrollo de personal",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 823,
+      "originalId": 123,
+      "sourceExam": 6,
+      "situationId": "S6-40",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Uso institucional de datos de elecciones», ¿Cuál opción ofrece la secuencia más defendible de actuación institucional?",
+      "options": [
+        "Preservar confidencialidad y reportar solo análisis agregados compatibles con finalidad legítima",
+        "Contrastar posiciones y compartir preferencias por curso con códigos que permitan reconstruir identidades",
+        "Documentar el trámite y entregar resultados individuales a docentes porque se recabaron en jornada escolar"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque preservar confidencialidad y reportar solo análisis agregados compatibles con finalidad legítima. La primera alternativa rival propone documentar el trámite y entregar resultados individuales a docentes porque se recabaron en jornada escolar, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y compartir preferencias por curso con códigos que permitan reconstruir identidades, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1581 de 2012, tratamiento de datos personales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 824,
+      "originalId": 124,
+      "sourceExam": 6,
+      "situationId": "S6-40",
+      "competency": "Control y resultados",
+      "text": "En el escenario de «Uso institucional de datos de elecciones», el PMI incorpora seguimiento al caso. ¿Cuál medida informaría mejor una corrección?",
+      "options": [
+        "Datos analizados sin revelar preferencias individuales identificables, con una revisión posterior de consistencia",
+        "Número de docentes que accede a preferencias por persona, tras excluir registros duplicados y atípicos justificados",
+        "Porcentaje de grupos con reporte nominativo, con contrastes por curso, jornada y sede, según revisión de muestras y de reportes de campo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: datos analizados sin revelar preferencias individuales identificables, con una revisión posterior de consistencia. Medir «porcentaje de grupos con reporte nominativo, con contrastes por curso, jornada y sede, según revisión de muestras y de reportes de campo» o «número de docentes que accede a preferencias por persona, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1581 de 2012, tratamiento de datos personales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 825,
+      "originalId": 125,
+      "sourceExam": 6,
+      "situationId": "S6-40",
+      "competency": "Valoración probatoria",
+      "text": "Para la situación «Uso institucional de datos de elecciones», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Finalidad informada, conteo de estudiantes que aceptaría aparecer identificado y nivel apropiado de agregación",
+        "Finalidad informada, riesgos de reidentificación y listado de votos con nombre omitido pero número de matrícula visible",
+        "Finalidad informada, riesgos de reidentificación y nivel apropiado de agregación"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: finalidad informada, riesgos de reidentificación y nivel apropiado de agregación. La evidencia «finalidad informada, riesgos de reidentificación y listado de votos con nombre omitido pero número de matrícula visible» aporta un dato lateral, mientras «finalidad informada, conteo de estudiantes que aceptaría aparecer identificado y nivel apropiado de agregación» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1581 de 2012, tratamiento de datos personales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 826,
+      "originalId": 126,
+      "sourceExam": 6,
+      "situationId": "S6-41",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Respuesta anónima a oferente privilegiado», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Cronología de solicitudes, publicidad de aclaraciones y intercambio privado firmado solo por el contratista",
+        "Cronología de solicitudes, publicidad de aclaraciones y reglas del proceso",
+        "Cronología de solicitudes, costo previsto de publicar una adenda o aclaración y reglas del proceso"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: cronología de solicitudes, publicidad de aclaraciones y reglas del proceso. La evidencia «cronología de solicitudes, publicidad de aclaraciones y intercambio privado firmado solo por el contratista» aporta un dato lateral, mientras «cronología de solicitudes, costo previsto de publicar una adenda o aclaración y reglas del proceso» no acredita el hecho decisivo.",
+      "legalBasis": "Principios de transparencia y selección objetiva aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 827,
+      "originalId": 127,
+      "sourceExam": 6,
+      "situationId": "S6-41",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Respuesta anónima a oferente privilegiado», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Velocidad de respuesta exclusiva al interesado, en relación con la decisión adoptada, con revisión de sedes y responsables",
+        "Número de comunicaciones reservadas con proveedores, con revisión de sedes y responsables, con desagregación por grupos relevantes",
+        "Oferentes con acceso equitativo a requisitos y aclaraciones relevantes, según períodos escolares comparables"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: oferentes con acceso equitativo a requisitos y aclaraciones relevantes, según períodos escolares comparables. Medir «velocidad de respuesta exclusiva al interesado, en relación con la decisión adoptada, con revisión de sedes y responsables» o «número de comunicaciones reservadas con proveedores, con revisión de sedes y responsables, con desagregación por grupos relevantes» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Principios de transparencia y selección objetiva aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 828,
+      "originalId": 128,
+      "sourceExam": 6,
+      "situationId": "S6-41",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Respuesta anónima a oferente privilegiado», ¿Qué propuesta resolvería el problema sin transformar una excepción en regla?",
+      "options": [
+        "Garantizar igualdad de información y trazabilidad de aclaraciones conforme al procedimiento",
+        "Revisar soportes y no aclarar el requisito y evaluar según interpretación preferida por el equipo técnico",
+        "Consultar la información disponible y resolver privadamente porque la duda fue formulada por un solo oferente"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque garantizar igualdad de información y trazabilidad de aclaraciones conforme al procedimiento. La primera alternativa rival propone consultar la información disponible y resolver privadamente porque la duda fue formulada por un solo oferente, lo cual omite un requisito del contexto. La otra propone revisar soportes y no aclarar el requisito y evaluar según interpretación preferida por el equipo técnico, pero no sustituye la actuación competente.",
+      "legalBasis": "Principios de transparencia y selección objetiva aplicables",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 829,
+      "originalId": 129,
+      "sourceExam": 6,
+      "situationId": "S6-42",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Ausencia en prueba con evidencia de emergencia», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Reglas del SIEE, justificación pertinente y evidencia de competencias por valorar",
+        "Reglas del SIEE, número de estudiantes que se presentaron puntualmente y evidencia de competencias por valorar",
+        "Reglas del SIEE, justificación pertinente y promedio histórico del estudiante durante el año"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: reglas del SIEE, justificación pertinente y evidencia de competencias por valorar. La evidencia «reglas del SIEE, justificación pertinente y promedio histórico del estudiante durante el año» aporta un dato lateral, mientras «reglas del SIEE, número de estudiantes que se presentaron puntualmente y evidencia de competencias por valorar» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1290 de 2009, artículos 4 y 12",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 830,
+      "originalId": 130,
+      "sourceExam": 6,
+      "situationId": "S6-42",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Ausencia en prueba con evidencia de emergencia», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Oportunidades de evaluación coherentes con reglas y evidencias de desempeño, con perspectiva de continuidad del servicio",
+        "Proporción de estudiantes que faltó a pruebas, con contrastes por curso, jornada y sede, con revisión de sedes y responsables",
+        "Cantidad de autorizaciones excepcionales concedidas, según series temporales y registros de seguimiento, en comparación con el período inmediatamente anterior"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: oportunidades de evaluación coherentes con reglas y evidencias de desempeño, con perspectiva de continuidad del servicio. Medir «proporción de estudiantes que faltó a pruebas, con contrastes por curso, jornada y sede, con revisión de sedes y responsables» o «cantidad de autorizaciones excepcionales concedidas, según series temporales y registros de seguimiento, en comparación con el período inmediatamente anterior» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1290 de 2009, artículos 4 y 12",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 831,
+      "originalId": 131,
+      "sourceExam": 6,
+      "situationId": "S6-42",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Ausencia en prueba con evidencia de emergencia», ¿Qué decisión inicial evita el principal error de competencia o procedimiento?",
+      "options": [
+        "Establecer seguimiento y asignar cero porque toda ausencia tiene idéntico efecto con independencia de justificación",
+        "Contrastar posiciones y promediar notas anteriores sin ofrecer evaluación equivalente del aprendizaje pendiente",
+        "Aplicar las garantías y apoyos previstos en el SIEE para evaluar aprendizajes sin arbitrariedad"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque aplicar las garantías y apoyos previstos en el SIEE para evaluar aprendizajes sin arbitrariedad. La primera alternativa rival propone establecer seguimiento y asignar cero porque toda ausencia tiene idéntico efecto con independencia de justificación, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y promediar notas anteriores sin ofrecer evaluación equivalente del aprendizaje pendiente, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1290 de 2009, artículos 4 y 12",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 832,
+      "originalId": 132,
+      "sourceExam": 6,
+      "situationId": "S6-43",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Visita a instalación con riesgo biológico», para auditar el procedimiento, ¿qué registro es directamente pertinente?",
+      "options": [
+        "Protocolos del sitio, exposición potencial, medidas y autorizaciones pertinentes",
+        "Protocolos del sitio, exposición potencial, medidas y valor del transporte que aporta la entidad",
+        "Protocolos del sitio, duración estimada del recorrido anunciada y autorizaciones pertinentes"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: protocolos del sitio, exposición potencial, medidas y autorizaciones pertinentes. La evidencia «protocolos del sitio, exposición potencial, medidas y valor del transporte que aporta la entidad» aporta un dato lateral, mientras «protocolos del sitio, duración estimada del recorrido anunciada y autorizaciones pertinentes» no acredita el hecho decisivo.",
+      "legalBasis": "Deber de protección y gestión de riesgo escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 833,
+      "originalId": 133,
+      "sourceExam": 6,
+      "situationId": "S6-43",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Visita a instalación con riesgo biológico», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Experiencias externas con riesgo controlado y propósito pedagógico explícito, con perspectiva de continuidad del servicio",
+        "Número de fotografías planeadas para informe de gestión, comparado con las metas aprobadas para el período, en relación con la decisión adoptada",
+        "Cantidad de participantes que firma permiso, con revisión de sedes y responsables, con control de cambios y documentos de respaldo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: experiencias externas con riesgo controlado y propósito pedagógico explícito, con perspectiva de continuidad del servicio. Medir «cantidad de participantes que firma permiso, con revisión de sedes y responsables, con control de cambios y documentos de respaldo» o «número de fotografías planeadas para informe de gestión, comparado con las metas aprobadas para el período, en relación con la decisión adoptada» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Deber de protección y gestión de riesgo escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 834,
+      "originalId": 134,
+      "sourceExam": 6,
+      "situationId": "S6-43",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Visita a instalación con riesgo biológico», ¿Qué determinación debería sostener el rector en un acta motivada?",
+      "options": [
+        "Analizar las implicaciones y autorizar asistencia solo del profesorado y excluir estudiantes sin evaluar opciones didácticas",
+        "Valorar condiciones locales y aprobar el recorrido si cada familia firma consentimiento informado sin requisitos adicionales",
+        "Exigir valoración del riesgo y condiciones de protección antes de autorizar actividad"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque exigir valoración del riesgo y condiciones de protección antes de autorizar actividad. La primera alternativa rival propone valorar condiciones locales y aprobar el recorrido si cada familia firma consentimiento informado sin requisitos adicionales, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y autorizar asistencia solo del profesorado y excluir estudiantes sin evaluar opciones didácticas, pero no sustituye la actuación competente.",
+      "legalBasis": "Deber de protección y gestión de riesgo escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 835,
+      "originalId": 135,
+      "sourceExam": 6,
+      "situationId": "S6-44",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Crédito de universidad por servicio social», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Mapeo de competencias, productos de aprendizaje y cantidad de horas del voluntariado certificadas",
+        "Mapeo de competencias, prestigio del programa universitario patrocinador y criterios de evaluación",
+        "Mapeo de competencias, productos de aprendizaje y criterios de evaluación"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: mapeo de competencias, productos de aprendizaje y criterios de evaluación. La evidencia «mapeo de competencias, productos de aprendizaje y cantidad de horas del voluntariado certificadas» aporta un dato lateral, mientras «mapeo de competencias, prestigio del programa universitario patrocinador y criterios de evaluación» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 836,
+      "originalId": 136,
+      "sourceExam": 6,
+      "situationId": "S6-44",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Crédito de universidad por servicio social», ¿Cuál respuesta institucional resiste mejor una revisión de legalidad y pertinencia? Considere como marco Ley 115 de 1994; Decreto 1290 de 2009.",
+      "options": [
+        "Valorar articulación y evidencia de competencias dentro de autonomía y reglas de evaluación escolar",
+        "Consultar la información disponible y sustituir calificaciones de asignaturas por constancia de asistencia al voluntariado",
+        "Documentar el trámite y incorporar de inmediato equivalencias porque la universidad cuenta con acreditación institucional"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque valorar articulación y evidencia de competencias dentro de autonomía y reglas de evaluación escolar. La primera alternativa rival propone documentar el trámite y incorporar de inmediato equivalencias porque la universidad cuenta con acreditación institucional, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y sustituir calificaciones de asignaturas por constancia de asistencia al voluntariado, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 837,
+      "originalId": 137,
+      "sourceExam": 6,
+      "situationId": "S6-44",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Crédito de universidad por servicio social», el PMI incorpora seguimiento al caso. ¿Cuál medida informaría mejor una corrección?",
+      "options": [
+        "Número de constancias emitidas por la universidad, con una revisión posterior de consistencia, con desagregación por grupos relevantes",
+        "Reconocimientos curriculares basados en evidencias equivalentes, tras excluir registros duplicados y atípicos justificados",
+        "Porcentaje de estudiantes inscritos por primera vez, según series temporales y registros de seguimiento"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: reconocimientos curriculares basados en evidencias equivalentes, tras excluir registros duplicados y atípicos justificados. Medir «número de constancias emitidas por la universidad, con una revisión posterior de consistencia, con desagregación por grupos relevantes» o «porcentaje de estudiantes inscritos por primera vez, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 838,
+      "originalId": 138,
+      "sourceExam": 6,
+      "situationId": "S6-45",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Carga académica y comisión temporal», ¿Qué propuesta resolvería el problema sin transformar una excepción en regla?",
+      "options": [
+        "Revisar prioridades, tiempo efectivo y responsabilidades para distribuir carga sin afectar clases",
+        "Valorar condiciones locales y mantener todas las tareas y permitir que la docente compense las clases cuando pueda",
+        "Examinar antecedentes y retirar la asignación académica sin formalizar cambios y conservar únicamente proyectos"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque revisar prioridades, tiempo efectivo y responsabilidades para distribuir carga sin afectar clases. La primera alternativa rival propone valorar condiciones locales y mantener todas las tareas y permitir que la docente compense las clases cuando pueda, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y retirar la asignación académica sin formalizar cambios y conservar únicamente proyectos, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 839,
+      "originalId": 139,
+      "sourceExam": 6,
+      "situationId": "S6-45",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Carga académica y comisión temporal», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Cantidad total de reuniones de proyecto realizadas, mediante contrastes entre cortes de gestión, comparado con las metas aprobadas para el período",
+        "Cumplimiento de funciones y tiempo pedagógico sin sobreasignación invisible, con contrastes por curso, jornada y sede",
+        "Horas extras declaradas informalmente por trimestre, mediante contrastes entre cortes de gestión, con una revisión posterior de consistencia"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: cumplimiento de funciones y tiempo pedagógico sin sobreasignación invisible, con contrastes por curso, jornada y sede. Medir «cantidad total de reuniones de proyecto realizadas, mediante contrastes entre cortes de gestión, comparado con las metas aprobadas para el período» o «horas extras declaradas informalmente por trimestre, mediante contrastes entre cortes de gestión, con una revisión posterior de consistencia» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 840,
+      "originalId": 140,
+      "sourceExam": 6,
+      "situationId": "S6-45",
+      "competency": "Valoración probatoria",
+      "text": "A propósito del caso «Carga académica y comisión temporal», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Horario de clases, proyectos, disponibilidad y responsables por proceso",
+        "Horario de clases, proyectos, disponibilidad y número de proyectos que la docente ha coordinado con éxito",
+        "Horario de clases, reconocimientos obtenidos en convocatorias anteriores y responsables por proceso"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: horario de clases, proyectos, disponibilidad y responsables por proceso. La evidencia «horario de clases, proyectos, disponibilidad y número de proyectos que la docente ha coordinado con éxito» aporta un dato lateral, mientras «horario de clases, reconocimientos obtenidos en convocatorias anteriores y responsables por proceso» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; Resolución 003842 de 2022",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 841,
+      "originalId": 1,
+      "sourceExam": 7,
+      "situationId": "S7-01",
+      "competency": "Lectura crítica - test",
+      "text": "A propósito del caso «Escenario de costo hundido», ¿Qué prueba permitiría someter a examen la afirmación central?",
+      "options": [
+        "Número de fotografías de las actividades del piloto",
+        "Beneficios incrementales, costos futuros y comparación de alternativas viables",
+        "Monto histórico gastado sin proyección de nuevas decisiones"
+      ],
+      "correct": 1,
+      "explanation": "La verificación relevante es beneficios incrementales, costos futuros y comparación de alternativas viables. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 842,
+      "originalId": 2,
+      "sourceExam": 7,
+      "situationId": "S7-01",
+      "competency": "Lectura crítica - inference",
+      "text": "En el supuesto de «Escenario de costo hundido», ¿Cuál inferencia conserva las restricciones del texto?",
+      "options": [
+        "La inversión ya realizada no justifica continuar sin comparar costos y beneficios futuros",
+        "Todo gasto pasado obliga a mantener la iniciativa hasta agotar su vida útil",
+        "La mejor decisión es cancelar automáticamente cualquier proyecto con costo inicial alto"
+      ],
+      "correct": 0,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la inversión ya realizada no justifica continuar sin comparar costos y beneficios futuros. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 843,
+      "originalId": 3,
+      "sourceExam": 7,
+      "situationId": "S7-01",
+      "competency": "Lectura crítica - assumption",
+      "text": "Si se examina «Escenario de costo hundido», ¿Qué condición debe mantenerse para que la conclusión sea válida?",
+      "options": [
+        "Que una inversión grande garantice beneficios pedagógicos futuros",
+        "Que todas las alternativas nuevas deban descartarse por ser recientes",
+        "Que los recursos irrecuperables no sean criterio único de continuidad"
+      ],
+      "correct": 2,
+      "explanation": "La condición necesaria es que los recursos irrecuperables no sean criterio único de continuidad. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 844,
+      "originalId": 4,
+      "sourceExam": 7,
+      "situationId": "S7-01",
+      "competency": "Lectura crítica - critique",
+      "text": "Respecto de «Escenario de costo hundido», ¿Cuál objeción resulta más fuerte sin introducir hechos no mencionados?",
+      "options": [
+        "Invocar gasto irrecuperable como razón suficiente constituye falacia de costo hundido",
+        "La principal deficiencia es mencionar una alternativa nueva",
+        "El argumento falla porque los recursos provienen del sector educativo"
+      ],
+      "correct": 0,
+      "explanation": "La objeción precisa es invocar gasto irrecuperable como razón suficiente constituye falacia de costo hundido. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 845,
+      "originalId": 5,
+      "sourceExam": 7,
+      "situationId": "S7-02",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántos libros quedan sin localizar tras las conciliaciones?",
+      "options": [
+        "60",
+        "90",
+        "75"
+      ],
+      "correct": 0,
+      "explanation": "120 - 45 - 15 = 60.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 846,
+      "originalId": 6,
+      "sourceExam": 7,
+      "situationId": "S7-02",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué porcentaje representan sobre los 2.000 registrados inicialmente?",
+      "options": [
+        "3,75 %",
+        "6 %",
+        "3 %"
+      ],
+      "correct": 2,
+      "explanation": "60/2.000 = 3 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 847,
+      "originalId": 7,
+      "sourceExam": 7,
+      "situationId": "S7-02",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué fracción de los 120 faltantes iniciales fue aclarada o recuperada?",
+      "options": [
+        "37,5 %",
+        "50 %",
+        "62,5 %"
+      ],
+      "correct": 1,
+      "explanation": "(45 + 15)/120 = 60/120 = 50 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 848,
+      "originalId": 8,
+      "sourceExam": 7,
+      "situationId": "S7-03",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el costo adicional de pasar de 50 a 70 estudiantes?",
+      "options": [
+        "$800.000",
+        "$400.000",
+        "$1.400.000"
+      ],
+      "correct": 1,
+      "explanation": "20 cupos adicionales × $20.000 = $400.000; costo fijo ya previsto.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 849,
+      "originalId": 9,
+      "sourceExam": 7,
+      "situationId": "S7-03",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el costo total para 70 participantes bajo el supuesto?",
+      "options": [
+        "$8.400.000",
+        "$9.400.000",
+        "$9.600.000"
+      ],
+      "correct": 1,
+      "explanation": "8.000.000 + 70×20.000 = 9.400.000.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 850,
+      "originalId": 10,
+      "sourceExam": 7,
+      "situationId": "S7-03",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el costo promedio por participante al llegar a 70, redondeado a pesos?",
+      "options": [
+        "$134.286",
+        "$140.000",
+        "$120.000"
+      ],
+      "correct": 0,
+      "explanation": "9.400.000 / 70 = 134.285,714 = $134.286.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 851,
+      "originalId": 11,
+      "sourceExam": 7,
+      "situationId": "S7-04",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Evidencia posterior tratada como logro previo», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Logros atribuidos al período y responsabilidad efectivamente pertinentes, con desagregación por grupos relevantes",
+        "Número de boletines que mencionó la remodelación, con trazabilidad de las actuaciones respectivas, con revisión de sedes y responsables",
+        "Volumen total de instalaciones antiguas en uso, con desagregación por grupos relevantes, comparado con las metas aprobadas para el período"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: logros atribuidos al período y responsabilidad efectivamente pertinentes, con desagregación por grupos relevantes. Medir «volumen total de instalaciones antiguas en uso, con desagregación por grupos relevantes, comparado con las metas aprobadas para el período» o «número de boletines que mencionó la remodelación, con trazabilidad de las actuaciones respectivas, con revisión de sedes y responsables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, evaluación de gestión y planeación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 852,
+      "originalId": 12,
+      "sourceExam": 7,
+      "situationId": "S7-04",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Evidencia posterior tratada como logro previo», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Cronología de proyectos, responsables y registro fotográfico de instalaciones luego de la posesión",
+        "Cronología de proyectos, responsables y resultados atribuibles por período",
+        "Cronología de proyectos, cantidad de eventos realizados en espacios ya remodelados y resultados atribuibles por período"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: cronología de proyectos, responsables y resultados atribuibles por período. La evidencia «cronología de proyectos, responsables y registro fotográfico de instalaciones luego de la posesión» aporta un dato lateral, mientras «cronología de proyectos, cantidad de eventos realizados en espacios ya remodelados y resultados atribuibles por período» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, evaluación de gestión y planeación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 853,
+      "originalId": 13,
+      "sourceExam": 7,
+      "situationId": "S7-04",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Evidencia posterior tratada como logro previo», ante las restricciones descritas, ¿qué actuación resulta más defendible para la rectoría?",
+      "options": [
+        "Establecer seguimiento y omitir todas las obras del informe aunque sigan influyendo en condiciones actuales",
+        "Documentar el trámite y atribuir la mejora al equipo actual porque hoy administra los espacios intervenidos",
+        "Distinguir resultados heredados de acciones efectivamente ejecutadas en período evaluado"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque distinguir resultados heredados de acciones efectivamente ejecutadas en período evaluado. La primera alternativa rival propone documentar el trámite y atribuir la mejora al equipo actual porque hoy administra los espacios intervenidos, lo cual omite un requisito del contexto. La otra propone establecer seguimiento y omitir todas las obras del informe aunque sigan influyendo en condiciones actuales, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, evaluación de gestión y planeación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 854,
+      "originalId": 14,
+      "sourceExam": 7,
+      "situationId": "S7-05",
+      "competency": "Valoración probatoria",
+      "text": "En la controversia descrita en «Simulación de incendio sin rutas alternas», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Plano actualizado, barreras, puntos de encuentro y tiempo obtenido en el simulacro anterior en condiciones diferentes",
+        "Plano actualizado, barreras, puntos de encuentro y responsabilidades de apoyo",
+        "Plano actualizado, número de personas que conoce la salida principal y responsabilidades de apoyo"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: plano actualizado, barreras, puntos de encuentro y responsabilidades de apoyo. La evidencia «plano actualizado, barreras, puntos de encuentro y tiempo obtenido en el simulacro anterior en condiciones diferentes» aporta un dato lateral, mientras «plano actualizado, número de personas que conoce la salida principal y responsabilidades de apoyo» no acredita el hecho decisivo.",
+      "legalBasis": "Gestión del riesgo escolar; Decreto 1421 de 2017",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 855,
+      "originalId": 15,
+      "sourceExam": 7,
+      "situationId": "S7-05",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Simulación de incendio sin rutas alternas», ¿Cuál intervención protege mejor la finalidad educativa sin exceder atribuciones?",
+      "options": [
+        "Documentar el trámite y excluir del simulacro a quienes requieren apoyo y repetir luego su participación",
+        "Reevaluar rutas y apoyos antes de ensayar protocolos potencialmente inseguros",
+        "Consultar la información disponible y realizar el ejercicio con ruta única porque facilita medir un tiempo uniforme"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque reevaluar rutas y apoyos antes de ensayar protocolos potencialmente inseguros. La primera alternativa rival propone consultar la información disponible y realizar el ejercicio con ruta única porque facilita medir un tiempo uniforme, lo cual omite un requisito del contexto. La otra propone documentar el trámite y excluir del simulacro a quienes requieren apoyo y repetir luego su participación, pero no sustituye la actuación competente.",
+      "legalBasis": "Gestión del riesgo escolar; Decreto 1421 de 2017",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 856,
+      "originalId": 16,
+      "sourceExam": 7,
+      "situationId": "S7-05",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Simulación de incendio sin rutas alternas», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Porcentaje de estudiantes excluidos de la práctica, con trazabilidad de las actuaciones respectivas, según períodos escolares comparables",
+        "Reducción del tiempo usando una sola salida, con control de cambios y documentos de respaldo, con perspectiva de continuidad del servicio",
+        "Evacuación accesible mediante rutas realmente disponibles, comparado con las metas aprobadas para el período"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: evacuación accesible mediante rutas realmente disponibles, comparado con las metas aprobadas para el período. Medir «reducción del tiempo usando una sola salida, con control de cambios y documentos de respaldo, con perspectiva de continuidad del servicio» o «porcentaje de estudiantes excluidos de la práctica, con trazabilidad de las actuaciones respectivas, según períodos escolares comparables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Gestión del riesgo escolar; Decreto 1421 de 2017",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 857,
+      "originalId": 17,
+      "sourceExam": 7,
+      "situationId": "S7-06",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la capacidad total semanal de sesiones?",
+      "options": [
+        "28",
+        "21",
+        "24"
+      ],
+      "correct": 2,
+      "explanation": "7 + 9 + 8 = 24.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 858,
+      "originalId": 18,
+      "sourceExam": 7,
+      "situationId": "S7-06",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántas sesiones pueden ofrecer como máximo en cuatro semanas?",
+      "options": [
+        "95",
+        "92",
+        "96"
+      ],
+      "correct": 2,
+      "explanation": "24×4=96.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 859,
+      "originalId": 19,
+      "sourceExam": 7,
+      "situationId": "S7-06",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si cada caso requiere dos sesiones durante las cuatro semanas, ¿cuántas sesiones faltarán?",
+      "options": [
+        "94",
+        "96",
+        "95"
+      ],
+      "correct": 0,
+      "explanation": "Se requieren 95×2=190; capacidad 96; faltan 94.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 860,
+      "originalId": 20,
+      "sourceExam": 7,
+      "situationId": "S7-07",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Servicio integral con rubros de financiación distintos», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Velocidad de ejecución de recursos agrupados, según revisión de muestras y de reportes de campo, considerando diferencias iniciales de contexto",
+        "Porcentaje de descuento por compra conjunta, con desagregación por grupos relevantes, en comparación con el período inmediatamente anterior",
+        "Gastos imputados a fuentes y rubros autorizados según objeto, con revisión de sedes y responsables, en relación con la decisión adoptada"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: gastos imputados a fuentes y rubros autorizados según objeto, con revisión de sedes y responsables, en relación con la decisión adoptada. Medir «velocidad de ejecución de recursos agrupados, según revisión de muestras y de reportes de campo, considerando diferencias iniciales de contexto» o «porcentaje de descuento por compra conjunta, con desagregación por grupos relevantes, en comparación con el período inmediatamente anterior» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, Fondo de Servicios Educativos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 861,
+      "originalId": 21,
+      "sourceExam": 7,
+      "situationId": "S7-07",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Servicio integral con rubros de financiación distintos», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Composición de costos, reglas de uso de recursos y apropiaciones autorizadas",
+        "Composición de costos, cronograma agregado de ejecución ofrecido por el proveedor y apropiaciones autorizadas",
+        "Composición de costos, reglas de uso de recursos y valor total del paquete con descuento comercial"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: composición de costos, reglas de uso de recursos y apropiaciones autorizadas. La evidencia «composición de costos, reglas de uso de recursos y valor total del paquete con descuento comercial» aporta un dato lateral, mientras «composición de costos, cronograma agregado de ejecución ofrecido por el proveedor y apropiaciones autorizadas» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, Fondo de Servicios Educativos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 862,
+      "originalId": 22,
+      "sourceExam": 7,
+      "situationId": "S7-07",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Servicio integral con rubros de financiación distintos», ¿Cuál intervención protege mejor la finalidad educativa sin exceder atribuciones?",
+      "options": [
+        "Valorar condiciones locales y dividir facturas después de ejecutado el servicio sin revisar autorización inicial",
+        "Separar necesidades, fuentes y elegibilidad presupuestal antes de comprometer el paquete",
+        "Consultar la información disponible y imputar todo a conectividad por ser el componente de mayor valor estimado"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque separar necesidades, fuentes y elegibilidad presupuestal antes de comprometer el paquete. La primera alternativa rival propone consultar la información disponible y imputar todo a conectividad por ser el componente de mayor valor estimado, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y dividir facturas después de ejecutado el servicio sin revisar autorización inicial, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, Fondo de Servicios Educativos",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 863,
+      "originalId": 23,
+      "sourceExam": 7,
+      "situationId": "S7-08",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Privación de clase como medida administrativa», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Registros de tardanza, opinión del personal de vigilancia sobre la disciplina y medidas de apoyo o corrección",
+        "Registros de tardanza, causas, riesgos y número de estudiantes retenidos fuera del portón",
+        "Registros de tardanza, causas, riesgos y medidas de apoyo o corrección"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: registros de tardanza, causas, riesgos y medidas de apoyo o corrección. La evidencia «registros de tardanza, causas, riesgos y número de estudiantes retenidos fuera del portón» aporta un dato lateral, mientras «registros de tardanza, opinión del personal de vigilancia sobre la disciplina y medidas de apoyo o corrección» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 864,
+      "originalId": 24,
+      "sourceExam": 7,
+      "situationId": "S7-08",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Privación de clase como medida administrativa», ¿Cuál alternativa reduce el riesgo de actuar con una inferencia o potestad indebida?",
+      "options": [
+        "Valorar condiciones locales y mantener exclusión temporal porque la puntualidad es requisito pedagógico general",
+        "Valorar condiciones locales y extender la exclusión al día completo después del tercer retraso sin escuchar situaciones",
+        "Revisar la medida por su afectación a permanencia y seguridad y establecer respuesta proporcional"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque revisar la medida por su afectación a permanencia y seguridad y establecer respuesta proporcional. La primera alternativa rival propone valorar condiciones locales y mantener exclusión temporal porque la puntualidad es requisito pedagógico general, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y extender la exclusión al día completo después del tercer retraso sin escuchar situaciones, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 865,
+      "originalId": 25,
+      "sourceExam": 7,
+      "situationId": "S7-08",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Privación de clase como medida administrativa», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Disminución de tardanzas sin expulsión temporal del servicio, con desagregación por grupos relevantes, mediante contrastes entre cortes de gestión",
+        "Horas de enseñanza perdidas por sanciones, con una revisión posterior de consistencia, en relación con la decisión adoptada",
+        "Cantidad de advertencias automáticas emitidas, comparado con las metas aprobadas para el período, con control de cambios y documentos de respaldo"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: disminución de tardanzas sin expulsión temporal del servicio, con desagregación por grupos relevantes, mediante contrastes entre cortes de gestión. Medir «horas de enseñanza perdidas por sanciones, con una revisión posterior de consistencia, en relación con la decisión adoptada» o «cantidad de advertencias automáticas emitidas, comparado con las metas aprobadas para el período, con control de cambios y documentos de respaldo» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 866,
+      "originalId": 26,
+      "sourceExam": 7,
+      "situationId": "S7-09",
+      "competency": "Lectura crítica - assumption",
+      "text": "En la controversia descrita en «Serie temporal interrumpida», ¿Qué condición debe mantenerse para que la conclusión sea válida?",
+      "options": [
+        "Que tendencias y cambios de medición se examinen antes de atribuir efectos",
+        "Que la reducción de incidentes sea imposible sin intervención formal",
+        "Que toda intervención coincidente temporalmente sea causa completa"
+      ],
+      "correct": 0,
+      "explanation": "La condición necesaria es que tendencias y cambios de medición se examinen antes de atribuir efectos. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 867,
+      "originalId": 27,
+      "sourceExam": 7,
+      "situationId": "S7-09",
+      "competency": "Lectura crítica - test",
+      "text": "Para la situación «Serie temporal interrumpida», si se prepara una réplica técnica, ¿qué datos sería prioritario recuperar?",
+      "options": [
+        "Dato agregado del mes de lanzamiento sin historial",
+        "Serie suficiente anterior y posterior, comparabilidad de registro y factores simultáneos",
+        "Cantidad de sesiones del programa durante el primer mes"
+      ],
+      "correct": 1,
+      "explanation": "La verificación relevante es serie suficiente anterior y posterior, comparabilidad de registro y factores simultáneos. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 868,
+      "originalId": 28,
+      "sourceExam": 7,
+      "situationId": "S7-09",
+      "competency": "Lectura crítica - critique",
+      "text": "En el supuesto de «Serie temporal interrumpida», ¿Cuál objeción resulta más fuerte sin introducir hechos no mencionados?",
+      "options": [
+        "Confundir coincidencia temporal con efecto causal ignora explicaciones rivales",
+        "La conclusión es errada solo porque el período de observación fue de meses",
+        "El defecto central es haber presentado los datos en gráfico de líneas"
+      ],
+      "correct": 0,
+      "explanation": "La objeción precisa es confundir coincidencia temporal con efecto causal ignora explicaciones rivales. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 869,
+      "originalId": 29,
+      "sourceExam": 7,
+      "situationId": "S7-09",
+      "competency": "Lectura crítica - inference",
+      "text": "En la controversia descrita en «Serie temporal interrumpida», ¿Qué conclusión se desprende de las condiciones expresadas, sin exceder la evidencia?",
+      "options": [
+        "El programa empeoró convivencia porque el personal de registro cambió",
+        "El cambio observado no separa tendencia previa, registro e intervención",
+        "La coincidencia temporal permite atribuir el descenso íntegro al programa"
+      ],
+      "correct": 1,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: el cambio observado no separa tendencia previa, registro e intervención. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 870,
+      "originalId": 30,
+      "sourceExam": 7,
+      "situationId": "S7-10",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Práctica laboral que desplaza plan de estudios», ¿Qué curso de acción debe priorizarse ante la tensión planteada?",
+      "options": [
+        "Examinar pertinencia, garantías y equivalencia curricular antes de incorporar la práctica",
+        "Documentar el trámite y aceptar turnos como reemplazo automático de asignaturas por su valor laboral",
+        "Examinar antecedentes y autorizar participación sin evaluación de riesgos y reservar actas para el cierre"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque examinar pertinencia, garantías y equivalencia curricular antes de incorporar la práctica. La primera alternativa rival propone documentar el trámite y aceptar turnos como reemplazo automático de asignaturas por su valor laboral, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y autorizar participación sin evaluación de riesgos y reservar actas para el cierre, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994, currículo y formación media",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 871,
+      "originalId": 31,
+      "sourceExam": 7,
+      "situationId": "S7-10",
+      "competency": "Valoración probatoria",
+      "text": "Para la situación «Práctica laboral que desplaza plan de estudios», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Plan de estudios, condiciones de práctica, protección y cantidad de horas laborales ofrecidas por empresa",
+        "Plan de estudios, condiciones de práctica, protección y aprendizajes esperados",
+        "Plan de estudios, número de certificados que podría emitir el aliado y aprendizajes esperados"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: plan de estudios, condiciones de práctica, protección y aprendizajes esperados. La evidencia «plan de estudios, condiciones de práctica, protección y cantidad de horas laborales ofrecidas por empresa» aporta un dato lateral, mientras «plan de estudios, número de certificados que podría emitir el aliado y aprendizajes esperados» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994, currículo y formación media",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 872,
+      "originalId": 32,
+      "sourceExam": 7,
+      "situationId": "S7-10",
+      "competency": "Control y resultados",
+      "text": "Sobre «Práctica laboral que desplaza plan de estudios», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Trayectorias educativas preservadas con formación práctica articulada, tras excluir registros duplicados y atípicos justificados",
+        "Total de horas cumplidas en el establecimiento, con trazabilidad de las actuaciones respectivas, en comparación con el período inmediatamente anterior",
+        "Porcentaje de estudiantes inscritos en el programa, mediante contrastes entre cortes de gestión, con perspectiva de continuidad del servicio"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: trayectorias educativas preservadas con formación práctica articulada, tras excluir registros duplicados y atípicos justificados. Medir «total de horas cumplidas en el establecimiento, con trazabilidad de las actuaciones respectivas, en comparación con el período inmediatamente anterior» o «porcentaje de estudiantes inscritos en el programa, mediante contrastes entre cortes de gestión, con perspectiva de continuidad del servicio» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994, currículo y formación media",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 873,
+      "originalId": 33,
+      "sourceExam": 7,
+      "situationId": "S7-11",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Estándares usados como lista de tareas», ¿Cuál opción articula de manera más apropiada la función rectoral con el problema?",
+      "options": [
+        "Examinar antecedentes y valorar el cumplimiento de guías como indicador suficiente de dominio conceptual",
+        "Consultar la información disponible y aumentar el número de tareas idénticas para asegurar exposición uniforme al currículo",
+        "Diseñar progresiones de desempeño y evidencias de aprendizaje, no solo listas de actividades terminadas"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque diseñar progresiones de desempeño y evidencias de aprendizaje, no solo listas de actividades terminadas. La primera alternativa rival propone consultar la información disponible y aumentar el número de tareas idénticas para asegurar exposición uniforme al currículo, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y valorar el cumplimiento de guías como indicador suficiente de dominio conceptual, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994, autonomía curricular y evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 874,
+      "originalId": 34,
+      "sourceExam": 7,
+      "situationId": "S7-11",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Estándares usados como lista de tareas», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Desempeños observables, número de fotocopias entregadas por unidad y progresión de competencias por grado",
+        "Desempeños observables, producciones y porcentaje de guías terminadas en tiempo",
+        "Desempeños observables, producciones y progresión de competencias por grado"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: desempeños observables, producciones y progresión de competencias por grado. La evidencia «desempeños observables, producciones y porcentaje de guías terminadas en tiempo» aporta un dato lateral, mientras «desempeños observables, número de fotocopias entregadas por unidad y progresión de competencias por grado» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994, autonomía curricular y evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 875,
+      "originalId": 35,
+      "sourceExam": 7,
+      "situationId": "S7-11",
+      "competency": "Control y resultados",
+      "text": "En el supuesto de «Estándares usados como lista de tareas», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Cantidad acumulada de actividades completadas, con contrastes por curso, jornada y sede, con revisión de sedes y responsables",
+        "Avance de capacidades demostradas en tareas variadas y comparables, tras excluir registros duplicados y atípicos justificados",
+        "Rapidez promedio con que los grupos entregan guías, con contrastes por curso, jornada y sede, con desagregación por grupos relevantes"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: avance de capacidades demostradas en tareas variadas y comparables, tras excluir registros duplicados y atípicos justificados. Medir «cantidad acumulada de actividades completadas, con contrastes por curso, jornada y sede, con revisión de sedes y responsables» o «rapidez promedio con que los grupos entregan guías, con contrastes por curso, jornada y sede, con desagregación por grupos relevantes» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994, autonomía curricular y evaluación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 876,
+      "originalId": 36,
+      "sourceExam": 7,
+      "situationId": "S7-12",
+      "competency": "Lectura crítica - inference",
+      "text": "En relación con «Reglas incompatibles en un mismo acto», si el comité debiera corregir una conclusión, ¿cuál enunciado sería defendible?",
+      "options": [
+        "La documentación posterior elimina cualquier necesidad de dejar registro de decisiones",
+        "La autorización escrita es requisito absoluto incluso durante evacuación urgente",
+        "La excepción de protección inmediata prevalece en la situación prevista por la propia regla"
+      ],
+      "correct": 2,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la excepción de protección inmediata prevalece en la situación prevista por la propia regla. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 877,
+      "originalId": 37,
+      "sourceExam": 7,
+      "situationId": "S7-12",
+      "competency": "Lectura crítica - critique",
+      "text": "Respecto de «Reglas incompatibles en un mismo acto», ¿Qué error de razonamiento se configura en el argumento?",
+      "options": [
+        "Ignorar una excepción expresa produce interpretación fragmentaria del acto",
+        "La inferencia falla porque el acta tiene dos apartados y no uno",
+        "El funcionario yerra por usar documento firmado en vez de llamada"
+      ],
+      "correct": 0,
+      "explanation": "La objeción precisa es ignorar una excepción expresa produce interpretación fragmentaria del acto. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 878,
+      "originalId": 38,
+      "sourceExam": 7,
+      "situationId": "S7-12",
+      "competency": "Lectura crítica - assumption",
+      "text": "En la controversia descrita en «Reglas incompatibles en un mismo acto», ¿Qué condición de interpretación es relevante según el texto?",
+      "options": [
+        "Que todas las solicitudes de horarios constituyen emergencias materiales",
+        "Que la regla expresa una excepción operativa para riesgos inmediatos",
+        "Que una excepción elimina la regla para actividades ordinarias"
+      ],
+      "correct": 1,
+      "explanation": "La condición necesaria es que la regla expresa una excepción operativa para riesgos inmediatos. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 879,
+      "originalId": 39,
+      "sourceExam": 7,
+      "situationId": "S7-12",
+      "competency": "Lectura crítica - test",
+      "text": "Para analizar «Reglas incompatibles en un mismo acto», ¿Qué prueba permitiría someter a examen la afirmación central?",
+      "options": [
+        "Número de autorizaciones escritas reunidas en meses previos",
+        "Cantidad de funcionarios que prefiere tramitar solicitudes físicas",
+        "Naturaleza de la urgencia, alcance de la excepción y constancia posterior"
+      ],
+      "correct": 2,
+      "explanation": "La verificación relevante es naturaleza de la urgencia, alcance de la excepción y constancia posterior. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 880,
+      "originalId": 40,
+      "sourceExam": 7,
+      "situationId": "S7-13",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Muestra de satisfacción autoseleccionada», ¿Qué soporte aportaría mayor valor para fundamentar y revisar la decisión?",
+      "options": [
+        "Marco de población, cantidad de mensajes compartiendo enlace de encuesta y quienes no",
+        "Marco de población, tasa de respuesta, diferencias entre quienes responden y número bruto de respuestas positivas",
+        "Marco de población, tasa de respuesta y diferencias entre quienes responden y quienes no"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: marco de población, tasa de respuesta y diferencias entre quienes responden y quienes no. La evidencia «marco de población, tasa de respuesta, diferencias entre quienes responden y número bruto de respuestas positivas» aporta un dato lateral, mientras «marco de población, cantidad de mensajes compartiendo enlace de encuesta y quienes no» no acredita el hecho decisivo.",
+      "legalBasis": "Lectura crítica, muestreo y validez externa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 881,
+      "originalId": 41,
+      "sourceExam": 7,
+      "situationId": "S7-13",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Muestra de satisfacción autoseleccionada», ¿Qué curso de acción debe priorizarse ante la tensión planteada?",
+      "options": [
+        "Valorar condiciones locales y tratar la satisfacción del 95 % como medida suficiente de aceptación universal",
+        "Revisar soportes y reemplazar la encuesta por las opiniones de cinco líderes con conexión regular",
+        "Reconocer autoselección y evaluar representatividad antes de generalizar los resultados"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque reconocer autoselección y evaluar representatividad antes de generalizar los resultados. La primera alternativa rival propone valorar condiciones locales y tratar la satisfacción del 95 % como medida suficiente de aceptación universal, lo cual omite un requisito del contexto. La otra propone revisar soportes y reemplazar la encuesta por las opiniones de cinco líderes con conexión regular, pero no sustituye la actuación competente.",
+      "legalBasis": "Lectura crítica, muestreo y validez externa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 882,
+      "originalId": 42,
+      "sourceExam": 7,
+      "situationId": "S7-13",
+      "competency": "Control y resultados",
+      "text": "Respecto de «Muestra de satisfacción autoseleccionada», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Número de visitas a la página de encuesta, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados",
+        "Conclusiones compatibles con sesgo, incertidumbre y cobertura observada, con trazabilidad de las actuaciones respectivas",
+        "Porcentaje favorable dentro de quienes respondieron, con trazabilidad de las actuaciones respectivas, con revisión de sedes y responsables"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: conclusiones compatibles con sesgo, incertidumbre y cobertura observada, con trazabilidad de las actuaciones respectivas. Medir «porcentaje favorable dentro de quienes respondieron, con trazabilidad de las actuaciones respectivas, con revisión de sedes y responsables» o «número de visitas a la página de encuesta, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Lectura crítica, muestreo y validez externa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 883,
+      "originalId": 43,
+      "sourceExam": 7,
+      "situationId": "S7-14",
+      "competency": "Lectura crítica - test",
+      "text": "A propósito del caso «Afirmación universal con un contraejemplo», ¿Cuál contraste empírico responde a la insuficiencia destacada?",
+      "options": [
+        "Percepción docente sobre la frecuencia general de trabajo estudiantil",
+        "Verificación de los dos casos frente al alcance universal del enunciado",
+        "Número total de estudiantes matriculados durante el año"
+      ],
+      "correct": 1,
+      "explanation": "La verificación relevante es verificación de los dos casos frente al alcance universal del enunciado. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 884,
+      "originalId": 44,
+      "sourceExam": 7,
+      "situationId": "S7-14",
+      "competency": "Lectura crítica - assumption",
+      "text": "A propósito del caso «Afirmación universal con un contraejemplo», ¿Cuál supuesto es decisivo al trasladar la regla a los hechos?",
+      "options": [
+        "Que la palabra «ningún» excluye la existencia de una sola excepción comprobada",
+        "Que las excepciones deben superar un porcentaje para contar como evidencia",
+        "Que toda afirmación absoluta es siempre verdadera si la tendencia es favorable"
+      ],
+      "correct": 0,
+      "explanation": "La condición necesaria es que la palabra «ningún» excluye la existencia de una sola excepción comprobada. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 885,
+      "originalId": 45,
+      "sourceExam": 7,
+      "situationId": "S7-14",
+      "competency": "Lectura crítica - inference",
+      "text": "En relación con «Afirmación universal con un contraejemplo», ¿Cuál inferencia conserva las restricciones del texto?",
+      "options": [
+        "Los dos registros bastan para refutar la universalidad de la afirmación",
+        "Una excepción menor no afecta una afirmación que usa «ningún»",
+        "Solo una mayoría de estudiantes ausentes refutaría la afirmación absoluta"
+      ],
+      "correct": 0,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: los dos registros bastan para refutar la universalidad de la afirmación. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 886,
+      "originalId": 46,
+      "sourceExam": 7,
+      "situationId": "S7-14",
+      "competency": "Lectura crítica - critique",
+      "text": "En relación con «Afirmación universal con un contraejemplo», ¿Qué error de razonamiento se configura en el argumento?",
+      "options": [
+        "Una proposición universal se refuta con un contraejemplo pertinente",
+        "La debilidad está en mencionar dos casos en lugar de cinco",
+        "El error consiste en no haber presentado promedios mensuales"
+      ],
+      "correct": 0,
+      "explanation": "La objeción precisa es una proposición universal se refuta con un contraejemplo pertinente. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 887,
+      "originalId": 47,
+      "sourceExam": 7,
+      "situationId": "S7-15",
+      "competency": "Control y resultados",
+      "text": "En el supuesto de «Examen con accesos desiguales a fuente», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Ranking de sedes con notas originales, según series temporales y registros de seguimiento, mediante contrastes entre cortes de gestión",
+        "Comparaciones de logro no confundidas por condiciones de acceso, tras excluir registros duplicados y atípicos justificados",
+        "Cantidad de intentos de inicio de sesión, con trazabilidad de las actuaciones respectivas, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: comparaciones de logro no confundidas por condiciones de acceso, tras excluir registros duplicados y atípicos justificados. Medir «ranking de sedes con notas originales, según series temporales y registros de seguimiento, mediante contrastes entre cortes de gestión» o «cantidad de intentos de inicio de sesión, con trazabilidad de las actuaciones respectivas, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1290 de 2009; Decreto 1421 de 2017 si aplica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 888,
+      "originalId": 48,
+      "sourceExam": 7,
+      "situationId": "S7-15",
+      "competency": "Valoración probatoria",
+      "text": "A propósito del caso «Examen con accesos desiguales a fuente», ¿Cuál fuente permite valorar el problema sin depender solo de percepciones?",
+      "options": [
+        "Conectividad efectiva, incidencias por sede y porcentaje de estudiantes que inició sesión",
+        "Conectividad efectiva, promedio bruto sin reportes de interrupciones y evidencias de logro equivalentes",
+        "Conectividad efectiva, incidencias por sede y evidencias de logro equivalentes"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: conectividad efectiva, incidencias por sede y evidencias de logro equivalentes. La evidencia «conectividad efectiva, incidencias por sede y porcentaje de estudiantes que inició sesión» aporta un dato lateral, mientras «conectividad efectiva, promedio bruto sin reportes de interrupciones y evidencias de logro equivalentes» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1290 de 2009; Decreto 1421 de 2017 si aplica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 889,
+      "originalId": 49,
+      "sourceExam": 7,
+      "situationId": "S7-15",
+      "competency": "Actuación rectoral",
+      "text": "Respecto de «Examen con accesos desiguales a fuente», ¿Qué determinación debería sostener el rector en un acta motivada?",
+      "options": [
+        "Asegurar condiciones equivalentes de aplicación antes de interpretar diferencias de rendimiento",
+        "Analizar las implicaciones y invalidar todas las notas de sede rural y promover automáticamente al grupo",
+        "Revisar soportes y comparar puntajes brutos porque las preguntas y límites de tiempo fueron idénticos"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque asegurar condiciones equivalentes de aplicación antes de interpretar diferencias de rendimiento. La primera alternativa rival propone revisar soportes y comparar puntajes brutos porque las preguntas y límites de tiempo fueron idénticos, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y invalidar todas las notas de sede rural y promover automáticamente al grupo, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1290 de 2009; Decreto 1421 de 2017 si aplica",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 890,
+      "originalId": 50,
+      "sourceExam": 7,
+      "situationId": "S7-16",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Regalo simbólico con expectativa explícita», ¿Cuál de las fuentes ofrecidas permitiría discriminar mejor entre las versiones?",
+      "options": [
+        "Criterios de matrícula, historial de donaciones de esa familia al colegio y trazabilidad de decisión",
+        "Criterios de matrícula, solicitud, ofrecimiento y trazabilidad de decisión",
+        "Criterios de matrícula, solicitud, ofrecimiento y valor monetario del obsequio según comercio local"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: criterios de matrícula, solicitud, ofrecimiento y trazabilidad de decisión. La evidencia «criterios de matrícula, solicitud, ofrecimiento y valor monetario del obsequio según comercio local» aporta un dato lateral, mientras «criterios de matrícula, historial de donaciones de esa familia al colegio y trazabilidad de decisión» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 115 de 1994, acceso educativo; principios de probidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 891,
+      "originalId": 51,
+      "sourceExam": 7,
+      "situationId": "S7-16",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Regalo simbólico con expectativa explícita», ¿Qué propuesta resolvería el problema sin transformar una excepción en regla?",
+      "options": [
+        "Analizar las implicaciones y aceptar el regalo y tramitar solicitud como caso preferente por ser colaboración voluntaria",
+        "Consultar la información disponible y mantener el regalo y remitir el asunto a secretaría sin dejar registro del vínculo",
+        "Rechazar la interferencia en criterios de cupos y gestionar el ofrecimiento con transparencia"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque rechazar la interferencia en criterios de cupos y gestionar el ofrecimiento con transparencia. La primera alternativa rival propone analizar las implicaciones y aceptar el regalo y tramitar solicitud como caso preferente por ser colaboración voluntaria, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y mantener el regalo y remitir el asunto a secretaría sin dejar registro del vínculo, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 115 de 1994, acceso educativo; principios de probidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 892,
+      "originalId": 52,
+      "sourceExam": 7,
+      "situationId": "S7-16",
+      "competency": "Control y resultados",
+      "text": "En el escenario de «Regalo simbólico con expectativa explícita», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Admisiones resueltas bajo reglas iguales sin ventajas indebidas, según series temporales y registros de seguimiento",
+        "Número de obsequios recibidos en época de matrícula, considerando diferencias iniciales de contexto, mediante contrastes entre cortes de gestión",
+        "Porcentaje de familias que ofrece aportes voluntarios, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: admisiones resueltas bajo reglas iguales sin ventajas indebidas, según series temporales y registros de seguimiento. Medir «número de obsequios recibidos en época de matrícula, considerando diferencias iniciales de contexto, mediante contrastes entre cortes de gestión» o «porcentaje de familias que ofrece aportes voluntarios, con desagregación por grupos relevantes, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 115 de 1994, acceso educativo; principios de probidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 893,
+      "originalId": 53,
+      "sourceExam": 7,
+      "situationId": "S7-17",
+      "competency": "Lectura crítica - inference",
+      "text": "A propósito del caso «Selección de evidencia según resultado», ¿Qué conclusión se desprende de las condiciones expresadas, sin exceder la evidencia?",
+      "options": [
+        "La exclusión retrospectiva favorece sesgo de selección de evidencias",
+        "El criterio es válido porque cualquier medición negativa constituye anomalía",
+        "El éxito queda demostrado si todas las pruebas seleccionadas muestran mejora"
+      ],
+      "correct": 0,
+      "explanation": "La inferencia se limita a lo que el texto permite afirmar: la exclusión retrospectiva favorece sesgo de selección de evidencias. Las otras opciones amplían o niegan indebidamente el alcance de la premisa.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 894,
+      "originalId": 54,
+      "sourceExam": 7,
+      "situationId": "S7-17",
+      "competency": "Lectura crítica - critique",
+      "text": "En la controversia descrita en «Selección de evidencia según resultado», ¿Qué crítica ataca con mayor precisión la justificación expuesta?",
+      "options": [
+        "El error se explica exclusivamente por un diseño gráfico desactualizado",
+        "Seleccionar mediciones según el efecto buscado distorsiona inferencia",
+        "La conclusión falla solo porque se usaron pruebas diagnósticas"
+      ],
+      "correct": 1,
+      "explanation": "La objeción precisa es seleccionar mediciones según el efecto buscado distorsiona inferencia. Las críticas alternativas apuntan a rasgos secundarios o introducen restricciones inexistentes.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 895,
+      "originalId": 55,
+      "sourceExam": 7,
+      "situationId": "S7-17",
+      "competency": "Lectura crítica - assumption",
+      "text": "A propósito del caso «Selección de evidencia según resultado», ¿Qué premisa implícita tendría que justificarse en la decisión?",
+      "options": [
+        "Que cualquier indicador positivo pruebe un cambio institucional general",
+        "Que los criterios de inclusión de evidencias sean independientes del resultado",
+        "Que todo valor negativo sea error de medición sin evaluación adicional"
+      ],
+      "correct": 1,
+      "explanation": "La condición necesaria es que los criterios de inclusión de evidencias sean independientes del resultado. Los demás supuestos incorporan exigencias que el texto no establece.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 896,
+      "originalId": 56,
+      "sourceExam": 7,
+      "situationId": "S7-17",
+      "competency": "Lectura crítica - test",
+      "text": "En la controversia descrita en «Selección de evidencia según resultado», ¿Qué prueba permitiría someter a examen la afirmación central?",
+      "options": [
+        "Porcentaje de pruebas retenidas que muestra resultado positivo",
+        "Número de figuras incluidas finalmente en el informe",
+        "Regla previa de exclusión, calidad instrumental y conjunto completo de mediciones"
+      ],
+      "correct": 2,
+      "explanation": "La verificación relevante es regla previa de exclusión, calidad instrumental y conjunto completo de mediciones. Las otras fuentes pueden ser accesibles, pero no contrastan la afirmación específica.",
+      "legalBasis": "Lectura crítica de las condiciones y evidencias explícitas del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 897,
+      "originalId": 57,
+      "sourceExam": 7,
+      "situationId": "S7-18",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Veeduría confunde acceso con ejecución», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Documentos públicos pertinentes, restricciones legales y competencias de cada instancia",
+        "Documentos públicos pertinentes, restricciones legales y listado de proveedores sugeridos por la veeduría",
+        "Documentos públicos pertinentes, votación ciudadana informal sobre compras prioritarias y competencias de cada instancia"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: documentos públicos pertinentes, restricciones legales y competencias de cada instancia. La evidencia «documentos públicos pertinentes, restricciones legales y listado de proveedores sugeridos por la veeduría» aporta un dato lateral, mientras «documentos públicos pertinentes, votación ciudadana informal sobre compras prioritarias y competencias de cada instancia» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1712 de 2014; Decreto 1075 de 2015, Fondo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 898,
+      "originalId": 58,
+      "sourceExam": 7,
+      "situationId": "S7-18",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Veeduría confunde acceso con ejecución», ¿Qué determinación debería sostener el rector en un acta motivada?",
+      "options": [
+        "Garantizar acceso y control social sin transferir competencias presupuestales a la veeduría",
+        "Valorar condiciones locales y restringir toda información hasta que la veeduría renuncie a participar en decisiones",
+        "Examinar antecedentes y reconocer a la veeduría autorización para ordenar compras con cargo al Fondo"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque garantizar acceso y control social sin transferir competencias presupuestales a la veeduría. La primera alternativa rival propone examinar antecedentes y reconocer a la veeduría autorización para ordenar compras con cargo al Fondo, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y restringir toda información hasta que la veeduría renuncie a participar en decisiones, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1712 de 2014; Decreto 1075 de 2015, Fondo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 899,
+      "originalId": 59,
+      "sourceExam": 7,
+      "situationId": "S7-18",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Veeduría confunde acceso con ejecución», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Porcentaje de compras ejecutadas bajo listas ciudadanas, tras excluir registros duplicados y atípicos justificados",
+        "Número de solicitudes públicas rechazadas por ser incómodas, según revisión de muestras y de reportes de campo, en relación con la decisión adoptada",
+        "Control social ejercido con información y competencias preservadas, con trazabilidad de las actuaciones respectivas"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: control social ejercido con información y competencias preservadas, con trazabilidad de las actuaciones respectivas. Medir «porcentaje de compras ejecutadas bajo listas ciudadanas, tras excluir registros duplicados y atípicos justificados» o «número de solicitudes públicas rechazadas por ser incómodas, según revisión de muestras y de reportes de campo, en relación con la decisión adoptada» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1712 de 2014; Decreto 1075 de 2015, Fondo",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 900,
+      "originalId": 60,
+      "sourceExam": 7,
+      "situationId": "S7-19",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la probabilidad empírica de superar la meta?",
+      "options": [
+        "42,86 %",
+        "30 %",
+        "70 %"
+      ],
+      "correct": 1,
+      "explanation": "30/100 = 0,30.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 901,
+      "originalId": 61,
+      "sourceExam": 7,
+      "situationId": "S7-19",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuáles son las odds a favor de superar la meta?",
+      "options": [
+        "3 a 7",
+        "3 a 10",
+        "7 a 3"
+      ],
+      "correct": 0,
+      "explanation": "Se comparan éxitos con fracasos: 30:70 = 3:7.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 902,
+      "originalId": 62,
+      "sourceExam": 7,
+      "situationId": "S7-19",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué probabilidad corresponde a odds a favor de 3 a 7?",
+      "options": [
+        "42,86 %",
+        "30 %",
+        "23,08 %"
+      ],
+      "correct": 1,
+      "explanation": "Si éxitos:fracasos=3:7, entonces 3/(3+7)=30 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 903,
+      "originalId": 63,
+      "sourceExam": 7,
+      "situationId": "S7-20",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la reducción en puntos porcentuales?",
+      "options": [
+        "9 puntos",
+        "25 puntos",
+        "3 puntos"
+      ],
+      "correct": 2,
+      "explanation": "12 - 9 = 3 puntos porcentuales.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 904,
+      "originalId": 64,
+      "sourceExam": 7,
+      "situationId": "S7-20",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la reducción relativa respecto de la brecha inicial?",
+      "options": [
+        "33,33 %",
+        "25 %",
+        "75 %"
+      ],
+      "correct": 1,
+      "explanation": "(12 - 9)/12 = 25 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 905,
+      "originalId": 65,
+      "sourceExam": 7,
+      "situationId": "S7-20",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si se buscara reducir la brecha inicial a la mitad, ¿a cuántos puntos debería llegar?",
+      "options": [
+        "3 puntos",
+        "4,5 puntos",
+        "6 puntos"
+      ],
+      "correct": 2,
+      "explanation": "12/2 = 6 puntos porcentuales.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 906,
+      "originalId": 66,
+      "sourceExam": 7,
+      "situationId": "S7-21",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Consejo directivo con filtración deliberada», ¿Qué registro de desempeño permitiría evaluar una respuesta efectiva?",
+      "options": [
+        "Porcentaje de documentos publicados completos sin revisión, con revisión de sedes y responsables, con desagregación por grupos relevantes",
+        "Acceso a información pública con protección de datos personales, según revisión de muestras y de reportes de campo",
+        "Volumen de solicitudes rechazadas en bloque, con contrastes por curso, jornada y sede, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: acceso a información pública con protección de datos personales, según revisión de muestras y de reportes de campo. Medir «porcentaje de documentos publicados completos sin revisión, con revisión de sedes y responsables, con desagregación por grupos relevantes» o «volumen de solicitudes rechazadas en bloque, con contrastes por curso, jornada y sede, considerando diferencias iniciales de contexto» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1712 de 2014; Ley 1581 de 2012",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 907,
+      "originalId": 67,
+      "sourceExam": 7,
+      "situationId": "S7-21",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Consejo directivo con filtración deliberada», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Contenido sensible, finalidad del acceso y número de personas que recibió el borrador filtrado",
+        "Contenido sensible, cantidad de quejas por ausencia de documentos íntegros y método de publicación parcial",
+        "Contenido sensible, finalidad del acceso y método de publicación parcial"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: contenido sensible, finalidad del acceso y método de publicación parcial. La evidencia «contenido sensible, finalidad del acceso y número de personas que recibió el borrador filtrado» aporta un dato lateral, mientras «contenido sensible, cantidad de quejas por ausencia de documentos íntegros y método de publicación parcial» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1712 de 2014; Ley 1581 de 2012",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 908,
+      "originalId": 68,
+      "sourceExam": 7,
+      "situationId": "S7-21",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Consejo directivo con filtración deliberada», ¿Cuál actuación separa correctamente la urgencia del procedimiento obligatorio?",
+      "options": [
+        "Preservar reserva de datos sensibles y rendir cuentas mediante versión pública adecuada",
+        "Examinar antecedentes y retirar todo acceso a documentos del gobierno escolar sin examinar partes públicas",
+        "Establecer seguimiento y publicar todas las actas sin modificaciones para demostrar control ciudadano"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque preservar reserva de datos sensibles y rendir cuentas mediante versión pública adecuada. La primera alternativa rival propone establecer seguimiento y publicar todas las actas sin modificaciones para demostrar control ciudadano, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y retirar todo acceso a documentos del gobierno escolar sin examinar partes públicas, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1712 de 2014; Ley 1581 de 2012",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 909,
+      "originalId": 69,
+      "sourceExam": 7,
+      "situationId": "S7-22",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Inteligencia artificial y perfiles de riesgo», ¿Cuál intervención protege mejor la finalidad educativa sin exceder atribuciones? Considere como marco Ley 1581 de 2012; Ley 1098 de 2006.",
+      "options": [
+        "Rechazar carga indiscriminada y exigir evaluación de necesidad, garantías y riesgos antes de usar tecnología",
+        "Analizar las implicaciones y autorizar el piloto y revisar sesgos solo después de producir perfiles nominativos",
+        "Contrastar posiciones y subir expedientes con nombres abreviados porque la clasificación ayudaría a prevenir incidentes"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque rechazar carga indiscriminada y exigir evaluación de necesidad, garantías y riesgos antes de usar tecnología. La primera alternativa rival propone contrastar posiciones y subir expedientes con nombres abreviados porque la clasificación ayudaría a prevenir incidentes, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y autorizar el piloto y revisar sesgos solo después de producir perfiles nominativos, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 910,
+      "originalId": 70,
+      "sourceExam": 7,
+      "situationId": "S7-22",
+      "competency": "Control y resultados",
+      "text": "En relación con «Inteligencia artificial y perfiles de riesgo», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Cantidad de estudiantes marcados como riesgo, según series temporales y registros de seguimiento, en relación con la decisión adoptada",
+        "Decisiones sin perfiles estigmatizantes ni exposición indebida de datos, tras excluir registros duplicados y atípicos justificados",
+        "Rapidez de elaboración de rankings de conducta, tras excluir registros duplicados y atípicos justificados, mediante contrastes entre cortes de gestión"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones sin perfiles estigmatizantes ni exposición indebida de datos, tras excluir registros duplicados y atípicos justificados. Medir «cantidad de estudiantes marcados como riesgo, según series temporales y registros de seguimiento, en relación con la decisión adoptada» o «rapidez de elaboración de rankings de conducta, tras excluir registros duplicados y atípicos justificados, mediante contrastes entre cortes de gestión» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 911,
+      "originalId": 71,
+      "sourceExam": 7,
+      "situationId": "S7-22",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Inteligencia artificial y perfiles de riesgo», ¿Qué información distingue mejor un trámite válido de una solución aparente?",
+      "options": [
+        "Finalidad, minimización de datos, seguridad, sesgos y necesidad pedagógica real",
+        "Finalidad, minimización de datos, seguridad, sesgos y porcentaje de precisión declarado por la plataforma comercial",
+        "Finalidad, número de expedientes que el sistema puede procesar por minuto y necesidad pedagógica real"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: finalidad, minimización de datos, seguridad, sesgos y necesidad pedagógica real. La evidencia «finalidad, minimización de datos, seguridad, sesgos y porcentaje de precisión declarado por la plataforma comercial» aporta un dato lateral, mientras «finalidad, número de expedientes que el sistema puede procesar por minuto y necesidad pedagógica real» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1581 de 2012; Ley 1098 de 2006",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 912,
+      "originalId": 72,
+      "sourceExam": 7,
+      "situationId": "S7-23",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué tasa de aprobación tiene el intensivo en A?",
+      "options": [
+        "80 %",
+        "85 %",
+        "90 %"
+      ],
+      "correct": 2,
+      "explanation": "18/20=90 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 913,
+      "originalId": 73,
+      "sourceExam": 7,
+      "situationId": "S7-23",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué tasa conjunta tiene el programa general en ambas sedes?",
+      "options": [
+        "60 %",
+        "51,11 %",
+        "55 %"
+      ],
+      "correct": 1,
+      "explanation": "(40+6)/(80+10)=46/90=51,11 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 914,
+      "originalId": 74,
+      "sourceExam": 7,
+      "situationId": "S7-23",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué tasa conjunta tiene el intensivo en ambas sedes?",
+      "options": [
+        "80 %",
+        "85,45 %",
+        "81,82 %"
+      ],
+      "correct": 2,
+      "explanation": "(18+72)/(20+90)=90/110=81,82 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 915,
+      "originalId": 75,
+      "sourceExam": 7,
+      "situationId": "S7-24",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál fue la incidencia del primer mes por 1.000 estudiantes en riesgo?",
+      "options": [
+        "24",
+        "18",
+        "20"
+      ],
+      "correct": 2,
+      "explanation": "24/1.200×1.000=20.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 916,
+      "originalId": 76,
+      "sourceExam": 7,
+      "situationId": "S7-24",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál fue la incidencia del segundo mes por 1.000 estudiantes en riesgo?",
+      "options": [
+        "20",
+        "15",
+        "25"
+      ],
+      "correct": 0,
+      "explanation": "18/900×1.000=20.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 917,
+      "originalId": 77,
+      "sourceExam": 7,
+      "situationId": "S7-24",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué se concluye sobre las tasas de incidencia por 1.000?",
+      "options": [
+        "Permanecieron iguales",
+        "La segunda fue inferior en seis puntos",
+        "La primera fue superior en dos puntos"
+      ],
+      "correct": 0,
+      "explanation": "Ambas son 20 casos nuevos por 1.000 personas en riesgo.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 918,
+      "originalId": 78,
+      "sourceExam": 7,
+      "situationId": "S7-25",
+      "competency": "Control y resultados",
+      "text": "Sobre «Material accesible solo después de la prueba», ¿Cuál indicador reduce mejor el riesgo de interpretar actividad como logro?",
+      "options": [
+        "Número de pruebas que se digitalizan después de aplicarse, con trazabilidad de las actuaciones respectivas, con perspectiva de continuidad del servicio",
+        "Porcentaje de estudiantes que utiliza letra estándar, comparado con las metas aprobadas para el período, con trazabilidad de las actuaciones respectivas",
+        "Evaluación de aprendizajes con acceso efectivo al instrumento, en relación con la decisión adoptada, con perspectiva de continuidad del servicio"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: evaluación de aprendizajes con acceso efectivo al instrumento, en relación con la decisión adoptada, con perspectiva de continuidad del servicio. Medir «número de pruebas que se digitalizan después de aplicarse, con trazabilidad de las actuaciones respectivas, con perspectiva de continuidad del servicio» o «porcentaje de estudiantes que utiliza letra estándar, comparado con las metas aprobadas para el período, con trazabilidad de las actuaciones respectivas» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1421 de 2017; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 919,
+      "originalId": 79,
+      "sourceExam": 7,
+      "situationId": "S7-25",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Material accesible solo después de la prueba», ¿Cuál alternativa reduce el riesgo de actuar con una inferencia o potestad indebida?",
+      "options": [
+        "Disponer ajustes accesibles antes y durante la evaluación conforme a requerimientos pedagógicos",
+        "Revisar soportes y separarla de la evaluación común sin alternativa equivalente ni evidencia de competencias",
+        "Documentar el trámite y aplicar el examen estándar y reconsiderar la nota después de entregar material ampliado"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque disponer ajustes accesibles antes y durante la evaluación conforme a requerimientos pedagógicos. La primera alternativa rival propone documentar el trámite y aplicar el examen estándar y reconsiderar la nota después de entregar material ampliado, lo cual omite un requisito del contexto. La otra propone revisar soportes y separarla de la evaluación común sin alternativa equivalente ni evidencia de competencias, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1421 de 2017; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 920,
+      "originalId": 80,
+      "sourceExam": 7,
+      "situationId": "S7-25",
+      "competency": "Valoración probatoria",
+      "text": "En la controversia descrita en «Material accesible solo después de la prueba», para resolver la incertidumbre descrita, ¿qué comparación o documento resulta decisivo?",
+      "options": [
+        "Valoración de barreras, formato accesible y distribución de notas del curso con formato regular",
+        "Valoración de barreras, cantidad de páginas que podrían ampliarse al finalizar y evidencias del desempeño evaluado",
+        "Valoración de barreras, formato accesible y evidencias del desempeño evaluado"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: valoración de barreras, formato accesible y evidencias del desempeño evaluado. La evidencia «valoración de barreras, formato accesible y distribución de notas del curso con formato regular» aporta un dato lateral, mientras «valoración de barreras, cantidad de páginas que podrían ampliarse al finalizar y evidencias del desempeño evaluado» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1421 de 2017; Decreto 1290 de 2009",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 921,
+      "originalId": 81,
+      "sourceExam": 7,
+      "situationId": "S7-26",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es el riesgo observado en el grupo del programa?",
+      "options": [
+        "12 %",
+        "8 %",
+        "6 %"
+      ],
+      "correct": 2,
+      "explanation": "12/200 = 6 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 922,
+      "originalId": 82,
+      "sourceExam": 7,
+      "situationId": "S7-26",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la diferencia absoluta de riesgos, comparador menos programa?",
+      "options": [
+        "6 puntos porcentuales",
+        "4 puntos porcentuales",
+        "2 puntos porcentuales"
+      ],
+      "correct": 0,
+      "explanation": "18/150 = 12 %; 12 % - 6 % = 6 puntos.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 923,
+      "originalId": 83,
+      "sourceExam": 7,
+      "situationId": "S7-26",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la razón de riesgos observada, programa/comparador?",
+      "options": [
+        "0,50",
+        "0,67",
+        "0,75"
+      ],
+      "correct": 0,
+      "explanation": "6 % / 12 % = 0,5; no implica causalidad sin comparabilidad.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 924,
+      "originalId": 84,
+      "sourceExam": 7,
+      "situationId": "S7-27",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Doble jornada en aula arrendada sin licencia», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Servicio prestado en espacios adecuados y legalmente habilitados, según series temporales y registros de seguimiento",
+        "Horas de ocupación obtenidas a menor costo, según revisión de muestras y de reportes de campo, con control de cambios y documentos de respaldo",
+        "Porcentaje de cupos creados en el local ofrecido, con trazabilidad de las actuaciones respectivas, mediante contrastes entre cortes de gestión"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: servicio prestado en espacios adecuados y legalmente habilitados, según series temporales y registros de seguimiento. Medir «horas de ocupación obtenidas a menor costo, según revisión de muestras y de reportes de campo, con control de cambios y documentos de respaldo» o «porcentaje de cupos creados en el local ofrecido, con trazabilidad de las actuaciones respectivas, mediante contrastes entre cortes de gestión» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Gestión del riesgo, condiciones de prestación y competencias territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 925,
+      "originalId": 85,
+      "sourceExam": 7,
+      "situationId": "S7-27",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Doble jornada en aula arrendada sin licencia», ¿Qué soporte evitaría confundir un dato de contexto con prueba de cumplimiento?",
+      "options": [
+        "Condiciones físicas, registro de interés de estudiantes por la jornada y cobertura pedagógica garantizada",
+        "Condiciones físicas, autorización de uso y comparativo del canon de arriendo entre locales",
+        "Condiciones físicas, autorización de uso y cobertura pedagógica garantizada"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: condiciones físicas, autorización de uso y cobertura pedagógica garantizada. La evidencia «condiciones físicas, autorización de uso y comparativo del canon de arriendo entre locales» aporta un dato lateral, mientras «condiciones físicas, registro de interés de estudiantes por la jornada y cobertura pedagógica garantizada» no acredita el hecho decisivo.",
+      "legalBasis": "Gestión del riesgo, condiciones de prestación y competencias territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 926,
+      "originalId": 86,
+      "sourceExam": 7,
+      "situationId": "S7-27",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Doble jornada en aula arrendada sin licencia», ¿Qué decisión inicial evita el principal error de competencia o procedimiento?",
+      "options": [
+        "Consultar la información disponible y aceptar el inmueble provisional por tres meses al contar con contrato firmado",
+        "Verificar habilitación y seguridad del espacio antes de trasladar el servicio educativo",
+        "Contrastar posiciones y iniciar clases únicamente con estudiantes mayores mientras se tramitan conceptos"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque verificar habilitación y seguridad del espacio antes de trasladar el servicio educativo. La primera alternativa rival propone consultar la información disponible y aceptar el inmueble provisional por tres meses al contar con contrato firmado, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y iniciar clases únicamente con estudiantes mayores mientras se tramitan conceptos, pero no sustituye la actuación competente.",
+      "legalBasis": "Gestión del riesgo, condiciones de prestación y competencias territoriales",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 927,
+      "originalId": 87,
+      "sourceExam": 7,
+      "situationId": "S7-28",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Rotación de docentes para castigar disenso», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Criterios de asignación, tiempo de servicio del personal con críticas al PMI y actas de planeación académica",
+        "Criterios de asignación, necesidades por grupo y actas de planeación académica",
+        "Criterios de asignación, necesidades por grupo y listado de docentes que expresaron desacuerdo"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: criterios de asignación, necesidades por grupo y actas de planeación académica. La evidencia «criterios de asignación, necesidades por grupo y listado de docentes que expresaron desacuerdo» aporta un dato lateral, mientras «criterios de asignación, tiempo de servicio del personal con críticas al PMI y actas de planeación académica» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; liderazgo imparcial",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 928,
+      "originalId": 88,
+      "sourceExam": 7,
+      "situationId": "S7-28",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Rotación de docentes para castigar disenso», ¿Qué decisión inicial evita el principal error de competencia o procedimiento? Considere como marco Ley 715 de 2001, artículo 10; liderazgo imparcial.",
+      "options": [
+        "Definir asignaciones con criterios pedagógicos y funcionales ajenos a represalias",
+        "Consultar la información disponible y negociar individualmente beneficios horarios a cambio de retirar críticas al PMI",
+        "Contrastar posiciones y aplicar la rotación porque la autoridad puede elegir grupos sin explicar motivos"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque definir asignaciones con criterios pedagógicos y funcionales ajenos a represalias. La primera alternativa rival propone contrastar posiciones y aplicar la rotación porque la autoridad puede elegir grupos sin explicar motivos, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y negociar individualmente beneficios horarios a cambio de retirar críticas al PMI, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; liderazgo imparcial",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 929,
+      "originalId": 89,
+      "sourceExam": 7,
+      "situationId": "S7-28",
+      "competency": "Control y resultados",
+      "text": "En el escenario de «Rotación de docentes para castigar disenso», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Cantidad de opositores destinados a grupos exigentes, con control de cambios y documentos de respaldo, con contrastes por curso, jornada y sede",
+        "Porcentaje de docentes que retiró objeciones, con contrastes por curso, jornada y sede, según series temporales y registros de seguimiento",
+        "Asignaciones justificadas por necesidades educativas y no por retaliación, con una revisión posterior de consistencia"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: asignaciones justificadas por necesidades educativas y no por retaliación, con una revisión posterior de consistencia. Medir «cantidad de opositores destinados a grupos exigentes, con control de cambios y documentos de respaldo, con contrastes por curso, jornada y sede» o «porcentaje de docentes que retiró objeciones, con contrastes por curso, jornada y sede, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; liderazgo imparcial",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 930,
+      "originalId": 90,
+      "sourceExam": 7,
+      "situationId": "S7-29",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué fracción de los alertados tiene efectivamente la necesidad?",
+      "options": [
+        "40 %",
+        "80 %",
+        "29,63 %"
+      ],
+      "correct": 2,
+      "explanation": "40/(40+95)=40/135=29,63 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 931,
+      "originalId": 91,
+      "sourceExam": 7,
+      "situationId": "S7-29",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuál es la tasa de falsos positivos entre quienes no tienen la necesidad?",
+      "options": [
+        "20 %",
+        "10 %",
+        "9,5 %"
+      ],
+      "correct": 1,
+      "explanation": "95/950=10 %.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 932,
+      "originalId": 92,
+      "sourceExam": 7,
+      "situationId": "S7-29",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Cuántos estudiantes con la necesidad no fueron alertados?",
+      "options": [
+        "15",
+        "10",
+        "5"
+      ],
+      "correct": 1,
+      "explanation": "50 - 40 = 10.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 933,
+      "originalId": 93,
+      "sourceExam": 7,
+      "situationId": "S7-30",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Argumento circular en autoevaluación», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Juicios de eficacia apoyados en evidencias no definidas circularmente, según series temporales y registros de seguimiento",
+        "Frecuencia de expresiones positivas en el texto, en comparación con el período inmediatamente anterior, con trazabilidad de las actuaciones respectivas",
+        "Cantidad de diapositivas dedicadas a la dirección, comparado con las metas aprobadas para el período, en comparación con el período inmediatamente anterior"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: juicios de eficacia apoyados en evidencias no definidas circularmente, según series temporales y registros de seguimiento. Medir «frecuencia de expresiones positivas en el texto, en comparación con el período inmediatamente anterior, con trazabilidad de las actuaciones respectivas» o «cantidad de diapositivas dedicadas a la dirección, comparado con las metas aprobadas para el período, en comparación con el período inmediatamente anterior» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Lectura crítica, estructura argumentativa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 934,
+      "originalId": 94,
+      "sourceExam": 7,
+      "situationId": "S7-30",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Argumento circular en autoevaluación», ¿Qué curso de acción debe priorizarse ante la tensión planteada?",
+      "options": [
+        "Consultar la información disponible y sustituir la justificación por testimonios sobre popularidad del equipo directivo",
+        "Consultar la información disponible y aceptar el argumento porque enlaza conceptos centrales del direccionamiento",
+        "Identificar circularidad y exigir criterios independientes de cumplimiento y resultado"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque identificar circularidad y exigir criterios independientes de cumplimiento y resultado. La primera alternativa rival propone consultar la información disponible y aceptar el argumento porque enlaza conceptos centrales del direccionamiento, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y sustituir la justificación por testimonios sobre popularidad del equipo directivo, pero no sustituye la actuación competente.",
+      "legalBasis": "Lectura crítica, estructura argumentativa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 935,
+      "originalId": 95,
+      "sourceExam": 7,
+      "situationId": "S7-30",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Argumento circular en autoevaluación», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Indicadores independientes, productos observables y número de veces que se repite la palabra liderazgo en informe",
+        "Indicadores independientes, productos observables y evidencias contrastables",
+        "Indicadores independientes, aprobaciones del informe por unanimidad en reunión de cierre y evidencias contrastables"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: indicadores independientes, productos observables y evidencias contrastables. La evidencia «indicadores independientes, productos observables y número de veces que se repite la palabra liderazgo en informe» aporta un dato lateral, mientras «indicadores independientes, aprobaciones del informe por unanimidad en reunión de cierre y evidencias contrastables» no acredita el hecho decisivo.",
+      "legalBasis": "Lectura crítica, estructura argumentativa",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 936,
+      "originalId": 96,
+      "sourceExam": 7,
+      "situationId": "S7-31",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Plan de choque con exclusión de estudiantes», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Porcentaje de estudiantes destacados en publicidad institucional, con una revisión posterior de consistencia, tras excluir registros duplicados y atípicos justificados",
+        "Mejora de aprendizaje y acceso efectivo en todos los perfiles objetivo, con control de cambios y documentos de respaldo",
+        "Aumento del promedio de participantes seleccionados, con contrastes por curso, jornada y sede, con una revisión posterior de consistencia"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: mejora de aprendizaje y acceso efectivo en todos los perfiles objetivo, con control de cambios y documentos de respaldo. Medir «aumento del promedio de participantes seleccionados, con contrastes por curso, jornada y sede, con una revisión posterior de consistencia» o «porcentaje de estudiantes destacados en publicidad institucional, con una revisión posterior de consistencia, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, gestión académica y equidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 937,
+      "originalId": 97,
+      "sourceExam": 7,
+      "situationId": "S7-31",
+      "competency": "Actuación rectoral",
+      "text": "Para la situación «Plan de choque con exclusión de estudiantes», ¿Qué determinación debería sostener el rector en un acta motivada?",
+      "options": [
+        "Diseñar apoyos por necesidad sin excluir sistemáticamente a quienes requieren mayor acompañamiento",
+        "Contrastar posiciones y aplicar estrategias distintas sin medir cobertura de estudiantes con rezago",
+        "Revisar soportes y seleccionar solo estudiantes de alto desempeño para maximizar promedio del programa"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque diseñar apoyos por necesidad sin excluir sistemáticamente a quienes requieren mayor acompañamiento. La primera alternativa rival propone revisar soportes y seleccionar solo estudiantes de alto desempeño para maximizar promedio del programa, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y aplicar estrategias distintas sin medir cobertura de estudiantes con rezago, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, gestión académica y equidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 938,
+      "originalId": 98,
+      "sourceExam": 7,
+      "situationId": "S7-31",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Plan de choque con exclusión de estudiantes», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Criterios de selección, número de sesiones para estudiantes de alto desempeño y progreso de subgrupos",
+        "Criterios de selección, línea de base y progreso de subgrupos",
+        "Criterios de selección, línea de base y promedio final solo de quienes ingresaron al programa"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: criterios de selección, línea de base y progreso de subgrupos. La evidencia «criterios de selección, línea de base y promedio final solo de quienes ingresaron al programa» aporta un dato lateral, mientras «criterios de selección, número de sesiones para estudiantes de alto desempeño y progreso de subgrupos» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, gestión académica y equidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 939,
+      "originalId": 99,
+      "sourceExam": 7,
+      "situationId": "S7-32",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué índice ponderado obtiene A?",
+      "options": [
+        "70",
+        "75",
+        "65"
+      ],
+      "correct": 0,
+      "explanation": "0,6×90+0,4×40=70.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 940,
+      "originalId": 100,
+      "sourceExam": 7,
+      "situationId": "S7-32",
+      "competency": "Razonamiento cuantitativo",
+      "text": "¿Qué sede presenta mayor índice ponderado?",
+      "options": [
+        "B",
+        "C",
+        "A"
+      ],
+      "correct": 0,
+      "explanation": "A=70; B=0,6×70+0,4×80=74; C=0,6×60+0,4×90=72.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 941,
+      "originalId": 101,
+      "sourceExam": 7,
+      "situationId": "S7-32",
+      "competency": "Razonamiento cuantitativo",
+      "text": "Si ambos pesos se intercambian, ¿qué sede obtiene el mayor índice?",
+      "options": [
+        "B",
+        "C",
+        "A"
+      ],
+      "correct": 1,
+      "explanation": "Con urgencia 40 % y déficit 60 %: A=60, B=76, C=78.",
+      "legalBasis": "Cálculo e interpretación a partir de los datos hipotéticos del caso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 942,
+      "originalId": 102,
+      "sourceExam": 7,
+      "situationId": "S7-33",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Efecto de taller confundido con entusiasmo», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Observación de práctica, evidencia de aprendizaje y encuesta de agrado tomada al salir del taller",
+        "Observación de práctica, número de constancias descargadas por docentes y línea temporal adecuada",
+        "Observación de práctica, evidencia de aprendizaje y línea temporal adecuada"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: observación de práctica, evidencia de aprendizaje y línea temporal adecuada. La evidencia «observación de práctica, evidencia de aprendizaje y encuesta de agrado tomada al salir del taller» aporta un dato lateral, mientras «observación de práctica, número de constancias descargadas por docentes y línea temporal adecuada» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, calidad y desarrollo profesional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 943,
+      "originalId": 103,
+      "sourceExam": 7,
+      "situationId": "S7-33",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Efecto de taller confundido con entusiasmo», ¿Cuál actuación separa correctamente la urgencia del procedimiento obligatorio?",
+      "options": [
+        "Documentar el trámite y cancelar futuras capacitaciones por no observar mejora inmediata en una sola medición",
+        "Distinguir reacción de participantes y transferencia a práctica y aprendizaje",
+        "Analizar las implicaciones y atribuir impacto al taller porque el indicador de satisfacción supera la meta"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque distinguir reacción de participantes y transferencia a práctica y aprendizaje. La primera alternativa rival propone analizar las implicaciones y atribuir impacto al taller porque el indicador de satisfacción supera la meta, lo cual omite un requisito del contexto. La otra propone documentar el trámite y cancelar futuras capacitaciones por no observar mejora inmediata en una sola medición, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, calidad y desarrollo profesional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 944,
+      "originalId": 104,
+      "sourceExam": 7,
+      "situationId": "S7-33",
+      "competency": "Control y resultados",
+      "text": "Sobre «Efecto de taller confundido con entusiasmo», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Volumen de horas de capacitación contratadas, con desagregación por grupos relevantes, en relación con la decisión adoptada",
+        "Porcentaje de opiniones excelentes sobre la sesión, según períodos escolares comparables, con revisión de sedes y responsables",
+        "Cambios de práctica y resultados medidos con horizonte razonable, en comparación con el período inmediatamente anterior"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: cambios de práctica y resultados medidos con horizonte razonable, en comparación con el período inmediatamente anterior. Medir «porcentaje de opiniones excelentes sobre la sesión, según períodos escolares comparables, con revisión de sedes y responsables» o «volumen de horas de capacitación contratadas, con desagregación por grupos relevantes, en relación con la decisión adoptada» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, calidad y desarrollo profesional",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 945,
+      "originalId": 105,
+      "sourceExam": 7,
+      "situationId": "S7-34",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Consejo convocado sin información esencial», ¿Qué información distingue mejor un trámite válido de una solución aparente?",
+      "options": [
+        "Proyecto presupuestal, soportes explicativos y acta de deliberación informada",
+        "Proyecto presupuestal, promesa verbal de remitir anexos después de la votación y acta de deliberación informada",
+        "Proyecto presupuestal, soportes explicativos y lista de asistentes sin detalle de documentación compartida"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: proyecto presupuestal, soportes explicativos y acta de deliberación informada. La evidencia «proyecto presupuestal, soportes explicativos y lista de asistentes sin detalle de documentación compartida» aporta un dato lateral, mientras «proyecto presupuestal, promesa verbal de remitir anexos después de la votación y acta de deliberación informada» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, Consejo Directivo y FSE",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 946,
+      "originalId": 106,
+      "sourceExam": 7,
+      "situationId": "S7-34",
+      "competency": "Control y resultados",
+      "text": "En el escenario de «Consejo convocado sin información esencial», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Aprobaciones presupuestales con información y competencia suficientes, considerando diferencias iniciales de contexto",
+        "Número de minutos transcurridos entre convocatoria y voto, en comparación con el período inmediatamente anterior, según revisión de muestras y de reportes de campo",
+        "Porcentaje de rubros aprobados sin preguntas, con control de cambios y documentos de respaldo, con perspectiva de continuidad del servicio"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: aprobaciones presupuestales con información y competencia suficientes, considerando diferencias iniciales de contexto. Medir «número de minutos transcurridos entre convocatoria y voto, en comparación con el período inmediatamente anterior, según revisión de muestras y de reportes de campo» o «porcentaje de rubros aprobados sin preguntas, con control de cambios y documentos de respaldo, con perspectiva de continuidad del servicio» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, Consejo Directivo y FSE",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 947,
+      "originalId": 107,
+      "sourceExam": 7,
+      "situationId": "S7-34",
+      "competency": "Actuación rectoral",
+      "text": "A propósito del caso «Consejo convocado sin información esencial», ante las restricciones descritas, ¿qué actuación resulta más defendible para la rectoría?",
+      "options": [
+        "Valorar condiciones locales y delegar a la tesorería aprobación total para compensar la falta de tiempo del consejo",
+        "Documentar el trámite y votar inmediatamente porque la presencia de todos sanea cualquier defecto de información",
+        "Garantizar información suficiente para deliberar y tramitar una aprobación responsable"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque garantizar información suficiente para deliberar y tramitar una aprobación responsable. La primera alternativa rival propone documentar el trámite y votar inmediatamente porque la presencia de todos sanea cualquier defecto de información, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y delegar a la tesorería aprobación total para compensar la falta de tiempo del consejo, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, Consejo Directivo y FSE",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 948,
+      "originalId": 108,
+      "sourceExam": 7,
+      "situationId": "S7-35",
+      "competency": "Actuación rectoral",
+      "text": "Para analizar «Entrevista grupal de presuntas víctimas», ¿Qué determinación debería sostener el rector en un acta motivada? Considere como marco Ley 1098 de 2006, protección integral; Ley 1620 de 2013.",
+      "options": [
+        "Analizar las implicaciones y trasladar la indagación integral al grupo de estudiantes sin coordinación externa",
+        "Revisar soportes y hacer relato colectivo y grabarlo como prueba institucional para ahorrar entrevistas",
+        "Priorizar protección y evitar exposición o revictimización mediante actuaciones competentes"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque priorizar protección y evitar exposición o revictimización mediante actuaciones competentes. La primera alternativa rival propone revisar soportes y hacer relato colectivo y grabarlo como prueba institucional para ahorrar entrevistas, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y trasladar la indagación integral al grupo de estudiantes sin coordinación externa, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1098 de 2006, protección integral; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 949,
+      "originalId": 109,
+      "sourceExam": 7,
+      "situationId": "S7-35",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Entrevista grupal de presuntas víctimas», antes de firmar el informe de rectoría, ¿qué evidencia sería indispensable contrastar?",
+      "options": [
+        "Nivel de riesgo, responsables de protección y número de testimonios recogidos en una reunión",
+        "Nivel de riesgo, responsables de protección y procedimientos de reporte adecuados",
+        "Nivel de riesgo, minutos ahorrados al centralizar las declaraciones y procedimientos de reporte adecuados"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: nivel de riesgo, responsables de protección y procedimientos de reporte adecuados. La evidencia «nivel de riesgo, responsables de protección y número de testimonios recogidos en una reunión» aporta un dato lateral, mientras «nivel de riesgo, minutos ahorrados al centralizar las declaraciones y procedimientos de reporte adecuados» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1098 de 2006, protección integral; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 950,
+      "originalId": 110,
+      "sourceExam": 7,
+      "situationId": "S7-35",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Entrevista grupal de presuntas víctimas», ¿Qué medición ayudaría a determinar si se resolvió el problema y no solo se tramitó?",
+      "options": [
+        "Actuaciones de protección sin exposición innecesaria de estudiantes, con contrastes por curso, jornada y sede",
+        "Cantidad de docentes presentes en el relato, en comparación con el período inmediatamente anterior, con control de cambios y documentos de respaldo",
+        "Porcentaje de estudiantes que habló en reunión, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: actuaciones de protección sin exposición innecesaria de estudiantes, con contrastes por curso, jornada y sede. Medir «cantidad de docentes presentes en el relato, en comparación con el período inmediatamente anterior, con control de cambios y documentos de respaldo» o «porcentaje de estudiantes que habló en reunión, según revisión de muestras y de reportes de campo, tras excluir registros duplicados y atípicos justificados» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1098 de 2006, protección integral; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 951,
+      "originalId": 111,
+      "sourceExam": 7,
+      "situationId": "S7-36",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Criterios de cupo cambiados después de conocer solicitantes», ¿Qué curso de acción debe priorizarse ante la tensión planteada? Considere como marco Ley 115 de 1994, criterios de cupos; Decreto 1075 de 2015.",
+      "options": [
+        "Consultar la información disponible y aplicar nuevo criterio a los expedientes ya radicados porque aún no se publica listado definitivo",
+        "Someter cualquier ajuste legítimo a reglas públicas y evitar cambios ad hoc sobre procesos en curso",
+        "Contrastar posiciones y mantener criterios nuevos solo para aspirantes sin apoyos institucionales conocidos"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque someter cualquier ajuste legítimo a reglas públicas y evitar cambios ad hoc sobre procesos en curso. La primera alternativa rival propone consultar la información disponible y aplicar nuevo criterio a los expedientes ya radicados porque aún no se publica listado definitivo, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y mantener criterios nuevos solo para aspirantes sin apoyos institucionales conocidos, pero no sustituye la actuación competente.",
+      "legalBasis": "solicitantes Marco de estudio: Ley 115 de 1994, criterios de cupos; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 952,
+      "originalId": 112,
+      "sourceExam": 7,
+      "situationId": "S7-36",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Criterios de cupo cambiados después de conocer solicitantes», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Porcentaje de aspirantes reordenados por el nuevo criterio, con trazabilidad de las actuaciones respectivas",
+        "Admisión decidida con reglas transparentes y consistentes, en comparación con el período inmediatamente anterior",
+        "Cantidad de llamadas recibidas de familias influyentes, con contrastes por curso, jornada y sede, comparado con las metas aprobadas para el período"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: admisión decidida con reglas transparentes y consistentes, en comparación con el período inmediatamente anterior. Medir «porcentaje de aspirantes reordenados por el nuevo criterio, con trazabilidad de las actuaciones respectivas» o «cantidad de llamadas recibidas de familias influyentes, con contrastes por curso, jornada y sede, comparado con las metas aprobadas para el período» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "solicitantes Marco de estudio: Ley 115 de 1994, criterios de cupos; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 953,
+      "originalId": 113,
+      "sourceExam": 7,
+      "situationId": "S7-36",
+      "competency": "Valoración probatoria",
+      "text": "En el supuesto de «Criterios de cupo cambiados después de conocer solicitantes», para comprobar el supuesto decisivo del caso, ¿qué conjunto de soportes sería más pertinente?",
+      "options": [
+        "Versiones de criterios, fechas, motivación del cambio y número de expedientes que favorece la prioridad introducida",
+        "Versiones de criterios, fechas, motivación del cambio y aplicación equitativa",
+        "Versiones de criterios, apoyo ciudadano que tiene la familia beneficiaria y aplicación equitativa"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: versiones de criterios, fechas, motivación del cambio y aplicación equitativa. La evidencia «versiones de criterios, fechas, motivación del cambio y número de expedientes que favorece la prioridad introducida» aporta un dato lateral, mientras «versiones de criterios, apoyo ciudadano que tiene la familia beneficiaria y aplicación equitativa» no acredita el hecho decisivo.",
+      "legalBasis": "solicitantes Marco de estudio: Ley 115 de 1994, criterios de cupos; Decreto 1075 de 2015",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 954,
+      "originalId": 114,
+      "sourceExam": 7,
+      "situationId": "S7-37",
+      "competency": "Control y resultados",
+      "text": "En la controversia descrita en «Protocolo que deja sin acceso a apoyos», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Evacuación segura de toda la comunidad con apoyos previstos, con revisión de sedes y responsables, comparado con las metas aprobadas para el período",
+        "Rapidez del grupo que no requiere ajustes, en comparación con el período inmediatamente anterior, considerando diferencias iniciales de contexto",
+        "Cantidad de estudiantes que alcanzó la escalera principal, con perspectiva de continuidad del servicio, según períodos escolares comparables"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: evacuación segura de toda la comunidad con apoyos previstos, con revisión de sedes y responsables, comparado con las metas aprobadas para el período. Medir «rapidez del grupo que no requiere ajustes, en comparación con el período inmediatamente anterior, considerando diferencias iniciales de contexto» o «cantidad de estudiantes que alcanzó la escalera principal, con perspectiva de continuidad del servicio, según períodos escolares comparables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Gestión del riesgo; Decreto 1421 de 2017",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 955,
+      "originalId": 115,
+      "sourceExam": 7,
+      "situationId": "S7-37",
+      "competency": "Valoración probatoria",
+      "text": "En relación con «Protocolo que deja sin acceso a apoyos», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Necesidades de apoyo, rutas, responsables formados y tiempo promedio de descenso de quienes usan escaleras",
+        "Necesidades de apoyo, número de señales luminosas instaladas en pasillos y contingencias de dispositivos",
+        "Necesidades de apoyo, rutas, responsables formados y contingencias de dispositivos"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: necesidades de apoyo, rutas, responsables formados y contingencias de dispositivos. La evidencia «necesidades de apoyo, rutas, responsables formados y tiempo promedio de descenso de quienes usan escaleras» aporta un dato lateral, mientras «necesidades de apoyo, número de señales luminosas instaladas en pasillos y contingencias de dispositivos» no acredita el hecho decisivo.",
+      "legalBasis": "Gestión del riesgo; Decreto 1421 de 2017",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 956,
+      "originalId": 116,
+      "sourceExam": 7,
+      "situationId": "S7-37",
+      "competency": "Actuación rectoral",
+      "text": "Si se examina «Protocolo que deja sin acceso a apoyos», frente a los argumentos contrapuestos, ¿qué decisión puede justificarse con mayor solidez?",
+      "options": [
+        "Analizar las implicaciones y exigir a los estudiantes que esperen solos el restablecimiento eléctrico como excepción",
+        "Definir asistencia y rutas accesibles verificadas antes de aplicar un protocolo universal no viable",
+        "Consultar la información disponible y delegar el traslado a compañeros menores sin equipos ni coordinación de seguridad"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque definir asistencia y rutas accesibles verificadas antes de aplicar un protocolo universal no viable. La primera alternativa rival propone analizar las implicaciones y exigir a los estudiantes que esperen solos el restablecimiento eléctrico como excepción, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y delegar el traslado a compañeros menores sin equipos ni coordinación de seguridad, pero no sustituye la actuación competente.",
+      "legalBasis": "Gestión del riesgo; Decreto 1421 de 2017",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 957,
+      "originalId": 117,
+      "sourceExam": 7,
+      "situationId": "S7-38",
+      "competency": "Control y resultados",
+      "text": "Para analizar «Notificación a correo desactualizado», ¿Qué indicador resulta más coherente con el riesgo que se pretende evitar?",
+      "options": [
+        "Actuaciones comunicadas por canal válido con garantías de respuesta, con perspectiva de continuidad del servicio, con trazabilidad de las actuaciones respectivas",
+        "Porcentaje de notificaciones enviadas sin rebote, con revisión de sedes y responsables, según series temporales y registros de seguimiento",
+        "Tiempo transcurrido desde el primer correo fallido, con contrastes por curso, jornada y sede, con una revisión posterior de consistencia"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: actuaciones comunicadas por canal válido con garantías de respuesta, con perspectiva de continuidad del servicio, con trazabilidad de las actuaciones respectivas. Medir «tiempo transcurrido desde el primer correo fallido, con contrastes por curso, jornada y sede, con una revisión posterior de consistencia» o «porcentaje de notificaciones enviadas sin rebote, con revisión de sedes y responsables, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Garantías administrativas de notificación y derecho de petición",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 958,
+      "originalId": 118,
+      "sourceExam": 7,
+      "situationId": "S7-38",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Notificación a correo desactualizado», ¿Cuál intervención protege mejor la finalidad educativa sin exceder atribuciones?",
+      "options": [
+        "Verificar datos y condiciones de notificación antes de computar efectos del trámite",
+        "Establecer seguimiento y dar por surtida la notificación porque la institución conserva copia del correo enviado",
+        "Consultar la información disponible y exigir a la familia vigilar permanentemente todos los correos usados históricamente"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque verificar datos y condiciones de notificación antes de computar efectos del trámite. La primera alternativa rival propone establecer seguimiento y dar por surtida la notificación porque la institución conserva copia del correo enviado, lo cual omite un requisito del contexto. La otra propone consultar la información disponible y exigir a la familia vigilar permanentemente todos los correos usados históricamente, pero no sustituye la actuación competente.",
+      "legalBasis": "Garantías administrativas de notificación y derecho de petición",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 959,
+      "originalId": 119,
+      "sourceExam": 7,
+      "situationId": "S7-38",
+      "competency": "Valoración probatoria",
+      "text": "En el escenario de «Notificación a correo desactualizado», ¿Qué soporte aportaría mayor valor para fundamentar y revisar la decisión?",
+      "options": [
+        "Solicitud de actualización, canal aplicado, constancias de envío y recepción exigibles",
+        "Solicitud de actualización, número de correos acumulados en el expediente y recepción exigibles",
+        "Solicitud de actualización, canal aplicado, constancias de envío y captura de pantalla de la bandeja de salida del funcionario"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: solicitud de actualización, canal aplicado, constancias de envío y recepción exigibles. La evidencia «solicitud de actualización, canal aplicado, constancias de envío y captura de pantalla de la bandeja de salida del funcionario» aporta un dato lateral, mientras «solicitud de actualización, número de correos acumulados en el expediente y recepción exigibles» no acredita el hecho decisivo.",
+      "legalBasis": "Garantías administrativas de notificación y derecho de petición",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 960,
+      "originalId": 120,
+      "sourceExam": 7,
+      "situationId": "S7-39",
+      "competency": "Actuación rectoral",
+      "text": "Sobre «Informe negativo redactado por tercero», ¿Cuál actuación separa correctamente la urgencia del procedimiento obligatorio? Considere como marco Ley 715 de 2001, artículo 10; deber de veracidad en reportes.",
+      "options": [
+        "Revisar soportes y firmar de inmediato porque la coordinación tiene contacto directo con las situaciones",
+        "Contrastar registros y precisar hechos, fuentes y competencia antes de remitir un informe firmado",
+        "Valorar condiciones locales y rechazar toda novedad hasta contar con sentencia judicial sobre cada hecho narrado"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque contrastar registros y precisar hechos, fuentes y competencia antes de remitir un informe firmado. La primera alternativa rival propone revisar soportes y firmar de inmediato porque la coordinación tiene contacto directo con las situaciones, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y rechazar toda novedad hasta contar con sentencia judicial sobre cada hecho narrado, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; deber de veracidad en reportes",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 961,
+      "originalId": 121,
+      "sourceExam": 7,
+      "situationId": "S7-39",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Informe negativo redactado por tercero», el PMI incorpora seguimiento al caso. ¿Cuál medida informaría mejor una corrección?",
+      "options": [
+        "Tiempo mínimo entre recepción del borrador y firma, con desagregación por grupos relevantes, con perspectiva de continuidad del servicio",
+        "Cantidad de señalamientos incluidos en un único documento, según series temporales y registros de seguimiento",
+        "Reportes institucionales exactos, trazables y emitidos por autoridad competente, según períodos escolares comparables"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: reportes institucionales exactos, trazables y emitidos por autoridad competente, según períodos escolares comparables. Medir «tiempo mínimo entre recepción del borrador y firma, con desagregación por grupos relevantes, con perspectiva de continuidad del servicio» o «cantidad de señalamientos incluidos en un único documento, según series temporales y registros de seguimiento» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; deber de veracidad en reportes",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 962,
+      "originalId": 122,
+      "sourceExam": 7,
+      "situationId": "S7-39",
+      "competency": "Valoración probatoria",
+      "text": "Para analizar «Informe negativo redactado por tercero», ante una objeción técnica del consejo, ¿qué información debería prevalecer?",
+      "options": [
+        "Registros de servicio, explicaciones pertinentes y historial de quejas de otros grados sobre la misma persona",
+        "Registros de servicio, explicaciones pertinentes y trazabilidad de novedades verificadas",
+        "Registros de servicio, número de correos remitidos por coordinación sin anexos y trazabilidad de novedades verificadas"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: registros de servicio, explicaciones pertinentes y trazabilidad de novedades verificadas. La evidencia «registros de servicio, explicaciones pertinentes y historial de quejas de otros grados sobre la misma persona» aporta un dato lateral, mientras «registros de servicio, número de correos remitidos por coordinación sin anexos y trazabilidad de novedades verificadas» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 715 de 2001, artículo 10; deber de veracidad en reportes",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 963,
+      "originalId": 123,
+      "sourceExam": 7,
+      "situationId": "S7-40",
+      "competency": "Actuación rectoral",
+      "text": "Respecto de «Consentimiento parental usado para negar ruta», ¿Qué curso de acción debe priorizarse ante la tensión planteada? Considere como marco Ley 1098 de 2006; Ley 1620 de 2013.",
+      "options": [
+        "Analizar las implicaciones y aplazar cualquier acción hasta que el estudiante alcance mayoría de edad o denuncie personalmente",
+        "Documentar el trámite y aceptar el compromiso porque los acudientes ejercen representación legal y conocen el caso",
+        "Cumplir deberes de protección y articulación competentes aun frente a solicitud de reserva improcedente"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque cumplir deberes de protección y articulación competentes aun frente a solicitud de reserva improcedente. La primera alternativa rival propone documentar el trámite y aceptar el compromiso porque los acudientes ejercen representación legal y conocen el caso, lo cual omite un requisito del contexto. La otra propone analizar las implicaciones y aplazar cualquier acción hasta que el estudiante alcance mayoría de edad o denuncie personalmente, pero no sustituye la actuación competente.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 964,
+      "originalId": 124,
+      "sourceExam": 7,
+      "situationId": "S7-40",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Consentimiento parental usado para negar ruta», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Hechos de riesgo, encuesta de confianza familiar en el colegio y resguardos de confidencialidad",
+        "Hechos de riesgo, obligaciones de reporte y resguardos de confidencialidad",
+        "Hechos de riesgo, obligaciones de reporte y carta de la familia solicitando reserva absoluta"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: hechos de riesgo, obligaciones de reporte y resguardos de confidencialidad. La evidencia «hechos de riesgo, obligaciones de reporte y carta de la familia solicitando reserva absoluta» aporta un dato lateral, mientras «hechos de riesgo, encuesta de confianza familiar en el colegio y resguardos de confidencialidad» no acredita el hecho decisivo.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 965,
+      "originalId": 125,
+      "sourceExam": 7,
+      "situationId": "S7-40",
+      "competency": "Control y resultados",
+      "text": "En el supuesto de «Consentimiento parental usado para negar ruta», ¿Cuál medida ofrece mejor información para rendir cuentas sobre el caso?",
+      "options": [
+        "Porcentaje de casos que se mantiene fuera de ruta, con contrastes por curso, jornada y sede, en relación con la decisión adoptada",
+        "Número de acuerdos privados de silencio firmados, con perspectiva de continuidad del servicio, en comparación con el período inmediatamente anterior",
+        "Protección oportuna con actuaciones acordes a deberes institucionales, según series temporales y registros de seguimiento"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: protección oportuna con actuaciones acordes a deberes institucionales, según series temporales y registros de seguimiento. Medir «número de acuerdos privados de silencio firmados, con perspectiva de continuidad del servicio, en comparación con el período inmediatamente anterior» o «porcentaje de casos que se mantiene fuera de ruta, con contrastes por curso, jornada y sede, en relación con la decisión adoptada» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Ley 1098 de 2006; Ley 1620 de 2013",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 966,
+      "originalId": 126,
+      "sourceExam": 7,
+      "situationId": "S7-41",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Equivalencia falaz entre gasto y calidad», ¿Cuál señal distingue de manera más útil impacto institucional y simple actividad?",
+      "options": [
+        "Mayor gasto nominal por estudiante, con desagregación por grupos relevantes, con perspectiva de continuidad del servicio",
+        "Cantidad de contratos firmados para dotación, según períodos escolares comparables, con trazabilidad de las actuaciones respectivas",
+        "Conclusiones sustentadas en relación entre recursos, contexto y resultados, comparado con las metas aprobadas para el período"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: conclusiones sustentadas en relación entre recursos, contexto y resultados, comparado con las metas aprobadas para el período. Medir «mayor gasto nominal por estudiante, con desagregación por grupos relevantes, con perspectiva de continuidad del servicio» o «cantidad de contratos firmados para dotación, según períodos escolares comparables, con trazabilidad de las actuaciones respectivas» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Lectura crítica, inferencia y comparación de indicadores",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 967,
+      "originalId": 127,
+      "sourceExam": 7,
+      "situationId": "S7-41",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Equivalencia falaz entre gasto y calidad», ¿Cuál opción articula de manera más apropiada la función rectoral con el problema?",
+      "options": [
+        "Documentar el trámite y aceptar la conclusión porque el gasto por persona controla automáticamente el tamaño escolar",
+        "Examinar antecedentes y reemplazar el gasto por total de estudiantes y mantener idéntica conclusión causal",
+        "Cuestionar la inferencia porque el insumo monetario no determina por sí solo calidad de aprendizaje"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque cuestionar la inferencia porque el insumo monetario no determina por sí solo calidad de aprendizaje. La primera alternativa rival propone documentar el trámite y aceptar la conclusión porque el gasto por persona controla automáticamente el tamaño escolar, lo cual omite un requisito del contexto. La otra propone examinar antecedentes y reemplazar el gasto por total de estudiantes y mantener idéntica conclusión causal, pero no sustituye la actuación competente.",
+      "legalBasis": "Lectura crítica, inferencia y comparación de indicadores",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 968,
+      "originalId": 128,
+      "sourceExam": 7,
+      "situationId": "S7-41",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Equivalencia falaz entre gasto y calidad», ¿Qué información distingue mejor un trámite válido de una solución aparente?",
+      "options": [
+        "Resultados de aprendizaje, costos ajustados y diferencias de necesidades educativas",
+        "Resultados de aprendizaje, número de publicaciones sobre inversiones recientes y diferencias de necesidades educativas",
+        "Resultados de aprendizaje, costos ajustados y monto total ejecutado por institución sin contexto"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: resultados de aprendizaje, costos ajustados y diferencias de necesidades educativas. La evidencia «resultados de aprendizaje, costos ajustados y monto total ejecutado por institución sin contexto» aporta un dato lateral, mientras «resultados de aprendizaje, número de publicaciones sobre inversiones recientes y diferencias de necesidades educativas» no acredita el hecho decisivo.",
+      "legalBasis": "Lectura crítica, inferencia y comparación de indicadores",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 969,
+      "originalId": 129,
+      "sourceExam": 7,
+      "situationId": "S7-42",
+      "competency": "Control y resultados",
+      "text": "Sobre «Garantía de calidad omitida en recepción», ante tres indicadores disponibles, ¿cuál se relaciona de modo más directo con el objetivo?",
+      "options": [
+        "Pagos soportados en bienes recibidos conforme a lo contratado, con trazabilidad de las actuaciones respectivas",
+        "Número de facturas radicadas durante la vigencia, con desagregación por grupos relevantes, con contrastes por curso, jornada y sede",
+        "Porcentaje de paquetes que llegó en fecha, con una revisión posterior de consistencia, tras excluir registros duplicados y atípicos justificados"
+      ],
+      "correct": 0,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: pagos soportados en bienes recibidos conforme a lo contratado, con trazabilidad de las actuaciones respectivas. Medir «porcentaje de paquetes que llegó en fecha, con una revisión posterior de consistencia, tras excluir registros duplicados y atípicos justificados» o «número de facturas radicadas durante la vigencia, con desagregación por grupos relevantes, con contrastes por curso, jornada y sede» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Decreto 1075 de 2015, gestión del FSE y contratación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 970,
+      "originalId": 130,
+      "sourceExam": 7,
+      "situationId": "S7-42",
+      "competency": "Actuación rectoral",
+      "text": "En la controversia descrita en «Garantía de calidad omitida en recepción», ¿Cuál opción articula de manera más apropiada la función rectoral con el problema?",
+      "options": [
+        "Revisar soportes y retener definitivamente el pago sin comunicar observaciones o tramitar verificación",
+        "Consultar la información disponible y firmar recibido a satisfacción porque el proveedor entregó todos los empaques previstos",
+        "Comprobar cumplimiento técnico y soportes de recepción antes de certificar satisfacción y pagar"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque comprobar cumplimiento técnico y soportes de recepción antes de certificar satisfacción y pagar. La primera alternativa rival propone consultar la información disponible y firmar recibido a satisfacción porque el proveedor entregó todos los empaques previstos, lo cual omite un requisito del contexto. La otra propone revisar soportes y retener definitivamente el pago sin comunicar observaciones o tramitar verificación, pero no sustituye la actuación competente.",
+      "legalBasis": "Decreto 1075 de 2015, gestión del FSE y contratación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 971,
+      "originalId": 131,
+      "sourceExam": 7,
+      "situationId": "S7-42",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Garantía de calidad omitida en recepción», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Contrato, pruebas de funcionamiento, garantías y acta de recepción sustentada",
+        "Contrato, fecha de emisión de la factura y plazo comercial de descuento y acta de recepción sustentada",
+        "Contrato, pruebas de funcionamiento, garantías y número de cajas entregadas según guía del transportador"
+      ],
+      "correct": 0,
+      "explanation": "El soporte discriminante es: contrato, pruebas de funcionamiento, garantías y acta de recepción sustentada. La evidencia «contrato, pruebas de funcionamiento, garantías y número de cajas entregadas según guía del transportador» aporta un dato lateral, mientras «contrato, fecha de emisión de la factura y plazo comercial de descuento y acta de recepción sustentada» no acredita el hecho decisivo.",
+      "legalBasis": "Decreto 1075 de 2015, gestión del FSE y contratación",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 972,
+      "originalId": 132,
+      "sourceExam": 7,
+      "situationId": "S7-43",
+      "competency": "Actuación rectoral",
+      "text": "En relación con «Decisión condicionada a la abstención del presidente», ¿Cuál intervención protege mejor la finalidad educativa sin exceder atribuciones?",
+      "options": [
+        "Analizar las implicaciones y presidir y votar normalmente porque el beneficiario no es miembro formal del consejo",
+        "Contrastar posiciones y retirar del acta toda mención al vínculo para que la decisión parezca independiente",
+        "Examinar conflicto y medidas de imparcialidad de quienes intervienen antes de formalizar la decisión"
+      ],
+      "correct": 2,
+      "explanation": "La alternativa elegida es superior porque examinar conflicto y medidas de imparcialidad de quienes intervienen antes de formalizar la decisión. La primera alternativa rival propone analizar las implicaciones y presidir y votar normalmente porque el beneficiario no es miembro formal del consejo, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y retirar del acta toda mención al vínculo para que la decisión parezca independiente, pero no sustituye la actuación competente.",
+      "legalBasis": "Principios de imparcialidad y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 973,
+      "originalId": 133,
+      "sourceExam": 7,
+      "situationId": "S7-43",
+      "competency": "Control y resultados",
+      "text": "A propósito del caso «Decisión condicionada a la abstención del presidente», ¿Qué indicador permitiría valorar mejor el resultado sustantivo de la actuación?",
+      "options": [
+        "Porcentaje de intervenciones favorables al rector, según períodos escolares comparables, con contrastes por curso, jornada y sede",
+        "Decisiones adoptadas tras control oportuno de conflictos de interés, en relación con la decisión adoptada, comparado con las metas aprobadas para el período",
+        "Cantidad de proyectos impulsados por asociaciones aliadas, con revisión de sedes y responsables, con perspectiva de continuidad del servicio"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: decisiones adoptadas tras control oportuno de conflictos de interés, en relación con la decisión adoptada, comparado con las metas aprobadas para el período. Medir «cantidad de proyectos impulsados por asociaciones aliadas, con revisión de sedes y responsables, con perspectiva de continuidad del servicio» o «porcentaje de intervenciones favorables al rector, según períodos escolares comparables, con contrastes por curso, jornada y sede» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Principios de imparcialidad y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 974,
+      "originalId": 134,
+      "sourceExam": 7,
+      "situationId": "S7-43",
+      "competency": "Valoración probatoria",
+      "text": "Respecto de «Decisión condicionada a la abstención del presidente», ¿Cuál de las fuentes ofrecidas permitiría discriminar mejor entre las versiones?",
+      "options": [
+        "Vínculos relevantes, objeto de la decisión, intervención de cada miembro y declaración pública de apoyo de la asociación al proyecto",
+        "Vínculos relevantes, conteo de miembros que considera innecesario registrar impedimentos y medidas adoptadas",
+        "Vínculos relevantes, objeto de la decisión, intervención de cada miembro y medidas adoptadas"
+      ],
+      "correct": 2,
+      "explanation": "El soporte discriminante es: vínculos relevantes, objeto de la decisión, intervención de cada miembro y medidas adoptadas. La evidencia «vínculos relevantes, objeto de la decisión, intervención de cada miembro y declaración pública de apoyo de la asociación al proyecto» aporta un dato lateral, mientras «vínculos relevantes, conteo de miembros que considera innecesario registrar impedimentos y medidas adoptadas» no acredita el hecho decisivo.",
+      "legalBasis": "Principios de imparcialidad y gobierno escolar",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 975,
+      "originalId": 135,
+      "sourceExam": 7,
+      "situationId": "S7-44",
+      "competency": "Valoración probatoria",
+      "text": "Sobre «Meta de equidad tratada como promedio», para auditar el procedimiento, ¿qué registro es directamente pertinente?",
+      "options": [
+        "Series por sede, número de campañas generales de asistencia y al cierre",
+        "Series por sede, pesos de matrícula y brechas al inicio y al cierre",
+        "Series por sede, pesos de matrícula, brechas al inicio y promedio institucional sin información territorial"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: series por sede, pesos de matrícula y brechas al inicio y al cierre. La evidencia «series por sede, pesos de matrícula, brechas al inicio y promedio institucional sin información territorial» aporta un dato lateral, mientras «series por sede, número de campañas generales de asistencia y al cierre» no acredita el hecho decisivo.",
+      "legalBasis": "Resolución 003842 de 2022, planeación y gestión de calidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 976,
+      "originalId": 136,
+      "sourceExam": 7,
+      "situationId": "S7-44",
+      "competency": "Control y resultados",
+      "text": "Para la situación «Meta de equidad tratada como promedio», ¿Qué registro de desempeño permitiría evaluar una respuesta efectiva?",
+      "options": [
+        "Aumento del promedio sin examinar sedes, comparado con las metas aprobadas para el período, considerando diferencias iniciales de contexto",
+        "Cantidad de estudiantes asistentes en sede mayor, con perspectiva de continuidad del servicio, según períodos escolares comparables",
+        "Mejora agregada compatible con reducción de brechas prioritarias, comparado con las metas aprobadas para el período"
+      ],
+      "correct": 2,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: mejora agregada compatible con reducción de brechas prioritarias, comparado con las metas aprobadas para el período. Medir «aumento del promedio sin examinar sedes, comparado con las metas aprobadas para el período, considerando diferencias iniciales de contexto» o «cantidad de estudiantes asistentes en sede mayor, con perspectiva de continuidad del servicio, según períodos escolares comparables» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Resolución 003842 de 2022, planeación y gestión de calidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 977,
+      "originalId": 137,
+      "sourceExam": 7,
+      "situationId": "S7-44",
+      "competency": "Actuación rectoral",
+      "text": "En el escenario de «Meta de equidad tratada como promedio», ¿Qué propuesta resolvería el problema sin transformar una excepción en regla?",
+      "options": [
+        "Evaluar conjuntamente promedio y desigualdad entre sedes para redefinir prioridades",
+        "Valorar condiciones locales y centrar recursos en sede urbana por aportar más matrículas al promedio agregado",
+        "Contrastar posiciones y considerar cumplida la meta de equidad porque aumentó el promedio institucional"
+      ],
+      "correct": 0,
+      "explanation": "La alternativa elegida es superior porque evaluar conjuntamente promedio y desigualdad entre sedes para redefinir prioridades. La primera alternativa rival propone contrastar posiciones y considerar cumplida la meta de equidad porque aumentó el promedio institucional, lo cual omite un requisito del contexto. La otra propone valorar condiciones locales y centrar recursos en sede urbana por aportar más matrículas al promedio agregado, pero no sustituye la actuación competente.",
+      "legalBasis": "Resolución 003842 de 2022, planeación y gestión de calidad",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 978,
+      "originalId": 138,
+      "sourceExam": 7,
+      "situationId": "S7-45",
+      "competency": "Valoración probatoria",
+      "text": "Si se examina «Denuncia que compromete al equipo investigador», ¿Cuál material respalda una respuesta institucional motivada?",
+      "options": [
+        "Cadena de custodia documental, roles, conflictos y listado de funcionarios que manifiesta confianza en el equipo",
+        "Cadena de custodia documental, roles, conflictos y autoridad para verificar",
+        "Cadena de custodia documental, memorando de quienes redactaron la versión cuestionada y autoridad para verificar"
+      ],
+      "correct": 1,
+      "explanation": "El soporte discriminante es: cadena de custodia documental, roles, conflictos y autoridad para verificar. La evidencia «cadena de custodia documental, roles, conflictos y listado de funcionarios que manifiesta confianza en el equipo» aporta un dato lateral, mientras «cadena de custodia documental, memorando de quienes redactaron la versión cuestionada y autoridad para verificar» no acredita el hecho decisivo.",
+      "legalBasis": "Principios de imparcialidad, integridad documental y debido proceso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 979,
+      "originalId": 139,
+      "sourceExam": 7,
+      "situationId": "S7-45",
+      "competency": "Control y resultados",
+      "text": "Si se examina «Denuncia que compromete al equipo investigador», ¿Qué variable debería ocupar un lugar central en el tablero de control?",
+      "options": [
+        "Número de testimonios favorables al equipo cuestionado, en relación con la decisión adoptada, comparado con las metas aprobadas para el período",
+        "Verificaciones independientes y conservación íntegra de documentos, tras excluir registros duplicados y atípicos justificados",
+        "Velocidad del cierre administrativo de la queja, en comparación con el período inmediatamente anterior, considerando diferencias iniciales de contexto"
+      ],
+      "correct": 1,
+      "explanation": "El indicador elegido observa el objetivo sustantivo: verificaciones independientes y conservación íntegra de documentos, tras excluir registros duplicados y atípicos justificados. Medir «velocidad del cierre administrativo de la queja, en comparación con el período inmediatamente anterior, considerando diferencias iniciales de contexto» o «número de testimonios favorables al equipo cuestionado, en relación con la decisión adoptada, comparado con las metas aprobadas para el período» podría describir actividad, sin demostrar por sí solo el resultado.",
+      "legalBasis": "Principios de imparcialidad, integridad documental y debido proceso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
+    },
+    {
+      "id": 980,
+      "originalId": 140,
+      "sourceExam": 7,
+      "situationId": "S7-45",
+      "competency": "Actuación rectoral",
+      "text": "En el supuesto de «Denuncia que compromete al equipo investigador», ¿Cuál opción ofrece la secuencia más defendible de actuación institucional?",
+      "options": [
+        "Contrastar posiciones y aceptar la revisión interna del equipo señalado porque conoce todos los archivos",
+        "Separar a posibles involucrados de la verificación y preservar evidencia con ruta competente",
+        "Contrastar posiciones y destruir copias contradictorias para impedir que la discusión perjudique la institución"
+      ],
+      "correct": 1,
+      "explanation": "La alternativa elegida es superior porque separar a posibles involucrados de la verificación y preservar evidencia con ruta competente. La primera alternativa rival propone contrastar posiciones y aceptar la revisión interna del equipo señalado porque conoce todos los archivos, lo cual omite un requisito del contexto. La otra propone contrastar posiciones y destruir copias contradictorias para impedir que la discusión perjudique la institución, pero no sustituye la actuación competente.",
+      "legalBasis": "Principios de imparcialidad, integridad documental y debido proceso",
+      "incident": "El documento original se declara borrador sujeto a auditoría; revisión de distractores pendiente. Clave conservada según el solucionario.",
+      "sourceStatus": "draft"
     }
   ]
 };

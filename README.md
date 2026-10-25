@@ -1,5 +1,9 @@
 # Rectoría · preparación para el concurso
 
+Banco vigente: **980 preguntas, 295 situaciones y siete simulacros**. Los simulacros 5–7 se incorporaron desde sus ediciones `REVISION`: sus portadas los identifican como borradores sujetos a auditoría de distractores. Esa condición aparece en la retroalimentación y la biblioteca. Se cotejó la letra de cada clave con el texto de la alternativa original; no se han cambiado respuestas ni certificado su vigencia jurídica.
+
+Todas las sesiones seleccionan aleatoriamente del banco completo; los ciclos de Mao y Nata conservan sus preguntas utilizadas anteriores y suman las 420 nuevas como disponibles. Un ciclo completo permite siete pruebas de 140 sin repetir. Refuerzo permite repetir errores para repasarlos. La duración de cada sesión sigue siendo proporcional a cuatro horas para 140 preguntas.
+
 Tiempo de las sesiones nuevas (todas las modalidades): 20 preguntas, 34 min 17 s; 40, 1 h 8 min 34 s; 70, 2 h; 140, 4 h. Los límites proporcionales se redondean al segundo más cercano y se calculan con la cantidad real de ítems. La cuenta regresiva continúa al cerrar la app. Al volver después del vencimiento, se registra la finalización con las respuestas guardadas y el instante exacto del límite. Las sesiones antiguas iniciadas antes de esta actualización conservan el reloj anterior para evitar cierres inesperados. Los intentos ya finalizados no cambian.
 
 Identidad visual: marca «Progreso ascendente», con tres planos que evocan páginas y una flecha, en morado y grafito. Incluye SVG escalable, favicon e íconos PNG para pantalla de inicio. En iPhone: abre la app en Safari, toca **Compartir → Añadir a pantalla de inicio**. Si ya tenías un acceso anterior, puedes volver a añadirlo para renovar su ícono. La marca también está incorporada dentro del HTML autocontenido.

@@ -1,5 +1,13 @@
 # Informe de controles e incidencias
 
+## Simulacros 5–7: ediciones REVISION
+
+Total vigente: 980 preguntas y 295 situaciones. Los 420 ítems nuevos tienen tres alternativas y una única letra de respuesta. Se verificó el número de pregunta y la coincidencia literal de la alternativa elegida con el apartado «Clave» del solucionario (normalizando espacios de maquetación). No existe en estas ediciones una tabla general independiente para un segundo cotejo de letras. Los títulos partidos entre renglones se reconstruyeron contrastando ambos PDF.
+
+Los originales se declaran borradores con auditoría de distractores pendiente. Se conserva esta incidencia en cada ítem nuevo; sus explicaciones se reproducen completas, incluido el análisis de alternativas cuando viene dentro del mismo párrafo. Las etiquetas del solucionario se conservan como clasificación interna para resultados, sin modificar la selección aleatoria. No se detectaron duplicados integrales de premisa, enunciado y alternativas entre los 980 ítems. Las referencias de estudio no constituyen una verificación externa de vigencia.
+
+Se mantienen los identificadores 1–560, por lo que las respuestas, marcas, historial y ciclo previos siguen correspondiendo a las mismas preguntas. Los nuevos identificadores son 561–980.
+
 ## Ampliación a cuatro simulacros
 
 Banco actual: **560 preguntas y 160 situaciones**. Se incorporaron los cuadernillos y solucionarios 2, 3 y 4. Se cotejaron automáticamente sus 420 enunciados con los correspondientes solucionarios y sus 420 claves detalladas con las tablas generales. Cada ítem conserva sus tres alternativas, explicaciones por opción y referencia de estudio. No se detectaron duplicados integrales (situación, enunciado y alternativas); los enunciados genéricos repetidos en casos distintos se conservan.
