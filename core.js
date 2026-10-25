@@ -43,7 +43,8 @@
     for (let i = result.length - 1; i > 0; i--) { const j = Math.floor(random() * (i + 1)); [result[i], result[j]] = [result[j], result[i]]; }
     return result;
   }
-  const api = { validateBank, score, shuffle };
+  const timeLimitMs = count => Math.round(count * 4 * 60 * 60 / 140) * 1000;
+  const api = { validateBank, score, shuffle, timeLimitMs };
   if (typeof module !== 'undefined') module.exports = api;
   root.RectoriaCore = api;
 })(typeof window === 'undefined' ? globalThis : window);

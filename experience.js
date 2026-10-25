@@ -22,6 +22,16 @@
  function enhance(){
    const s=state();if(!s)return;const name=active(),info=stats(s),total=window.RECTORIA_BANK.questions.length;
    const page=(location.hash.slice(1)||'inicio').split('/')[0];
+   if(page==='practicar'){
+     const count=document.getElementById('count'),form=document.getElementById('start-form');
+     const note=form?.querySelector('p');
+     const update=()=>{if(note){const ms=window.RectoriaCore.timeLimitMs(Number(count.value)),sec=Math.round(ms/1000);note.textContent=`Límite: ${Math.floor(sec/3600)} h ${Math.floor(sec%3600/60)} min ${sec%60} s. Proporcional a 4 horas para 140 preguntas. Se aplica a todas las modalidades y sigue corriendo al cerrar la app. En refuerzo se ajusta a la cantidad real de preguntas.`;}};
+     if(count){count.addEventListener('change',update);update();}
+   }
+   if(page==='resultados'){
+     const id=location.hash.split('/')[1],a=id?s.attempts.find(a=>a.id===id):s.attempts.at(-1);
+     if(a?.timedOut){const notice=document.createElement('p');notice.className='notice';notice.textContent='Sesión finalizada automáticamente por tiempo agotado. Las preguntas pendientes se incluyen como no acertadas.';app.querySelector('.heading').append(notice);}
+   }
    document.body.classList.toggle('focus-study',page==='examen');
    const picker=document.querySelector('.profile-picker');if(picker&&!picker.parentElement.querySelector('.profile-trigger')){picker.classList.add('accessible-picker');const button=document.createElement('button');button.className='profile-trigger';button.innerHTML=`<span class="avatar small">${name[0]}</span><span>${name}<small>Cambiar perfil</small></span><span>⌄</span>`;button.setAttribute('aria-label',`Perfil ${name}. Cambiar perfil`);button.onclick=profileDialog;picker.before(button);}
    if(page==='inicio'){
