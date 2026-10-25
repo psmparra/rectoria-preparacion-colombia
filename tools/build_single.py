@@ -5,12 +5,12 @@ def read(name):
     return (root / name).read_text(encoding='utf-8')
 
 html = read('index.html')
-css = read('styles.css')
+css = read('styles.css') + read('experience.css')
 icons = read('icons.js')
 bank = read('bank.js')
 core = read('core.js')
 app = read('app.js')
-enhancements = read('enhancements.js')
+enhancements = read('enhancements.js') + '\n' + read('experience.js')
 
 body = '''<!doctype html>
 <html lang="es">

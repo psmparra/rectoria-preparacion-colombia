@@ -12,7 +12,7 @@ assert.equal(score(bank.questions.slice(0,140),Object.fromEntries(bank.questions
  for(let i=0;i<4;i++){
    await page.goto('http://127.0.0.1:8017/#practicar');await page.selectOption('#count','140');await page.locator('#start-form button').click();await page.waitForSelector('.question-text');
    const s=await page.evaluate(()=>JSON.parse(localStorage.getItem('rectoria.v1')).profiles.Mao.session);assert.equal(s.ids.length,140);for(const id of s.ids){assert.ok(!seen.has(id),'Repetición dentro del ciclo');seen.add(id);}
-   await page.locator('[data-action="finish"]').click();await page.waitForSelector('.stats');
+   await page.locator('.journey-toggle').click();await page.locator('[data-action="finish"]').click();await page.waitForSelector('.stats');
  }
  assert.equal(seen.size,560);await page.selectOption('#profile-select','Nata');await page.reload();assert.equal(await page.locator('#profile-select').inputValue(),'Nata');
  await page.goto('http://127.0.0.1:8017/#practicar');assert.ok((await page.locator('main').innerText()).includes('Nata: 560'));

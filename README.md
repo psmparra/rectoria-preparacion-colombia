@@ -1,5 +1,9 @@
 # Rectoría · preparación para el concurso
 
+La nueva interfaz incluye inicio personalizado con acceso directo a 20 preguntas, avance del ciclo, racha y resumen de los últimos siete días. Cambia entre Mao y Nata con **Cambiar perfil**, en la parte superior. Durante una prueba, abre **Ver recorrido y finalizar sesión** para saltar a un ítem o terminar. La biblioteca añade **Sin practicar**; las vistas previas no consumen preguntas del ciclo. Resultados muestra aciertos, errores, pendientes, tiempo y comparación orientativa con el intento anterior. El tiempo incluye pausas desde el inicio de la sesión.
+
+Los logros se calculan a partir de tus sesiones reales; no hay resultados de demostración. Las preguntas, claves y explicaciones originales se conservan. Validación de interfaz: `node tests/experience.cjs` (servidor en 8017).
+
 Actualización: banco de **560 preguntas** de cuatro simulacros originales. Cada perfil (Mao y Nata) tiene un ciclo independiente sin repeticiones en examen y estudio. La pantalla de práctica informa cuántas preguntas nuevas quedan. Al agotar el banco, se solicita confirmación para otro ciclo y se conserva el historial. El refuerzo puede repetir errores. Los primeros 140 identificadores se conservan para mantener compatibles los intentos anteriores.
 
 La selección aleatoria no separa ni ordena por competencia. Los tres nuevos PDF carecen de clasificación por ítem: en resultados se indica esa ausencia expresamente. Los originales completos se incluyen en `sources`.
