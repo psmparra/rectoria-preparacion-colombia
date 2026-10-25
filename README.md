@@ -1,5 +1,7 @@
 # Rectoría · preparación para el concurso
 
+Identidad visual: marca «Progreso ascendente», con tres planos que evocan páginas y una flecha, en morado y grafito. Incluye SVG escalable, favicon e íconos PNG para pantalla de inicio. En iPhone: abre la app en Safari, toca **Compartir → Añadir a pantalla de inicio**. Si ya tenías un acceso anterior, puedes volver a añadirlo para renovar su ícono. La marca también está incorporada dentro del HTML autocontenido.
+
 La nueva interfaz incluye inicio personalizado con acceso directo a 20 preguntas, avance del ciclo, racha y resumen de los últimos siete días. Cambia entre Mao y Nata con **Cambiar perfil**, en la parte superior. Durante una prueba, abre **Ver recorrido y finalizar sesión** para saltar a un ítem o terminar. La biblioteca añade **Sin practicar**; las vistas previas no consumen preguntas del ciclo. Resultados muestra aciertos, errores, pendientes, tiempo y comparación orientativa con el intento anterior. El tiempo incluye pausas desde el inicio de la sesión.
 
 Los logros se calculan a partir de tus sesiones reales; no hay resultados de demostración. Las preguntas, claves y explicaciones originales se conservan. Validación de interfaz: `node tests/experience.cjs` (servidor en 8017).

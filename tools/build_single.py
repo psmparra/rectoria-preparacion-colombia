@@ -1,4 +1,5 @@
 from pathlib import Path
+import base64
 
 root = Path(__file__).resolve().parents[1]
 def read(name):
@@ -6,6 +7,8 @@ def read(name):
 
 html = read('index.html')
 css = read('styles.css') + read('experience.css')
+logo_uri='data:image/svg+xml;base64,'+base64.b64encode((root/'assets/logo.svg').read_bytes()).decode()
+css=css.replace('assets/logo.svg',logo_uri)
 icons = read('icons.js')
 bank = read('bank.js')
 core = read('core.js')
@@ -24,5 +27,6 @@ body = '''<!doctype html>
 <div class="workspace"><header class="topbar"><span>Concurso de directivos docentes <span class="slash">/</span> <b>Rector</b></span><span class="local-badge">● Guardado en este dispositivo</span></header><main id="app" tabindex="-1"></main><footer>RECTORÍA · PREPARACIÓN CON PROPÓSITO <span>Tu progreso se queda contigo.</span></footer></div><div id="toast" role="status" aria-live="polite"></div>
 <script>''' + icons + '''</script><script>''' + bank + '''</script><script>''' + core + '''</script><script>''' + app + '''</script><script>''' + enhancements + '''</script>
 </body></html>'''
+body=body.replace('</head>',f'<link rel="icon" href="{logo_uri}"></head>')
 (root / 'rectoria-vscode.html').write_text(body, encoding='utf-8')
 print(f'Generado rectoria-vscode.html ({len(body.encode())} bytes)')

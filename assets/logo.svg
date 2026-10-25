@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>Rectoría · Progreso ascendente</title>
+  <path fill="#30343d" d="M8 51q0-4 4-6l19-11v28Q20 56 8 55Z"/>
+  <path fill="#6943bd" d="M36 32q0-4 4-6l18-10v49Q48 72 47 79 44 72 36 65Z"/>
+  <path fill="#30343d" d="m61 11 25-14q2-1 2 1v57Q75 56 62 62V27q0-4 4-6l6-4Z" transform="translate(0 7)"/>
+  <path fill="#6943bd" d="M8 60q24 1 39 26Q28 73 10 73q-2 0-2-2Z"/>
+  <path fill="#30343d" d="M88 60v11q0 2-2 2-19 0-39 13 16-25 41-26Z"/>
+</svg>
