@@ -3,7 +3,7 @@ assert.equal(bank.questions.length,980);assert.equal(bank.situations.length,295)
 for(let exam=0;exam<7;exam++)assert.equal(bank.questions.filter(q=>q.id>exam*140&&q.id<=(exam+1)*140).length,140);
 assert.equal(score(bank.questions.slice(0,140),Object.fromEntries(bank.questions.slice(0,127).map(q=>[q.id,q.correct]))).correct,127);
 (async()=>{
- const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});const page=await browser.newPage({viewport:{width:390,height:844}});const faults=[];page.on('pageerror',e=>faults.push(e.message));page.on('dialog',d=>d.accept());
+ const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});const page=await browser.newPage({viewport:{width:390,height:844}});const faults=[];page.on('pageerror',e=>faults.push(e.message));page.on('dialog',d=>d.accept());
  await page.goto('http://127.0.0.1:8017/');
  // Migración del progreso y del banco almacenado de la versión inicial.
  await page.evaluate(b=>{localStorage.setItem('rectoria.v1',JSON.stringify({goal:95,marks:[1],attempts:[],session:null,theme:'light'}));localStorage.setItem('rectoria.bank.v1',JSON.stringify({...b,questions:b.questions.slice(0,140),situations:b.situations.filter(s=>!s.id.startsWith('S'))}));},bank);

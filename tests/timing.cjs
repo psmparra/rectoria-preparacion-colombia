@@ -1,6 +1,6 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),{timeLimitMs}=require('../core');
 for(const [n,seconds] of [[20,2057],[40,4114],[70,7200],[140,14400]])assert.equal(timeLimitMs(n),seconds*1000);
-(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});const p=await b.newPage();const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:8017/');await p.clock.install();
+(async()=>{const b=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});const p=await b.newPage();const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:8017/');await p.clock.install();
 await p.goto('http://127.0.0.1:8017/#practicar');await p.selectOption('#count','140');await p.locator('#start-form button').click();await p.waitForSelector('#clock');assert.ok((await p.locator('#clock').innerText()).includes('04:00:00'));
 await p.locator('[data-answer="0"]').click();const saved=await p.evaluate(()=>JSON.parse(localStorage.getItem('rectoria.v1')));const deadline=saved.profiles.Mao.session.deadline;
 await p.clock.setSystemTime(deadline-60000);await p.reload();await p.waitForSelector('#clock');assert.ok((await p.locator('#clock').innerText()).includes('00:01:00'));

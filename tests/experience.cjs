@@ -1,6 +1,6 @@
 const {chromium}=require('playwright');const assert=require('node:assert/strict');
 (async()=>{
-const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});const p=await browser.newPage({viewport:{width:390,height:844}});const errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('dialog',d=>d.accept());
+const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});const p=await browser.newPage({viewport:{width:390,height:844}});const errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('dialog',d=>d.accept());
 await p.goto('http://127.0.0.1:8017/');await p.screenshot({path:'/tmp/rectoria-new-mobile.png',fullPage:true});
 await p.locator('.profile-trigger').click();await p.locator('[data-person="Nata"]').click();await p.waitForTimeout(60);assert.ok((await p.locator('h1').innerText()).includes('Nata'));
 await p.locator('.daily-start').click();await p.waitForSelector('.question-text');assert.equal(await p.locator('.grid-numbers button').count(),20);assert.equal(await p.locator('.journey-panel').getAttribute('open'),null);await p.screenshot({path:'/tmp/rectoria-new-exam.png',fullPage:true});
